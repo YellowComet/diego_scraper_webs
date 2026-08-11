@@ -49,6 +49,19 @@ FICHERO_ESTADO = Path("state.json")
 MAX_PRODUCTOS = 40
 PAUSA_ENTRE_PETICIONES = 1
 
+HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/125.0 Safari/537.36"),
+    "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+               "image/avif,image/webp,*/*;q=0.8"),
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+}
+
 # --------------------------------------------------------------------------- #
 # UTILIDADES
 # --------------------------------------------------------------------------- #
@@ -60,8 +73,7 @@ def normaliza(texto: str) -> str:
 
 
 def descargar(url: str) -> str:
-    resp = httpx.get(url, headers={"User-Agent": USER_AGENT}, timeout=25,
-                     follow_redirects=True)
+    resp = httpx.get(url, headers=HEADERS, timeout=25, follow_redirects=True)
     resp.raise_for_status()
     return resp.text
 
