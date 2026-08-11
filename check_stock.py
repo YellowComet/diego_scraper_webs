@@ -33,6 +33,18 @@ TIENDAS = [
      "discovery": ["https://shinyhit.com/categoria-producto/pokemon/"]},
     {"nombre": "CardZone",
      "discovery": ["https://cardzone.es/collections/cartas-pokemon-tcg/"]},
+    {"nombre": "TCG Level",
+     "discovery": ["https://tcglevel.com/collections/pokemon/"]},
+    {"nombre": "Flash Store",
+     "discovery": ["https://flashstore.es/categoria/pokemon/"]},
+    {"nombre": "Friki Nacimiento",
+     "discovery": ["https://frikidenacimiento.es/pokemon-tcg/"]},
+    {"nombre": "Card Station",
+     "discovery": ["https://thecardstation.es/home/pokemon-tcg/"]},
+    {"nombre": "Sunny Store",
+     "discovery": ["https://sunnystore.es/collections/pokemon/"]},
+    {"nombre": "Sunny Store 2",
+     "discovery": ["https://sunnystore.es/collections/ingles-pok?"]},
 ]
 
 # LO QUE SI QUIERES SEGUIR. El titulo debe contener al menos uno de estos
