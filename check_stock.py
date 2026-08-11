@@ -46,7 +46,7 @@ TIENDAS = [
 
 # Filtro por nombre de producto. Debe cumplir UN termino de cada lista.
 # (Todo se compara en minusculas y sin acentos.)
-TERMINOS_ETB = ["etb", "elite trainer", "entrenador elite"]
+TERMINOS_ETB = [""]
 TERMINOS_ANIVERSARIO = ["30 aniversario", "30o aniversario", "aniversario",
                         "30 celebration", "30th", "celebration"]
 
