@@ -31,6 +31,8 @@ TIENDAS = [
      "discovery": ["https://reinodecartas.com/categorias/pokemon-tcg/"]},
     {"nombre": "ShinyHit",
      "discovery": ["https://shinyhit.com/categoria-producto/pokemon/"]},
+    {"nombre": "CardZone",
+     "discovery": ["https://cardzone.es/collections/cartas-pokemon-tcg/"]},
 ]
 
 # LO QUE SI QUIERES SEGUIR. El titulo debe contener al menos uno de estos
