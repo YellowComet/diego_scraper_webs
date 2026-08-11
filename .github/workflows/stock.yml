@@ -1,0 +1,43 @@
+name: Monitor ETB 30 Aniversario
+
+on:
+  schedule:
+    # Cada 10 min, en minutos "5,15,..." para evitar el filo de la hora (mas saturado).
+    - cron: '5,15,25,35,45,55 * * * *'
+  workflow_dispatch:   # permite lanzarlo a mano desde la pestana Actions
+
+permissions:
+  contents: write      # necesario para guardar state.json de vuelta en el repo
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repo
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Comprobar stock
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python check_stock.py
+
+      - name: Guardar estado si ha cambiado
+        run: |
+          if [[ -n "$(git status --porcelain state.json)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit -m "Actualizar estado de stock [skip ci]"
+            git push
+          else
+            echo "Sin cambios de estado."
+          fi
