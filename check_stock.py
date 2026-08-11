@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
-Monitor de stock: SOLO ETB (Elite Trainer Box) del 30 Aniversario de Pokemon TCG.
+Monitor de stock de productos Pokemon TCG seleccionados (ETB y sets concretos).
 
-Filtro (equilibrado):
-  - Se buscan enlaces de producto en paginas YA acotadas al 30 aniversario.
-  - Un producto vale si su titulo real contiene un termino ETB y NO esta en la
-    lista negra de otros juegos. La condicion de "aniversario" la garantiza la
-    pagina de origen (scope), o el propio titulo/URL.
-  - NO se exige la palabra "Pokemon" (muchas fichas no la ponen en el titulo).
+Filtro por LISTA POSITIVA:
+  - Descubre enlaces de producto en la categoria Pokemon de cada tienda.
+  - Un producto vale si su titulo contiene alguno de los TERMINOS_INTERES
+    (tipos de producto o nombres de set) y NO esta en la lista negra.
+  - Edita TERMINOS_INTERES para anadir/quitar lo que quieras seguir.
 """
 
 import json
@@ -25,21 +24,31 @@ from bs4 import BeautifulSoup
 # CONFIGURACION
 # --------------------------------------------------------------------------- #
 
-# aniversario=True -> la pagina ya esta acotada al 30 aniversario, asi que
-# cualquier ETB que aparezca ahi cuenta como del aniversario.
 TIENDAS = [
-    {"nombre": "OZ Juegos", "aniversario": True,
-     "discovery": ["https://ozjuegos.com/?s=aniversario&post_type=product"]},
-    {"nombre": "Reino de Cartas", "aniversario": True,
-     "discovery": ["https://reinodecartas.com/?s=aniversario"]},
-    {"nombre": "ShinyHit", "aniversario": True,
-     "discovery": ["https://shinyhit.com/categoria-producto/30-aniversario/"]},
+    {"nombre": "OZ Juegos",
+     "discovery": ["https://ozjuegos.com/categoria-producto/juegos-de-cartas/pokemon/"]},
+    {"nombre": "Reino de Cartas",
+     "discovery": ["https://reinodecartas.com/categorias/pokemon-tcg/"]},
+    {"nombre": "ShinyHit",
+     "discovery": ["https://shinyhit.com/categoria-producto/pokemon/"]},
 ]
 
-TERMINOS_ETB = [""]
-TERMINOS_ANIVERSARIO = ["30 aniversario", "aniversario 30", "30o aniversario",
-                        "30 celebration", "30 celebracion", "30th", "primer compañero", "primer", "caos creciente", "fuegos fantasmales", "ascended heroes", "heroes ascendentes"]
+# LO QUE SI QUIERES SEGUIR. El titulo debe contener al menos uno de estos
+# (en minusculas y sin acentos). Anade o quita libremente.
+TERMINOS_INTERES = [
+    # Tipos de producto
+    "etb", "elite trainer", "entrenador elite",
+    # 30 Aniversario / Celebration
+    "30 aniversario", "aniversario 30", "30o aniversario",
+    "30 celebration", "30 celebracion", "30th",
+    # Sets concretos
+    "primer companero", "first partner",
+    "caos creciente",
+    "fuegos fantasmales",
+    "heroes ascendentes", "ascended heroes",
+]
 
+# Si el titulo contiene cualquiera de estas, se descarta (otros juegos).
 LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
                "digimon", "star wars", "flesh and blood", "altered",
                "riftbound", "yu-gi-oh", "yugioh", "gundam", "heroquest",
@@ -62,7 +71,7 @@ HEADERS = {
     "Sec-Fetch-Site": "none",
 }
 FICHERO_ESTADO = Path("state.json")
-MAX_PRODUCTOS = 40
+MAX_PRODUCTOS = 60
 PAUSA_ENTRE_PETICIONES = 1
 
 # --------------------------------------------------------------------------- #
@@ -81,18 +90,11 @@ def descargar(url: str) -> str:
     return resp.text
 
 
-def es_etb(nombre: str) -> bool:
+def es_interesante(nombre: str) -> bool:
     n = normaliza(nombre)
     if any(t in n for t in LISTA_NEGRA):
         return False
-    return any(t in n for t in TERMINOS_ETB)
-
-
-def es_del_aniversario(nombre: str, url: str, scope: bool) -> bool:
-    if scope:
-        return True
-    txt = normaliza(nombre + " " + url)
-    return any(t in txt for t in TERMINOS_ANIVERSARIO)
+    return any(t in n for t in TERMINOS_INTERES)
 
 
 def nombre_real(sopa: BeautifulSoup, fallback: str) -> str:
@@ -141,16 +143,16 @@ def descubrir(tienda: dict) -> dict:
                 continue
             total_links += 1
             nombre = a.get_text(strip=True)
-            if nombre and len(nombre) >= 6 and es_etb(nombre):
+            if nombre and len(nombre) >= 6 and es_interesante(nombre):
                 encontrados.setdefault(href, nombre)
     print(f"[i] {tienda['nombre']}: {total_links} enlaces de producto, "
-          f"{len(encontrados)} candidatos ETB.")
+          f"{len(encontrados)} de interes.")
     for n in list(encontrados.values())[:15]:
         print(f"      candidato: {n}")
     return encontrados
 
 
-def evaluar(url: str, fallback: str, scope: bool):
+def evaluar(url: str, fallback: str):
     try:
         html = descargar(url)
     except Exception as e:
@@ -158,14 +160,9 @@ def evaluar(url: str, fallback: str, scope: bool):
         return None
     sopa = BeautifulSoup(html, "html.parser")
     nombre = nombre_real(sopa, fallback)
-
-    if not es_etb(nombre):
-        print(f"[x] Descartado (no es ETB / lista negra): {nombre}")
+    if not es_interesante(nombre):
+        print(f"[x] Descartado (no interesa / lista negra): {nombre}")
         return None
-    if not es_del_aniversario(nombre, url, scope):
-        print(f"[x] Descartado (sin marca de aniversario): {nombre}")
-        return None
-
     precio = extrae_precio(sopa)
     texto = normaliza(html)
     if any(s in texto for s in SENALES_DISPONIBLE):
@@ -220,18 +217,17 @@ def main() -> None:
     estado = cargar_estado()
     revisados = 0
     for tienda in TIENDAS:
-        scope = tienda.get("aniversario", False)
         for url, fallback in descubrir(tienda).items():
             if revisados >= MAX_PRODUCTOS:
                 break
             revisados += 1
             time.sleep(PAUSA_ENTRE_PETICIONES)
-            resultado = evaluar(url, fallback, scope)
+            resultado = evaluar(url, fallback)
             if resultado is None:
                 continue
             nombre, disponible, precio = resultado
             antes = estado.get(url, {}).get("disponible", False)
-            etiqueta = {rue: "DISPONIBLE", False: "agotado",
+            etiqueta = {True: "DISPONIBLE", False: "agotado",
                         None: "sin determinar"}[disponible]
             print(f"[{tienda['nombre']}] {nombre}: {etiqueta}")
             if disponible and not antes:
