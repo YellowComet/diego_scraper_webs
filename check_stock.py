@@ -29,8 +29,8 @@ TIENDAS = [
 
 # Debe cumplir: contener "pokemon" + un termino ETB + un termino de 30 aniversario,
 # y NO contener ninguna palabra de la lista negra. (Minusculas y sin acentos.)
-OBLIGATORIO = ["pokemon"]
-TERMINOS_ETB = []
+OBLIGATORIO = [""]
+TERMINOS_ETB = [""]
 TERMINOS_ANIVERSARIO = ["30 aniversario", "aniversario 30", "30o aniversario",
                         "30 celebration", "30 celebracion", "30th", "ascended heroes", "heroes ascendentes", "primer compañero", "fuegos fantasmales"]
 LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
