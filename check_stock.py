@@ -45,6 +45,10 @@ TIENDAS = [
      "discovery": ["https://sunnystore.es/collections/pokemon/"]},
     {"nombre": "Sunny Store 2",
      "discovery": ["https://sunnystore.es/collections/ingles-pok?"]},
+    {"nombre": "Sunny Store 2",
+     "discovery": ["https://sunnystore.es/collections/ingles-pok?"]},
+    {"nombre": "Factory Cards TCG",
+     "discovery": ["https://factorycardstcg.com/collections/comprarcartaspokemon/"]},
 ]
 
 # LO QUE SI QUIERES SEGUIR. El titulo debe contener al menos uno de estos
