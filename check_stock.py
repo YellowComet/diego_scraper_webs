@@ -36,9 +36,9 @@ TIENDAS = [
      "discovery": ["https://shinyhit.com/categoria-producto/30-aniversario/"]},
 ]
 
-TERMINOS_ETB = ["etb", "elite trainer", "entrenador elite"]
+TERMINOS_ETB = [""]
 TERMINOS_ANIVERSARIO = ["30 aniversario", "aniversario 30", "30o aniversario",
-                        "30 celebration", "30 celebracion", "30th"]
+                        "30 celebration", "30 celebracion", "30th", "primer compañero", "primer", "caos creciente", "fuegos fantasmales", "ascended heroes", "heroes ascendentes"]
 
 LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
                "digimon", "star wars", "flesh and blood", "altered",
