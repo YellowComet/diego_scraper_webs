@@ -91,7 +91,7 @@ TIENDAS = [
 
 TERMINOS_INTERES = [
     "30 aniversario", "aniversario 30", "30o aniversario",
-    "30 celebration", "30 celebracion", "30th", "celebrations", "celebraciones"
+    "30 celebration", "30 celebracion", "30th", "celebrations", "celebraciones",
     "primer companero", "first partner",
     "heroes ascendentes", "ascended heroes",
 ]
