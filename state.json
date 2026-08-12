@@ -83,5 +83,555 @@
     "disponible": true,
     "nombre": "First Partner Illustration Collection Series 3",
     "tienda": "Flash Store"
+  },
+  "https://thecardstation.es/product/caja-entrenador-elite-%c2%b7-caos-creciente-esp-pokemon-tcg/": {
+    "disponible": true,
+    "nombre": "Caja Entrenador Élite · Caos Creciente (ESP) | Pokémon TCG",
+    "tienda": "The Card Station"
+  },
+  "https://thecardstation.es/product/etb-equilibrio-perfecto/": {
+    "disponible": true,
+    "nombre": "Caja Entrenador Élite · Equilibrio Perfecto (ESP) | Pokémon TCG",
+    "tienda": "The Card Station"
+  },
+  "https://thecardstation.es/product/caja-entrenador-elite-%c2%b7-chaos-rising-eng-pokemon-tcg/": {
+    "disponible": true,
+    "nombre": "Elite Trainer Box · Chaos Rising (ENG) | Pokémon TCG",
+    "tienda": "The Card Station"
+  },
+  "https://thecardstation.es/product/caja-ex-%c2%b7-ascended-heroes/": {
+    "disponible": true,
+    "nombre": "ex Box · Mega-Meganium · Mega-Emboar · Mega-Feraligatr · Ascended Heroes (ENG) | Pokémon TCG",
+    "tienda": "The Card Station"
+  },
+  "https://thecardstation.es/product/lote-de-sobres-de-mejora-%c2%b7-caos-creciente-esp-pokemon-tcg/": {
+    "disponible": true,
+    "nombre": "Lote de Sobres de Mejora · Caos Creciente (ESP) | Pokémon TCG",
+    "tienda": "The Card Station"
+  },
+  "https://thecardstation.es/product/expositor-de-sobres-de-mejora-caos-creciente-pokemon-tcg/": {
+    "disponible": true,
+    "nombre": "Expositor de Sobres de Mejora · Caos Creciente (ESP) | Pokémon TCG",
+    "tienda": "The Card Station"
+  },
+  "https://thecardstation.es/product/coleccion-ilustracion-%c2%b7-primer-companero-%c2%b7-serie-2-pokemon-tcg/": {
+    "disponible": true,
+    "nombre": "Colección Ilustración · Primer Compañero · serie 2 | Pokémon TCG",
+    "tienda": "The Card Station"
+  },
+  "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-3-espanol": {
+    "disponible": true,
+    "nombre": "Caja First Partner Colección Ilustración Primer Compañero Serie 3 - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-2-espanol": {
+    "disponible": true,
+    "nombre": "Caja First Partner Colección Ilustración Primer Compañero Serie 2 - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "ETB Caja de Entrenador Elite Caos Creciente - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/blister-pokemon-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "Blister Pokemon Caos Creciente - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-de-36-sobres-de-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "Caja de 36 Sobres de Caos Creciente - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Caja Mega EX Box Héroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-equilibrio-perfecto-espanol": {
+    "disponible": true,
+    "nombre": "ETB Caja de Entrenador Elite Equilibrio Perfecto - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-perfect-order-ingles": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Perfect Order - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/blister-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Blister Pokemon Héroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-equilibrio-perfecto-protector-acrilico-para-etb": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Equilibrio Perfecto + Protector Acrílico para ETB",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/blister-caos-creciente-espanol": {
+    "disponible": false,
+    "nombre": "Blister Caos Creciente - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-caos-creciente-protector-acrilico-para-etb": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Caos Creciente + Protector Acrílico para ETB",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-chaos-rising-ingles": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Chaos Rising - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/booster-bundle-caos-creciente-espanol": {
+    "disponible": false,
+    "nombre": "Booster Bundle Caos Creciente - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-de-entrenador-elite-escarlata-y-purpura-miraidon-espanol": {
+    "disponible": false,
+    "nombre": "Caja de Entrenador Elite Escarlata y Purpura Miraidon - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/booster-bundle-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Booster Bundle Héroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/booster-bundle-ascended-heroes-ingles": {
+    "disponible": false,
+    "nombre": "Booster Bundle Ascended Heroes - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/blister-pokemon-con-pegatina-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Blister Pokemon con Pegatina Héroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-de-entrenador-elite-escarlata-y-purpura-koraidon-espanol": {
+    "disponible": false,
+    "nombre": "Caja de Entrenador Elite Escarlata y Purpura Koraidon - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-heroes-ascendentes-protector-acrilico-para-etb": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Héroes Ascendentes + Protector Acrílico para ETB",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/album-cartas-jumbo-first-partner-collectors": {
+    "disponible": false,
+    "nombre": "Album Cartas Jumbo First Partner Collector's Binder",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-espanol": {
+    "disponible": false,
+    "nombre": "Caja First Partner Colección Ilustración Primer Compañero - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/mini-lata-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Mini Lata Héroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-mega-ex-box-ascended-heroes-ingles": {
+    "disponible": false,
+    "nombre": "Caja Mega EX Box Ascended Heroes - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-con-pin-deluxe-primeros-companeros-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Caja con Pin Deluxe Primeros Compañeros Héroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/tech-sticker-collection-ascended-heroes-ingles": {
+    "disponible": false,
+    "nombre": "Tech Sticker Collection Ascended Heroes - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-premium-poster-collection-ascended-heroes-ingles": {
+    "disponible": false,
+    "nombre": "Caja Premium Poster Collection Ascended Heroes - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Heroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-coleccion-con-poster-premium-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Caja Colección con Poster Premium Héroes Ascendentes - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/reserva-etb-caja-de-entrenador-elite-mascarada-crepuscular-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Mascarada Crepuscular - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-corona-astral-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Corona Astral - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-ascended-heroes-ingles": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Ascended Heroes - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/booster-bundle-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "Booster Bundle Fuegos Fantasmales - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-mega-evolucion-lucario-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Mega Evolución Lucario - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-mega-evolucion-gardevoir-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Mega Evolución Gardevoir - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Fuegos Fantasmales - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-fuegos-fantasmales-protector-acrilico-para-etb": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Fuegos Fantasmales + Protector Acrílico para ETB",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-premium-trainer-box-vstar-arceus-chino": {
+    "disponible": false,
+    "nombre": "ETB Premium Trainer Box VSTAR Arceus - Chino",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-llama-blanca-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Llama Blanca - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/blister-triple-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "Blister Triple Fuegos Fantasmales - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-fulgor-negro-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Fulgor Negro - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-rivales-predestinados-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Rivales Predestinados - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-black-bolt-ingles": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Black Bolt - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/reserva-etb-caja-de-entrenador-elite-fuerzas-temporales-ondulagua-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Fuerzas Temporales Ondulagua - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-white-flare-ingles": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite White Flare - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/reserva-etb-caja-de-entrenador-elite-fuerzas-temporales-ferroverdor-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Fuerzas Temporales Ferroverdor - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-de-36-sobres-de-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "Caja de 36 Sobres de Fuegos Fantasmales - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-destined-rivals-ingles": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Destined Rivals - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/blister-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "Blister Fuegos Fantasmales - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-journey-together-ingles": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Journey Together  - Ingles",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/etb-caja-de-entrenador-elite-juntos-de-aventuras-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Juntos de Aventuras  - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-radiant-energy-mew-gift-box-etb-chino": {
+    "disponible": false,
+    "nombre": "ETB Radiant Energy Mew Gift Box - Chino",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/caja-de-entrenador-elite-llamas-obsidianas-espanol": {
+    "disponible": false,
+    "nombre": "Caja de Entrenador Elite Llamas Obsidianas - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/reserva-etb-caja-de-entrenador-elite-prismatic-evolutions-ingles-copia": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Evoluciones Prismaticas  - Español",
+    "tienda": "CardZone"
+  },
+  "https://cardzone.es/products/reserva-etb-caja-de-entrenador-elite-chispas-fulgurantes-espanol": {
+    "disponible": false,
+    "nombre": "ETB Caja de Entrenador Elite Chispas Fulgurantes - Español",
+    "tienda": "CardZone"
+  },
+  "https://tcglevel.com/products/first-partner-illustration-collections-series-3-espanol": {
+    "disponible": true,
+    "nombre": "First Partner Illustration Collections Series 3 Español",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/elite-trainer-box-etb-pokemon-oscuridad-absoluta-espanol": {
+    "disponible": true,
+    "nombre": "Elite Trainer Box (ETB) Pokémon Oscuridad Absoluta – Español",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/pokemon-first-partner-30-aniversario-vol-2-chino": {
+    "disponible": true,
+    "nombre": "Pokémon First Partner 30 Aniversario Vol.2 Chino",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/sobre-pokemon-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "Sobre Pokémon Caos Creciente Español",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/first-partner-illustration-collections-series-2-espanol": {
+    "disponible": true,
+    "nombre": "First Partner Illustration Collections Series 2 Español",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/elite-trainer-box-etb-pokemon-tcg-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "Elite Trainer Box (ETB) Pokémon TCG Caos Creciente – Español",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/blister-caos-creciente-pokemon-tcg-espanol-3-sobres": {
+    "disponible": true,
+    "nombre": "Blíster Caos Creciente Pokémon TCG Español - 3 sobres",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/booster-bundle-pokemon-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Booster Bundle Pokémon Héroes Ascendentes Español",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/pokemon-first-partner-30-aniversario-vol-1-chino": {
+    "disponible": false,
+    "nombre": "Pokémon First Partner 30 Aniversario Vol.1 Chino",
+    "tienda": "TCG Level"
+  },
+  "https://tcglevel.com/products/mega-ex-box-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "Mega ex Box Héroes Ascendentes Español",
+    "tienda": "TCG Level"
+  },
+  "https://sunnystore.es/products/first-partner-illustration-collection-serie-3-espanol-primer-companero": {
+    "disponible": true,
+    "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 3 (ESPAÑOL) - PRIMER COMPAÑERO",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/elite-trainer-box-pokemon-tcg-pitch-black-etb-ingles": {
+    "disponible": true,
+    "nombre": "ELITE TRAINER BOX POKEMON TCG PITCH BLACK ETB (INGLÉS)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-oscuridad-absoluta-elite-trainer-box-espanol": {
+    "disponible": true,
+    "nombre": "ETB POKEMON OSCURIDAD ABSOLUTA ELITE TRAINER BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/figura-pvc-pokemon-pikachu-singing-30th-anniversary-monster-collection-takara-tomy": {
+    "disponible": true,
+    "nombre": "FIGURA PVC POKEMON PIKACHU SINGING 30TH ANNIVERSARY MONSTER COLLECTION - TAKARA TOMY",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/first-partner-illustration-collection-serie-2-espanol-primer-companero": {
+    "disponible": false,
+    "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 2 (ESPAÑOL) - PRIMER COMPAÑERO",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/elite-trainer-box-pokemon-tcg-chaos-rising-etb-ingles": {
+    "disponible": false,
+    "nombre": "ELITE TRAINER BOX POKEMON TCG CHAOS RISING ETB (INGLÉS)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/booster-bundle-pokemon-caos-creciente-espanol": {
+    "disponible": false,
+    "nombre": "BOOSTER BUNDLE POKEMON CAOS CRECIENTE (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/blister-sobre-pokemon-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "BLISTER SOBRE POKEMON CAOS CRECIENTE (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/caja-pokemon-36-sobres-caos-creciente-espanol": {
+    "disponible": false,
+    "nombre": "CAJA POKEMON 36 SOBRES CAOS CRECIENTE (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/blister-3-sobres-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "BLISTER 3 SOBRES CAOS CRECIENTE (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-caos-creciente-elite-trainer-box-espanol": {
+    "disponible": true,
+    "nombre": "ETB POKEMON CAOS CRECIENTE ELITE TRAINER BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/booster-bundle-pokemon-mega-ascended-heroes-ingles": {
+    "disponible": false,
+    "nombre": "BOOSTER BUNDLE POKEMON MEGA ASCENDED HEROES (INGLÉS)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/pokemon-tcg-mega-ascended-heroes-ex-box-ingles": {
+    "disponible": false,
+    "nombre": "POKEMON TCG MEGA ASCENDED HEROES EX BOX (INGLÉS)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/pokemon-tcg-mega-heroes-ascendentes-ex-box-espanol": {
+    "disponible": false,
+    "nombre": "POKEMON TCG MEGA HEROES ASCENDENTES EX BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/booster-bundle-pokemon-mega-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "BOOSTER BUNDLE POKEMON MEGA HEROES ASCENDENTES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/pokemon-30-aniv-celebrations-first-partner-card-set-s-chino": {
+    "disponible": true,
+    "nombre": "POKEMON 30 ANNIV. CELEBRATIONS FIRST PARTNER CARD SET (S-CHINO)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/elite-trainer-box-pokemon-tcg-perfect-order-etb-ingles": {
+    "disponible": true,
+    "nombre": "ELITE TRAINER BOX POKEMON TCG PERFECT ORDER ETB (INGLÉS)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-equilibrio-perfecto-elite-trainer-box-espanol": {
+    "disponible": true,
+    "nombre": "ETB POKEMON EQUILIBRIO PERFECTO ELITE TRAINER BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/first-partner-pin-collection-serie-1-espanol": {
+    "disponible": false,
+    "nombre": "PIN COLLECTION SERIE 1 HEROES ASCENDENTES POKEMON (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/first-partner-illustration-collection-serie-1-espanol": {
+    "disponible": false,
+    "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 1 (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/pokemon-tcg-mini-lata-heroes-ascendentes-mini-tins-espanol": {
+    "disponible": false,
+    "nombre": "POKEMON TCG MINI LATA HEROES ASCENDENTES MINI TINS (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-ascended-heroes-elite-trainer-box-ingles-heroes-ascendentes": {
+    "disponible": false,
+    "nombre": "ETB POKEMON ASCENDED HEROES ELITE TRAINER BOX (INGLÉS) - HÉROES ASCENDENTES",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-heroes-ascendentes-elite-trainer-box-espanol": {
+    "disponible": false,
+    "nombre": "ETB POKEMON HÉROES ASCENDENTES ELITE TRAINER BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/blister-3-sobres-tech-sticker-pokemon-ascended-heroes-ingles": {
+    "disponible": false,
+    "nombre": "BLISTER 3 SOBRES TECH STICKER POKEMON ASCENDED HEROES (INGLÉS)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/blister-3-sobres-tech-sticker-pokemon-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "BLISTER 3 SOBRES TECH STICKER POKEMON HEROES ASCENDENTES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/blister-2-sobres-pokemon-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "BLISTER 2 SOBRES POKEMON HEROES ASCENDENTES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/caja-pokemon-day-2026-special-collection-30-aniversario-espanol": {
+    "disponible": false,
+    "nombre": "CAJA POKEMON DAY 2026 SPECIAL COLLECTION 30 ANIVERSARIO (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/sobre-phantasmal-flames-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "SOBRE POKEMON FUEGOS FANTASMALES - PHANTASMAL FLAMES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/sobre-en-blister-phantasmal-flames-fuegos-fantasmales-spanol": {
+    "disponible": false,
+    "nombre": "SOBRE EN BLISTER PHANTASMAL FLAMES - FUEGOS FANTASMALES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/upc-pokemon-ultra-premium-mega-charizard-x-ex-phantasmal-flames-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "UPC POKEMON ULTRA PREMIUM MEGA CHARIZARD X EX FUEGOS FANTASMALES - PHANTASMAL FLAMES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/3-pack-blister-de-sobres-pokemon-phantasmal-flames-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "3PACK BLISTER DE 3 SOBRES POKEMON PHANTASMAL FLAMES - FUEGOS FANTASMALES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/caja-pokemon-phantasmal-flames-fuegos-fantasmales-36-sobres-espanol": {
+    "disponible": false,
+    "nombre": "CAJA POKEMON PHANTASMAL FLAMES - FUEGOS FANTASMALES 36 SOBRES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/booster-bundle-pokemon-phantasmal-flames-fuegos-fantasmales-espanol": {
+    "disponible": false,
+    "nombre": "BOOSTER BUNDLE POKEMON PHANTASMAL FLAMES - FUEGOS FANTASMALES (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-phantasmal-flames-fuegos-fantasmales-elite-trainer-box-espanol": {
+    "disponible": false,
+    "nombre": "ETB POKEMON FUEGOS FANTASMALES ELITE TRAINER BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-mega-evoluciones-gardevoir-sv11-elite-trainer-box-espanol": {
+    "disponible": false,
+    "nombre": "ETB POKEMON MEGA EVOLUCIONES GARDEVOIR - ELITE TRAINER BOX SV11 (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-mega-evoluciones-lucario-elite-trainer-sv11-box-espanol": {
+    "disponible": false,
+    "nombre": "ETB POKEMON MEGA EVOLUCIONES LUCARIO SV11 - ELITE TRAINER BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/pre-order-pokemon-151-first-partner-display-box-s-chino": {
+    "disponible": true,
+    "nombre": "POKEMON 151 FIRST PARTNER DISPLAY BOX (S-CHINO)",
+    "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-fulgor-negro-elite-trainer-box-espanol": {
+    "disponible": false,
+    "nombre": "ETB POKEMON FULGOR NEGRO - ELITE TRAINER BOX SV10.5 (ESPAÑOL)",
+    "tienda": "Sunny Store"
   }
 }
