@@ -80,12 +80,9 @@ TIENDAS = [
 ]
 
 TERMINOS_INTERES = [
-    "etb", "elite trainer", "entrenador elite",
     "30 aniversario", "aniversario 30", "30o aniversario",
     "30 celebration", "30 celebracion", "30th",
     "primer companero", "first partner",
-    "caos creciente",
-    "fuegos fantasmales",
     "heroes ascendentes", "ascended heroes",
 ]
 
