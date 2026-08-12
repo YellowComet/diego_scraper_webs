@@ -66,7 +66,8 @@
   "https://thecardstation.es/product/coleccion-ilustracion-%c2%b7-primer-companero-%c2%b7-serie-2-pokemon-tcg/": {
     "disponible": true,
     "nombre": "Colección Ilustración · Primer Compañero · serie 2 | Pokémon TCG",
-    "tienda": "The Card Station"
+    "tienda": "The Card Station",
+    "precio": "29,95 €"
   },
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-3-espanol": {
     "disponible": true,
@@ -327,12 +328,14 @@
   "https://factorycardstcg.com/products/primer-companero-pokemon-series-3-espanol-copia": {
     "disponible": true,
     "nombre": "PRIMER COMPAÑERO Pokémon series 3 ESPAÑOL",
-    "tienda": "Factory Cards TCG"
+    "tienda": "Factory Cards TCG",
+    "precio": "29,95 €"
   },
   "https://factorycardstcg.com/products/primer-companero-pokemon-series-2-espanol": {
     "disponible": true,
     "nombre": "PRIMER COMPAÑERO Pokémon series 2 ESPAÑOL",
-    "tienda": "Factory Cards TCG"
+    "tienda": "Factory Cards TCG",
+    "precio": "29,95 €"
   },
   "https://factorycardstcg.com/products/pokemon-bundle-heroes-ascendentes-espanol": {
     "disponible": false,
@@ -409,12 +412,14 @@
   "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-6-anos": {
     "disponible": true,
     "nombre": "Pokémon TCG Colección Ilustración Primer Compañero Serie 3 +6 años",
-    "tienda": "Toy Planet"
+    "tienda": "Toy Planet",
+    "precio": "34,99 €"
   },
   "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-2-6-anos": {
     "disponible": false,
     "nombre": "Pokémon TCG Colección Ilustración Primer Compañero Serie 2 +6 años",
-    "tienda": "Toy Planet"
+    "tienda": "Toy Planet",
+    "precio": "39,99 €"
   },
   "https://www.toyplanet.com/products/pokemon-mini-lata-heroes-ascendentes-es-surtidas": {
     "disponible": true,
@@ -539,7 +544,8 @@
   "https://labovedafriki.es/products/caja-coleccion-ilustracion-primer-companero-serie-2": {
     "disponible": false,
     "nombre": "Caja Colección Ilustración - Primer Compañero - Serie 2",
-    "tienda": "La Boveda Friki"
+    "tienda": "La Boveda Friki",
+    "precio": "29,90 €"
   },
   "https://labovedafriki.es/products/blister-2-sobres-heroes-ascendentes-komala": {
     "disponible": false,
@@ -562,7 +568,8 @@
   "https://labovedafriki.es/products/caja-coleccion-ilustracion-primer-companero": {
     "disponible": false,
     "nombre": "Caja Colección Ilustración - Primer Compañero - Serie 1",
-    "tienda": "La Boveda Friki"
+    "tienda": "La Boveda Friki",
+    "precio": "36,90 €"
   },
   "https://labovedafriki.es/products/mini-lata-heroes-ascendentes": {
     "disponible": false,
@@ -861,7 +868,8 @@
   "https://metamorphcenter.com/products/coleccion-ilustracion-primer-companero-espanol": {
     "disponible": false,
     "nombre": "Colección Ilustración Primer Compañero Pokémon - Español",
-    "tienda": "Metamorph Center"
+    "tienda": "Metamorph Center",
+    "precio": "31,95 €"
   },
   "https://metamorphcenter.com/products/mini-lata-heroes-ascendentes-es": {
     "disponible": false,
@@ -950,7 +958,8 @@
   "https://www.ryucardstcg.com/products/coleccion-ilustracion-primer-companero-serie-2": {
     "disponible": false,
     "nombre": "Colección Ilustración Primer Compañero Serie 2",
-    "tienda": "RyuCards"
+    "tienda": "RyuCards",
+    "precio": "29,90 €"
   },
   "https://sarumangames.es/products/pokemon-tcg-ascended-heroes-mega-emboar-ex-box-espanol": {
     "disponible": false,
@@ -991,7 +1000,8 @@
   "https://sarumangames.es/products/pokemon-tcg-coleccion-ilustracion-primer-companero-nº1": {
     "disponible": false,
     "nombre": "POKEMON TCG: Colección Ilustración Primer Compañero nº1  - MAX 1 por CLIENTE",
-    "tienda": "Saruman Games"
+    "tienda": "Saruman Games",
+    "precio": "24,95 €"
   },
   "https://sarumangames.es/products/pokemon-tcg-coleccion-especial-30-aniversario-pikachu": {
     "disponible": false,
@@ -1086,22 +1096,26 @@
   "https://unsobremas.com/products/coleccion-ilustracion-primer-companero-serie-3-es": {
     "disponible": true,
     "nombre": "COLECCIÓN ILUSTRACIÓN - PRIMER COMPAÑERO (SERIE 3) [ES]",
-    "tienda": "UNSOBREMAS"
+    "tienda": "UNSOBREMAS",
+    "precio": "34,95 €"
   },
   "https://unsobremas.com/products/coleccion-ilustracion-primer-companero-serie-1-es": {
     "disponible": false,
     "nombre": "COLECCIÓN ILUSTRACIÓN - PRIMER COMPAÑERO (SERIE 1) [ES]",
-    "tienda": "UNSOBREMAS"
+    "tienda": "UNSOBREMAS",
+    "precio": "32,95 €"
   },
   "https://unsobremas.com/products/booster-pack-primer-companero-es": {
     "disponible": false,
     "nombre": "BOOSTER PACK - PRIMER COMPAÑERO (SERIE 2) [ES]",
-    "tienda": "UNSOBREMAS"
+    "tienda": "UNSOBREMAS",
+    "precio": "22,95 €"
   },
   "https://unsobremas.com/products/coleccion-ilustracion-primer-companero-serie-2-es": {
     "disponible": false,
     "nombre": "COLECCIÓN ILUSTRACIÓN - PRIMER COMPAÑERO (SERIE 2) [ES]",
-    "tienda": "UNSOBREMAS"
+    "tienda": "UNSOBREMAS",
+    "precio": "32,95 €"
   },
   "https://unsobremas.com/products/booster-bundle-heroes-ascendentes-en": {
     "disponible": false,
