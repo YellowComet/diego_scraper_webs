@@ -81,7 +81,7 @@
     "precio": "29,95 €"
   },
   "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Caja Mega EX Box Héroes Ascendentes - Español",
     "tienda": "CardZone",
     "precio": "35,95 €"
