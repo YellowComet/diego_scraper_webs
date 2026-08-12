@@ -38,8 +38,6 @@ TIENDAS = [
      "discovery": ["https://flashstore.es/categoria/pokemon/"]},
     {"nombre": "The Card Station",
      "discovery": ["https://thecardstation.es/home/pokemon-tcg/"]},
-    {"nombre": "CheCollect",
-     "discovery": ["https://checollect.es/categoria-producto/pokemon/"]},
     # --- Shopify (JSON automatico) ---
     {"nombre": "CardZone",
      "discovery": ["https://cardzone.es/collections/cartas-pokemon-tcg"]},
@@ -79,12 +77,6 @@ TIENDAS = [
      "discovery": ["https://sarumangames.es/collections/pokemon-juego-de-cartas-coleccionables"]},
     {"nombre": "UNSOBREMAS",
      "discovery": ["https://unsobremas.com/collections/pokemon-tcg"]},
-
-    # === PROVISIONALES (plataforma sin confirmar; el primer run dira si encajan) ===
-    {"nombre": "El Rincon Gachapon",
-     "discovery": ["https://www.elrincondelgachapon.es/universo-tcg"]},
-    {"nombre": "Chewe Center",
-     "discovery": ["https://chewecenter.com/tcg-pokemon/"]},
 
     # === CASOS ESPECIALES / PENDIENTES ===
     #   BattleDeck (battledeck.es) -> plataforma propia "Namura": sin /products.json
