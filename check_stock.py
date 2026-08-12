@@ -91,7 +91,7 @@ TIENDAS = [
 
 TERMINOS_INTERES = [
     "30 aniversario", "aniversario 30", "30o aniversario",
-    "30 celebration", "30 celebracion", "30th", "celebrations", "celebraciones",
+    "30 celebration", "30 celebracion", "30th",
     "primer companero", "first partner",
     "heroes ascendentes", "ascended heroes",
 ]
@@ -99,7 +99,7 @@ TERMINOS_INTERES = [
 LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
                "digimon", "star wars", "flesh and blood", "altered",
                "riftbound", "yu-gi-oh", "yugioh", "gundam", "heroquest",
-               "mitos y leyendas", "union arena", "25th"]
+               "mitos y leyendas", "union arena", "25th", "chino"]
 
 WOO_MARKERS = ["/producto/", "/product/", "/tienda-tcg/"]
 
