@@ -783,5 +783,290 @@
     "disponible": true,
     "nombre": "Pokémon Bundle First Partner",
     "tienda": "Alfriki"
+  },
+  "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-6-anos": {
+    "disponible": true,
+    "nombre": "Pokémon TCG Colección Ilustración Primer Compañero Serie 3 +6 años",
+    "tienda": "Toy Planet"
+  },
+  "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-2-6-anos": {
+    "disponible": false,
+    "nombre": "Pokémon TCG Colección Ilustración Primer Compañero Serie 2 +6 años",
+    "tienda": "Toy Planet"
+  },
+  "https://www.toyplanet.com/products/pokemon-mini-lata-heroes-ascendentes-es-surtidas": {
+    "disponible": true,
+    "nombre": "Pokémon  Mini lata Héroes Ascendentes (ES) surtidas",
+    "tienda": "Toy Planet"
+  },
+  "https://www.toyplanet.com/products/pokemon-elite-trainer-box-ascended-heroes": {
+    "disponible": false,
+    "nombre": "Pokémon Elite Trainer Box Ascended Heroes (Español)",
+    "tienda": "Toy Planet"
+  },
+  "https://www.toyplanet.com/products/pokemon-tcg-heroes-ascendentes-blister-surtido": {
+    "disponible": true,
+    "nombre": "Pokémon TCG Héroes Ascendentes Blíster Surtido",
+    "tienda": "Toy Planet"
+  },
+  "https://www.toyplanet.com/products/pack-2-sobres-pokemon-jcc-cartas-coleccionables-para-entrenar-y-jugar-1": {
+    "disponible": false,
+    "nombre": "Colección Especial Pokémon Día de Pokémon 2026 (30 Aniversario) – Pikachu + 3 Sobres + Moneda",
+    "tienda": "Toy Planet"
+  },
+  "https://allintcg.com/products/mini-tin-heroes-ascendentes-esp": {
+    "disponible": false,
+    "nombre": "Mini Tin - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/tech-sticker-collection-heroes-ascendentes-esp": {
+    "disponible": false,
+    "nombre": "Tech Sticker Collection - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/elite-trainer-box-heroes-ascendentes-esp": {
+    "disponible": false,
+    "nombre": "Elite Trainer Box - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/collection-box-first-partner-ii-esp": {
+    "disponible": false,
+    "nombre": "Collection box - First Partner II [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/ex-box-heroes-ascendentes-esp": {
+    "disponible": false,
+    "nombre": "EX Box - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/special-day-collection-esp": {
+    "disponible": false,
+    "nombre": "Special Day Collection - 30 Aniversario [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/premium-poster-collection-heroes-ascendentes-esp": {
+    "disponible": false,
+    "nombre": "Premium Poster Collection - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/blister-pack-2-sobres-heroes-ascendentes-esp": {
+    "disponible": false,
+    "nombre": "Blister Pack 2 Sobres - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/ex-box-ascended-heroes-eng": {
+    "disponible": false,
+    "nombre": "EX Box - Ascended Heroes [ENG]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/pokemon-tcg-coleccion-de-sobres-first-partner": {
+    "disponible": false,
+    "nombre": "Collection box - First Partner [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/deluxe-pin-collection-heroes-ascendentes-esp-copia-1": {
+    "disponible": false,
+    "nombre": "Deluxe Pin Collection - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/tech-sticker-collection-ascended-heroes-eng": {
+    "disponible": false,
+    "nombre": "Tech Sticker Collection - Ascended Heroes [ENG]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/deluxe-pin-collection-ascended-heroes-eng": {
+    "disponible": false,
+    "nombre": "Deluxe Pin Collection - Ascended Heroes [ENG]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/booster-bundle-heroes-ascendentes-esp": {
+    "disponible": false,
+    "nombre": "Booster Bundle - Héroes Ascendentes [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/premium-poster-collection-ascended-heroes-eng": {
+    "disponible": false,
+    "nombre": "Premium Poster Collection - Ascended Heroes [ENG]",
+    "tienda": "AllinTCG"
+  },
+  "https://allintcg.com/products/collection-box-first-partner-iii-esp": {
+    "disponible": true,
+    "nombre": "Collection box - First Partner III [ESP]",
+    "tienda": "AllinTCG"
+  },
+  "https://labovedafriki.es/products/caja-coleccion-ilustracion-primer-companero-serie-2": {
+    "disponible": false,
+    "nombre": "Caja Colección Ilustración - Primer Compañero - Serie 2",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/blister-2-sobres-heroes-ascendentes-komala": {
+    "disponible": false,
+    "nombre": "Blíster 2 sobres Héroes ascendentes",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/caja-coleccion-heroes-ascendente-mega-ex": {
+    "disponible": false,
+    "nombre": "Caja Colección Héroes Ascendentes Mega Ex",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/caja-coleccion-mega-gardevoir-heroes-ascendentes": {
+    "disponible": false,
+    "nombre": "Poster Collection Mega Gardevoir Héroes Ascendentes",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/caja-coleccion-ilustracion-primer-companero": {
+    "disponible": false,
+    "nombre": "Caja Colección Ilustración - Primer Compañero - Serie 1",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/mini-lata-heroes-ascendentes": {
+    "disponible": false,
+    "nombre": "Mini Lata Héroes Ascendentes",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/etb-heroes-ascendentes": {
+    "disponible": false,
+    "nombre": "ETB Héroes Ascendentes",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/caja-coleccion-premium-mega-venusaur-ex-copia": {
+    "disponible": false,
+    "nombre": "Caja Pokemon Day - Edición 30 Aniversario",
+    "tienda": "La Boveda Friki"
+  },
+  "https://labovedafriki.es/products/blister-3-sobres-heroes-ascendentes": {
+    "disponible": false,
+    "nombre": "Blíster 3 sobres Héroes Ascendentes",
+    "tienda": "La Boveda Friki"
+  },
+  "https://www.pokemillon.com/products/pokemon-day-2026-collection": {
+    "disponible": false,
+    "nombre": "Pokémon Day 2026 Collection (30 Aniversario)",
+    "tienda": "Pokemillon"
+  },
+  "https://www.pokemillon.com/products/blister-3-gastly": {
+    "disponible": false,
+    "nombre": "Blíster 3 Sobres Gastly Héroes Ascendentes | Ascended Heroes",
+    "tienda": "Pokemillon"
+  },
+  "https://www.pokemillon.com/products/blister-3-sobres-ascended-heroes": {
+    "disponible": false,
+    "nombre": "Blíster 3 Sobres Charmander Héroes Ascendentes | Ascended Heroes",
+    "tienda": "Pokemillon"
+  },
+  "https://www.pokemillon.com/products/etb-ascended-heroes": {
+    "disponible": false,
+    "nombre": "ETB Héroes Ascendentes | Élite Ascended Heroes",
+    "tienda": "Pokemillon"
+  },
+  "https://www.pokemillon.com/products/blister-enhanced-ascended-heroes": {
+    "disponible": false,
+    "nombre": "Blister 2 Sobres Enhanced Héroes Ascendentes | Ascended Heroes",
+    "tienda": "Pokemillon"
+  },
+  "https://www.pokemillon.com/products/pin-collection-heroes-ascendentes-ascended-heroes": {
+    "disponible": false,
+    "nombre": "Deluxe Pin Collection Ascended Heroes | Heroes Ascendentes",
+    "tienda": "Pokemillon"
+  },
+  "https://www.pokemillon.com/products/premium-poster-collection-mega-gardevoir": {
+    "disponible": true,
+    "nombre": "Premium Poster Collection Mega Gardevoir Héroes Ascendentes | Ascended Heroes",
+    "tienda": "Pokemillon"
+  },
+  "https://www.pokemillon.com/products/premium-poster-collection-mega-lucario": {
+    "disponible": true,
+    "nombre": "Premium Poster Collection Mega Lucario Héroes Ascendentes | Ascended Heroes",
+    "tienda": "Pokemillon"
+  },
+  "https://todohits.com/products/first-partner-series-3-illustration-collection-pokemon-espanol-primer-companero": {
+    "disponible": false,
+    "nombre": "[Reserva] First partner Series 3 Illustration Collection | POKÉMON | Español (Primer Compañero)",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/first-partner-series-2-illustration-collection-pokemon-chino": {
+    "disponible": false,
+    "nombre": "First partner Series 2 Illustration Collection | POKÉMON | Chino",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/first-partner-illustration-collection-series-2-pokemon-espanol-primer-companero": {
+    "disponible": false,
+    "nombre": "First partner Series 2 Illustration Collection | POKÉMON | Español (Primer Compañero)",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "[Mini golpe] Booster Bundle Heroes Ascendentes | POKÉMON | Español",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Booster Bundle Ascended Heroes | POKÉMON | Inglés",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Premium Poster Collection Ascended Heroes | POKÉMON | Inglés",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/deluxe-pin-collection-ascended-heroes-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Deluxe Pin Collection Ascended Heroes | POKÉMON | Inglés",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/reserva-first-partner-illustration-collection-series-1-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "First partner Series 1 Illustration Collection | POKÉMON | Español (Primer Compañero)",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/first-partner-illustration-collection-series-1-chino-pokemon-espanol-primer-companero": {
+    "disponible": false,
+    "nombre": "First partner Series 1 Illustration Collection | POKÉMON | Chino",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/reserva-premium-poster-collection-heroes-ascendentes-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Premium Poster Collection Heroes Ascendentes | POKÉMON | Español",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/pin-collection-deluxe-heroes-ascendentes-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Deluxe Pin Collection Heroes Ascendentes | POKÉMON | Español",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/mini-tin-heroes-ascendentes-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Mini Lata Héroes Ascendentes | POKÉMON | Español",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/blister-2-sobres-heroes-ascendentes-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Blister 2 Sobres Héroes Ascendentes | POKÉMON | Español",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/tech-sticker-3-sobres-ascended-heroes-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Tech Sticker 3 Sobres Ascended heroes | POKÉMON | Inglés",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/blister-3-sobres-heroes-ascendentes-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Blister 3 Sobres Héroes Ascendentes | POKÉMON | Español",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/etb-ascended-heroes-elite-trainer-box-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés",
+    "tienda": "TodoHits"
+  },
+  "https://todohits.com/products/30-aniversario-pokemon-day-2026-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "30 aniversario Pokémon Day 2026 | POKÉMON | Español",
+    "tienda": "TodoHits"
   }
 }
