@@ -180,7 +180,11 @@ def _media(group, lang):
 def _tarjeta(display, group):
     disp = any(e["disponible"] for e in group)
     cls = "card" if disp else "card off"
-    return (f'<div class="{cls}"><h3>{display}</h3>'
+    precios = [e["precio_num"] for e in group if e["disponible"] and e["precio_num"] is not None]
+    dprice = f"{min(precios):.2f}" if precios else ""
+    dname = normaliza(display + " " + (group[0].get("set") or ""))
+    return (f'<div class="{cls}" data-name="{dname}" data-avail="{1 if disp else 0}" data-price="{dprice}">'
+            f'<h3>{display}</h3>'
             f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div></div>')
 
 
@@ -189,6 +193,50 @@ def _seccion(titulo, grupos):
     orden = sorted(grupos.items(), key=lambda kv: (not hay_disp(kv[1]), kv[0]))
     tarjetas = "".join(_tarjeta(g[0]["display"], g) for _, g in orden)
     return f'<section><h2>{titulo} <small>({len(orden)})</small></h2><div class="wrap">{tarjetas}</div></section>'
+
+
+
+CONTROLS_CSS = """
+.controls{position:sticky;top:0;z-index:5;display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 20px;background:#0f1115;border-bottom:1px solid #262b36}
+.controls input[type=text]{flex:1;min-width:180px;padding:8px 10px;border-radius:8px;border:1px solid #262b36;background:#171a21;color:#e8e8ea}
+.controls select{padding:8px;border-radius:8px;border:1px solid #262b36;background:#171a21;color:#e8e8ea}
+.controls label{color:#9aa0ad;font-size:13px;display:flex;gap:6px;align-items:center}
+"""
+CONTROLS_HTML = """
+<div class="controls">
+  <input type="text" id="q" placeholder="Buscar producto...">
+  <label><input type="checkbox" id="soloDisp"> Solo disponibles</label>
+  <select id="orden"><option value="rel">Orden: relevancia</option><option value="precio">Precio menor primero</option><option value="nombre">Nombre A-Z</option></select>
+</div>
+"""
+SCRIPT_JS = """
+<script>
+(function(){
+ var q=document.getElementById('q'),sd=document.getElementById('soloDisp'),od=document.getElementById('orden');
+ function apply(){
+  var t=(q.value||'').toLowerCase();
+  document.querySelectorAll('section').forEach(function(sec){
+   var wrap=sec.querySelector('.wrap'); if(!wrap)return;
+   var cards=Array.prototype.slice.call(wrap.children),vis=0;
+   cards.forEach(function(c){
+    var okT=(c.dataset.name||'').indexOf(t)>=0;
+    var okD=!sd.checked||c.dataset.avail==='1';
+    var show=okT&&okD; c.style.display=show?'':'none'; if(show)vis++;
+   });
+   if(od.value!=='rel'){
+    cards.sort(function(a,b){
+     if(od.value==='precio'){return parseFloat(a.dataset.price||'999999')-parseFloat(b.dataset.price||'999999');}
+     return (a.dataset.name||'').localeCompare(b.dataset.name||'');
+    });
+    cards.forEach(function(c){wrap.appendChild(c);});
+   }
+   sec.style.display=vis?'':'none';
+  });
+ }
+ q.addEventListener('input',apply);sd.addEventListener('change',apply);od.addEventListener('change',apply);
+})();
+</script>
+"""
 
 
 def genera_panel(entradas):
@@ -229,10 +277,11 @@ section>h2 small{{color:#6b7280;font-weight:normal}}
 .lang.ok a{{color:#7ee787;text-decoration:none;font-weight:600;font-variant-numeric:tabular-nums}}
 .lang.ok small{{display:block;color:#9aa0ad;font-size:11px;margin-top:2px}}
 .lang.no span:last-child{{color:#c9a227}} .lang.na span:last-child{{color:#6b7280}}
-</style></head><body>
+{CONTROLS_CSS}</style></head><body>
 <header><h1>Panel Pokémon TCG</h1>
 <p>Actualizado: {fecha} · {disp} disponible(s) · {ignorados} ignorado(s) (chino/otros idiomas)</p></header>
-{html_secciones}</body></html>"""
+{CONTROLS_HTML}
+{html_secciones}{SCRIPT_JS}</body></html>"""
     PANEL.write_text(html, encoding="utf-8")
     print(f"[panel] generado · {disp} disponibles · {ignorados} ignorados.")
 
