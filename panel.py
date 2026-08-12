@@ -23,8 +23,9 @@ VISTO = Path("precio_visto.json")
 PANEL = Path("panel.html")
 
 # --- Colecciones que quieres ver en el panel (edita a tu gusto) -------------- #
-SETS_INTERES = {"30 Aniversario", "First Partner", "Caos Creciente",
-                "Fuegos Fantasmales", "Heroes Ascendentes"}
+SETS_INTERES = {"30 Aniversario", "First Partner", "Heroes Ascendentes"}
+# (para volver a ver Caos Creciente / Fuegos Fantasmales, anadelos aqui Y en
+#  TERMINOS_INTERES de check_stock.py)
 
 # --------------------------------------------------------------------------- #
 
