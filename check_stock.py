@@ -99,7 +99,7 @@ TERMINOS_INTERES = [
 LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
                "digimon", "star wars", "flesh and blood", "altered",
                "riftbound", "yu-gi-oh", "yugioh", "gundam", "heroquest",
-               "mitos y leyendas", "union arena"]
+               "mitos y leyendas", "union arena", "25th"]
 
 WOO_MARKERS = ["/producto/", "/product/", "/tienda-tcg/"]
 
