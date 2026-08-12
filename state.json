@@ -633,5 +633,155 @@
     "disponible": false,
     "nombre": "ETB POKEMON FULGOR NEGRO - ELITE TRAINER BOX SV10.5 (ESPAÑOL)",
     "tienda": "Sunny Store"
+  },
+  "https://sunnystore.es/products/etb-pokemon-sv1-escarlata-y-purpura-elite-trainer-box-espanol": {
+    "disponible": false,
+    "nombre": "ETB POKEMON SV1 ESCARLATA Y PÚRPURA ELITE TRAINER BOX (ESPAÑOL)",
+    "tienda": "Sunny Store"
+  },
+  "https://factorycardstcg.com/products/pokemon-oscuridad-absoluta-etb-caja-entrenador-pokemon-ingles": {
+    "disponible": true,
+    "nombre": "RESERVA POKEMON Oscuridad Absoluta - ETB Caja Entrenador Pokemon INGLÉS",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/primer-companero-pokemon-series-3-espanol-copia": {
+    "disponible": true,
+    "nombre": "PRIMER COMPAÑERO Pokémon series 3 ESPAÑOL",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/primer-companero-pokemon-series-2-espanol": {
+    "disponible": true,
+    "nombre": "PRIMER COMPAÑERO Pokémon series 2 ESPAÑOL",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-oscuridad-absoluta-etb-caja-entrenador-pokemon": {
+    "disponible": true,
+    "nombre": "POKEMON Oscuridad Absoluta - ETB Caja Entrenador Pokemon ESPAÑOL",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-etb-chaos-rising-ingles": {
+    "disponible": false,
+    "nombre": "POKÉMON ETB CHAOS RISING - inglés",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-caos-creciente-espanol": {
+    "disponible": true,
+    "nombre": "POKÉMON - CAOS CRECIENTE ESPAÑOL",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-bundle-heroes-ascendentes-espanol": {
+    "disponible": false,
+    "nombre": "POKEMON Bundle Héroes Ascendentes ESPAÑOL",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-etb-corona-astral": {
+    "disponible": true,
+    "nombre": "Pokemon ETB Corona Astral Español",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-etb-mascarada-crepuscular": {
+    "disponible": true,
+    "nombre": "Pokemon ETB Mascarada Crepuscular",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-caja-pin-deluxe-heroes-ascendentes": {
+    "disponible": false,
+    "nombre": "POKEMON CAJA PIN DELUXE HEROES ASCENDENTES - ESPAÑOL",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-caja-de-entrenador-elite-etb-perfect-order-ingles": {
+    "disponible": true,
+    "nombre": "POKEMON CAJA DE ENTRENADOR ELITE ETB PERFECT ORDER - INGLÉS",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/pokemon-caja-de-enrenador-elite-etb-orden-perfecto-espanol": {
+    "disponible": true,
+    "nombre": "POKEMON CAJA DE ENTRENADOR ELITE ETB EQUILIBRIO PERFECTO - ESPAÑOL",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/reserva-heroes-ascendentes-mini-tin-espanol": {
+    "disponible": false,
+    "nombre": "Heroes Ascendentes Mini tin",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/reserva-heroes-ascendentes-elite-trainer-box-etb-espanol": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes Elite Trainer Box - ETB",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/reserva-january-special-collection-30-aniversario-espanol": {
+    "disponible": false,
+    "nombre": "January Special Collection 30 Aniversario POKEMON DAY INGLES",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://factorycardstcg.com/products/elite-trainer-box-sv1-escarlata-y-purpura": {
+    "disponible": false,
+    "nombre": "SV1 ETB Escarlata y Purpura ESPAÑOL- Miraidon/Koraidon",
+    "tienda": "Factory Cards TCG"
+  },
+  "https://alfriki.com/products/etb-caja-entrenador-elite-pokemon-tcg-megaevolucion-equilibrio-perfecto-castellano-copia": {
+    "disponible": true,
+    "nombre": "ETB - Caja entrenador élite Pokémon TCG - Megaevolución Caos Creciente - Castellano",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/etb-caja-entrenador-elite-pokemon-tcg-megaevolucion-heroes-ascendentes-castellano-copia-1": {
+    "disponible": true,
+    "nombre": "ETB - Caja entrenador élite Pokémon TCG - Megaevolución Equilibrio Perfecto - Castellano",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/pokemon-tcg-caja-coleccion-mimikyu-ex-castellano-copia-2": {
+    "disponible": false,
+    "nombre": "Pokemon TCG - Caja Colección Héroes Ascendentes - Colección Pin Deluxe - Castellano",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/pokemon-tcg-coleccion-con-pegatinas-especiales-heroes-ascendentes-con-promo-charmander-castellano-copia": {
+    "disponible": true,
+    "nombre": "Pokemon TCG - Colección con Pegatinas Especiales Héroes Ascendentes - con Promo Gastly - Castellano (Copia)",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/pokemon-tcg-caja-coleccion-mimikyu-ex-castellano-copia-1": {
+    "disponible": false,
+    "nombre": "Pokemon TCG - Colección con Pegatinas Especiales Héroes Ascendentes - con Promo Charmander - Castellano",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/lata-pokemon-tcg-mega-charizard-x-castellano-copia": {
+    "disponible": false,
+    "nombre": "Pokémon TCG - Mini Lata Héroes Ascendentes - Castellano - Unidad aleatoria",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/blister-cartas-pokemon-megaevolucion-heroes-ascendentes-castellano-promo-tangela-copia": {
+    "disponible": true,
+    "nombre": "Blister cartas Pokémon Megaevolución Heroes Ascendentes - Castellano (Promo Komala)",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/blister-cartas-special-collection-fuegos-fantasmales-pokemon-espanol-dia-de-pokemon-2026-copia": {
+    "disponible": true,
+    "nombre": "Blister cartas Pokémon Megaevolución Heroes Ascendentes - Castellano (Promo Tangela)",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/pokemon-tcg-caja-coleccion-mimikyu-ex-castellano-copia": {
+    "disponible": true,
+    "nombre": "Blister cartas Special Collection Fuegos Fantasmales Pokemon español - Día de Pokémon 2026",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/etb-caja-entrenador-elite-pokemon-tcg-megaevolucion-castellano-copia-copia": {
+    "disponible": true,
+    "nombre": "ETB - Caja entrenador élite Pokémon TCG - Megaevolución Fuegos Fantasmales - Castellano",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/blister-con-3-sobres-promo-weavile-megaevolucion-fuegos-fantasmales-castellano-copia": {
+    "disponible": true,
+    "nombre": "Blister con 3 sobres + Promo Sneasel - Megaevolución Fuegos Fantasmales - Castellano",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/blister-con-1-sobre-de-pokemon-tcg-megaevolucion-imagen-4-copia": {
+    "disponible": true,
+    "nombre": "Blister con 3 sobres + Promo Weavile - Megaevolución Fuegos Fantasmales - Castellano",
+    "tienda": "Alfriki"
+  },
+  "https://alfriki.com/products/archivador-9-bolsillos-portfolio-pokemon-escarlata-y-purpura-8-5-prismatic-evolutions-ultra-pro-copia-3": {
+    "disponible": true,
+    "nombre": "Pokémon Bundle First Partner",
+    "tienda": "Alfriki"
   }
 }
