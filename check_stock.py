@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-Monitor de stock de productos Pokemon TCG seleccionados (ETB y sets concretos).
+Monitor de stock Pokemon TCG (ETB y sets concretos) en varias tiendas.
 
-Detecta la plataforma automaticamente por la URL de descubrimiento:
-  - Si contiene "/collections/"  -> Shopify: usa el JSON publico
-    (/collections/<handle>/products.json), con disponibilidad y precio exactos.
-  - Si no                        -> WooCommerce/HTML: descubre fichas de
-    producto (/producto/, /product/, /tienda-tcg/) y lee el HTML.
+- Respeta robots.txt: antes de tocar una tienda comprueba su robots.txt y, si
+  prohibe el acceso automatizado, la SALTA (no se scrapea).
+- Detecta la plataforma sola: URL con "/collections/" -> Shopify (JSON);
+  el resto -> WooCommerce/HTML.
+- Filtro por TERMINOS_INTERES + lista negra.
 
-Para anadir una tienda nueva, basta pegar su URL de categoria (WooCommerce)
-o de coleccion (Shopify) en TIENDAS. Filtro por TERMINOS_INTERES + lista negra.
+Anadir tienda = pegar su URL de categoria/coleccion Pokemon en TIENDAS.
 """
 
 import json
@@ -19,6 +18,7 @@ import time
 import unicodedata
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
+from urllib.robotparser import RobotFileParser
 
 import httpx
 from bs4 import BeautifulSoup
@@ -28,34 +28,57 @@ from bs4 import BeautifulSoup
 # --------------------------------------------------------------------------- #
 
 TIENDAS = [
-    # --- WooCommerce / HTML ---
+    # --- Confirmadas: WooCommerce / HTML ---
     {"nombre": "OZ Juegos",
      "discovery": ["https://ozjuegos.com/categoria-producto/juegos-de-cartas/pokemon/"]},
     {"nombre": "Reino de Cartas",
      "discovery": ["https://reinodecartas.com/categorias/pokemon-tcg/"]},
-    {"nombre": "ShinyHit",   # ojo: Cloudflare puede devolver 403
+    {"nombre": "ShinyHit",   # puede dar 403 por Cloudflare
      "discovery": ["https://shinyhit.com/categoria-producto/pokemon/"]},
     {"nombre": "Flash Store",
      "discovery": ["https://flashstore.es/categoria/pokemon/"]},
     {"nombre": "The Card Station",
      "discovery": ["https://thecardstation.es/home/pokemon-tcg/"]},
-    # --- Shopify (JSON automatico por llevar /collections/) ---
+    # --- Confirmadas: Shopify (JSON automatico) ---
     {"nombre": "CardZone",
      "discovery": ["https://cardzone.es/collections/cartas-pokemon-tcg"]},
     {"nombre": "TCG Level",
      "discovery": ["https://tcglevel.com/collections/pokemon"]},
     {"nombre": "Sunny Store",
      "discovery": ["https://sunnystore.es/collections/pokemon"]},
-    {"nombre": "Sunny Store (ingles)",   # el handle parecia cortado: verifica la URL real
-     "discovery": ["https://sunnystore.es/collections/ingles-pok"]},
     {"nombre": "Factory Cards TCG",
      "discovery": ["https://factorycardstcg.com/collections/comprarcartaspokemon"]},
-    # --- Fuera por robots.txt (prohiben scraping) ---
-    # Friki de Nacimiento (frikidenacimiento.es) -> usar su canal oficial.
-    # only-cards.com -> usar su canal oficial.
+    {"nombre": "Alfriki",
+     "discovery": ["https://alfriki.com/collections/pokemon"]},
+    {"nombre": "Toy Planet",
+     "discovery": ["https://www.toyplanet.com/collections/pokemon"]},
+
+    # --- Pendientes de verificar (URL orientativa; el primer run dira cuales
+    #     funcionan). El chequeo de robots.txt las saltara si estan bloqueadas.
+    #     Si alguna es WooCommerce, cambia /collections/pokemon por su URL real. ---
+    {"nombre": "AllinTCG",           "discovery": ["https://allintcg.com/collections/pokemon"]},
+    {"nombre": "BattleDeck",         "discovery": ["https://www.battledeck.es/collections/pokemon"]},
+    {"nombre": "CheCollect",         "discovery": ["https://checollect.es/collections/pokemon"]},
+    {"nombre": "Chewe Center",       "discovery": ["https://pokechewe.com/collections/pokemon"]},
+    {"nombre": "Darizard9",          "discovery": ["https://www.darizard9.com/collections/pokemon"]},
+    {"nombre": "El Rincon Gachapon", "discovery": ["https://www.elrincondelgachapon.es/collections/pokemon"]},
+    {"nombre": "GEEKKAOS",           "discovery": ["https://geekkaos.com/collections/pokemon"]},
+    {"nombre": "Grillecards",        "discovery": ["https://grillecards.com/collections/pokemon"]},
+    {"nombre": "JJCOLLECTION",       "discovery": ["https://www.jjcollection.es/collections/pokemon"]},
+    {"nombre": "La Boveda Friki",    "discovery": ["https://labovedafriki.es/collections/pokemon"]},
+    {"nombre": "Metamorph Center",   "discovery": ["https://metamorphcenter.com/collections/pokemon"]},
+    {"nombre": "PokeDealTCG",        "discovery": ["https://www.pokedealtcg.es/collections/pokemon"]},
+    {"nombre": "Pokedex Card",       "discovery": ["https://www.pokedexcards.com/collections/pokemon"]},
+    {"nombre": "Pokemillon",         "discovery": ["https://www.pokemillon.com/collections/pokemon"]},
+    {"nombre": "RyuCards",           "discovery": ["https://www.ryucardstcg.com/collections/pokemon"]},
+    {"nombre": "Saruman Games",      "discovery": ["https://sarumangames.es/collections/pokemon"]},
+    {"nombre": "TodoHits",           "discovery": ["https://todohits.com/collections/pokemon"]},
+    {"nombre": "UNSOBREMAS",         "discovery": ["https://unsobremas.com/collections/pokemon"]},
+
+    # --- Fuera por robots.txt (prohiben scraping): only-cards, frikidenacimiento.
+    #     No se anaden; para esas, su canal oficial. ---
 ]
 
-# LO QUE SI QUIERES SEGUIR (minusculas, sin acentos). Anade o quita libremente.
 TERMINOS_INTERES = [
     "etb", "elite trainer", "entrenador elite",
     "30 aniversario", "aniversario 30", "30o aniversario",
@@ -85,10 +108,9 @@ HEADERS = {
     "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
                "image/avif,image/webp,*/*;q=0.8"),
     "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
-    "Upgrade-Insecure-Requests": "1",
 }
 FICHERO_ESTADO = Path("state.json")
-MAX_PRODUCTOS = 120
+MAX_PRODUCTOS = 150
 PAUSA_ENTRE_PETICIONES = 1
 
 # --------------------------------------------------------------------------- #
@@ -105,6 +127,29 @@ def descargar(url: str) -> str:
     resp = httpx.get(url, headers=HEADERS, timeout=25, follow_redirects=True)
     resp.raise_for_status()
     return resp.text
+
+
+_robots_cache: dict = {}
+
+def permitido_por_robots(url: str) -> bool:
+    """True si el robots.txt del sitio permite acceder a esta URL. Si no hay
+    robots.txt o falla, se asume permitido."""
+    parts = urlsplit(url)
+    base = f"{parts.scheme}://{parts.netloc}"
+    rp = _robots_cache.get(base)
+    if rp is None:
+        rp = RobotFileParser()
+        try:
+            r = httpx.get(f"{base}/robots.txt", headers=HEADERS, timeout=15,
+                          follow_redirects=True)
+            rp.parse(r.text.splitlines() if r.status_code == 200 else [])
+        except Exception:
+            rp.parse([])
+        _robots_cache[base] = rp
+    try:
+        return rp.can_fetch("*", url)
+    except Exception:
+        return True
 
 
 def es_interesante(nombre: str) -> bool:
@@ -126,18 +171,17 @@ def es_shopify(url: str) -> bool:
 
 
 # --------------------------------------------------------------------------- #
-# SHOPIFY (via JSON publico)
+# SHOPIFY (JSON)
 # --------------------------------------------------------------------------- #
 
 def revisar_shopify(nombre_tienda: str, coll_url: str) -> list:
     parts = urlsplit(coll_url)
     base = f"{parts.scheme}://{parts.netloc}"
-    path = parts.path.rstrip("/")
-    json_url = f"{base}{path}/products.json?limit=250"
+    json_url = f"{base}{parts.path.rstrip('/')}/products.json?limit=250"
     try:
         data = json.loads(descargar(json_url))
     except Exception as e:
-        print(f"[!] {nombre_tienda}: fallo al leer JSON {json_url}: {e}")
+        print(f"[!] {nombre_tienda}: no se pudo leer JSON ({e})")
         return []
     resultados = []
     for p in data.get("products", []):
@@ -157,7 +201,7 @@ def revisar_shopify(nombre_tienda: str, coll_url: str) -> list:
 
 
 # --------------------------------------------------------------------------- #
-# WOOCOMMERCE (via HTML)
+# WOOCOMMERCE (HTML)
 # --------------------------------------------------------------------------- #
 
 def es_link_producto(href: str) -> bool:
@@ -213,6 +257,8 @@ def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
 
     resultados = []
     for url, fallback in candidatos.items():
+        if not permitido_por_robots(url):
+            continue
         time.sleep(PAUSA_ENTRE_PETICIONES)
         try:
             phtml = descargar(url)
@@ -278,6 +324,9 @@ def main() -> None:
     vistos = set()
     for tienda in TIENDAS:
         for url in tienda["discovery"]:
+            if not permitido_por_robots(url):
+                print(f"[robots] {tienda['nombre']}: bloqueado por robots.txt, se salta.")
+                continue
             if es_shopify(url):
                 items = revisar_shopify(tienda["nombre"], url)
             else:
@@ -301,3 +350,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
