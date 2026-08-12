@@ -73,7 +73,7 @@ LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
                "mitos y leyendas"]
 
 SENALES_DISPONIBLE = ["anadir al carrito", "add-to-cart", "comprar ahora",
-                      "single_add_to_cart_button", "reservar", "preventa"]
+                      "single_add_to_cart_button", "reservar", "preventa", "reserva"]
 SENALES_AGOTADO = ["agotado", "sin existencias", "sin stock",
                    "no disponible", "out of stock", "avisadme"]
 
@@ -89,7 +89,7 @@ HEADERS = {
     "Sec-Fetch-Site": "none",
 }
 FICHERO_ESTADO = Path("state.json")
-MAX_PRODUCTOS = 60
+MAX_PRODUCTOS = 80
 PAUSA_ENTRE_PETICIONES = 1
 
 # --------------------------------------------------------------------------- #
