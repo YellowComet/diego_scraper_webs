@@ -28,18 +28,19 @@ from bs4 import BeautifulSoup
 # --------------------------------------------------------------------------- #
 
 TIENDAS = [
-    # --- Confirmadas: WooCommerce / HTML ---
+    # === ACTIVAS (verificadas: devuelven productos) ===
+    # --- WooCommerce / HTML ---
     {"nombre": "OZ Juegos",
      "discovery": ["https://ozjuegos.com/categoria-producto/juegos-de-cartas/pokemon/"]},
     {"nombre": "Reino de Cartas",
      "discovery": ["https://reinodecartas.com/categorias/pokemon-tcg/"]},
-    {"nombre": "ShinyHit",   # puede dar 403 por Cloudflare
-     "discovery": ["https://shinyhit.com/categoria-producto/pokemon/"]},
     {"nombre": "Flash Store",
      "discovery": ["https://flashstore.es/categoria/pokemon/"]},
     {"nombre": "The Card Station",
      "discovery": ["https://thecardstation.es/home/pokemon-tcg/"]},
-    # --- Confirmadas: Shopify (JSON automatico) ---
+    {"nombre": "CheCollect",
+     "discovery": ["https://checollect.es/categoria-producto/pokemon/"]},
+    # --- Shopify (JSON automatico) ---
     {"nombre": "CardZone",
      "discovery": ["https://cardzone.es/collections/cartas-pokemon-tcg"]},
     {"nombre": "TCG Level",
@@ -52,31 +53,48 @@ TIENDAS = [
      "discovery": ["https://alfriki.com/collections/pokemon"]},
     {"nombre": "Toy Planet",
      "discovery": ["https://www.toyplanet.com/collections/pokemon"]},
+    {"nombre": "Darizard9",
+     "discovery": ["https://www.darizard9.com/collections/pokemon"]},
+    {"nombre": "Grillecards",
+     "discovery": ["https://grillecards.com/collections/pokemon"]},
+    {"nombre": "La Boveda Friki",
+     "discovery": ["https://labovedafriki.es/collections/pokemon"]},
+    {"nombre": "Pokemillon",
+     "discovery": ["https://www.pokemillon.com/collections/pokemon"]},
+    {"nombre": "TodoHits",
+     "discovery": ["https://todohits.com/collections/pokemon"]},
+    {"nombre": "AllinTCG",
+     "discovery": ["https://allintcg.com/collections/pokemon"]},
+    {"nombre": "JJCOLLECTION",
+     "discovery": ["https://www.jjcollection.es/collections/pokemon-tcg-atrapalos-todos"]},
+    {"nombre": "Metamorph Center",
+     "discovery": ["https://metamorphcenter.com/collections/pokemon-tcg"]},
+    {"nombre": "Pokedex Card",
+     "discovery": ["https://www.pokedexcards.com/collections/espanol",
+                   "https://www.pokedexcards.com/collections/ingles"]},
+    {"nombre": "RyuCards",
+     "discovery": ["https://www.ryucardstcg.com/collections/espanol",
+                   "https://www.ryucardstcg.com/collections/ingles"]},
+    {"nombre": "Saruman Games",
+     "discovery": ["https://sarumangames.es/collections/pokemon-juego-de-cartas-coleccionables"]},
+    {"nombre": "UNSOBREMAS",
+     "discovery": ["https://unsobremas.com/collections/pokemon-tcg"]},
 
-    # --- Pendientes de verificar (URL orientativa; el primer run dira cuales
-    #     funcionan). El chequeo de robots.txt las saltara si estan bloqueadas.
-    #     Si alguna es WooCommerce, cambia /collections/pokemon por su URL real. ---
-    {"nombre": "AllinTCG",           "discovery": ["https://allintcg.com/collections/pokemon"]},
-    {"nombre": "BattleDeck",         "discovery": ["https://www.battledeck.es/collections/pokemon"]},
-    {"nombre": "CheCollect",         "discovery": ["https://checollect.es/collections/pokemon"]},
-    {"nombre": "Chewe Center",       "discovery": ["https://pokechewe.com/collections/pokemon"]},
-    {"nombre": "Darizard9",          "discovery": ["https://www.darizard9.com/collections/pokemon"]},
-    {"nombre": "El Rincon Gachapon", "discovery": ["https://www.elrincondelgachapon.es/collections/pokemon"]},
-    {"nombre": "GEEKKAOS",           "discovery": ["https://geekkaos.com/collections/pokemon"]},
-    {"nombre": "Grillecards",        "discovery": ["https://grillecards.com/collections/pokemon"]},
-    {"nombre": "JJCOLLECTION",       "discovery": ["https://www.jjcollection.es/collections/pokemon"]},
-    {"nombre": "La Boveda Friki",    "discovery": ["https://labovedafriki.es/collections/pokemon"]},
-    {"nombre": "Metamorph Center",   "discovery": ["https://metamorphcenter.com/collections/pokemon"]},
-    {"nombre": "PokeDealTCG",        "discovery": ["https://www.pokedealtcg.es/collections/pokemon"]},
-    {"nombre": "Pokedex Card",       "discovery": ["https://www.pokedexcards.com/collections/pokemon"]},
-    {"nombre": "Pokemillon",         "discovery": ["https://www.pokemillon.com/collections/pokemon"]},
-    {"nombre": "RyuCards",           "discovery": ["https://www.ryucardstcg.com/collections/pokemon"]},
-    {"nombre": "Saruman Games",      "discovery": ["https://sarumangames.es/collections/pokemon"]},
-    {"nombre": "TodoHits",           "discovery": ["https://todohits.com/collections/pokemon"]},
-    {"nombre": "UNSOBREMAS",         "discovery": ["https://unsobremas.com/collections/pokemon"]},
+    # === PROVISIONALES (plataforma sin confirmar; el primer run dira si encajan) ===
+    {"nombre": "El Rincon Gachapon",
+     "discovery": ["https://www.elrincondelgachapon.es/universo-tcg"]},
+    {"nombre": "Chewe Center",
+     "discovery": ["https://chewecenter.com/tcg-pokemon/"]},
 
-    # --- Fuera por robots.txt (prohiben scraping): only-cards, frikidenacimiento.
-    #     No se anaden; para esas, su canal oficial. ---
+    # === CASOS ESPECIALES / PENDIENTES ===
+    #   BattleDeck (battledeck.es) -> plataforma propia "Namura": sin /products.json
+    #       ni fichas de producto navegables; necesitaria un parser a medida.
+    #   PokeDealTCG (pokedealtcg.es) -> sin pagina de categoria Pokemon concreta.
+
+    # === FUERA (no scrapeables por via directa) ===
+    #   only-cards.com / frikidenacimiento.es -> robots.txt prohibe scraping
+    #   geekkaos.com / shinyhit.com           -> 403 (Cloudflare / anti-bot)
+    #   Para estas, usar su canal / newsletter oficial.
 ]
 
 TERMINOS_INTERES = [
@@ -107,7 +125,7 @@ HEADERS = {
     "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
 }
 FICHERO_ESTADO = Path("state.json")
-MAX_PRODUCTOS = 150
+MAX_PRODUCTOS = 600
 PAUSA_ENTRE_PETICIONES = 1
 
 # --------------------------------------------------------------------------- #
