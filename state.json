@@ -1174,47 +1174,5 @@
     "nombre": "BOOSTER PACK - HÉROES ASCENDENTES [ES]",
     "tienda": "UNSOBREMAS",
     "precio": "6,95 €"
-  },
-  "https://www.pokemillon.com/products/pokeball-espada-y-escudo-chino": {
-    "disponible": false,
-    "nombre": "Pokeball 25th Celebrations",
-    "tienda": "Pokemillon",
-    "precio": "25,99 €"
-  },
-  "https://www.pokemillon.com/products/pokemon-caja-zacian-premium-pin-colection-2021": {
-    "disponible": false,
-    "nombre": "Caja Zacian Pin Collection Celebraciones | Celebrations",
-    "tienda": "Pokemillon",
-    "precio": "89,90 €"
-  },
-  "https://www.pokemillon.com/products/pokemon-caja-dragapult-prime-celebraciones-25-aniversario": {
-    "disponible": false,
-    "nombre": "Caja Dragapult Prime Celebraciones | Celebrations",
-    "tienda": "Pokemillon",
-    "precio": "69,90 €"
-  },
-  "https://www.pokemillon.com/products/pokemon-figura-pikachu": {
-    "disponible": false,
-    "nombre": "Pikachu VMax Premium Collection Celebraciones | Celebrations 25th",
-    "tienda": "Pokemillon",
-    "precio": "399,90 €"
-  },
-  "https://www.pokemillon.com/products/ultrapremium-25-aniversario": {
-    "disponible": false,
-    "nombre": "Ultra Premium 25th Celebrations",
-    "tienda": "Pokemillon",
-    "precio": "799,90 €"
-  },
-  "https://www.pokemillon.com/products/sobre-promo-25th-celebrations": {
-    "disponible": false,
-    "nombre": "Sobre Promo 25th Celebrations 2021",
-    "tienda": "Pokemillon",
-    "precio": "16,95 €"
-  },
-  "https://metamorphcenter.com/products/flying-pikachu-vmax-007-full-art-ingles": {
-    "disponible": false,
-    "nombre": "Flying Pikachu VMAX #007 Full Art Celebrations PSA 10 - Inglés",
-    "tienda": "Metamorph Center",
-    "precio": "129,95 €"
   }
 }
