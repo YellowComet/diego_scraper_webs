@@ -1,64 +1,99 @@
-# Monitor ETB 30 Aniversario (Pokémon TCG)
+# Monitor de stock Pokémon TCG
 
-Bot gratuito que vigila las **ETB del 30 Aniversario** en OZ Juegos, Reino de
-Cartas y ShinyHit, y te avisa por **Telegram** cuando alguna está disponible.
-Corre en **GitHub Actions** (sin servidor propio) y **no usa ninguna API de
-pago**.
+Bot gratuito que vigila el stock de producto sellado de **Pokémon TCG** en
+decenas de tiendas online españolas y te avisa por **Telegram** cuando algo que
+te interesa vuelve a estar disponible. Además genera un **panel comparador de
+precios** propio. Corre en **GitHub Actions** (sin servidor) y **sin ninguna API
+de pago**.
+
+**Panel en vivo:** https://yellowcomet.github.io/diego_scraper_webs/panel.html
 
 ## Qué hace
 
-Cada 10 minutos entra en una página de búsqueda/categoría de cada tienda, se
-queda solo con los productos cuyo nombre encaja con el filtro (Elite Trainer
-Box / Caja de Entrenador Élite **y** 30 Aniversario), comprueba en la ficha si
-están a la venta y, si uno pasa a disponible, te manda el enlace por Telegram.
+Cada pocos minutos recorre las tiendas configuradas, se queda solo con los
+productos cuyo título encaja con tu lista de interés (`TERMINOS_INTERES`),
+comprueba disponibilidad y precio, y:
+
+- Te manda un aviso de **Telegram** cuando algo pasa a disponible.
+- Actualiza un **panel HTML** (`panel.html`) que agrupa el mismo producto entre
+  tiendas y te enseña el **mejor precio** de cada uno.
+- Registra los cambios de precio/stock en un **histórico** (`history.csv`).
+
 Guarda el estado en `state.json` para no repetir avisos.
 
-## Puesta en marcha (10 minutos)
+## Cómo detecta cada tienda
+
+No hay que configurar la plataforma a mano: el bot la detecta por la URL.
+
+- **Shopify** (URL con `/collections/…`): usa el JSON público de la tienda, con
+  disponibilidad y precio exactos.
+- **WooCommerce / HTML** (categoría normal): rastrea las fichas de producto y
+  lee el stock del HTML.
+
+**Respeta el `robots.txt`**: antes de tocar una tienda comprueba si permite el
+acceso automatizado y, si lo prohíbe, la salta.
+
+## Puesta en marcha
 
 1. **Crea el bot de Telegram**
-   - Habla con [@BotFather](https://t.me/BotFather) → `/newbot` → te da un
-     **token**.
-   - Escribe algo a tu bot y saca tu **chat_id** (por ejemplo, hablando con
-     [@userinfobot](https://t.me/userinfobot)).
+   - Habla con [@BotFather](https://t.me/BotFather) → `/newbot` → te da un **token**.
+   - Saca tu **chat_id** (por ejemplo con [@userinfobot](https://t.me/userinfobot)).
 
-2. **Sube estos archivos a un repositorio de GitHub** (público = minutos de
-   Actions gratis e ilimitados; privado también vale, con 2.000 min/mes).
+2. **Sube estos archivos a un repositorio de GitHub**
+   (público = Actions gratis e ilimitado y Pages gratis; privado también vale,
+   con 2.000 min/mes de Actions y sin Pages).
 
-3. **Añade los secretos** en el repo → *Settings → Secrets and variables →
-   Actions → New repository secret*:
-   - `TELEGRAM_BOT_TOKEN` = el token de BotFather
-   - `TELEGRAM_CHAT_ID` = tu chat_id
+3. **Añade los secretos** en *Settings → Secrets and variables → Actions*:
+   - `TELEGRAM_BOT_TOKEN`
+   - `TELEGRAM_CHAT_ID`
 
-4. **Activa Actions** (pestaña *Actions* del repo). Puedes lanzarlo a mano con
-   *Run workflow* para probar; después irá solo cada 10 min.
+4. **Da permiso de escritura a Actions** en *Settings → Actions → General →
+   Workflow permissions → Read and write permissions* (para que pueda guardar
+   `state.json`, `history.csv` y `panel.html`).
 
-## Ajustes rápidos (en `check_stock.py`)
+5. **Activa Actions** y lánzalo a mano con *Run workflow* para probar.
 
-- **Qué vigilar:** cambia `TERMINOS_ETB` / `TERMINOS_ANIVERSARIO`. Por ejemplo,
-  para vigilar cualquier ETB, deja `TERMINOS_ANIVERSARIO` con solo `[""]`.
-- **Dónde buscar:** añade URLs a `discovery` de cada tienda (páginas de
-  categoría o búsquedas). Si una tienda deja de encontrar productos, prueba a
-  cambiar su URL de búsqueda.
-- **Frecuencia:** el `cron` del workflow. Recuerda: el mínimo real de GitHub
-  son 5 minutos.
+6. **(Opcional) Publica el panel** con *Settings → Pages → deploy desde `main`,
+   carpeta raíz*. Copia la URL resultante arriba en este README.
 
-## Cosas a tener en cuenta (las que muerden)
+## Añadir tiendas
+
+Pega en `TIENDAS` (en `check_stock.py`) la URL de la sección Pokémon:
+
+```python
+{"nombre": "Nombre Tienda",
+ "discovery": ["https://tienda.es/collections/pokemon"]},   # Shopify
+{"nombre": "Otra Tienda",
+ "discovery": ["https://otra.es/categoria-producto/pokemon/"]},  # WooCommerce
+```
+
+El bot detecta la plataforma solo. Si una tienda sale con `0 de interés` o
+`fallo`, suele ser un handle/URL equivocado; prueba con la URL real de su
+listado Pokémon.
+
+## Ajustes rápidos
+
+- **Qué vigilar:** edita `TERMINOS_INTERES` (tipos de producto y nombres de set)
+  y `LISTA_NEGRA` (otros juegos a descartar) en `check_stock.py`.
+- **Cómo agrupa el panel:** edita `SETS`, `TIPOS` e `IDIOMAS` en `panel.py`.
+- **Frecuencia:** el `cron` del workflow (mínimo real de GitHub: 5 min).
+- **Reservas/preventas:** cuentan como disponible; quita `"reservar"` y
+  `"preventa"` de `SENALES_DISPONIBLE` si solo quieres stock inmediato.
+
+## Cosas a tener en cuenta
 
 - **El cron de GitHub es "best-effort":** mínimo 5 min y puede retrasarse en
-  horas punta. Perfecto para reposiciones; **no** para pillar un drop al
-  segundo (para eso, una Raspberry Pi o VPS con cron propio).
-- **IP de GitHub (Azure):** alguna tienda con anti-bot podría bloquear estas
-  IPs más que tu conexión de casa. Si pasa, ese es el motivo.
-- **Auto-desactivación a los 60 días** sin commits en la rama principal. Como
-  el bot solo commitea `state.json` cuando cambia algo, si hay mucha calma
-  puede desactivarse: reactívalo desde *Actions* o añade una acción
-  *keepalive*.
-- **Filtro por texto:** si una tienda escribe "ETB" de forma rara en el título,
-  ajústalo en `TERMINOS_ETB`. "Reserva/preventa" cuenta como disponible (es
-  comprable); quítalo de `SENALES_DISPONIBLE` si solo quieres stock inmediato.
+  horas punta. Vale para reposiciones; no para pillar un *drop* al segundo (para
+  eso, una Raspberry Pi o VPS con cron propio).
+- **IP de GitHub (Azure):** alguna tienda con anti-bot/Cloudflare puede
+  bloquear estas IPs (verás un 403). No hay atajo limpio por Actions.
+- **Auto-desactivación a los 60 días** sin commits en la rama principal;
+  reactívalo desde *Actions* o añade una acción *keepalive*.
 
-## Only-Cards
+## Tiendas fuera de cobertura
 
-`only-cards.com` bloquea el acceso automatizado en su `robots.txt`, así que se
-ha dejado fuera a propósito. Para esa tienda, mejor su newsletter o avisos
-oficiales.
+- `only-cards.com`, `frikidenacimiento.es` → su `robots.txt` prohíbe el scraping.
+- `geekkaos.com`, `shinyhit.com` → responden 403 (Cloudflare / anti-bot).
+- `battledeck.es` → plataforma propia sin JSON ni fichas navegables.
+
+Para esas, lo correcto es su canal/newsletter oficial.
