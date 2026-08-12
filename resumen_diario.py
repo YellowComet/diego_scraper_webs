@@ -29,7 +29,7 @@ STATE = Path("state.json")
 REF = Path("resumen_ref.json")          # mejor precio por producto del ultimo resumen
 MARCA = Path("resumen_enviado.txt")     # fecha del ultimo envio
 
-HORA_INICIO, HORA_FIN = 9, 12           # ventana de manana (9:00-11:59)
+HORA_INICIO, HORA_FIN = 20, 22           # ventana de manana (9:00-11:59)
 UMBRAL_BAJADA = 0.01                    # euros minimos para contar como bajada
 
 
