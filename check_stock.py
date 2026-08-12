@@ -350,7 +350,7 @@ def main() -> None:
                     avisar(nombre, tienda["nombre"], purl, precio)
                 if disponible is not None:
                     estado[purl] = {"disponible": disponible, "nombre": nombre,
-                                    "tienda": tienda["nombre"]}
+                                    "tienda": tienda["nombre"], "precio": precio}
     guardar_estado(estado)
     print(f"Hecho. {len(vistos)} producto(s) evaluado(s).")
 
