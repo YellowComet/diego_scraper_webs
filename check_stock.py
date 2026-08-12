@@ -2,11 +2,14 @@
 """
 Monitor de stock de productos Pokemon TCG seleccionados (ETB y sets concretos).
 
-Filtro por LISTA POSITIVA:
-  - Descubre enlaces de producto en la categoria Pokemon de cada tienda.
-  - Un producto vale si su titulo contiene alguno de los TERMINOS_INTERES
-    (tipos de producto o nombres de set) y NO esta en la lista negra.
-  - Edita TERMINOS_INTERES para anadir/quitar lo que quieras seguir.
+Detecta la plataforma automaticamente por la URL de descubrimiento:
+  - Si contiene "/collections/"  -> Shopify: usa el JSON publico
+    (/collections/<handle>/products.json), con disponibilidad y precio exactos.
+  - Si no                        -> WooCommerce/HTML: descubre fichas de
+    producto (/producto/, /product/, /tienda-tcg/) y lee el HTML.
+
+Para anadir una tienda nueva, basta pegar su URL de categoria (WooCommerce)
+o de coleccion (Shopify) en TIENDAS. Filtro por TERMINOS_INTERES + lista negra.
 """
 
 import json
@@ -15,7 +18,7 @@ import re
 import time
 import unicodedata
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 import httpx
 from bs4 import BeautifulSoup
@@ -25,55 +28,54 @@ from bs4 import BeautifulSoup
 # --------------------------------------------------------------------------- #
 
 TIENDAS = [
+    # --- WooCommerce / HTML ---
     {"nombre": "OZ Juegos",
      "discovery": ["https://ozjuegos.com/categoria-producto/juegos-de-cartas/pokemon/"]},
     {"nombre": "Reino de Cartas",
      "discovery": ["https://reinodecartas.com/categorias/pokemon-tcg/"]},
-    {"nombre": "ShinyHit",
+    {"nombre": "ShinyHit",   # ojo: Cloudflare puede devolver 403
      "discovery": ["https://shinyhit.com/categoria-producto/pokemon/"]},
-    {"nombre": "CardZone",
-     "discovery": ["https://cardzone.es/collections/cartas-pokemon-tcg/"]},
-    {"nombre": "TCG Level",
-     "discovery": ["https://tcglevel.com/collections/pokemon/"]},
     {"nombre": "Flash Store",
      "discovery": ["https://flashstore.es/categoria/pokemon/"]},
-    {"nombre": "Friki Nacimiento",
-     "discovery": ["https://frikidenacimiento.es/pokemon-tcg/"]},
-    {"nombre": "Card Station",
+    {"nombre": "The Card Station",
      "discovery": ["https://thecardstation.es/home/pokemon-tcg/"]},
+    # --- Shopify (JSON automatico por llevar /collections/) ---
+    {"nombre": "CardZone",
+     "discovery": ["https://cardzone.es/collections/cartas-pokemon-tcg"]},
+    {"nombre": "TCG Level",
+     "discovery": ["https://tcglevel.com/collections/pokemon"]},
     {"nombre": "Sunny Store",
-     "discovery": ["https://sunnystore.es/collections/pokemon/"]},
-    {"nombre": "Sunny Store 2",
-     "discovery": ["https://sunnystore.es/collections/ingles-pok?"]},
-    {"nombre": "Sunny Store 2",
-     "discovery": ["https://sunnystore.es/collections/ingles-pok?"]},
+     "discovery": ["https://sunnystore.es/collections/pokemon"]},
+    {"nombre": "Sunny Store (ingles)",   # el handle parecia cortado: verifica la URL real
+     "discovery": ["https://sunnystore.es/collections/ingles-pok"]},
     {"nombre": "Factory Cards TCG",
-     "discovery": ["https://factorycardstcg.com/collections/comprarcartaspokemon/"]},
+     "discovery": ["https://factorycardstcg.com/collections/comprarcartaspokemon"]},
+    # --- Fuera por robots.txt (prohiben scraping) ---
+    # Friki de Nacimiento (frikidenacimiento.es) -> usar su canal oficial.
+    # only-cards.com -> usar su canal oficial.
 ]
 
-# LO QUE SI QUIERES SEGUIR. El titulo debe contener al menos uno de estos
-# (en minusculas y sin acentos). Anade o quita libremente.
+# LO QUE SI QUIERES SEGUIR (minusculas, sin acentos). Anade o quita libremente.
 TERMINOS_INTERES = [
-    # Tipos de producto
     "etb", "elite trainer", "entrenador elite",
-    # 30 Aniversario / Celebration
     "30 aniversario", "aniversario 30", "30o aniversario",
     "30 celebration", "30 celebracion", "30th",
-    # Sets concretos
     "primer companero", "first partner",
     "caos creciente",
     "fuegos fantasmales",
     "heroes ascendentes", "ascended heroes",
 ]
 
-# Si el titulo contiene cualquiera de estas, se descarta (otros juegos).
 LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
                "digimon", "star wars", "flesh and blood", "altered",
                "riftbound", "yu-gi-oh", "yugioh", "gundam", "heroquest",
-               "mitos y leyendas"]
+               "mitos y leyendas", "union arena"]
 
-SENALES_DISPONIBLE = ["anadir al carrito", "add-to-cart", "comprar ahora",
-                      "single_add_to_cart_button", "reservar", "preventa", "reserva"]
+WOO_MARKERS = ["/producto/", "/product/", "/tienda-tcg/"]
+
+SENALES_DISPONIBLE = ["anadir al carrito", "anadir a la cesta", "agregar al carrito",
+                      "add-to-cart", "comprar ahora", "single_add_to_cart_button",
+                      "reservar", "reserva", "preventa"]
 SENALES_AGOTADO = ["agotado", "sin existencias", "sin stock",
                    "no disponible", "out of stock", "avisadme"]
 
@@ -84,12 +86,9 @@ HEADERS = {
                "image/avif,image/webp,*/*;q=0.8"),
     "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
     "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
 }
 FICHERO_ESTADO = Path("state.json")
-MAX_PRODUCTOS = 80
+MAX_PRODUCTOS = 120
 PAUSA_ENTRE_PETICIONES = 1
 
 # --------------------------------------------------------------------------- #
@@ -115,6 +114,56 @@ def es_interesante(nombre: str) -> bool:
     return any(t in n for t in TERMINOS_INTERES)
 
 
+def fmt_precio(valor) -> str:
+    try:
+        return f"{float(valor):.2f}".replace(".", ",") + " \u20ac"
+    except (TypeError, ValueError):
+        return "comprueba en la web"
+
+
+def es_shopify(url: str) -> bool:
+    return "/collections/" in url
+
+
+# --------------------------------------------------------------------------- #
+# SHOPIFY (via JSON publico)
+# --------------------------------------------------------------------------- #
+
+def revisar_shopify(nombre_tienda: str, coll_url: str) -> list:
+    parts = urlsplit(coll_url)
+    base = f"{parts.scheme}://{parts.netloc}"
+    path = parts.path.rstrip("/")
+    json_url = f"{base}{path}/products.json?limit=250"
+    try:
+        data = json.loads(descargar(json_url))
+    except Exception as e:
+        print(f"[!] {nombre_tienda}: fallo al leer JSON {json_url}: {e}")
+        return []
+    resultados = []
+    for p in data.get("products", []):
+        titulo = p.get("title", "")
+        if not es_interesante(titulo):
+            continue
+        variants = p.get("variants", [])
+        disponible = any(v.get("available") for v in variants)
+        precios = [v.get("price") for v in variants if v.get("price")]
+        precio = fmt_precio(min(map(float, precios))) if precios else None
+        purl = f"{base}/products/{p.get('handle')}"
+        resultados.append((titulo, purl, disponible, precio))
+    print(f"[i] {nombre_tienda} (shopify): {len(resultados)} de interes.")
+    for t, _, _, _ in resultados[:15]:
+        print(f"      candidato: {t}")
+    return resultados
+
+
+# --------------------------------------------------------------------------- #
+# WOOCOMMERCE (via HTML)
+# --------------------------------------------------------------------------- #
+
+def es_link_producto(href: str) -> bool:
+    return any(m in href for m in WOO_MARKERS)
+
+
 def nombre_real(sopa: BeautifulSoup, fallback: str) -> str:
     h1 = sopa.select_one("h1.product_title, h1.entry-title, h1")
     if h1 and h1.get_text(strip=True):
@@ -124,7 +173,7 @@ def nombre_real(sopa: BeautifulSoup, fallback: str) -> str:
     return fallback
 
 
-def extrae_precio(sopa: BeautifulSoup):
+def extrae_precio_html(sopa: BeautifulSoup):
     cont = None
     for sel in [".summary p.price", ".summary .price", "p.price", ".price"]:
         cont = sopa.select_one(sel)
@@ -141,55 +190,48 @@ def extrae_precio(sopa: BeautifulSoup):
     return (m.group(1) + " \u20ac") if m else None
 
 
-# --------------------------------------------------------------------------- #
-# DESCUBRIR Y EVALUAR
-# --------------------------------------------------------------------------- #
-
-def descubrir(tienda: dict) -> dict:
-    encontrados = {}
-    total_links = 0
-    for url in tienda["discovery"]:
-        try:
-            html = descargar(url)
-        except Exception as e:
-            print(f"[!] {tienda['nombre']}: fallo al abrir {url}: {e}")
-            continue
-        sopa = BeautifulSoup(html, "html.parser")
-        for a in sopa.find_all("a", href=True):
-            href = urljoin(url, a["href"])
-            if "/producto/" not in href and "/tienda-tcg/" not in href:
-                continue
-            total_links += 1
-            nombre = a.get_text(strip=True)
-            if nombre and len(nombre) >= 6 and es_interesante(nombre):
-                encontrados.setdefault(href, nombre)
-    print(f"[i] {tienda['nombre']}: {total_links} enlaces de producto, "
-          f"{len(encontrados)} de interes.")
-    for n in list(encontrados.values())[:15]:
-        print(f"      candidato: {n}")
-    return encontrados
-
-
-def evaluar(url: str, fallback: str):
+def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
     try:
-        html = descargar(url)
+        html = descargar(cat_url)
     except Exception as e:
-        print(f"[!] No se pudo abrir {url}: {e}")
-        return None
+        print(f"[!] {nombre_tienda}: fallo al abrir {cat_url}: {e}")
+        return []
     sopa = BeautifulSoup(html, "html.parser")
-    nombre = nombre_real(sopa, fallback)
-    if not es_interesante(nombre):
-        print(f"[x] Descartado (no interesa / lista negra): {nombre}")
-        return None
-    precio = extrae_precio(sopa)
-    texto = normaliza(html)
-    if any(s in texto for s in SENALES_DISPONIBLE):
-        disponible = True
-    elif any(s in texto for s in SENALES_AGOTADO):
-        disponible = False
-    else:
-        disponible = None
-    return nombre, disponible, precio
+    candidatos = {}
+    total = 0
+    for a in sopa.find_all("a", href=True):
+        href = urljoin(cat_url, a["href"])
+        if not es_link_producto(href):
+            continue
+        total += 1
+        nombre = a.get_text(strip=True)
+        if nombre and len(nombre) >= 6 and es_interesante(nombre):
+            candidatos.setdefault(href.split("?")[0], nombre)
+    print(f"[i] {nombre_tienda} (woo): {total} enlaces, {len(candidatos)} de interes.")
+    for n in list(candidatos.values())[:15]:
+        print(f"      candidato: {n}")
+
+    resultados = []
+    for url, fallback in candidatos.items():
+        time.sleep(PAUSA_ENTRE_PETICIONES)
+        try:
+            phtml = descargar(url)
+        except Exception as e:
+            print(f"[!] No se pudo abrir {url}: {e}")
+            continue
+        psopa = BeautifulSoup(phtml, "html.parser")
+        nombre = nombre_real(psopa, fallback)
+        if not es_interesante(nombre):
+            continue
+        texto = normaliza(phtml)
+        if any(s in texto for s in SENALES_DISPONIBLE):
+            disp = True
+        elif any(s in texto for s in SENALES_AGOTADO):
+            disp = False
+        else:
+            disp = None
+        resultados.append((nombre, url, disp, extrae_precio_html(psopa)))
+    return resultados
 
 
 # --------------------------------------------------------------------------- #
@@ -233,28 +275,28 @@ def avisar(nombre: str, tienda: str, url: str, precio) -> None:
 
 def main() -> None:
     estado = cargar_estado()
-    revisados = 0
+    vistos = set()
     for tienda in TIENDAS:
-        for url, fallback in descubrir(tienda).items():
-            if revisados >= MAX_PRODUCTOS:
-                break
-            revisados += 1
-            time.sleep(PAUSA_ENTRE_PETICIONES)
-            resultado = evaluar(url, fallback)
-            if resultado is None:
-                continue
-            nombre, disponible, precio = resultado
-            antes = estado.get(url, {}).get("disponible", False)
-            etiqueta = {True: "DISPONIBLE", False: "agotado",
-                        None: "sin determinar"}[disponible]
-            print(f"[{tienda['nombre']}] {nombre}: {etiqueta}")
-            if disponible and not antes:
-                avisar(nombre, tienda["nombre"], url, precio)
-            if disponible is not None:
-                estado[url] = {"disponible": disponible, "nombre": nombre,
-                               "tienda": tienda["nombre"]}
+        for url in tienda["discovery"]:
+            if es_shopify(url):
+                items = revisar_shopify(tienda["nombre"], url)
+            else:
+                items = revisar_woocommerce(tienda["nombre"], url)
+            for nombre, purl, disponible, precio in items:
+                if purl in vistos or len(vistos) >= MAX_PRODUCTOS:
+                    continue
+                vistos.add(purl)
+                antes = estado.get(purl, {}).get("disponible", False)
+                etiqueta = {True: "DISPONIBLE", False: "agotado",
+                            None: "sin determinar"}[disponible]
+                print(f"[{tienda['nombre']}] {nombre}: {etiqueta}")
+                if disponible and not antes:
+                    avisar(nombre, tienda["nombre"], purl, precio)
+                if disponible is not None:
+                    estado[purl] = {"disponible": disponible, "nombre": nombre,
+                                    "tienda": tienda["nombre"]}
     guardar_estado(estado)
-    print(f"Hecho. {revisados} candidato(s) evaluado(s).")
+    print(f"Hecho. {len(vistos)} producto(s) evaluado(s).")
 
 
 if __name__ == "__main__":
