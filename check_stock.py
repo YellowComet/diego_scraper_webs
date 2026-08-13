@@ -3,12 +3,12 @@
 Monitor de stock Pokemon TCG (ETB y sets concretos) en varias tiendas.
 
 - Respeta robots.txt: antes de tocar una tienda comprueba su robots.txt y, si
-  prohibe el acceso automatizado, la SALTA (no se scrapea).
+  prohibe el acceso automatizado, la SALTA.
 - Detecta la plataforma sola: URL con "/collections/" -> Shopify (JSON);
-  el resto -> WooCommerce/HTML.
+  el resto -> WooCommerce/HTML (con paginacion).
 - Filtro por TERMINOS_INTERES + lista negra.
-
-Anadir tienda = pegar su URL de categoria/coleccion Pokemon en TIENDAS.
+- Avisa por Telegram: reposicion (agotado->disponible) y BAJADA de precio.
+- Reintenta las descargas ante fallos transitorios.
 """
 
 import json
@@ -118,7 +118,9 @@ HEADERS = {
 }
 FICHERO_ESTADO = Path("state.json")
 MAX_PRODUCTOS = 600
+MAX_PAGINAS = 5          # paginas por categoria WooCommerce a recorrer
 PAUSA_ENTRE_PETICIONES = 1
+REINTENTOS = 3           # intentos por descarga ante fallos transitorios
 
 # --------------------------------------------------------------------------- #
 # UTILIDADES
@@ -131,9 +133,23 @@ def normaliza(texto: str) -> str:
 
 
 def descargar(url: str) -> str:
-    resp = httpx.get(url, headers=HEADERS, timeout=25, follow_redirects=True)
-    resp.raise_for_status()
-    return resp.text
+    """Descarga con reintentos. No reintenta errores 4xx (403/404) salvo 429."""
+    ultimo = None
+    for i in range(REINTENTOS):
+        try:
+            resp = httpx.get(url, headers=HEADERS, timeout=25, follow_redirects=True)
+            resp.raise_for_status()
+            return resp.text
+        except httpx.HTTPStatusError as e:
+            code = e.response.status_code
+            if code < 500 and code != 429:
+                raise
+            ultimo = e
+        except Exception as e:
+            ultimo = e
+        if i < REINTENTOS - 1:
+            time.sleep(2 * (i + 1))
+    raise ultimo
 
 
 _robots_cache: dict = {}
@@ -173,6 +189,21 @@ def fmt_precio(valor) -> str:
         return "comprueba en la web"
 
 
+def num_precio(p):
+    """Convierte "54,95 \u20ac" -> 54.95 (o None si no se puede)."""
+    if not p:
+        return None
+    m = re.search(r"(\d{1,4}(?:\.\d{3})*,\d{2}|\d{1,4}[.,]\d{2})", p)
+    if not m:
+        return None
+    v = m.group(1)
+    v = v.replace(".", "").replace(",", ".") if "," in v else v
+    try:
+        return float(v)
+    except ValueError:
+        return None
+
+
 def es_shopify(url: str) -> bool:
     return "/collections/" in url
 
@@ -208,11 +239,21 @@ def revisar_shopify(nombre_tienda: str, coll_url: str) -> list:
 
 
 # --------------------------------------------------------------------------- #
-# WOOCOMMERCE (HTML)
+# WOOCOMMERCE (HTML, con paginacion)
 # --------------------------------------------------------------------------- #
 
 def es_link_producto(href: str) -> bool:
     return any(m in href for m in WOO_MARKERS)
+
+
+def _url_pagina(cat_url: str, n: int) -> str:
+    """Construye la URL de la pagina n de una categoria WooCommerce (page/N/)."""
+    if n <= 1:
+        return cat_url
+    p = urlsplit(cat_url)
+    path = p.path if p.path.endswith("/") else p.path + "/"
+    nueva = f"{p.scheme}://{p.netloc}{path}page/{n}/"
+    return nueva + (f"?{p.query}" if p.query else "")
 
 
 def nombre_real(sopa: BeautifulSoup, fallback: str) -> str:
@@ -242,26 +283,38 @@ def extrae_precio_html(sopa: BeautifulSoup):
 
 
 def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
-    try:
-        html = descargar(cat_url)
-    except Exception as e:
-        print(f"[!] {nombre_tienda}: fallo al abrir {cat_url}: {e}")
-        return []
-    sopa = BeautifulSoup(html, "html.parser")
+    # 1) Descubrir candidatos recorriendo varias paginas de la categoria.
     candidatos = {}
-    total = 0
-    for a in sopa.find_all("a", href=True):
-        href = urljoin(cat_url, a["href"])
-        if not es_link_producto(href):
-            continue
-        total += 1
-        nombre = a.get_text(strip=True)
-        if nombre and len(nombre) >= 6 and es_interesante(nombre):
-            candidatos.setdefault(href.split("?")[0], nombre)
-    print(f"[i] {nombre_tienda} (woo): {total} enlaces, {len(candidatos)} de interes.")
-    for n in list(candidatos.values())[:15]:
-        print(f"      candidato: {n}")
+    total_links = 0
+    for n in range(1, MAX_PAGINAS + 1):
+        page_url = _url_pagina(cat_url, n)
+        try:
+            html = descargar(page_url)
+        except Exception as e:
+            if n == 1:
+                print(f"[!] {nombre_tienda}: fallo al abrir {page_url}: {e}")
+            break  # pagina inexistente (404) -> fin de la categoria
+        sopa = BeautifulSoup(html, "html.parser")
+        enlaces_pagina = 0
+        for a in sopa.find_all("a", href=True):
+            href = urljoin(page_url, a["href"])
+            if not es_link_producto(href):
+                continue
+            enlaces_pagina += 1
+            total_links += 1
+            nombre = a.get_text(strip=True)
+            if nombre and len(nombre) >= 6 and es_interesante(nombre):
+                candidatos.setdefault(href.split("?")[0], nombre)
+        if enlaces_pagina == 0:
+            break  # no hay mas productos
+        if n < MAX_PAGINAS:
+            time.sleep(PAUSA_ENTRE_PETICIONES)
 
+    print(f"[i] {nombre_tienda} (woo): {total_links} enlaces, {len(candidatos)} de interes.")
+    for nm in list(candidatos.values())[:15]:
+        print(f"      candidato: {nm}")
+
+    # 2) Evaluar cada candidato (stock + precio en su ficha).
     resultados = []
     for url, fallback in candidatos.items():
         if not permitido_por_robots(url):
@@ -302,12 +355,7 @@ def guardar_estado(estado: dict) -> None:
                               encoding="utf-8")
 
 
-def avisar(nombre: str, tienda: str, url: str, precio) -> None:
-    p = precio or "comprueba en la web"
-    texto = (f"\U0001F7E2 STOCK: {nombre}\n"
-             f"Tienda: {tienda}\n"
-             f"Precio: {p}\n"
-             f"Comprar: {url}")
+def _enviar_telegram(texto: str, etiqueta_log: str) -> None:
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
     if token and chat_id:
@@ -315,11 +363,28 @@ def avisar(nombre: str, tienda: str, url: str, precio) -> None:
             httpx.post(f"https://api.telegram.org/bot{token}/sendMessage",
                        json={"chat_id": chat_id, "text": texto},
                        timeout=15).raise_for_status()
-            print(f"[OK] Aviso enviado: {nombre}")
+            print(f"[OK] {etiqueta_log}")
             return
         except Exception as e:
             print(f"[!] Fallo enviando a Telegram: {e}")
     print("\n" + "=" * 50 + f"\n{texto}\n" + "=" * 50 + "\n")
+
+
+def avisar(nombre: str, tienda: str, url: str, precio) -> None:
+    p = precio or "comprueba en la web"
+    texto = (f"\U0001F7E2 STOCK: {nombre}\n"
+             f"Tienda: {tienda}\n"
+             f"Precio: {p}\n"
+             f"Comprar: {url}")
+    _enviar_telegram(texto, f"Aviso enviado: {nombre}")
+
+
+def avisar_bajada(nombre: str, tienda: str, url: str, precio, precio_antes) -> None:
+    texto = (f"\U0001F4C9 BAJADA DE PRECIO: {nombre}\n"
+             f"Tienda: {tienda}\n"
+             f"Precio: {precio_antes} \u2192 {precio}\n"
+             f"Comprar: {url}")
+    _enviar_telegram(texto, f"Bajada enviada: {nombre}")
 
 
 # --------------------------------------------------------------------------- #
@@ -342,12 +407,18 @@ def main() -> None:
                 if purl in vistos or len(vistos) >= MAX_PRODUCTOS:
                     continue
                 vistos.add(purl)
-                antes = estado.get(purl, {}).get("disponible", False)
+                info_prev = estado.get(purl, {})
+                antes = info_prev.get("disponible", False)
+                precio_antes = info_prev.get("precio")
                 etiqueta = {True: "DISPONIBLE", False: "agotado",
                             None: "sin determinar"}[disponible]
                 print(f"[{tienda['nombre']}] {nombre}: {etiqueta}")
                 if disponible and not antes:
                     avisar(nombre, tienda["nombre"], purl, precio)
+                elif disponible and antes:
+                    n_new, n_old = num_precio(precio), num_precio(precio_antes)
+                    if n_new is not None and n_old is not None and n_new < n_old - 0.01:
+                        avisar_bajada(nombre, tienda["nombre"], purl, precio, precio_antes)
                 if disponible is not None:
                     estado[purl] = {"disponible": disponible, "nombre": nombre,
                                     "tienda": tienda["nombre"], "precio": precio}
@@ -357,4 +428,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
