@@ -370,21 +370,30 @@ def _enviar_telegram(texto: str, etiqueta_log: str) -> None:
     print("\n" + "=" * 50 + f"\n{texto}\n" + "=" * 50 + "\n")
 
 
-def avisar(nombre: str, tienda: str, url: str, precio) -> None:
-    p = precio or "comprueba en la web"
-    texto = (f"\U0001F7E2 STOCK: {nombre}\n"
-             f"Tienda: {tienda}\n"
-             f"Precio: {p}\n"
-             f"Comprar: {url}")
-    _enviar_telegram(texto, f"Aviso enviado: {nombre}")
+def enviar_resumen(nuevos: list, bajadas: list) -> None:
+    """Envia UN solo mensaje por ronda con el nuevo stock y las bajadas.
+    Si es muy largo (primer run), lo trocea para no pasar el limite de Telegram."""
+    if not nuevos and not bajadas:
+        print("Sin novedades que avisar en esta ronda.")
+        return
+    lineas = []
+    if nuevos:
+        lineas.append(f"\U0001F7E2 Nuevo stock ({len(nuevos)})")
+        for nombre, tienda, url, precio in nuevos:
+            lineas.append(f"\u2022 {nombre} \u2014 {precio or 'ver web'} \u00b7 {tienda}\n{url}")
+    if bajadas:
+        lineas.append(f"\n\U0001F4C9 Bajadas de precio ({len(bajadas)})")
+        for nombre, tienda, url, precio, antes in bajadas:
+            lineas.append(f"\u2022 {nombre} \u2014 {antes} \u2192 {precio} \u00b7 {tienda}\n{url}")
 
-
-def avisar_bajada(nombre: str, tienda: str, url: str, precio, precio_antes) -> None:
-    texto = (f"\U0001F4C9 BAJADA DE PRECIO: {nombre}\n"
-             f"Tienda: {tienda}\n"
-             f"Precio: {precio_antes} \u2192 {precio}\n"
-             f"Comprar: {url}")
-    _enviar_telegram(texto, f"Bajada enviada: {nombre}")
+    buf = ""
+    for ln in lineas:
+        if buf and len(buf) + len(ln) + 1 > 3500:   # limite ~4096 de Telegram
+            _enviar_telegram(buf, "resumen de ronda enviado")
+            buf = ""
+        buf += ("\n" if buf else "") + ln
+    if buf:
+        _enviar_telegram(buf, "resumen de ronda enviado")
 
 
 # --------------------------------------------------------------------------- #
@@ -394,6 +403,7 @@ def avisar_bajada(nombre: str, tienda: str, url: str, precio, precio_antes) -> N
 def main() -> None:
     estado = cargar_estado()
     vistos = set()
+    nuevos, bajadas = [], []
     for tienda in TIENDAS:
         for url in tienda["discovery"]:
             if not permitido_por_robots(url):
@@ -414,16 +424,17 @@ def main() -> None:
                             None: "sin determinar"}[disponible]
                 print(f"[{tienda['nombre']}] {nombre}: {etiqueta}")
                 if disponible and not antes:
-                    avisar(nombre, tienda["nombre"], purl, precio)
+                    nuevos.append((nombre, tienda["nombre"], purl, precio))
                 elif disponible and antes:
                     n_new, n_old = num_precio(precio), num_precio(precio_antes)
                     if n_new is not None and n_old is not None and n_new < n_old - 0.01:
-                        avisar_bajada(nombre, tienda["nombre"], purl, precio, precio_antes)
+                        bajadas.append((nombre, tienda["nombre"], purl, precio, precio_antes))
                 if disponible is not None:
                     estado[purl] = {"disponible": disponible, "nombre": nombre,
                                     "tienda": tienda["nombre"], "precio": precio}
     guardar_estado(estado)
-    print(f"Hecho. {len(vistos)} producto(s) evaluado(s).")
+    enviar_resumen(nuevos, bajadas)
+    print(f"Hecho. {len(vistos)} producto(s). Avisos: {len(nuevos)} stock, {len(bajadas)} bajadas.")
 
 
 if __name__ == "__main__":
