@@ -189,7 +189,7 @@
     "precio": "15,90 €"
   },
   "https://tcglevel.com/products/first-partner-illustration-collections-series-2-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "First Partner Illustration Collections Series 2 Español",
     "tienda": "TCG Level",
     "precio": "29,90 €"
@@ -647,7 +647,7 @@
     "disponible": false,
     "nombre": "[Reserva] First partner Series 3 Illustration Collection | POKÉMON | Español (Primer Compañero)",
     "tienda": "TodoHits",
-    "precio": "40,00 €"
+    "precio": "41,00 €"
   },
   "https://todohits.com/products/first-partner-series-2-illustration-collection-pokemon-chino": {
     "disponible": false,
@@ -713,13 +713,13 @@
     "disponible": false,
     "nombre": "Mini Lata Héroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "20,00 €"
+    "precio": "21,00 €"
   },
   "https://todohits.com/products/blister-2-sobres-heroes-ascendentes-pokemon-espanol": {
     "disponible": false,
     "nombre": "Blister 2 Sobres Héroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "20,00 €"
+    "precio": "21,00 €"
   },
   "https://todohits.com/products/tech-sticker-3-sobres-ascended-heroes-pokemon-ingles": {
     "disponible": false,
@@ -743,7 +743,7 @@
     "disponible": false,
     "nombre": "ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "100,00 €"
+    "precio": "101,00 €"
   },
   "https://todohits.com/products/30-aniversario-pokemon-day-2026-pokemon-espanol": {
     "disponible": false,
@@ -797,13 +797,13 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "706,00 €"
+    "precio": "707,00 €"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-tech-sticker-collection-ascended-heroes-espanol-ingles": {
     "disponible": false,
     "nombre": "Pokémon TCG - Tech Sticker Collection Ascended Heroes (Español & ingles)",
     "tienda": "JJCOLLECTION",
-    "precio": "27,00 €"
+    "precio": "28,00 €"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-blister-2-sobres-enhanced-heroes-ascendentes": {
     "disponible": false,
