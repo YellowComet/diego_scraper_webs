@@ -177,6 +177,59 @@ def actualizar_historico(entradas):
     print(f"[panel] historico: {len(nuevas)} cambio(s).")
 
 
+
+def historial_detallado():
+    """url -> lista de (fecha, precio_num_o_None, disponible_bool) desde history.csv."""
+    h = {}
+    if not HIST.exists():
+        return h
+    try:
+        with HIST.open(encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                disp = str(row.get("disponible", "")).lower() in ("true", "1")
+                h.setdefault(row.get("url"), []).append(
+                    (row.get("fecha", ""), parse_precio(row.get("precio")), disp))
+    except Exception as e:
+        print(f"[panel] no se pudo leer historial detallado: {e}")
+    return h
+
+
+def serie_mejor_precio(group, det):
+    """Reconstruye la trayectoria del MEJOR precio disponible del producto a lo
+    largo del tiempo (a partir de los cambios registrados)."""
+    eventos = []
+    for e in group:
+        for fecha, precio, disp in det.get(e["url"], []):
+            eventos.append((fecha, e["url"], precio, disp))
+    eventos.sort(key=lambda x: x[0])
+    estado_url = {}
+    serie = []
+    for fecha, url, precio, disp in eventos:
+        estado_url[url] = precio if (disp and precio is not None) else None
+        activos = [p for p in estado_url.values() if p is not None]
+        if activos:
+            mejor = min(activos)
+            if not serie or abs(serie[-1] - mejor) > 0.001:
+                serie.append(mejor)
+    return serie
+
+
+def sparkline(vals, w=140, h=30):
+    if len(vals) < 2:
+        return ""
+    lo, hi = min(vals), max(vals)
+    rng = (hi - lo) or 1.0
+    n = len(vals)
+    pts = " ".join(
+        f"{i/(n-1)*w:.1f},{h-3 - (v-lo)/rng*(h-6):.1f}" for i, v in enumerate(vals))
+    color = "#7ee787" if vals[-1] <= vals[0] else "#e5776f"
+    fp = lambda x: f"{x:.2f}".replace(".", ",")
+    return (f'<div class="spark"><svg viewBox="0 0 {w} {h}" width="100%" height="{h}" '
+            f'preserveAspectRatio="none"><polyline fill="none" stroke="{color}" '
+            f'stroke-width="1.5" points="{pts}"/></svg>'
+            f'<small>hist. {fp(lo)}\u2013{fp(hi)} \u20ac</small></div>')
+
+
 def _media(group, lang):
     ofs = sorted([e for e in group if e["idioma"] == lang and e["disponible"]
                   and e["precio_num"] is not None], key=lambda e: e["precio_num"])
@@ -191,23 +244,25 @@ def _media(group, lang):
     return f'<div class="lang na"><span class="lg">{lang}</span><span>&mdash;</span></div>'
 
 
-def _tarjeta(display, group, es_min=False):
+def _tarjeta(display, group, es_min=False, serie=None):
     disp = any(e["disponible"] for e in group)
     cls = "card" if disp else "card off"
     precios = [e["precio_num"] for e in group if e["disponible"] and e["precio_num"] is not None]
     dprice = f"{min(precios):.2f}" if precios else ""
     dname = normaliza(display + " " + (group[0].get("set") or ""))
     badge = ' <span class="badge">&#11015; minimo historico</span>' if es_min else ""
+    grafica = sparkline(serie) if serie else ""
     return (f'<div class="{cls}" data-name="{dname}" data-avail="{1 if disp else 0}" '
             f'data-price="{dprice}" data-min="{1 if es_min else 0}">'
             f'<h3>{display}{badge}</h3>'
-            f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div></div>')
+            f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div>{grafica}</div>')
 
 
-def _seccion(titulo, grupos, min_keys):
+def _seccion(titulo, grupos, min_keys, series):
     def hay_disp(g): return any(e["disponible"] for e in g)
     orden = sorted(grupos.items(), key=lambda kv: (not hay_disp(kv[1]), kv[0]))
-    tarjetas = "".join(_tarjeta(g[0]["display"], g, k in min_keys) for k, g in orden)
+    tarjetas = "".join(
+        _tarjeta(g[0]["display"], g, k in min_keys, series.get(k)) for k, g in orden)
     return (f'<section><h2>{titulo} <small>({len(orden)})</small></h2>'
             f'<div class="wrap">{tarjetas}</div></section>')
 
@@ -217,7 +272,7 @@ CONTROLS_CSS = """
 .controls input[type=text]{flex:1;min-width:180px;padding:8px 10px;border-radius:8px;border:1px solid #262b36;background:#171a21;color:#e8e8ea}
 .controls select{padding:8px;border-radius:8px;border:1px solid #262b36;background:#171a21;color:#e8e8ea}
 .controls label{color:#9aa0ad;font-size:13px;display:flex;gap:6px;align-items:center}
-.badge{display:inline-block;margin-left:6px;font-size:10px;font-weight:700;color:#0f1115;background:#7ee787;border-radius:6px;padding:1px 6px;vertical-align:middle}
+.badge{display:inline-block;margin-left:6px;font-size:10px;font-weight:700;color:#0f1115;background:#7ee787;border-radius:6px;padding:1px 6px;vertical-align:middle}\n.spark{margin-top:10px}.spark small{display:block;color:#6b7280;font-size:10px;margin-top:2px;text-align:right}
 """
 CONTROLS_HTML = """
 <div class="controls">
@@ -268,9 +323,11 @@ def genera_panel(entradas):
         destino = secciones[e["set"]] if e["set"] in SETS_INTERES else otros
         destino.setdefault(e["key"], []).append(e)
 
-    # Minimo historico: precio actual <= minimo previo Y ha estado mas caro antes.
+    # Minimo historico + serie de evolucion por producto (usa history.csv).
     hist = historial_por_url()
+    det = historial_detallado()
     min_keys = set()
+    series = {}
     for grupos in list(secciones.values()) + [otros]:
         for key, g in grupos.items():
             actual = [e["precio_num"] for e in g if e["disponible"] and e["precio_num"] is not None]
@@ -279,11 +336,14 @@ def genera_panel(entradas):
                 cur = min(actual)
                 if cur <= min(previos) + 0.001 and max(previos) > cur + 0.001:
                     min_keys.add(key)
+            serie = serie_mejor_precio(g, det)
+            if len(serie) >= 2:
+                series[key] = serie
 
     html_secciones = "".join(
-        _seccion(c, secciones[c], min_keys) for c in COLECCIONES if secciones[c])
+        _seccion(c, secciones[c], min_keys, series) for c in COLECCIONES if secciones[c])
     if otros:
-        html_secciones += _seccion("Otros (sin identificar)", otros, min_keys)
+        html_secciones += _seccion("Otros (sin identificar)", otros, min_keys, series)
 
     disp = sum(1 for e in visibles if e["disponible"])
     fecha = datetime.now(timezone.utc).astimezone().strftime("%d/%m/%Y %H:%M")
