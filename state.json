@@ -1097,7 +1097,7 @@
     "disponible": true,
     "nombre": "COLECCIÓN ILUSTRACIÓN - PRIMER COMPAÑERO (SERIE 3) [ES]",
     "tienda": "UNSOBREMAS",
-    "precio": "34,95 €"
+    "precio": "32,95 €"
   },
   "https://unsobremas.com/products/coleccion-ilustracion-primer-companero-serie-1-es": {
     "disponible": false,
@@ -1224,5 +1224,47 @@
     "nombre": "Case x6 Primer Compañero Serie 3 Español",
     "tienda": "Darizard9",
     "precio": "179,99 €"
+  },
+  "https://ozjuegos.com/producto/pokemon-tcg-coleccion-con-poster-premium-de-mega-gardevoir-megaevolucion-heroes-ascendentes/": {
+    "disponible": true,
+    "nombre": "Pokémon TCG – Colección con poster premium de Mega-Gardevoir – Megaevolución-Héroes Ascendentes",
+    "tienda": "OZ Juegos",
+    "precio": "74,95 €"
+  },
+  "https://ozjuegos.com/producto/pokemon-tcg-coleccion-con-poster-premium-de-mega-lucario-megaevolucion-heroes-ascendentes/": {
+    "disponible": true,
+    "nombre": "Pokémon TCG – Colección con poster premium de Mega-Lucario – Megaevolución-Héroes Ascendentes",
+    "tienda": "OZ Juegos",
+    "precio": "74,95 €"
+  },
+  "https://ozjuegos.com/producto/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-espanol/": {
+    "disponible": true,
+    "nombre": "Pokemon TCG – Colección Ilustración Primer Compañero (serie 3) (Español)",
+    "tienda": "OZ Juegos",
+    "precio": "24,95 €"
+  },
+  "https://flashstore.es/producto/first-partner-illustration-collection-series-2/": {
+    "disponible": true,
+    "nombre": "First Partner Illustration Collection Series 2",
+    "tienda": "Flash Store",
+    "precio": "29,90 €"
+  },
+  "https://flashstore.es/producto/heroes-ascendentes-display-mini-lata/": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes Display Mini Lata",
+    "tienda": "Flash Store",
+    "precio": "229,90 €"
+  },
+  "https://flashstore.es/producto/first-partner-illustration-collection-series-1/": {
+    "disponible": true,
+    "nombre": "First Partner Illustration Collection Series 1",
+    "tienda": "Flash Store",
+    "precio": "37,90 €"
+  },
+  "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-gardevoir/": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes Premium Poster Collection Gardevoir",
+    "tienda": "Flash Store",
+    "precio": "74,90 €"
   }
 }
