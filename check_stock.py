@@ -101,6 +101,26 @@ LISTA_NEGRA = ["one piece", "dragon ball", "magic", "lorcana", "naruto",
                "riftbound", "yu-gi-oh", "yugioh", "gundam", "heroquest",
                "mitos y leyendas", "union arena", "25th", "chino"]
 
+# Lista de deseos: avisa AL INSTANTE si un producto concreto baja de tu precio
+# objetivo. Casa por PALABRAS: todas las de "terminos" deben aparecer en el
+# titulo (minusculas, sin acentos); "excluir" es opcional. Pon la lista vacia
+# para desactivarla. Ejemplos (edita a tu gusto):
+LISTA_DESEOS = [
+    # First Partner (cualquier serie 1/2/3), en espanol, <= 30 EUR
+    {"nombre": "First Partner (ES)",
+     "terminos": ["first partner|primer companero"],
+     "excluir": ["ingles"], "max": 30.0},
+    # ETB Heroes Ascendentes, en espanol, <= 55 EUR
+    {"nombre": "ETB Heroes Ascendentes (ES)",
+     "terminos": ["etb|elite trainer|entrenador elite", "heroes ascendentes|ascended heroes"],
+     "excluir": ["ingles"], "max": 55.0},
+    # Cajas EX de Heroes Ascendentes (Meganium/Emboar/Feraligatr), en espanol, <= 45 EUR
+    {"nombre": "EX Box Heroes Ascendentes (ES)",
+     "terminos": ["ex box", "heroes ascendentes|ascended heroes"],
+     "excluir": ["ingles"], "max": 45.0},
+]
+
+
 WOO_MARKERS = ["/producto/", "/product/", "/tienda-tcg/"]
 
 SENALES_DISPONIBLE = ["anadir al carrito", "anadir a la cesta", "agregar al carrito",
@@ -202,6 +222,17 @@ def num_precio(p):
         return float(v)
     except ValueError:
         return None
+
+
+def objetivo_para(nombre: str, deseos: list):
+    """Precio objetivo (el mas bajo) entre los deseos que casan con el titulo, o None.
+    Cada termino admite alternativas separadas por "|" (vale cualquiera de ellas)."""
+    n = normaliza(nombre)
+    def casa(term):
+        return any(alt in n for alt in term.split("|"))
+    maxes = [w["max"] for w in deseos
+             if all(casa(t) for t in w["terminos"]) and not any(x in n for x in w["excluir"])]
+    return min(maxes) if maxes else None
 
 
 def es_shopify(url: str) -> bool:
@@ -370,10 +401,10 @@ def _enviar_telegram(texto: str, etiqueta_log: str) -> None:
     print("\n" + "=" * 50 + f"\n{texto}\n" + "=" * 50 + "\n")
 
 
-def enviar_resumen(nuevos: list, bajadas: list) -> None:
+def enviar_resumen(nuevos: list, bajadas: list, objetivos: list) -> None:
     """Envia UN solo mensaje por ronda con el nuevo stock y las bajadas.
     Si es muy largo (primer run), lo trocea para no pasar el limite de Telegram."""
-    if not nuevos and not bajadas:
+    if not nuevos and not bajadas and not objetivos:
         print("Sin novedades que avisar en esta ronda.")
         return
     lineas = []
@@ -385,6 +416,10 @@ def enviar_resumen(nuevos: list, bajadas: list) -> None:
         lineas.append(f"\n\U0001F4C9 Bajadas de precio ({len(bajadas)})")
         for nombre, tienda, url, precio, antes in bajadas:
             lineas.append(f"\u2022 {nombre} \u2014 {antes} \u2192 {precio} \u00b7 {tienda}\n{url}")
+    if objetivos:
+        lineas.append(f"\n\U0001F3AF Precio objetivo ({len(objetivos)})")
+        for nombre, tienda, url, precio, target in objetivos:
+            lineas.append(f"\u2022 {nombre} \u2014 {precio} (objetivo \u2264 {fmt_precio(target)}) \u00b7 {tienda}\n{url}")
 
     buf = ""
     for ln in lineas:
@@ -403,7 +438,11 @@ def enviar_resumen(nuevos: list, bajadas: list) -> None:
 def main() -> None:
     estado = cargar_estado()
     vistos = set()
-    nuevos, bajadas = [], []
+    nuevos, bajadas, objetivos = [], [], []
+    deseos = [{"nombre": w["nombre"], "max": w["max"],
+               "terminos": [normaliza(t) for t in w["terminos"]],
+               "excluir": [normaliza(x) for x in w.get("excluir", [])]}
+              for w in LISTA_DESEOS]
     for tienda in TIENDAS:
         for url in tienda["discovery"]:
             if not permitido_por_robots(url):
@@ -423,18 +462,30 @@ def main() -> None:
                 etiqueta = {True: "DISPONIBLE", False: "agotado",
                             None: "sin determinar"}[disponible]
                 print(f"[{tienda['nombre']}] {nombre}: {etiqueta}")
+                n_new = num_precio(precio)
                 if disponible and not antes:
                     nuevos.append((nombre, tienda["nombre"], purl, precio))
                 elif disponible and antes:
-                    n_new, n_old = num_precio(precio), num_precio(precio_antes)
+                    n_old = num_precio(precio_antes)
                     if n_new is not None and n_old is not None and n_new < n_old - 0.01:
                         bajadas.append((nombre, tienda["nombre"], purl, precio, precio_antes))
+                # Precio objetivo (lista de deseos): avisar al cruzar (o bajar mas).
+                target = objetivo_para(nombre, deseos)
+                obj_prev = info_prev.get("obj")
+                obj_now = None
+                if target is not None and disponible and n_new is not None and n_new <= target + 0.001:
+                    if obj_prev is None or n_new < obj_prev - 0.01:
+                        objetivos.append((nombre, tienda["nombre"], purl, precio, target))
+                    obj_now = n_new
                 if disponible is not None:
-                    estado[purl] = {"disponible": disponible, "nombre": nombre,
-                                    "tienda": tienda["nombre"], "precio": precio}
+                    entry = {"disponible": disponible, "nombre": nombre,
+                             "tienda": tienda["nombre"], "precio": precio}
+                    if obj_now is not None:
+                        entry["obj"] = obj_now
+                    estado[purl] = entry
     guardar_estado(estado)
-    enviar_resumen(nuevos, bajadas)
-    print(f"Hecho. {len(vistos)} producto(s). Avisos: {len(nuevos)} stock, {len(bajadas)} bajadas.")
+    enviar_resumen(nuevos, bajadas, objetivos)
+    print(f"Hecho. {len(vistos)} producto(s). Avisos: {len(nuevos)} stock, {len(bajadas)} bajadas, {len(objetivos)} objetivos.")
 
 
 if __name__ == "__main__":
