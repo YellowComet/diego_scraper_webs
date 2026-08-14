@@ -49,7 +49,8 @@
     "disponible": true,
     "nombre": "First Partner Illustration Collection Series 2 (Español)",
     "tienda": "Reino de Cartas",
-    "precio": "29,99 €"
+    "precio": "29,99 €",
+    "obj": 29.99
   },
   "https://flashstore.es/producto/first-partner-illustration-collection-series-3/": {
     "disponible": true,
@@ -67,7 +68,8 @@
     "disponible": true,
     "nombre": "Colección Ilustración · Primer Compañero · serie 2 | Pokémon TCG",
     "tienda": "The Card Station",
-    "precio": "29,95 €"
+    "precio": "29,95 €",
+    "obj": 29.95
   },
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-3-espanol": {
     "disponible": true,
@@ -79,16 +81,18 @@
     "disponible": true,
     "nombre": "Caja First Partner Colección Ilustración Primer Compañero Serie 2 - Español",
     "tienda": "CardZone",
-    "precio": "29,95 €"
+    "precio": "29,95 €",
+    "obj": 29.95
   },
   "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol": {
     "disponible": true,
     "nombre": "Caja Mega EX Box Héroes Ascendentes - Español",
     "tienda": "CardZone",
-    "precio": "35,95 €"
+    "precio": "35,95 €",
+    "obj": 35.95
   },
   "https://cardzone.es/products/blister-heroes-ascendentes-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blister Pokemon Héroes Ascendentes - Español",
     "tienda": "CardZone",
     "precio": "19,95 €"
@@ -216,7 +220,8 @@
     "disponible": true,
     "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 3 (ESPAÑOL) - PRIMER COMPAÑERO",
     "tienda": "Sunny Store",
-    "precio": "29,90 €"
+    "precio": "29,90 €",
+    "obj": 29.9
   },
   "https://sunnystore.es/products/etb-pokemon-oscuridad-absoluta-elite-trainer-box-espanol": {
     "disponible": true,
@@ -329,13 +334,15 @@
     "disponible": true,
     "nombre": "PRIMER COMPAÑERO Pokémon series 3 ESPAÑOL",
     "tienda": "Factory Cards TCG",
-    "precio": "29,95 €"
+    "precio": "29,95 €",
+    "obj": 29.95
   },
   "https://factorycardstcg.com/products/primer-companero-pokemon-series-2-espanol": {
     "disponible": true,
     "nombre": "PRIMER COMPAÑERO Pokémon series 2 ESPAÑOL",
     "tienda": "Factory Cards TCG",
-    "precio": "29,95 €"
+    "precio": "29,95 €",
+    "obj": 29.95
   },
   "https://factorycardstcg.com/products/pokemon-bundle-heroes-ascendentes-espanol": {
     "disponible": false,
@@ -407,7 +414,8 @@
     "disponible": true,
     "nombre": "Pokémon Bundle First Partner",
     "tienda": "Alfriki",
-    "precio": "29,99 €"
+    "precio": "29,99 €",
+    "obj": 29.99
   },
   "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-6-anos": {
     "disponible": true,
@@ -1217,7 +1225,8 @@
     "disponible": true,
     "nombre": "Primer Compañero Serie 3 Español",
     "tienda": "Darizard9",
-    "precio": "29,99 €"
+    "precio": "29,99 €",
+    "obj": 29.99
   },
   "https://www.darizard9.com/products/case-x6-primer-companero-serie-3-espanol": {
     "disponible": true,
@@ -1241,13 +1250,15 @@
     "disponible": true,
     "nombre": "Pokemon TCG – Colección Ilustración Primer Compañero (serie 3) (Español)",
     "tienda": "OZ Juegos",
-    "precio": "24,95 €"
+    "precio": "24,95 €",
+    "obj": 24.95
   },
   "https://flashstore.es/producto/first-partner-illustration-collection-series-2/": {
     "disponible": true,
     "nombre": "First Partner Illustration Collection Series 2",
     "tienda": "Flash Store",
-    "precio": "29,90 €"
+    "precio": "29,90 €",
+    "obj": 29.9
   },
   "https://flashstore.es/producto/heroes-ascendentes-display-mini-lata/": {
     "disponible": true,
