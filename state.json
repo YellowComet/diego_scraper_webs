@@ -10,28 +10,28 @@
     "tienda": "Reino de Cartas"
   },
   "https://ozjuegos.com/producto/pokemon-blister-heroes-ascendentes-espanol-charmander/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Charmander",
     "tienda": "OZ Juegos",
     "precio": "24,95 €",
     "img": "https://ozjuegos.com/wp-content/uploads/2026/02/blister-con-pegatina-heroes-ascendentes_11539496_xl.png"
   },
   "https://ozjuegos.com/producto/pokemon-blister-heroes-ascendentes-espanol-gastly/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Gastly",
     "tienda": "OZ Juegos",
     "precio": "24,95 €",
     "img": "https://ozjuegos.com/wp-content/uploads/2026/02/Pokemon-Ascended-Heroes-Tech-Sticker-Collection-Gastly-600x600-removebg-preview_grande.webp"
   },
   "https://ozjuegos.com/producto/pokemon-blister-heroes-ascendentes-espanol-komala/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Komala",
     "tienda": "OZ Juegos",
     "precio": "17,95 €",
     "img": "https://ozjuegos.com/wp-content/uploads/2026/01/Blister-de-2-sobres-con-moneda-Heroes-Ascendentes.webp"
   },
   "https://ozjuegos.com/producto/pokemon-blister-heroes-ascendentes-espanol-tangela/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Tangela",
     "tienda": "OZ Juegos",
     "precio": "17,95 €",
@@ -1422,25 +1422,24 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/938074_001_031126_1_1.jpg?v=1786605215"
   },
   "https://ozjuegos.com/producto/pokemon-tcg-coleccion-con-poster-premium-de-mega-gardevoir-megaevolucion-heroes-ascendentes/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon TCG – Colección con poster premium de Mega-Gardevoir – Megaevolución-Héroes Ascendentes",
     "tienda": "OZ Juegos",
     "precio": "74,95 €",
     "img": "https://ozjuegos.com/wp-content/uploads/2026/04/91w4okXtL-L._AC_SX300_SY300_QL70_ML2_.jpg"
   },
   "https://ozjuegos.com/producto/pokemon-tcg-coleccion-con-poster-premium-de-mega-lucario-megaevolucion-heroes-ascendentes/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon TCG – Colección con poster premium de Mega-Lucario – Megaevolución-Héroes Ascendentes",
     "tienda": "OZ Juegos",
     "precio": "74,95 €",
     "img": "https://ozjuegos.com/wp-content/uploads/2026/04/91GGLjcbISL._AC_SL1500_-scaled.jpg"
   },
   "https://ozjuegos.com/producto/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-espanol/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokemon TCG – Colección Ilustración Primer Compañero (serie 3) (Español)",
     "tienda": "OZ Juegos",
     "precio": "24,95 €",
-    "obj": 24.95,
     "img": "https://ozjuegos.com/wp-content/uploads/2026/08/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg-cardzone-scaled.webp"
   },
   "https://flashstore.es/producto/first-partner-illustration-collection-series-2/": {
