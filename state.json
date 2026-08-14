@@ -13,25 +13,29 @@
     "disponible": true,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Charmander",
     "tienda": "OZ Juegos",
-    "precio": "24,95 €"
+    "precio": "24,95 €",
+    "img": "https://ozjuegos.com/wp-content/uploads/2026/02/blister-con-pegatina-heroes-ascendentes_11539496_xl.png"
   },
   "https://ozjuegos.com/producto/pokemon-blister-heroes-ascendentes-espanol-gastly/": {
     "disponible": true,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Gastly",
     "tienda": "OZ Juegos",
-    "precio": "24,95 €"
+    "precio": "24,95 €",
+    "img": "https://ozjuegos.com/wp-content/uploads/2026/02/Pokemon-Ascended-Heroes-Tech-Sticker-Collection-Gastly-600x600-removebg-preview_grande.webp"
   },
   "https://ozjuegos.com/producto/pokemon-blister-heroes-ascendentes-espanol-komala/": {
     "disponible": true,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Komala",
     "tienda": "OZ Juegos",
-    "precio": "17,95 €"
+    "precio": "17,95 €",
+    "img": "https://ozjuegos.com/wp-content/uploads/2026/01/Blister-de-2-sobres-con-moneda-Heroes-Ascendentes.webp"
   },
   "https://ozjuegos.com/producto/pokemon-blister-heroes-ascendentes-espanol-tangela/": {
     "disponible": true,
     "nombre": "Pokémon – Blister Héroes Ascendentes Español – Tangela",
     "tienda": "OZ Juegos",
-    "precio": "17,95 €"
+    "precio": "17,95 €",
+    "img": "https://ozjuegos.com/wp-content/uploads/2026/01/Blister-de-2-sobres-con-moneda-Heroes-Ascendentes-2.webp"
   },
   "https://reinodecartas.com/tienda-tcg/pokemon-tcg/pokemon-151-first-partner-gift-box-squirtle-chino/": {
     "disponible": true,
@@ -50,7 +54,8 @@
     "nombre": "First Partner Illustration Collection Series 2 (Español)",
     "tienda": "Reino de Cartas",
     "precio": "29,99 €",
-    "obj": 29.99
+    "obj": 29.99,
+    "img": "https://reinodecartas.com/wp-content/uploads/2026/05/P11445-3D_First_Partner_Illustration_Collection_Series_2_Front_DOM_INTL_EN-3468x3399-09276f8-1.webp"
   },
   "https://flashstore.es/producto/first-partner-illustration-collection-series-3/": {
     "disponible": true,
@@ -63,14 +68,16 @@
     "disponible": true,
     "nombre": "ex Box · Mega-Meganium · Mega-Emboar · Mega-Feraligatr · Ascended Heroes (ENG) | Pokémon TCG",
     "tienda": "The Card Station",
-    "precio": "52,95 €"
+    "precio": "52,95 €",
+    "img": "https://i0.wp.com/thecardstation.es/wp-content/uploads/2026/05/G8jvwmpWAAEc_8Z.jpg"
   },
   "https://thecardstation.es/product/coleccion-ilustracion-%c2%b7-primer-companero-%c2%b7-serie-2-pokemon-tcg/": {
     "disponible": true,
     "nombre": "Colección Ilustración · Primer Compañero · serie 2 | Pokémon TCG",
     "tienda": "The Card Station",
     "precio": "29,95 €",
-    "obj": 29.95
+    "obj": 29.95,
+    "img": "https://i0.wp.com/thecardstation.es/wp-content/uploads/2026/06/firstpartner2.webp"
   },
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-3-espanol": {
     "disponible": true,
@@ -1418,20 +1425,23 @@
     "disponible": true,
     "nombre": "Pokémon TCG – Colección con poster premium de Mega-Gardevoir – Megaevolución-Héroes Ascendentes",
     "tienda": "OZ Juegos",
-    "precio": "74,95 €"
+    "precio": "74,95 €",
+    "img": "https://ozjuegos.com/wp-content/uploads/2026/04/91w4okXtL-L._AC_SX300_SY300_QL70_ML2_.jpg"
   },
   "https://ozjuegos.com/producto/pokemon-tcg-coleccion-con-poster-premium-de-mega-lucario-megaevolucion-heroes-ascendentes/": {
     "disponible": true,
     "nombre": "Pokémon TCG – Colección con poster premium de Mega-Lucario – Megaevolución-Héroes Ascendentes",
     "tienda": "OZ Juegos",
-    "precio": "74,95 €"
+    "precio": "74,95 €",
+    "img": "https://ozjuegos.com/wp-content/uploads/2026/04/91GGLjcbISL._AC_SL1500_-scaled.jpg"
   },
   "https://ozjuegos.com/producto/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-espanol/": {
     "disponible": true,
     "nombre": "Pokemon TCG – Colección Ilustración Primer Compañero (serie 3) (Español)",
     "tienda": "OZ Juegos",
     "precio": "24,95 €",
-    "obj": 24.95
+    "obj": 24.95,
+    "img": "https://ozjuegos.com/wp-content/uploads/2026/08/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg-cardzone-scaled.webp"
   },
   "https://flashstore.es/producto/first-partner-illustration-collection-series-2/": {
     "disponible": true,
