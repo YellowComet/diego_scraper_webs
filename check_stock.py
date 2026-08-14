@@ -127,7 +127,7 @@ SENALES_DISPONIBLE = ["anadir al carrito", "anadir a la cesta", "agregar al carr
                       "add-to-cart", "comprar ahora", "single_add_to_cart_button",
                       "reservar", "reserva", "preventa"]
 SENALES_AGOTADO = ["agotado", "sin existencias", "sin stock",
-                   "no disponible", "out of stock", "avisadme", "avísame", "avisame", "sin existencias"]
+                   "no disponible", "out of stock", "avisadme"]
 
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -262,9 +262,14 @@ def revisar_shopify(nombre_tienda: str, coll_url: str) -> list:
         precios = [v.get("price") for v in variants if v.get("price")]
         precio = fmt_precio(min(map(float, precios))) if precios else None
         purl = f"{base}/products/{p.get('handle')}"
-        resultados.append((titulo, purl, disponible, precio))
+        imgs = p.get("images") or []
+        img = ""
+        if imgs:
+            primera = imgs[0]
+            img = primera.get("src", "") if isinstance(primera, dict) else str(primera)
+        resultados.append((titulo, purl, disponible, precio, img))
     print(f"[i] {nombre_tienda} (shopify): {len(resultados)} de interes.")
-    for t, _, _, _ in resultados[:15]:
+    for t, *_ in resultados[:15]:
         print(f"      candidato: {t}")
     return resultados
 
@@ -367,7 +372,9 @@ def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
             disp = False
         else:
             disp = None
-        resultados.append((nombre, url, disp, extrae_precio_html(psopa)))
+        og = psopa.select_one('meta[property="og:image"]')
+        img = og.get("content", "") if og else ""
+        resultados.append((nombre, url, disp, extrae_precio_html(psopa), img))
     return resultados
 
 
@@ -452,7 +459,7 @@ def main() -> None:
                 items = revisar_shopify(tienda["nombre"], url)
             else:
                 items = revisar_woocommerce(tienda["nombre"], url)
-            for nombre, purl, disponible, precio in items:
+            for nombre, purl, disponible, precio, img in items:
                 if purl in vistos or len(vistos) >= MAX_PRODUCTOS:
                     continue
                 vistos.add(purl)
@@ -482,6 +489,8 @@ def main() -> None:
                              "tienda": tienda["nombre"], "precio": precio}
                     if obj_now is not None:
                         entry["obj"] = obj_now
+                    if img:
+                        entry["img"] = img
                     estado[purl] = entry
     guardar_estado(estado)
     enviar_resumen(nuevos, bajadas, objetivos)
