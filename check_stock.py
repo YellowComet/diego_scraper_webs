@@ -318,6 +318,35 @@ def extrae_precio_html(sopa: BeautifulSoup):
     return (m.group(1) + " \u20ac") if m else None
 
 
+def _stock_woo(sopa):
+    """Disponibilidad del PRODUCTO PRINCIPAL en una ficha WooCommerce.
+    Evita falsos positivos por los productos relacionados / carruseles."""
+    # 1) Positivo fuerte: boton de compra del formulario principal (no deshabilitado).
+    boton = sopa.select_one("form.cart button.single_add_to_cart_button, "
+                            "form.cart button[name='add-to-cart']")
+    if boton is not None and not boton.has_attr("disabled"):
+        return True
+    if sopa.select_one("p.stock.in-stock, .stock.in-stock"):
+        return True
+    # 2) Positivo acotado al bloque del producto (no a toda la pagina).
+    resumen = sopa.select_one("div.summary, .entry-summary, .product-summary")
+    if resumen is not None:
+        rt = normaliza(resumen.get_text(" "))
+        if any(x in rt for x in ["anadir al carrito", "anadir a la cesta",
+                                 "agregar al carrito", "comprar ahora",
+                                 "reservar", "preventa"]):
+            return True
+    # 3) Negativo: clase o texto de agotado / "avisame".
+    if sopa.select_one("p.stock.out-of-stock, .stock.out-of-stock"):
+        return False
+    txt = normaliza(sopa.get_text(" "))
+    if any(x in txt for x in ["agotado", "sin existencias", "sin stock", "no disponible",
+                              "fuera de stock", "avisame", "avisadme",
+                              "cuando haya existencias", "notificarme"]):
+        return False
+    return None
+
+
 def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
     # 1) Descubrir candidatos recorriendo varias paginas de la categoria.
     candidatos = {}
@@ -365,13 +394,7 @@ def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
         nombre = nombre_real(psopa, fallback)
         if not es_interesante(nombre):
             continue
-        texto = normaliza(phtml)
-        if any(s in texto for s in SENALES_DISPONIBLE):
-            disp = True
-        elif any(s in texto for s in SENALES_AGOTADO):
-            disp = False
-        else:
-            disp = None
+        disp = _stock_woo(psopa)
         og = psopa.select_one('meta[property="og:image"]')
         img = og.get("content", "") if og else ""
         resultados.append((nombre, url, disp, extrae_precio_html(psopa), img))
