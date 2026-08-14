@@ -127,7 +127,7 @@ SENALES_DISPONIBLE = ["anadir al carrito", "anadir a la cesta", "agregar al carr
                       "add-to-cart", "comprar ahora", "single_add_to_cart_button",
                       "reservar", "reserva", "preventa"]
 SENALES_AGOTADO = ["agotado", "sin existencias", "sin stock",
-                   "no disponible", "out of stock", "avisadme"]
+                   "no disponible", "out of stock", "avisadme", "avísame", "avisame", "sin existencias"]
 
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
