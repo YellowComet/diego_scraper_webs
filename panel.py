@@ -88,6 +88,10 @@ POKEMON = ["charizard", "charmander", "gastly", "gengar", "komala", "tangela",
            "sneasel", "weavile", "meganium", "emboar", "feraligatr", "gardevoir",
            "lucario", "erika", "larry", "umbreon", "espeon", "pikachu",
            "bulbasaur", "squirtle", "dragapult", "mewtwo", "koraidon", "miraidon"]
+# Distintas tiendas nombran la misma coleccion por promos distintos.
+# Se unifican a un nombre canonico (edita para cambiar cual se conserva):
+VARIANTE_ALIAS = {"charizard": "charmander", "gengar": "gastly", "larry": "komala"}
+
 TIPOS_CON_VARIANTE = {"EX Box", "Poster", "Pin Collection", "UPC",
                       "Coleccion Pegatinas", "Gift Box"}
 
@@ -108,8 +112,9 @@ def _serie(n):
     return ""
 
 def _variante(n):
-    vs = sorted({p for p in POKEMON if re.search(r"\b" + p, n)})
-    # Solo distinguimos por variante cuando el titulo nombra UN unico Pokemon.
+    vs = {p for p in POKEMON if re.search(r"\b" + p, n)}
+    vs = sorted({VARIANTE_ALIAS.get(x, x) for x in vs})   # unificar alias
+    # Solo distinguimos por variante cuando queda UN unico promo.
     # Con varios (packs combinados) o ninguno -> ficha generica del tipo.
     return f" ({vs[0]})" if len(vs) == 1 else ""
 
