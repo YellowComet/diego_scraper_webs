@@ -64,18 +64,19 @@ TIPOS = [
                              "caja entrenador"]),
     ("Booster Bundle",      ["booster bundle", "bundle"]),
     ("Caja 36",             ["36 sobres", "caja de 36", "booster box", "display"]),
-    ("Tech Sticker",        ["tech sticker"]),
     ("Pin Collection",      ["pin deluxe", "deluxe pin", "pin collection", "caja con pin"]),
     ("Poster",              ["poster collection", "premium poster", "poster"]),
-    ("Coleccion Pegatinas", ["pegatinas especiales", "special sticker", "pegatinas"]),
     ("Coleccion Ilustracion",["coleccion ilustracion", "illustration collection", "collection box",
                               "caja first partner", "card set"]),
     ("Special Collection",  ["special collection", "pokemon day", "dia de pokemon", "day 2026",
                              "special day"]),
+    # Blister de pegatinas = Tech Sticker Collection = Coleccion con Pegatinas
+    # Especiales: MISMO producto, distintos nombres segun tienda -> un solo tipo.
+    ("Coleccion Pegatinas", ["tech sticker", "pegatinas especiales", "special sticker",
+                             "pegatinas", "blister"]),
     ("Mini Lata",           ["mini lata", "mini tin", "minilata", "mini tins"]),
     ("Lata",                ["lata", "tin"]),
-    ("Blister",             ["blister", "sleeved booster"]),
-    ("Sobre",               ["sobre", "booster pack"]),
+    ("Sobre",               ["sobre", "booster pack", "sleeved booster"]),
 ]
 IDIOMAS = [
     ("EN",    ["ingles", "(en", "[en]", "english", "eng)", "- ingles"]),
@@ -87,8 +88,8 @@ POKEMON = ["charizard", "charmander", "gastly", "gengar", "komala", "tangela",
            "sneasel", "weavile", "meganium", "emboar", "feraligatr", "gardevoir",
            "lucario", "erika", "larry", "umbreon", "espeon", "pikachu",
            "bulbasaur", "squirtle", "dragapult", "mewtwo", "koraidon", "miraidon"]
-TIPOS_CON_VARIANTE = {"EX Box", "Blister", "Poster", "Tech Sticker",
-                      "Pin Collection", "UPC", "Coleccion Pegatinas", "Gift Box"}
+TIPOS_CON_VARIANTE = {"EX Box", "Poster", "Pin Collection", "UPC",
+                      "Coleccion Pegatinas", "Gift Box"}
 
 
 def _primero(n, tabla):
@@ -108,7 +109,9 @@ def _serie(n):
 
 def _variante(n):
     vs = sorted({p for p in POKEMON if re.search(r"\b" + p, n)})
-    return " (" + "+".join(vs) + ")" if vs else ""
+    # Solo distinguimos por variante cuando el titulo nombra UN unico Pokemon.
+    # Con varios (packs combinados) o ninguno -> ficha generica del tipo.
+    return f" ({vs[0]})" if len(vs) == 1 else ""
 
 def clasifica(nombre):
     n = normaliza(nombre)
