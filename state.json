@@ -1476,5 +1476,12 @@
     "tienda": "Flash Store",
     "precio": "57,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2025/12/bundlesascended.jpg"
+  },
+  "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-lucario/": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes Premium Poster Collection Lucario",
+    "tienda": "Flash Store",
+    "precio": "86,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2025/12/poster1.jpg"
   }
 }
