@@ -25,7 +25,9 @@ PANEL = Path("panel.html")
 
 COLECCIONES = ["Heroes Ascendentes", "First Partner", "30 Aniversario"]
 # Combinaciones (coleccion, tipo) que NO se muestran en el panel:
-OCULTAR = {("First Partner", "Sobre")}
+OCULTAR = {("First Partner", "Sobre"),
+           ("First Partner", "Booster Bundle"),
+           ("First Partner", "Album")}
 SETS_INTERES = set(COLECCIONES)
 
 # --------------------------------------------------------------------------- #
