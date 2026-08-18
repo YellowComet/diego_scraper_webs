@@ -24,6 +24,8 @@ VISTO = Path("precio_visto.json")
 PANEL = Path("panel.html")
 
 COLECCIONES = ["Heroes Ascendentes", "First Partner", "30 Aniversario"]
+# Combinaciones (coleccion, tipo) que NO se muestran en el panel:
+OCULTAR = {("First Partner", "Sobre")}
 SETS_INTERES = set(COLECCIONES)
 
 # --------------------------------------------------------------------------- #
@@ -66,6 +68,7 @@ TIPOS = [
     ("Caja 36",             ["36 sobres", "caja de 36", "booster box", "display"]),
     ("Pin Collection",      ["pin deluxe", "deluxe pin", "pin collection", "caja con pin"]),
     ("Poster",              ["poster collection", "premium poster", "poster"]),
+    ("Album",               ["album", "binder", "archivador", "carpeta"]),
     ("Coleccion Ilustracion",["coleccion ilustracion", "illustration collection", "collection box",
                               "caja first partner", "card set"]),
     ("Special Collection",  ["special collection", "pokemon day", "dia de pokemon", "day 2026",
@@ -123,6 +126,9 @@ def clasifica(nombre):
     tset = _primero(n, SETS)
     tipo = _primero(n, TIPOS)
     idioma = _primero(n, IDIOMAS) or "ES"
+    # First Partner sin tipo explicito -> es la Coleccion Ilustracion.
+    if tset == "First Partner" and tipo is None:
+        tipo = "Coleccion Ilustracion"
     if tipo and tset:
         extra = (_serie(n) if tset == "First Partner" else "")
         if tipo in TIPOS_CON_VARIANTE:
@@ -243,7 +249,8 @@ def _media(group, lang):
                 f'<a href="{b["url"]}" target="_blank" rel="noopener">{b["precio"]}</a>'
                 f'<small>{b["tienda"]}</small></div>')
     if hay:
-        return f'<div class="lang no"><span class="lg">{lang}</span><span>agotado</span></div>'
+        return (f'<div class="lang no"><span class="lg">{lang}</span>'
+                f'<span>agotado</span><small>{hay[0]["tienda"]}</small></div>')
     return f'<div class="lang na"><span class="lg">{lang}</span><span>&mdash;</span></div>'
 
 
@@ -369,6 +376,9 @@ def genera_panel(entradas):
     secciones = {c: {} for c in COLECCIONES}
     otros = {}
     for e in visibles:
+        tipo_e = e["key"].split("|")[1] if "|" in e["key"] else ""
+        if (e["set"], tipo_e) in OCULTAR:
+            continue
         destino = secciones[e["set"]] if e["set"] in SETS_INTERES else otros
         destino.setdefault(e["key"], []).append(e)
 
