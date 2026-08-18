@@ -25,6 +25,8 @@ PANEL = Path("panel.html")
 
 COLECCIONES = ["Heroes Ascendentes", "First Partner", "30 Aniversario"]
 # Combinaciones (coleccion, tipo) que NO se muestran en el panel:
+COLORES = {"Heroes Ascendentes": "#ef5b3b", "First Partner": "#3b9cff",
+           "30 Aniversario": "#f0b429", "Otros (sin identificar)": "#8a8f9a"}
 OCULTAR = {("First Partner", "Sobre"),
            ("First Partner", "Booster Bundle"),
            ("First Partner", "Album")}
@@ -272,63 +274,71 @@ def _tarjeta(display, group, es_min=False, serie=None):
     dprice = f"{min(precios):.2f}" if precios else ""
     dname = normaliza(display + " " + (group[0].get("set") or ""))
     img = _imagen(group)
-    thumb = (f'<div class="thumb"><img loading="lazy" src="{img}" alt=""></div>'
-             if img else '<div class="thumb ph"></div>')
-    badge = '<div class="badges"><span class="badge">&#11015; minimo</span></div>' if es_min else ""
+    ribbon = '<span class="ribbon">&#11015; minimo</span>' if es_min else ""
+    thumb = (f'<div class="thumb"><img loading="lazy" src="{img}" alt="">{ribbon}</div>'
+             if img else f'<div class="thumb ph">{ribbon}</div>')
     grafica = sparkline(serie) if serie else ""
     return (f'<div class="{cls}" data-name="{dname}" data-avail="{1 if disp else 0}" '
             f'data-price="{dprice}" data-min="{1 if es_min else 0}">'
-            f'{thumb}<div class="body"><h3>{display}</h3>{badge}'
+            f'{thumb}<div class="body"><h3>{display}</h3>'
             f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div>{grafica}</div></div>')
 
 
-def _seccion(titulo, grupos, min_keys, series):
+def _seccion(titulo, grupos, min_keys, series, accent):
     def hay_disp(g): return any(e["disponible"] for e in g)
     orden = sorted(grupos.items(), key=lambda kv: (not hay_disp(kv[1]), kv[0]))
     tarjetas = "".join(
         _tarjeta(g[0]["display"], g, k in min_keys, series.get(k)) for k, g in orden)
-    return (f'<section><h2>{titulo} <small>({len(orden)})</small></h2>'
+    return (f'<section style="--acc:{accent}"><h2>{titulo} <small>({len(orden)})</small></h2>'
             f'<div class="wrap">{tarjetas}</div></section>')
 
 
 BASE_CSS = """
-:root{--bg:#0f1115;--panel:#171a21;--border:#262b36;--text:#e8e8ea;--muted:#9aa0ad;--ok:#7ee787;--okbg:#12351d;--okbd:#1c5a2e;--warn:#c9a227;--accent:#8ab4ff;--shadow:rgba(0,0,0,.30)}
-@media (prefers-color-scheme: light){:root{--bg:#f4f6fa;--panel:#ffffff;--border:#e3e7ef;--text:#1a1d23;--muted:#6b7280;--ok:#15803d;--okbg:#e7f7ec;--okbd:#bbe3c6;--warn:#a56a00;--accent:#2563eb;--shadow:rgba(20,30,60,.12)}}
+:root{--bg:#0e1117;--panel:#161b24;--panel2:#1c2230;--border:#28303e;--text:#eef1f6;--muted:#9aa3b2;--ok:#4ade80;--okbg:#123122;--okbd:#1f6b3f;--warn:#f0b429;--accent:#5b8cff;--shadow:rgba(0,0,0,.35)}
+@media (prefers-color-scheme: light){:root{--bg:#eef1f7;--panel:#ffffff;--panel2:#f6f8fc;--border:#e2e7f0;--text:#161a22;--muted:#5b6474;--ok:#15803d;--okbg:#e8f7ee;--okbd:#bfe6cb;--warn:#a8720a;--accent:#2f6bff;--shadow:rgba(20,30,60,.12)}}
 *{box-sizing:border-box}
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text)}
-header{padding:18px 20px;background:var(--panel);border-bottom:1px solid var(--border)}
-header h1{margin:0;font-size:20px}
-.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-.stat{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:8px 14px;min-width:88px}
-.stat b{display:block;font-size:20px;line-height:1.1}
-.stat span{color:var(--muted);font-size:12px}
-.controls{position:sticky;top:0;z-index:5;display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 20px;background:var(--bg);border-bottom:1px solid var(--border)}
-.controls input[type=text]{flex:1;min-width:160px;padding:9px 11px;border-radius:9px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
-.controls select{padding:9px;border-radius:9px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
-.controls label{color:var(--muted);font-size:13px;display:flex;gap:6px;align-items:center}
-section{padding:6px 20px 12px}
-section>h2{font-size:16px;margin:18px 4px 12px;color:var(--text)}
-section>h2 small{color:var(--muted);font-weight:normal}
-.wrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
-.card{background:var(--panel);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .12s ease,box-shadow .12s ease}
-.card:hover{transform:translateY(-2px);box-shadow:0 8px 22px var(--shadow)}
+body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;color:var(--text);-webkit-font-smoothing:antialiased;background:radial-gradient(1100px 380px at 100% -60%, color-mix(in srgb,var(--accent) 12%, transparent), transparent),var(--bg)}
+h1,h2,.stat b,.lang.ok a,.ribbon{font-family:'Space Grotesk','Inter',system-ui,sans-serif}
+header{padding:22px 22px 16px;background:linear-gradient(180deg,var(--panel),color-mix(in srgb,var(--panel) 82%,var(--bg)));border-bottom:1px solid var(--border)}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .dot{width:13px;height:13px;border-radius:50%;background:conic-gradient(from 0deg,#ff5350,#3b9cff,#f0b429,#4ade80,#ff5350)}
+header h1{margin:0;font-size:22px;font-weight:700;letter-spacing:-.01em}
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.stat{display:flex;align-items:baseline;gap:7px;background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px}
+.stat b{font-size:16px;line-height:1}.stat span{color:var(--muted);font-size:12px}
+.sub{margin:12px 0 0;color:var(--muted);font-size:12px}
+.controls{position:sticky;top:0;z-index:5;display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 22px;background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.controls input[type=text]{flex:1;min-width:170px;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text);font-size:14px}
+.controls select{padding:10px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
+.controls label{color:var(--muted);font-size:13px;display:flex;gap:6px;align-items:center;user-select:none}
+section{padding:8px 22px 14px}
+section>h2{font-size:14px;margin:20px 2px 12px;color:var(--text);display:flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.07em}
+section>h2::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--acc,var(--accent));box-shadow:0 0 12px var(--acc,var(--accent))}
+section>h2 small{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0}
+.wrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:15px}
+.card{position:relative;background:var(--panel);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:var(--acc,var(--accent));opacity:0;transition:opacity .14s}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px var(--shadow);border-color:color-mix(in srgb,var(--acc,var(--accent)) 45%,var(--border))}
+.card:hover::before{opacity:1}
 .card.off{opacity:.5}
-.card.min{border-color:var(--okbd);box-shadow:0 0 0 1px var(--okbd) inset}
-.thumb{aspect-ratio:1/1;background:var(--bg);display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--border)}
-.thumb img{width:100%;height:100%;object-fit:contain}
-.thumb.ph::after{content:'sin imagen';color:var(--muted);font-size:11px}
-.body{padding:11px 13px;display:flex;flex-direction:column;gap:8px;flex:1}
-.body h3{font-size:13.5px;margin:0;line-height:1.3}
-.badges{display:flex;gap:6px;flex-wrap:wrap}
-.badge{font-size:10px;font-weight:700;color:#0b2f16;background:var(--ok);border-radius:6px;padding:2px 7px}
+.card.min{border-color:var(--okbd)}
+.thumb{position:relative;aspect-ratio:1/1;background:#fff;display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--border)}
+.thumb img{width:100%;height:100%;object-fit:contain;padding:6px}
+.thumb.ph{background:var(--panel2)}.thumb.ph::after{content:'sin imagen';color:var(--muted);font-size:11px}
+.ribbon{position:absolute;top:8px;left:8px;background:var(--warn);color:#241a00;font-size:10px;font-weight:700;padding:3px 9px;border-radius:999px;letter-spacing:.02em;box-shadow:0 2px 8px rgba(0,0,0,.28)}
+.body{padding:12px 13px 13px;display:flex;flex-direction:column;gap:9px;flex:1}
+.body h3{font-size:13.5px;margin:0;line-height:1.3;font-weight:600}
 .langs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto}
-.lang{border:1px solid var(--border);border-radius:9px;padding:7px 6px;text-align:center;font-size:13px}
-.lang .lg{display:block;font-size:10px;color:var(--muted);margin-bottom:2px;letter-spacing:.05em}
+.lang{border:1px solid var(--border);border-radius:11px;padding:8px 6px;text-align:center;font-size:13px;background:var(--panel2)}
+.lang .lg{display:block;font-size:10px;color:var(--muted);margin-bottom:3px;letter-spacing:.08em}
+.lang small{display:block;color:var(--muted);font-size:11px;margin-top:2px}
 .lang.ok{background:var(--okbg);border-color:var(--okbd)}
-.lang.ok a{color:var(--ok);text-decoration:none;font-weight:700;font-variant-numeric:tabular-nums}
-.lang.no span:last-child{color:var(--warn)}
-.lang.na span:last-child{color:var(--muted)}
-.spark small{display:block;color:var(--muted);font-size:10px;margin-top:2px;text-align:right}
+.lang.ok a{color:var(--ok);text-decoration:none;font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
+.lang.no span:nth-child(2){color:var(--warn);font-weight:600}.lang.na span:last-child{color:var(--muted)}
+.spark svg{display:block}.spark small{display:block;color:var(--muted);font-size:10px;margin-top:3px;text-align:right}
+a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}.card:hover{transform:none}}
+@media (max-width:520px){.wrap{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px}header h1{font-size:19px}}
 """
 
 CONTROLS_HTML = """
@@ -403,25 +413,32 @@ def genera_panel(entradas):
                 series[key] = serie
 
     html_secciones = "".join(
-        _seccion(c, secciones[c], min_keys, series) for c in COLECCIONES if secciones[c])
+        _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"))
+        for c in COLECCIONES if secciones[c])
     if otros:
-        html_secciones += _seccion("Otros (sin identificar)", otros, min_keys, series)
+        html_secciones += _seccion("Otros (sin identificar)", otros, min_keys, series,
+                                   COLORES.get("Otros (sin identificar)", "#8a8f9a"))
 
     disp = sum(1 for e in visibles if e["disponible"])
     fecha = datetime.now(timezone.utc).astimezone().strftime("%d/%m/%Y %H:%M")
     html = f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 <title>Panel Pokémon TCG</title>
 <style>{BASE_CSS}</style></head><body>
-<header><h1>Panel Pokémon TCG</h1>
-<div class="stats">
-  <div class="stat"><b>{disp}</b><span>disponibles</span></div>
-  <div class="stat"><b>{len(min_keys)}</b><span>en mínimo</span></div>
-  <div class="stat"><b>{total}</b><span>productos</span></div>
-  <div class="stat"><b>{ignorados}</b><span>ignorados</span></div>
-</div>
-<p style="margin:10px 0 0;color:var(--muted);font-size:12px">Actualizado: {fecha}</p></header>
+<header>
+  <div class="brand"><span class="dot"></span><h1>Panel Pokémon TCG</h1></div>
+  <div class="stats">
+    <div class="stat"><b>{disp}</b><span>disponibles</span></div>
+    <div class="stat"><b>{len(min_keys)}</b><span>en mínimo</span></div>
+    <div class="stat"><b>{total}</b><span>productos</span></div>
+    <div class="stat"><b>{ignorados}</b><span>ignorados</span></div>
+  </div>
+  <p class="sub">Actualizado: {fecha}</p>
+</header>
 {CONTROLS_HTML}
 {html_secciones}{SCRIPT_JS}</body></html>"""
     PANEL.write_text(html, encoding="utf-8")
