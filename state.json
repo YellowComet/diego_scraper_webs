@@ -1483,5 +1483,12 @@
     "tienda": "Flash Store",
     "precio": "86,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2025/12/poster1.jpg"
+  },
+  "https://metamorphcenter.com/products/danada-first-partner-illustration-collection-serie-3-espanol": {
+    "disponible": false,
+    "nombre": "[ DAÑADA ] First Partner Illustration Collection Serie 3 - Español",
+    "tienda": "Metamorph Center",
+    "precio": "24,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/first-partner-series-3-espanol.png?v=1785854525"
   }
 }
