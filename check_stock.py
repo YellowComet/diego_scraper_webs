@@ -11,6 +11,7 @@ Monitor de stock Pokemon TCG (ETB y sets concretos) en varias tiendas.
 - Reintenta las descargas ante fallos transitorios.
 """
 
+import csv
 import json
 import os
 import re
@@ -137,6 +138,7 @@ HEADERS = {
     "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
 }
 FICHERO_ESTADO = Path("state.json")
+HIST = Path("history.csv")
 MAX_PRODUCTOS = 600
 MAX_PAGINAS = 5          # paginas por categoria WooCommerce a recorrer
 PAUSA_ENTRE_PETICIONES = 1
@@ -405,6 +407,27 @@ def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
 # ESTADO Y AVISOS
 # --------------------------------------------------------------------------- #
 
+def leer_min_historico() -> dict:
+    """url -> menor precio disponible registrado hasta ahora (de history.csv)."""
+    minimos = {}
+    if not HIST.exists():
+        return minimos
+    try:
+        with HIST.open(encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                if str(row.get("disponible", "")).lower() not in ("true", "1"):
+                    continue
+                n = num_precio(row.get("precio"))
+                if n is None:
+                    continue
+                u = row.get("url")
+                if u and (u not in minimos or n < minimos[u]):
+                    minimos[u] = n
+    except Exception as e:
+        print(f"[!] No se pudo leer historial de minimos: {e}")
+    return minimos
+
+
 def cargar_estado() -> dict:
     if FICHERO_ESTADO.exists():
         return json.loads(FICHERO_ESTADO.read_text(encoding="utf-8"))
@@ -431,13 +454,17 @@ def _enviar_telegram(texto: str, etiqueta_log: str) -> None:
     print("\n" + "=" * 50 + f"\n{texto}\n" + "=" * 50 + "\n")
 
 
-def enviar_resumen(nuevos: list, bajadas: list, objetivos: list) -> None:
+def enviar_resumen(nuevos: list, bajadas: list, objetivos: list, minimos: list) -> None:
     """Envia UN solo mensaje por ronda con el nuevo stock y las bajadas.
     Si es muy largo (primer run), lo trocea para no pasar el limite de Telegram."""
-    if not nuevos and not bajadas and not objetivos:
+    if not nuevos and not bajadas and not objetivos and not minimos:
         print("Sin novedades que avisar en esta ronda.")
         return
     lineas = []
+    if minimos:
+        lineas.append(f"\U0001F3C6 Nuevo minimo historico ({len(minimos)})")
+        for nombre, tienda, url, precio, antes in minimos:
+            lineas.append(f"\u2022 {nombre} \u2014 {precio} (antes min. {antes}) \u00b7 {tienda}\n{url}")
     if nuevos:
         lineas.append(f"\U0001F7E2 Nuevo stock ({len(nuevos)})")
         for nombre, tienda, url, precio in nuevos:
@@ -468,7 +495,8 @@ def enviar_resumen(nuevos: list, bajadas: list, objetivos: list) -> None:
 def main() -> None:
     estado = cargar_estado()
     vistos = set()
-    nuevos, bajadas, objetivos = [], [], []
+    nuevos, bajadas, objetivos, minimos = [], [], [], []
+    hist_min = leer_min_historico()
     deseos = [{"nombre": w["nombre"], "max": w["max"],
                "terminos": [normaliza(t) for t in w["terminos"]],
                "excluir": [normaliza(x) for x in w.get("excluir", [])]}
@@ -493,7 +521,12 @@ def main() -> None:
                             None: "sin determinar"}[disponible]
                 print(f"[{tienda['nombre']}] {nombre}: {etiqueta}")
                 n_new = num_precio(precio)
-                if disponible and not antes:
+                hm = hist_min.get(purl)
+                es_nuevo_min = (disponible and n_new is not None
+                                and hm is not None and n_new < hm - 0.01)
+                if es_nuevo_min:
+                    minimos.append((nombre, tienda["nombre"], purl, precio, fmt_precio(hm)))
+                elif disponible and not antes:
                     nuevos.append((nombre, tienda["nombre"], purl, precio))
                 elif disponible and antes:
                     n_old = num_precio(precio_antes)
@@ -516,8 +549,8 @@ def main() -> None:
                         entry["img"] = img
                     estado[purl] = entry
     guardar_estado(estado)
-    enviar_resumen(nuevos, bajadas, objetivos)
-    print(f"Hecho. {len(vistos)} producto(s). Avisos: {len(nuevos)} stock, {len(bajadas)} bajadas, {len(objetivos)} objetivos.")
+    enviar_resumen(nuevos, bajadas, objetivos, minimos)
+    print(f"Hecho. {len(vistos)} producto(s). Avisos: {len(minimos)} minimos, {len(nuevos)} stock, {len(bajadas)} bajadas, {len(objetivos)} objetivos.")
 
 
 if __name__ == "__main__":
