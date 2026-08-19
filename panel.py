@@ -21,6 +21,7 @@ from pathlib import Path
 STATE = Path("state.json")
 HIST = Path("history.csv")
 VISTO = Path("precio_visto.json")
+MAX_FILAS_HIST = 8000   # tope de history.csv (se conserva el minimo por producto)
 PANEL = Path("panel.html")
 
 COLECCIONES = ["Heroes Ascendentes", "First Partner", "30 Aniversario"]
@@ -221,6 +222,41 @@ def sparkline(vals, w=150, h=30):
             f'<small>hist. {fp(lo)}\u2013{fp(hi)} \u20ac</small></div>')
 
 
+def _rotar_historico(max_filas=MAX_FILAS_HIST):
+    """Mantiene history.csv acotado: conserva las ultimas filas y, ademas, la
+    fila de precio minimo por producto (para no perder el minimo historico)."""
+    if not HIST.exists():
+        return
+    with HIST.open(encoding="utf-8") as f:
+        filas = list(csv.reader(f))
+    if len(filas) <= max_filas + 1:
+        return
+    cab, datos = filas[0], filas[1:]
+    I_PRECIO, I_DISP, I_URL = 4, 5, 6
+    recientes = datos[-max_filas:]
+    en_recientes = set(map(tuple, recientes))
+    # fila de menor precio disponible por url
+    min_por_url = {}
+    for fila in datos:
+        if len(fila) <= I_URL:
+            continue
+        if str(fila[I_DISP]).lower() not in ("true", "1"):
+            continue
+        n = parse_precio(fila[I_PRECIO])
+        if n is None:
+            continue
+        u = fila[I_URL]
+        if u not in min_por_url or n < min_por_url[u][0]:
+            min_por_url[u] = (n, tuple(fila))
+    extra = [list(t) for (_, t) in min_por_url.values() if t not in en_recientes]
+    final = sorted(extra + recientes, key=lambda x: x[0])   # por fecha
+    with HIST.open("w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(cab)
+        w.writerows(final)
+    print(f"[panel] historico rotado: {len(datos) + 1} -> {len(final) + 1} filas.")
+
+
 def actualizar_historico(entradas):
     visto = json.loads(VISTO.read_text()) if VISTO.exists() else {}
     fecha = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
@@ -241,6 +277,7 @@ def actualizar_historico(entradas):
             w.writerows(nuevas)
     VISTO.write_text(json.dumps(visto, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[panel] historico: {len(nuevas)} cambio(s).")
+    _rotar_historico()
 
 
 def _media(group, lang):
@@ -256,6 +293,28 @@ def _media(group, lang):
         return (f'<div class="lang no"><span class="lg">{lang}</span>'
                 f'<span>agotado</span><small>{hay[0]["tienda"]}</small></div>')
     return f'<div class="lang na"><span class="lg">{lang}</span><span>&mdash;</span></div>'
+
+
+def _todas_tiendas(group):
+    """Desplegable con todas las tiendas del producto (solo si hay ocultas)."""
+    # Se muestra cuando hay mas ofertas que idiomas (los chips ya ensenan 1 por idioma).
+    if len(group) <= len({e["idioma"] for e in group}):
+        return ""
+    disp = sorted([e for e in group if e["disponible"] and e["precio_num"] is not None],
+                  key=lambda e: e["precio_num"])
+    resto = [e for e in group if e not in disp]
+    filas = []
+    for e in disp:
+        filas.append(f'<li><a href="{e["url"]}" target="_blank" rel="noopener">{e["tienda"]}</a>'
+                     f'<span class="p">{e["precio"]}</span>'
+                     f'<span class="lgm">{e["idioma"]}</span></li>')
+    for e in resto:
+        est = "agotado" if not e["disponible"] else (e["precio"] or "\u2014")
+        filas.append(f'<li class="ag"><span>{e["tienda"]}</span>'
+                     f'<span class="p">{est}</span>'
+                     f'<span class="lgm">{e["idioma"]}</span></li>')
+    return (f'<details class="all"><summary>Ver todas las tiendas ({len(group)})</summary>'
+            f'<ul>{"".join(filas)}</ul></details>')
 
 
 def _imagen(group):
@@ -281,7 +340,8 @@ def _tarjeta(display, group, es_min=False, serie=None):
     return (f'<div class="{cls}" data-name="{dname}" data-avail="{1 if disp else 0}" '
             f'data-price="{dprice}" data-min="{1 if es_min else 0}">'
             f'{thumb}<div class="body"><h3>{display}</h3>'
-            f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div>{grafica}</div></div>')
+            f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div>'
+            f'{_todas_tiendas(group)}{grafica}</div></div>')
 
 
 def _seccion(titulo, grupos, min_keys, series, accent):
@@ -336,6 +396,17 @@ section>h2 small{color:var(--muted);font-weight:400;text-transform:none;letter-s
 .lang.ok a{color:var(--ok);text-decoration:none;font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
 .lang.no span:nth-child(2){color:var(--warn);font-weight:600}.lang.na span:last-child{color:var(--muted)}
 .spark svg{display:block}.spark small{display:block;color:var(--muted);font-size:10px;margin-top:3px;text-align:right}
+details.all>summary{cursor:pointer;color:var(--muted);font-size:11px;list-style:none;user-select:none;padding:2px 0}
+details.all>summary::-webkit-details-marker{display:none}
+details.all>summary::before{content:"\\25b8 ";color:var(--acc,var(--accent))}
+details.all[open]>summary::before{content:"\\25be "}
+details.all ul{list-style:none;margin:7px 0 0;padding:0;display:flex;flex-direction:column;gap:4px}
+details.all li{display:flex;align-items:center;gap:8px;font-size:12px;padding:5px 7px;border-radius:8px;background:var(--panel2)}
+details.all li a,details.all li>span:first-child{flex:1;text-decoration:none;color:var(--text)}
+details.all li a{color:var(--accent)}
+details.all li .p{font-variant-numeric:tabular-nums;font-weight:600;color:var(--ok)}
+details.all li.ag .p,details.all li.ag span:first-child{color:var(--muted);font-weight:400}
+details.all li .lgm{font-size:10px;color:var(--muted);width:26px;text-align:right}
 a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}.card:hover{transform:none}}
 @media (max-width:520px){.wrap{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px}header h1{font-size:19px}}
