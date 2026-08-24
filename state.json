@@ -245,10 +245,11 @@
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/mega-box-ex-heroes-ascendentes-esp.png?v=1779647811"
   },
   "https://sunnystore.es/products/first-partner-illustration-collection-serie-3-espanol-primer-companero": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 3 (ESPAÑOL) - PRIMER COMPAÑERO",
     "tienda": "Sunny Store",
     "precio": "29,90 €",
+    "obj": 29.9,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Pokemon-First-Partner-3-Caja-Coleccion-Ilustracion-Primer-Companero-Front-cardcenter.es_-768x768_2_aadf9a25-109b-42ae-9b26-53cd64fbfe29.jpg?v=1785842900"
   },
   "https://sunnystore.es/products/etb-pokemon-oscuridad-absoluta-elite-trainer-box-espanol": {
