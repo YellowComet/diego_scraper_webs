@@ -1790,5 +1790,13 @@
     "tienda": "TodoHits",
     "precio": "17,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Album_Ascended_Heroes_9_Bolsillos_252_Cartas_Binder.webp?v=1773740789"
+  },
+  "https://reinodecartas.com/tienda-tcg/pokemon-tcg/first-partner-series-3-pokemon-tcg-espanol/": {
+    "disponible": true,
+    "nombre": "Pokémon TCG: First Partner Illustration Collection Series 3 (Español)",
+    "tienda": "Reino de Cartas",
+    "precio": "29,99 €",
+    "obj": 29.99,
+    "img": "https://reinodecartas.com/wp-content/uploads/2026/06/Primer-Companero-Serie-3.webp"
   }
 }
