@@ -344,6 +344,34 @@ def _tarjeta(display, group, es_min=False, serie=None):
             f'{_todas_tiendas(group)}{grafica}</div></div>')
 
 
+def _eur(x):
+    return f"{x:.2f}".replace(".", ",") + " \u20ac"
+
+
+def _tarjeta_chollo(c):
+    m = c["mejor"]
+    dname = normaliza(c["display"])
+    pct = round(c["pct"] * 100)
+    thumb_img = f'<img loading="lazy" src="{c["img"]}" alt="">' if c["img"] else ""
+    minr = '<span class="ribbon min2">&#11015;</span>' if c["es_min"] else ""
+    return (f'<div class="card chollo" data-name="{dname}" data-avail="1" '
+            f'data-price="{m["precio_num"]:.2f}" data-min="{1 if c["es_min"] else 0}">'
+            f'<div class="thumb">{thumb_img}<span class="ribbon save">-{pct}%</span>{minr}</div>'
+            f'<div class="body"><h3>{c["display"]}</h3>'
+            f'<div class="chollo-now"><a href="{m["url"]}" target="_blank" rel="noopener">{m["precio"]}</a>'
+            f'<span class="st">{m["tienda"]}</span></div>'
+            f'<div class="chollo-was">antes hasta {_eur(c["hmax"])}</div></div></div>')
+
+
+def _seccion_chollos(chollos):
+    if not chollos:
+        return ""
+    tarjetas = "".join(_tarjeta_chollo(c) for c in chollos)
+    return ('<section class="sec-chollos" data-col="__chollos__" style="--acc:#ff7a1a">'
+            f'<h2>&#128293; Chollos ahora <small>({len(chollos)})</small></h2>'
+            f'<div class="wrap">{tarjetas}</div></section>')
+
+
 def _seccion(titulo, grupos, min_keys, series, accent, col_id):
     def hay_disp(g): return any(e["disponible"] for e in g)
     orden = sorted(grupos.items(), key=lambda kv: (not hay_disp(kv[1]), kv[0]))
@@ -392,6 +420,14 @@ section>h2 small{color:var(--muted);font-weight:400;text-transform:none;letter-s
 .thumb img{width:100%;height:100%;object-fit:contain;padding:6px}
 .thumb.ph{background:var(--panel2)}.thumb.ph::after{content:'sin imagen';color:var(--muted);font-size:11px}
 .ribbon{position:absolute;top:8px;left:8px;background:var(--warn);color:#241a00;font-size:10px;font-weight:700;padding:3px 9px;border-radius:999px;letter-spacing:.02em;box-shadow:0 2px 8px rgba(0,0,0,.28)}
+.sec-chollos>h2::before{background:#ff7a1a;box-shadow:0 0 12px #ff7a1a}
+.card.chollo{border-color:color-mix(in srgb,#ff7a1a 35%,var(--border))}
+.ribbon.save{background:#ff7a1a;color:#241000;left:auto;right:8px}
+.ribbon.min2{background:var(--ok);color:#08210f;left:8px}
+.chollo-now{display:flex;align-items:baseline;gap:8px;margin-top:2px}
+.chollo-now a{font-family:'Space Grotesk','Inter',sans-serif;font-weight:700;font-size:18px;color:var(--ok);text-decoration:none;font-variant-numeric:tabular-nums}
+.chollo-now .st{font-size:11px;color:var(--muted)}
+.chollo-was{font-size:11px;color:var(--muted);margin-top:4px}
 .body{padding:12px 13px 13px;display:flex;flex-direction:column;gap:9px;flex:1}
 .body h3{font-size:13.5px;margin:0;line-height:1.3;font-weight:600}
 .langs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto}
@@ -483,6 +519,7 @@ def genera_panel(entradas):
     det = historial_detallado()
     min_keys = set()
     series = {}
+    chollos = []
     total = 0
     for grupos in list(secciones.values()) + [otros]:
         total += len(grupos)
@@ -491,13 +528,24 @@ def genera_panel(entradas):
             previos = [p for e in g for p in hist.get(e["url"], [])]
             if actual and previos:
                 cur = min(actual)
-                if cur <= min(previos) + 0.001 and max(previos) > cur + 0.001:
+                hmax = max(previos)
+                if cur <= min(previos) + 0.001 and hmax > cur + 0.001:
                     min_keys.add(key)
+                ahorro = hmax - cur
+                pct = ahorro / hmax if hmax > 0 else 0.0
+                if ahorro > 0.01 and (key in min_keys or pct >= 0.12):
+                    mejor = min((e for e in g if e["disponible"] and e["precio_num"] is not None),
+                                key=lambda e: e["precio_num"])
+                    chollos.append({"pct": pct, "display": g[0]["display"], "mejor": mejor,
+                                    "hmax": hmax, "es_min": key in min_keys, "img": _imagen(g)})
             serie = serie_mejor_precio(g, det)
             if len(serie) >= 2:
                 series[key] = serie
 
-    html_secciones = "".join(
+    chollos.sort(key=lambda c: c["pct"], reverse=True)
+    chollos = chollos[:8]
+
+    html_secciones = _seccion_chollos(chollos) + "".join(
         _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"), c)
         for c in COLECCIONES if secciones[c])
     if otros:
