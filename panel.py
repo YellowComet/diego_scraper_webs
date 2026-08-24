@@ -344,12 +344,13 @@ def _tarjeta(display, group, es_min=False, serie=None):
             f'{_todas_tiendas(group)}{grafica}</div></div>')
 
 
-def _seccion(titulo, grupos, min_keys, series, accent):
+def _seccion(titulo, grupos, min_keys, series, accent, col_id):
     def hay_disp(g): return any(e["disponible"] for e in g)
     orden = sorted(grupos.items(), key=lambda kv: (not hay_disp(kv[1]), kv[0]))
     tarjetas = "".join(
         _tarjeta(g[0]["display"], g, k in min_keys, series.get(k)) for k, g in orden)
-    return (f'<section style="--acc:{accent}"><h2>{titulo} <small>({len(orden)})</small></h2>'
+    return (f'<section data-col="{col_id}" style="--acc:{accent}">'
+            f'<h2>{titulo} <small>({len(orden)})</small></h2>'
             f'<div class="wrap">{tarjetas}</div></section>')
 
 
@@ -371,6 +372,11 @@ header h1{margin:0;font-size:22px;font-weight:700;letter-spacing:-.01em}
 .controls input[type=text]{flex:1;min-width:170px;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text);font-size:14px}
 .controls select{padding:10px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
 .controls label{color:var(--muted);font-size:13px;display:flex;gap:6px;align-items:center;user-select:none}
+.chips{display:flex;gap:8px;flex-wrap:wrap;padding:12px 22px 4px}
+.chip{cursor:pointer;border:1px solid var(--border);background:var(--panel);color:var(--muted);border-radius:999px;padding:6px 13px;font-size:13px;font-family:inherit;transition:color .12s,border-color .12s,box-shadow .12s}
+.chip:hover{color:var(--text)}
+.chip.active{color:var(--text);border-color:var(--acc,var(--accent));box-shadow:inset 0 0 0 1px var(--acc,var(--accent))}
+.chip .cdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--acc,var(--accent));margin-right:6px;vertical-align:middle}
 section{padding:8px 22px 14px}
 section>h2{font-size:14px;margin:20px 2px 12px;color:var(--text);display:flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.07em}
 section>h2::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--acc,var(--accent));box-shadow:0 0 12px var(--acc,var(--accent))}
@@ -425,10 +431,12 @@ SCRIPT_JS = """
 <script>
 (function(){
  var q=document.getElementById('q'),sd=document.getElementById('soloDisp'),sm=document.getElementById('soloMin'),od=document.getElementById('orden');
+ var col="";
  function apply(){
   var t=(q.value||'').toLowerCase();
   document.querySelectorAll('section').forEach(function(sec){
    var wrap=sec.querySelector('.wrap'); if(!wrap)return;
+   if(col && sec.getAttribute('data-col')!==col){sec.style.display='none';return;}
    var cards=Array.prototype.slice.call(wrap.children),vis=0;
    cards.forEach(function(c){
     var okT=(c.dataset.name||'').indexOf(t)>=0;
@@ -447,6 +455,12 @@ SCRIPT_JS = """
   });
  }
  q.addEventListener('input',apply);sd.addEventListener('change',apply);sm.addEventListener('change',apply);od.addEventListener('change',apply);
+ document.querySelectorAll('.chip').forEach(function(ch){
+  ch.addEventListener('click',function(){
+   document.querySelectorAll('.chip').forEach(function(c){c.classList.remove('active');});
+   ch.classList.add('active'); col=ch.getAttribute('data-col')||''; apply();
+  });
+ });
 })();
 </script>
 """
@@ -484,11 +498,23 @@ def genera_panel(entradas):
                 series[key] = serie
 
     html_secciones = "".join(
-        _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"))
+        _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"), c)
         for c in COLECCIONES if secciones[c])
     if otros:
         html_secciones += _seccion("Otros (sin identificar)", otros, min_keys, series,
-                                   COLORES.get("Otros (sin identificar)", "#8a8f9a"))
+                                   COLORES.get("Otros (sin identificar)", "#8a8f9a"), "Otros")
+
+    # Chips de filtro por coleccion (solo las que existen)
+    chips = ['<button class="chip active" data-col="">Todas</button>']
+    for c in COLECCIONES:
+        if secciones[c]:
+            chips.append(f'<button class="chip" data-col="{c}" style="--acc:{COLORES.get(c, "#8a8f9a")}">'
+                         f'<span class="cdot"></span>{c}</button>')
+    if otros:
+        chips.append('<button class="chip" data-col="Otros" '
+                     f'style="--acc:{COLORES.get("Otros (sin identificar)", "#8a8f9a")}">'
+                     '<span class="cdot"></span>Otros</button>')
+    chips_html = '<div class="chips">' + "".join(chips) + '</div>' 
 
     disp = sum(1 for e in visibles if e["disponible"])
     fecha = datetime.now(timezone.utc).astimezone().strftime("%d/%m/%Y %H:%M")
@@ -511,6 +537,7 @@ def genera_panel(entradas):
   <p class="sub">Actualizado: {fecha}</p>
 </header>
 {CONTROLS_HTML}
+{chips_html}
 {html_secciones}{SCRIPT_JS}</body></html>"""
     PANEL.write_text(html, encoding="utf-8")
     print(f"[panel] {disp} disponibles · {len(min_keys)} minimos · {total} productos · {ignorados} ignorados.")
