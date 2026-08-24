@@ -141,6 +141,7 @@ FICHERO_ESTADO = Path("state.json")
 HIST = Path("history.csv")
 MAX_PRODUCTOS = 600
 MAX_PAGINAS = 5          # paginas por categoria WooCommerce a recorrer
+MAX_PAGINAS_SHOPIFY = 10  # paginas de products.json (250 c/u) a recorrer
 PAUSA_ENTRE_PETICIONES = 1
 REINTENTOS = 3           # intentos por descarga ante fallos transitorios
 
@@ -248,29 +249,40 @@ def es_shopify(url: str) -> bool:
 def revisar_shopify(nombre_tienda: str, coll_url: str) -> list:
     parts = urlsplit(coll_url)
     base = f"{parts.scheme}://{parts.netloc}"
-    json_url = f"{base}{parts.path.rstrip('/')}/products.json?limit=250"
-    try:
-        data = json.loads(descargar(json_url))
-    except Exception as e:
-        print(f"[!] {nombre_tienda}: no se pudo leer JSON ({e})")
-        return []
+    base_json = f"{base}{parts.path.rstrip('/')}/products.json"
     resultados = []
-    for p in data.get("products", []):
-        titulo = p.get("title", "")
-        if not es_interesante(titulo):
-            continue
-        variants = p.get("variants", [])
-        disponible = any(v.get("available") for v in variants)
-        precios = [v.get("price") for v in variants if v.get("price")]
-        precio = fmt_precio(min(map(float, precios))) if precios else None
-        purl = f"{base}/products/{p.get('handle')}"
-        imgs = p.get("images") or []
-        img = ""
-        if imgs:
-            primera = imgs[0]
-            img = primera.get("src", "") if isinstance(primera, dict) else str(primera)
-        resultados.append((titulo, purl, disponible, precio, img))
-    print(f"[i] {nombre_tienda} (shopify): {len(resultados)} de interes.")
+    total = 0
+    for page in range(1, MAX_PAGINAS_SHOPIFY + 1):
+        url = f"{base_json}?limit=250&page={page}"
+        try:
+            data = json.loads(descargar(url))
+        except Exception as e:
+            if page == 1:
+                print(f"[!] {nombre_tienda}: no se pudo leer JSON ({e})")
+            break
+        prods = data.get("products", [])
+        if not prods:
+            break
+        total += len(prods)
+        for p in prods:
+            titulo = p.get("title", "")
+            if not es_interesante(titulo):
+                continue
+            variants = p.get("variants", [])
+            disponible = any(v.get("available") for v in variants)
+            precios = [v.get("price") for v in variants if v.get("price")]
+            precio = fmt_precio(min(map(float, precios))) if precios else None
+            purl = f"{base}/products/{p.get('handle')}"
+            imgs = p.get("images") or []
+            img = ""
+            if imgs:
+                primera = imgs[0]
+                img = primera.get("src", "") if isinstance(primera, dict) else str(primera)
+            resultados.append((titulo, purl, disponible, precio, img))
+        if len(prods) < 250:
+            break                       # ultima pagina
+        time.sleep(PAUSA_ENTRE_PETICIONES)
+    print(f"[i] {nombre_tienda} (shopify): {len(resultados)} de interes (de {total} en la coleccion).")
     for t, *_ in resultados[:15]:
         print(f"      candidato: {t}")
     return resultados
@@ -322,29 +334,49 @@ def extrae_precio_html(sopa: BeautifulSoup):
 
 def _stock_woo(sopa):
     """Disponibilidad del PRODUCTO PRINCIPAL en una ficha WooCommerce.
-    Evita falsos positivos por los productos relacionados / carruseles."""
-    # 1) Positivo fuerte: boton de compra del formulario principal (no deshabilitado).
+    Maneja productos con variantes (p. ej. idioma ES/EN) leyendo el stock real de
+    cada variante, y evita falsos positivos del boton de compra o los relacionados."""
+    resumen = sopa.select_one("div.summary, .entry-summary, .product-summary")
+    rt = normaliza(resumen.get_text(" ")) if resumen is not None else normaliza(sopa.get_text(" "))
+
+    # 1) Producto con variantes: stock real de cada variante (JSON embebido en el form).
+    vf = sopa.select_one("form.variations_form")
+    if vf is not None:
+        raw = vf.get("data-product_variations")
+        if raw and raw.strip().lower() not in ("false", ""):
+            try:
+                variaciones = json.loads(raw)
+                estados = [bool(v.get("is_in_stock")) for v in variaciones]
+                if estados:
+                    return any(estados)   # disponible solo si ALGUNA variante tiene stock
+            except Exception:
+                pass
+
+    # 2) Negativo fuerte: frases inequivocas de agotado (aunque haya boton de compra).
+    if any(x in rt for x in ["sin existencias", "este producto esta agotado",
+                             "agotado actualmente", "lista de espera", "te avisaremos",
+                             "volvamos a tener stock", "cuando haya existencias",
+                             "avisame cuando", "notificarme cuando"]):
+        return False
+    if sopa.select_one("p.stock.out-of-stock, .stock.out-of-stock"):
+        return False
+
+    # 3) Positivo: boton de compra real (no deshabilitado) o stock in-stock.
     boton = sopa.select_one("form.cart button.single_add_to_cart_button, "
                             "form.cart button[name='add-to-cart']")
     if boton is not None and not boton.has_attr("disabled"):
         return True
     if sopa.select_one("p.stock.in-stock, .stock.in-stock"):
         return True
-    # 2) Positivo acotado al bloque del producto (no a toda la pagina).
-    resumen = sopa.select_one("div.summary, .entry-summary, .product-summary")
-    if resumen is not None:
-        rt = normaliza(resumen.get_text(" "))
-        if any(x in rt for x in ["anadir al carrito", "anadir a la cesta",
-                                 "agregar al carrito", "comprar ahora",
-                                 "reservar", "preventa"]):
-            return True
-    # 3) Negativo: clase o texto de agotado / "avisame".
-    if sopa.select_one("p.stock.out-of-stock, .stock.out-of-stock"):
-        return False
-    txt = normaliza(sopa.get_text(" "))
-    if any(x in txt for x in ["agotado", "sin existencias", "sin stock", "no disponible",
-                              "fuera de stock", "avisame", "avisadme",
-                              "cuando haya existencias", "notificarme"]):
+
+    # 4) Positivo acotado por el texto del resumen.
+    if any(x in rt for x in ["anadir al carrito", "anadir a la cesta", "agregar al carrito",
+                             "comprar ahora", "reservar", "preventa"]):
+        return True
+
+    # 5) Negativo generico (solo en el resumen, no en toda la pagina).
+    if any(x in rt for x in ["agotado", "sin stock", "no disponible", "fuera de stock",
+                             "avisame", "avisadme", "notificarme"]):
         return False
     return None
 
