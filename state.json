@@ -377,7 +377,7 @@
   },
   "https://factorycardstcg.com/products/primer-companero-pokemon-series-3-espanol-copia": {
     "disponible": true,
-    "nombre": "PRIMER COMPAÑERO Pokémon series 3 ESPAÑOL",
+    "nombre": "POKEMON - Primer Compañero Series 3 - Español",
     "tienda": "Factory Cards TCG",
     "precio": "29,95 €",
     "obj": 29.95,
@@ -1991,5 +1991,12 @@
     "precio": "29,90 €",
     "obj": 29.9,
     "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS_2_1111f06f-4846-4440-b16c-f4b31da91b80.png?v=1787647470"
+  },
+  "https://flashstore.es/producto/heroes-ascendentes-tech-sticker-collection/": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes Tech Sticker Collection",
+    "tienda": "Flash Store",
+    "precio": "24,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/01/stickercollec.jpg"
   }
 }
