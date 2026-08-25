@@ -92,6 +92,8 @@ TIENDAS = [
      "discovery": ["https://pokewoke.store/poke-tienda/"]},
     {"nombre": "TCG Fusion",
      "discovery": ["https://tcgfusion.com/tienda/pokemon-tcg/"]},
+    {"nombre": "Carrefour",
+     "discovery": ["https://www.carrefour.es/juguetes/juegos-tradicionales/juegos-de-mesa-pokemon/F-1033Z1a42/c"]},
 
     # === CASOS ESPECIALES / PENDIENTES ===
     #   BattleDeck (battledeck.es) -> plataforma propia "Namura": sin /products.json
@@ -156,6 +158,7 @@ HIST = Path("history.csv")
 MAX_PRODUCTOS = 600
 MAX_PAGINAS = 5          # paginas por categoria WooCommerce a recorrer
 MAX_PAGINAS_SHOPIFY = 10  # paginas de products.json (250 c/u) a recorrer
+MAX_PAGINAS_CARREFOUR = 6  # paginas del listado de Carrefour (24 por pagina)
 PAUSA_ENTRE_PETICIONES = 1
 REINTENTOS = 3           # intentos por descarga ante fallos transitorios
 
@@ -254,6 +257,10 @@ def objetivo_para(nombre: str, deseos: list):
 
 def es_shopify(url: str) -> bool:
     return "/collections/" in url
+
+
+def es_carrefour(url: str) -> bool:
+    return "carrefour.es" in url
 
 
 # --------------------------------------------------------------------------- #
@@ -450,6 +457,83 @@ def revisar_woocommerce(nombre_tienda: str, cat_url: str) -> list:
 
 
 # --------------------------------------------------------------------------- #
+# CARREFOUR (plataforma propia, HTML server-rendered)
+# --------------------------------------------------------------------------- #
+
+def _precio_carrefour(bloque: str):
+    """Precio de venta de un bloque de producto Carrefour (ignora 'mas ofertas
+    desde' del marketplace; si hay tachado + oferta, coge el menor)."""
+    n = normaliza(bloque).split("mas ofertas")[0]
+    precios = re.findall(r"\d{1,4}(?:\.\d{3})*,\d{2}", n)
+    if not precios:
+        return None
+    vals = [float(p.replace(".", "").replace(",", ".")) for p in precios[:2]]
+    return f"{min(vals):.2f}".replace(".", ",") + " \u20ac"
+
+
+def _es_link_carrefour(href: str) -> bool:
+    # Ficha de producto Carrefour: .../<slug>/<CODIGO-con-digitos>/p
+    return bool(re.search(r"/[^/]*\d[^/]*/p/?$", href))
+
+
+def revisar_carrefour(nombre_tienda: str, cat_url: str) -> list:
+    resultados = []
+    vistos_url = set()
+    total = 0
+    for pagina in range(MAX_PAGINAS_CARREFOUR):
+        offset = pagina * 24
+        if offset == 0:
+            url = cat_url
+        else:
+            sep = "&" if "?" in cat_url else "?"
+            url = f"{cat_url}{sep}offset={offset}"
+        try:
+            html = descargar(url)
+        except Exception as e:
+            if offset == 0:
+                print(f"[!] {nombre_tienda}: fallo al abrir {url}: {e}")
+            break
+        sopa = BeautifulSoup(html, "html.parser")
+        nuevos = 0
+        for a in sopa.find_all("a", href=True):
+            if not _es_link_carrefour(a["href"]):
+                continue
+            href = urljoin(cat_url, a["href"].split("?")[0])
+            if href in vistos_url:
+                continue
+            img = a.find("img")
+            nombre = (img.get("alt").strip() if img and img.get("alt")
+                      else a.get_text(" ", strip=True))
+            if not nombre or len(nombre) < 6:
+                continue
+            vistos_url.add(href)
+            nuevos += 1
+            total += 1
+            if not es_interesante(nombre):
+                continue
+            # Subir hasta el bloque contenedor que tenga el precio.
+            cont = a
+            for _ in range(4):
+                if cont.parent is not None:
+                    cont = cont.parent
+                if "\u20ac" in cont.get_text():
+                    break
+            bloque = cont.get_text(" ", strip=True)
+            nb = normaliza(bloque)
+            disp = not any(x in nb for x in ["agotado", "sin stock", "no disponible",
+                                             "sin existencias", "avisame", "proximamente"])
+            img_src = img.get("src") if img else ""
+            resultados.append((nombre, href, disp, _precio_carrefour(bloque), img_src))
+        if nuevos == 0:
+            break
+        time.sleep(PAUSA_ENTRE_PETICIONES)
+    print(f"[i] {nombre_tienda} (carrefour): {len(resultados)} de interes (de {total} vistos).")
+    for t, *_ in resultados[:15]:
+        print(f"      candidato: {t}")
+    return resultados
+
+
+# --------------------------------------------------------------------------- #
 # ESTADO Y AVISOS
 # --------------------------------------------------------------------------- #
 
@@ -552,7 +636,9 @@ def main() -> None:
             if not permitido_por_robots(url):
                 print(f"[robots] {tienda['nombre']}: bloqueado por robots.txt, se salta.")
                 continue
-            if es_shopify(url):
+            if es_carrefour(url):
+                items = revisar_carrefour(tienda["nombre"], url)
+            elif es_shopify(url):
                 items = revisar_shopify(tienda["nombre"], url)
             else:
                 items = revisar_woocommerce(tienda["nombre"], url)
