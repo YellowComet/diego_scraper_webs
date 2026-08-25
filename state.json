@@ -95,10 +95,11 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-first-partner-primer-companero-illustration-collection-serie-2-cartas-pokemon-tcg-cardzone.png?v=1781811957"
   },
   "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Caja Mega EX Box Héroes Ascendentes - Español",
     "tienda": "CardZone",
     "precio": "35,95 €",
+    "obj": 35.95,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-mega-meganium-emboar-feraligatr-ex-heroes-ascendentes-ascended-heroes-cartas-pokemon-tcg-cardzone.png?v=1777278098"
   },
   "https://cardzone.es/products/blister-heroes-ascendentes-espanol": {
