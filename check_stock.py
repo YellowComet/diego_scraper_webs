@@ -79,6 +79,20 @@ TIENDAS = [
     {"nombre": "UNSOBREMAS",
      "discovery": ["https://unsobremas.com/collections/pokemon-tcg"]},
 
+    # --- Tiendas nuevas ---
+    {"nombre": "Iberian Collect",
+     "discovery": ["https://iberiancollect.com/collections/ascended-heroes",
+                   "https://iberiancollect.com/collections/30-aniversary-celebration"]},
+    {"nombre": "Pokezilla",
+     "discovery": ["https://pokezilla.com/collections/ascended-heroes",
+                   "https://pokezilla.com/collections/30-aniversario"]},
+    {"nombre": "StarGeek",
+     "discovery": ["https://www.stargeek.es/cartas-pokemon/"]},
+    {"nombre": "Pokewoke",
+     "discovery": ["https://pokewoke.store/poke-tienda/"]},
+    {"nombre": "TCG Fusion",
+     "discovery": ["https://tcgfusion.com/tienda/pokemon-tcg/"]},
+
     # === CASOS ESPECIALES / PENDIENTES ===
     #   BattleDeck (battledeck.es) -> plataforma propia "Namura": sin /products.json
     #       ni fichas de producto navegables; necesitaria un parser a medida.
