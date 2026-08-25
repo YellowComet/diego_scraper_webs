@@ -92,18 +92,30 @@ TIENDAS = [
      "discovery": ["https://pokewoke.store/poke-tienda/"]},
     {"nombre": "TCG Fusion",
      "discovery": ["https://tcgfusion.com/tienda/pokemon-tcg/"]},
-    {"nombre": "Carrefour",
+
+    # === SOLO CASA (IP residencial) ===
+    # Bloquean las IPs de datacenter (403 en GitHub Actions) PERO su robots.txt SI
+    # permite el acceso. Se saltan salvo que ejecutes con EJECUCION_CASA=1 (p. ej.
+    # una Raspberry en tu conexion domestica). El chequeo de robots.txt se aplica
+    # igual: si alguna lo prohibiera, quedaria fuera aunque corras desde casa.
+    {"nombre": "Carrefour", "solo_casa": True,
      "discovery": ["https://www.carrefour.es/juguetes/juegos-tradicionales/juegos-de-mesa-pokemon/F-1033Z1a42/c"]},
+    {"nombre": "ShinyHit", "solo_casa": True,
+     "discovery": ["https://shinyhit.com/categoria-producto/pokemon/"]},
+    {"nombre": "GEEKKAOS", "solo_casa": True,
+     "discovery": ["https://geekkaos.com/collections/pokemon"]},
 
     # === CASOS ESPECIALES / PENDIENTES ===
     #   BattleDeck (battledeck.es) -> plataforma propia "Namura": sin /products.json
     #       ni fichas de producto navegables; necesitaria un parser a medida.
     #   PokeDealTCG (pokedealtcg.es) -> sin pagina de categoria Pokemon concreta.
 
-    # === FUERA (no scrapeables por via directa) ===
-    #   only-cards.com / frikidenacimiento.es -> robots.txt prohibe scraping
-    #   geekkaos.com / shinyhit.com           -> 403 (Cloudflare / anti-bot)
-    #   Para estas, usar su canal / newsletter oficial.
+    # === FUERA (robots.txt prohibe el scraping; NO cambia ni desde casa) ===
+    #   only-cards.com / frikidenacimiento.es / elcorteingles.es
+    #   Para estas, solo su canal / newsletter / feed oficial.
+    #   (geekkaos.com y shinyhit.com estan en SOLO CASA: su bloqueo es por IP,
+    #    no por robots, asi que desde una IP residencial si funcionarian.)
+    #   (battledeck.es: plataforma propia sin JSON ni fichas; parser a medida.)
 ]
 
 TERMINOS_INTERES = [
@@ -631,7 +643,11 @@ def main() -> None:
                "terminos": [normaliza(t) for t in w["terminos"]],
                "excluir": [normaliza(x) for x in w.get("excluir", [])]}
               for w in LISTA_DESEOS]
+    correr_casa = os.environ.get("EJECUCION_CASA") == "1"
     for tienda in TIENDAS:
+        if tienda.get("solo_casa") and not correr_casa:
+            print(f"[casa] {tienda['nombre']}: solo con EJECUCION_CASA=1, se salta.")
+            continue
         for url in tienda["discovery"]:
             if not permitido_por_robots(url):
                 print(f"[robots] {tienda['nombre']}: bloqueado por robots.txt, se salta.")
