@@ -205,7 +205,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-de-entrenador-elite-trainer-box-etb-ascended-heroes-cartas-pokemon-tcg-cardzone.png?v=1771327393"
   },
   "https://tcglevel.com/products/first-partner-illustration-collections-series-3-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "First Partner Illustration Collections Series 3 Español",
     "tienda": "TCG Level",
     "precio": "31,90 €",
