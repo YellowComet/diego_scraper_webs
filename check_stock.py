@@ -644,13 +644,18 @@ def main() -> None:
                "excluir": [normaliza(x) for x in w.get("excluir", [])]}
               for w in LISTA_DESEOS]
     correr_casa = os.environ.get("EJECUCION_CASA") == "1"
+    diag_ok, diag_vacias, diag_saltadas = [], [], []
     for tienda in TIENDAS:
         if tienda.get("solo_casa") and not correr_casa:
             print(f"[casa] {tienda['nombre']}: solo con EJECUCION_CASA=1, se salta.")
+            diag_saltadas.append(f"{tienda['nombre']} (solo casa)")
             continue
+        n_tienda = 0
+        bloqueada = False
         for url in tienda["discovery"]:
             if not permitido_por_robots(url):
                 print(f"[robots] {tienda['nombre']}: bloqueado por robots.txt, se salta.")
+                bloqueada = True
                 continue
             if es_carrefour(url):
                 items = revisar_carrefour(tienda["nombre"], url)
@@ -658,6 +663,7 @@ def main() -> None:
                 items = revisar_shopify(tienda["nombre"], url)
             else:
                 items = revisar_woocommerce(tienda["nombre"], url)
+            n_tienda += len(items)
             for nombre, purl, disponible, precio, img in items:
                 if purl in vistos or len(vistos) >= MAX_PRODUCTOS:
                     continue
@@ -696,8 +702,20 @@ def main() -> None:
                     if img:
                         entry["img"] = img
                     estado[purl] = entry
+        if n_tienda > 0:
+            diag_ok.append(f"{tienda['nombre']} ({n_tienda})")
+        elif bloqueada:
+            diag_saltadas.append(f"{tienda['nombre']} (robots)")
+        else:
+            diag_vacias.append(tienda["nombre"])
     guardar_estado(estado)
     enviar_resumen(nuevos, bajadas, objetivos, minimos)
+
+    print("\n===== DIAGNOSTICO DE TIENDAS =====")
+    print(f"Con producto ({len(diag_ok)}): " + ", ".join(diag_ok))
+    print(f"Sin producto de interes ({len(diag_vacias)}): " + (", ".join(diag_vacias) or "-"))
+    print(f"Saltadas ({len(diag_saltadas)}): " + (", ".join(diag_saltadas) or "-"))
+    print("==================================")
     print(f"Hecho. {len(vistos)} producto(s). Avisos: {len(minimos)} minimos, {len(nuevos)} stock, {len(bajadas)} bajadas, {len(objetivos)} objetivos.")
 
 
