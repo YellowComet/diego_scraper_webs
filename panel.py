@@ -326,7 +326,16 @@ def _imagen(group):
     return ""
 
 
-def _tarjeta(display, group, es_min=False, serie=None):
+def _termometro_html(termo):
+    if not termo:
+        return ""
+    etiqueta, clase, pos = termo
+    return (f'<div class="termo {clase}"><div class="tbar">'
+            f'<span class="tdot" style="left:{pos*100:.0f}%"></span></div>'
+            f'<span class="tlbl">{etiqueta}</span></div>')
+
+
+def _tarjeta(display, group, es_min=False, serie=None, termo=None):
     disp = any(e["disponible"] for e in group)
     cls = "card" + ("" if disp else " off") + (" min" if es_min else "")
     precios = [e["precio_num"] for e in group if e["disponible"] and e["precio_num"] is not None]
@@ -341,7 +350,7 @@ def _tarjeta(display, group, es_min=False, serie=None):
             f'data-price="{dprice}" data-min="{1 if es_min else 0}">'
             f'{thumb}<div class="body"><h3>{display}</h3>'
             f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div>'
-            f'{_todas_tiendas(group)}{grafica}</div></div>')
+            f'{_termometro_html(termo)}{_todas_tiendas(group)}{grafica}</div></div>')
 
 
 def _eur(x):
@@ -372,11 +381,12 @@ def _seccion_chollos(chollos):
             f'<div class="wrap">{tarjetas}</div></section>')
 
 
-def _seccion(titulo, grupos, min_keys, series, accent, col_id):
+def _seccion(titulo, grupos, min_keys, series, accent, col_id, termometro):
     def hay_disp(g): return any(e["disponible"] for e in g)
     orden = sorted(grupos.items(), key=lambda kv: (not hay_disp(kv[1]), kv[0]))
     tarjetas = "".join(
-        _tarjeta(g[0]["display"], g, k in min_keys, series.get(k)) for k, g in orden)
+        _tarjeta(g[0]["display"], g, k in min_keys, series.get(k), termometro.get(k))
+        for k, g in orden)
     return (f'<section data-col="{col_id}" style="--acc:{accent}">'
             f'<h2>{titulo} <small>({len(orden)})</small></h2>'
             f'<div class="wrap">{tarjetas}</div></section>')
@@ -449,6 +459,11 @@ details.all li a{color:var(--accent)}
 details.all li .p{font-variant-numeric:tabular-nums;font-weight:600;color:var(--ok)}
 details.all li.ag .p,details.all li.ag span:first-child{color:var(--muted);font-weight:400}
 details.all li .lgm{font-size:10px;color:var(--muted);width:26px;text-align:right}
+.termo{display:flex;align-items:center;gap:8px}
+.tbar{position:relative;flex:1;height:6px;border-radius:999px;background:linear-gradient(90deg,#22a03a,#e0b000,#e05a4f)}
+.tdot{position:absolute;top:50%;width:11px;height:11px;border-radius:50%;background:#fff;border:2px solid var(--panel);transform:translate(-50%,-50%);box-shadow:0 0 0 1px rgba(0,0,0,.3)}
+.tlbl{font-size:10px;font-weight:700;white-space:nowrap}
+.termo.bien .tlbl{color:var(--ok)}.termo.medio .tlbl{color:var(--warn)}.termo.mal .tlbl{color:#e05a4f}
 a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}.card:hover{transform:none}}
 @media (max-width:520px){.wrap{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px}header h1{font-size:19px}}
@@ -520,6 +535,7 @@ def genera_panel(entradas):
     min_keys = set()
     series = {}
     chollos = []
+    termometro = {}
     total = 0
     for grupos in list(secciones.values()) + [otros]:
         total += len(grupos)
@@ -529,8 +545,17 @@ def genera_panel(entradas):
             if actual and previos:
                 cur = min(actual)
                 hmax = max(previos)
-                if cur <= min(previos) + 0.001 and hmax > cur + 0.001:
+                hmin = min(previos)
+                if cur <= hmin + 0.001 and hmax > cur + 0.001:
                     min_keys.add(key)
+                if hmax > hmin + 0.01:
+                    pos = max(0.0, min(1.0, (cur - hmin) / (hmax - hmin)))
+                    if pos <= 0.20:
+                        termometro[key] = ("Chollo", "bien", pos)
+                    elif pos >= 0.80:
+                        termometro[key] = ("Caro", "mal", pos)
+                    else:
+                        termometro[key] = ("Precio normal", "medio", pos)
                 ahorro = hmax - cur
                 pct = ahorro / hmax if hmax > 0 else 0.0
                 if ahorro > 0.01 and (key in min_keys or pct >= 0.12):
@@ -546,11 +571,11 @@ def genera_panel(entradas):
     chollos = chollos[:8]
 
     html_secciones = _seccion_chollos(chollos) + "".join(
-        _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"), c)
+        _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"), c, termometro)
         for c in COLECCIONES if secciones[c])
     if otros:
         html_secciones += _seccion("Otros (sin identificar)", otros, min_keys, series,
-                                   COLORES.get("Otros (sin identificar)", "#8a8f9a"), "Otros")
+                                   COLORES.get("Otros (sin identificar)", "#8a8f9a"), "Otros", termometro)
 
     # Chips de filtro por coleccion (solo las que existen)
     chips = ['<button class="chip active" data-col="">Todas</button>']
