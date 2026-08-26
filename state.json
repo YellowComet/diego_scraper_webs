@@ -1568,7 +1568,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_UPC_Day_EN-copy-scaled.png?v=1782830736"
   },
   "https://www.pokemillon.com/products/pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Caja 20 Sobres Pokémon 30th Anniversary m6a",
     "tienda": "Pokemillon",
     "precio": "149,90 €",
