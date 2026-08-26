@@ -14,6 +14,7 @@ Panel comparador Pokemon TCG a partir de state.json.
 import csv
 import json
 import re
+import statistics
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
@@ -329,10 +330,12 @@ def _imagen(group):
 def _termometro_html(termo):
     if not termo:
         return ""
-    etiqueta, clase, pos = termo
+    etiqueta, clase, pos, med = termo
+    ref = f"{med:.2f}".replace(".", ",")
     return (f'<div class="termo {clase}"><div class="tbar">'
             f'<span class="tdot" style="left:{pos*100:.0f}%"></span></div>'
-            f'<span class="tlbl">{etiqueta}</span></div>')
+            f'<span class="tlbl">{etiqueta}</span></div>'
+            f'<div class="tref">precio habitual ~{ref} \u20ac</div>')
 
 
 def _tarjeta(display, group, es_min=False, serie=None, termo=None):
@@ -463,7 +466,7 @@ details.all li .lgm{font-size:10px;color:var(--muted);width:26px;text-align:righ
 .tbar{position:relative;flex:1;height:6px;border-radius:999px;background:linear-gradient(90deg,#22a03a,#e0b000,#e05a4f)}
 .tdot{position:absolute;top:50%;width:11px;height:11px;border-radius:50%;background:#fff;border:2px solid var(--panel);transform:translate(-50%,-50%);box-shadow:0 0 0 1px rgba(0,0,0,.3)}
 .tlbl{font-size:10px;font-weight:700;white-space:nowrap}
-.termo.bien .tlbl{color:var(--ok)}.termo.medio .tlbl{color:var(--warn)}.termo.mal .tlbl{color:#e05a4f}
+.termo.bien .tlbl{color:var(--ok)}.termo.medio .tlbl{color:var(--warn)}.termo.mal .tlbl{color:#e05a4f}\n.tref{font-size:10px;color:var(--muted);margin-top:3px;text-align:right}
 a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}.card:hover{transform:none}}
 @media (max-width:520px){.wrap{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px}header h1{font-size:19px}}
@@ -550,12 +553,13 @@ def genera_panel(entradas):
                     min_keys.add(key)
                 if hmax > hmin + 0.01:
                     pos = max(0.0, min(1.0, (cur - hmin) / (hmax - hmin)))
+                    med = statistics.median(previos)
                     if pos <= 0.20:
-                        termometro[key] = ("Chollo", "bien", pos)
+                        termometro[key] = ("Chollo", "bien", pos, med)
                     elif pos >= 0.80:
-                        termometro[key] = ("Caro", "mal", pos)
+                        termometro[key] = ("Caro", "mal", pos, med)
                     else:
-                        termometro[key] = ("Precio normal", "medio", pos)
+                        termometro[key] = ("Precio normal", "medio", pos, med)
                 ahorro = hmax - cur
                 pct = ahorro / hmax if hmax > 0 else 0.0
                 if ahorro > 0.01 and (key in min_keys or pct >= 0.12):
