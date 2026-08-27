@@ -693,7 +693,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/blister-3-sobres-heroes-ascendentes.png?v=1771347469"
   },
   "https://www.pokemillon.com/products/pokemon-day-2026-collection": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon Day 2026 Collection (30 Aniversario)",
     "tienda": "Pokemillon",
     "precio": "32,90 €",
@@ -779,7 +779,7 @@
     "disponible": false,
     "nombre": "Booster Bundle Ascended Heroes | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "96,00 €",
+    "precio": "95,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Bundle_Ascended_Heroes_POKeMON_Ingles.webp?v=1777324280"
   },
   "https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles": {
