@@ -779,7 +779,7 @@
     "disponible": false,
     "nombre": "Booster Bundle Ascended Heroes | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "96,00 €",
+    "precio": "95,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Bundle_Ascended_Heroes_POKeMON_Ingles.webp?v=1777324280"
   },
   "https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles": {
@@ -925,7 +925,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "714,00 €",
+    "precio": "713,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-tech-sticker-collection-ascended-heroes-espanol-ingles": {
@@ -1936,14 +1936,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Productlive_97_48fa8405-99a6-42b5-a87c-72b23196485b.webp?v=1764670881"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-preventa": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Elite Trainer Box - PREVENTA",
     "tienda": "Pokezilla",
     "precio": "99,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/pokemon-30-anivesario-etb-6.webp?v=1783428666"
   },
   "https://pokezilla.com/products/umbreon-30-aniversario-especial-ultra-premium-collection": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: Umbreon 30 Aniversario Especial Ultra-Premium Collection- PREVENTA",
     "tienda": "Pokezilla",
     "precio": "239,95 €",
