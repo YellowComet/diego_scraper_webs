@@ -925,7 +925,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "710,00 €",
+    "precio": "709,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-tech-sticker-collection-ascended-heroes-espanol-ingles": {
@@ -1985,11 +1985,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg.webp?v=1786784349"
   },
   "https://www.ryucardstcg.com/products/coleccion-ilustracion-primer-companero-serie-3": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Colección Ilustración Primer Compañero Serie 3",
     "tienda": "RyuCards",
     "precio": "29,90 €",
-    "obj": 29.9,
     "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS_2_1111f06f-4846-4440-b16c-f4b31da91b80.png?v=1787647470"
   },
   "https://flashstore.es/producto/heroes-ascendentes-tech-sticker-collection/": {
