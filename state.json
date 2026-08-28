@@ -862,7 +862,7 @@
     "disponible": false,
     "nombre": "ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "102,00 €",
+    "precio": "101,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Ascended_Heroes_Elite_Trainer_Box_POK_MON_Ingl_s.jpg?v=1768482811"
   },
   "https://todohits.com/products/30-aniversario-pokemon-day-2026-pokemon-espanol": {
@@ -1551,7 +1551,7 @@
     "disponible": false,
     "nombre": "ETB Celebraciones 30 Aniversario | Élite Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "61,90 €",
+    "precio": "69,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Elite_Trainer_Box_EN-copy-scaled.jpg?v=1787737242"
   },
   "https://www.pokemillon.com/products/bundle-30th-anniversary": {
@@ -2047,5 +2047,12 @@
     "tienda": "AllinTCG",
     "precio": "189,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryetb.webp?v=1787674189"
+  },
+  "https://www.pokemillon.com/products/pokemon-center-etb-celebrations-30th": {
+    "disponible": false,
+    "nombre": "Pokémon Center ETB Celebrations 30th",
+    "tienda": "Pokemillon",
+    "precio": "299,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_efe649f5-8234-4c2b-8e96-0da454bf5fb5.jpg?v=1787879525"
   }
 }
