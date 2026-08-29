@@ -2053,5 +2053,12 @@
     "tienda": "Pokemillon",
     "precio": "299,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_efe649f5-8234-4c2b-8e96-0da454bf5fb5.jpg?v=1787879525"
+  },
+  "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-lucario-lat/": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes Premium Poster Collection Lucario LAT",
+    "tienda": "Flash Store",
+    "precio": "72,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2025/12/poster1.jpg"
   }
 }
