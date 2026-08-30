@@ -2060,5 +2060,12 @@
     "tienda": "Flash Store",
     "precio": "72,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2025/12/poster1.jpg"
+  },
+  "https://flashstore.es/producto/january-special-collection-30-aniversario/": {
+    "disponible": true,
+    "nombre": "January Special Collection 30 Aniversario",
+    "tienda": "Flash Store",
+    "precio": "27,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2025/11/janspecial.jpg"
   }
 }
