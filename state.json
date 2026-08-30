@@ -2067,5 +2067,19 @@
     "tienda": "Flash Store",
     "precio": "27,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2025/11/janspecial.jpg"
+  },
+  "https://flashstore.es/producto/heroes-ascendentes-first-partners-deluxe-pin-collection/": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes First Partners Deluxe Pin Collection",
+    "tienda": "Flash Store",
+    "precio": "36,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2025/12/deluxe.jpg"
+  },
+  "https://flashstore.es/producto/heroes-ascendentes-mini-lata/": {
+    "disponible": true,
+    "nombre": "Heroes Ascendentes Mini Lata",
+    "tienda": "Flash Store",
+    "precio": "19,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2025/11/minitinascended.jpg"
   }
 }
