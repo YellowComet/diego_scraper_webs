@@ -2080,5 +2080,13 @@
     "tienda": "Flash Store",
     "precio": "19,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2025/11/minitinascended.jpg"
+  },
+  "https://flashstore.es/producto/151-first-partner-display/": {
+    "disponible": true,
+    "nombre": "151 First Partner Display",
+    "tienda": "Flash Store",
+    "precio": "26,90 €",
+    "obj": 26.9,
+    "img": "https://flashstore.es/wp-content/uploads/2025/08/starteerinitrial.jpg"
   }
 }
