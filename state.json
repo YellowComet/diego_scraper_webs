@@ -62,6 +62,7 @@
     "nombre": "First Partner Illustration Collection Series 3",
     "tienda": "Flash Store",
     "precio": "33,90 €",
+    "deseo": 30.0,
     "img": "https://flashstore.es/wp-content/uploads/2026/06/first3.jpg"
   },
   "https://thecardstation.es/product/caja-ex-%c2%b7-ascended-heroes/": {
@@ -69,6 +70,7 @@
     "nombre": "ex Box · Mega-Meganium · Mega-Emboar · Mega-Feraligatr · Ascended Heroes (ENG) | Pokémon TCG",
     "tienda": "The Card Station",
     "precio": "52,95 €",
+    "deseo": 45.0,
     "img": "https://i0.wp.com/thecardstation.es/wp-content/uploads/2026/05/G8jvwmpWAAEc_8Z.jpg"
   },
   "https://thecardstation.es/product/coleccion-ilustracion-%c2%b7-primer-companero-%c2%b7-serie-2-pokemon-tcg/": {
@@ -77,6 +79,7 @@
     "tienda": "The Card Station",
     "precio": "29,95 €",
     "obj": 29.95,
+    "deseo": 30.0,
     "img": "https://i0.wp.com/thecardstation.es/wp-content/uploads/2026/06/firstpartner2.webp"
   },
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-3-espanol": {
@@ -84,6 +87,7 @@
     "nombre": "Caja First Partner Colección Ilustración Primer Compañero Serie 3 - Español",
     "tienda": "CardZone",
     "precio": "34,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg-cardzone.png?v=1785913581"
   },
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-2-espanol": {
@@ -92,6 +96,7 @@
     "tienda": "CardZone",
     "precio": "29,95 €",
     "obj": 29.95,
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-first-partner-primer-companero-illustration-collection-serie-2-cartas-pokemon-tcg-cardzone.png?v=1781811957"
   },
   "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol": {
@@ -99,6 +104,7 @@
     "nombre": "Caja Mega EX Box Héroes Ascendentes - Español",
     "tienda": "CardZone",
     "precio": "35,95 €",
+    "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-mega-meganium-emboar-feraligatr-ex-heroes-ascendentes-ascended-heroes-cartas-pokemon-tcg-cardzone.png?v=1777278098"
   },
   "https://cardzone.es/products/blister-heroes-ascendentes-espanol": {
@@ -139,6 +145,7 @@
     "nombre": "ETB Caja de Entrenador Elite Héroes Ascendentes + Protector Acrílico para ETB",
     "tienda": "CardZone",
     "precio": "79,95 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-03-10T121156.619.png?v=1773141171"
   },
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-espanol": {
@@ -146,6 +153,7 @@
     "nombre": "Caja First Partner Colección Ilustración Primer Compañero - Español",
     "tienda": "CardZone",
     "precio": "39,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-first-partner-primer-companero-illustration-collection-cartas-pokemon-tcg-cardzone.png?v=1773761359"
   },
   "https://cardzone.es/products/mini-lata-heroes-ascendentes-espanol": {
@@ -188,6 +196,7 @@
     "nombre": "ETB Caja de Entrenador Elite Heroes Ascendentes - Español",
     "tienda": "CardZone",
     "precio": "69,95 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-de-entrenador-elite-trainer-box-etb-heroes-ascendentes-ascended-heroes-cartas-pokemon-tcg-cardzone.png?v=1771326806"
   },
   "https://cardzone.es/products/caja-coleccion-con-poster-premium-heroes-ascendentes-espanol": {
@@ -209,6 +218,7 @@
     "nombre": "First Partner Illustration Collections Series 3 | Español |",
     "tienda": "TCG Level",
     "precio": "31,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/caja-first-partner-serie-3-esp.png?v=1786311372"
   },
   "https://tcglevel.com/products/pokemon-first-partner-30-aniversario-vol-2-chino": {
@@ -222,6 +232,7 @@
     "nombre": "First Partner Illustration Collections Series 2 Español",
     "tienda": "TCG Level",
     "precio": "29,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/caja-coleccion-first-partner-serie-2-esp.png?v=1781731955"
   },
   "https://tcglevel.com/products/booster-bundle-pokemon-heroes-ascendentes-espanol": {
@@ -249,6 +260,7 @@
     "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 3 (ESPAÑOL) - PRIMER COMPAÑERO",
     "tienda": "Sunny Store",
     "precio": "29,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Pokemon-First-Partner-3-Caja-Coleccion-Ilustracion-Primer-Companero-Front-cardcenter.es_-768x768_2_aadf9a25-109b-42ae-9b26-53cd64fbfe29.jpg?v=1785842900"
   },
   "https://sunnystore.es/products/etb-pokemon-oscuridad-absoluta-elite-trainer-box-espanol": {
@@ -268,6 +280,7 @@
     "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 2 (ESPAÑOL) - PRIMER COMPAÑERO",
     "tienda": "Sunny Store",
     "precio": "29,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/IMG-2672.png?v=1782093899"
   },
   "https://sunnystore.es/products/booster-bundle-pokemon-mega-ascended-heroes-ingles": {
@@ -289,6 +302,7 @@
     "nombre": "POKEMON TCG MEGA HEROES ASCENDENTES EX BOX (ESPAÑOL)",
     "tienda": "Sunny Store",
     "precio": "38,90 €",
+    "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/ascended-heroes-first-partners-deluxe-pin-collection-and-v0-e11kfzk0188g1.jpg?v=1778081115"
   },
   "https://sunnystore.es/products/booster-bundle-pokemon-mega-heroes-ascendentes-espanol": {
@@ -316,6 +330,7 @@
     "nombre": "FIRST PARTNER ILLUSTRATION COLLECTION SERIE 1 (ESPAÑOL)",
     "tienda": "Sunny Store",
     "precio": "34,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/caja-first-partner-primer-companero-illustration-collection-cartas-pokemon-tcg-sunnystore-copy.webp?v=1774003564"
   },
   "https://sunnystore.es/products/pokemon-tcg-mini-lata-heroes-ascendentes-mini-tins-espanol": {
@@ -337,6 +352,7 @@
     "nombre": "ETB POKEMON HÉROES ASCENDENTES ELITE TRAINER BOX (ESPAÑOL)",
     "tienda": "Sunny Store",
     "precio": "74,90 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/2026-Pokemon-Mega-Evolution-Ascended-Heros-Elite-Trainer-Box-heroes-ascendentes-espanol.jpg?v=1771433993"
   },
   "https://sunnystore.es/products/blister-3-sobres-tech-sticker-pokemon-ascended-heroes-ingles": {
@@ -379,6 +395,7 @@
     "tienda": "Factory Cards TCG",
     "precio": "29,95 €",
     "obj": 29.95,
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/9668DD95-FA8F-41E0-AEE6-24A4C0F70974.jpg?v=1783694379"
   },
   "https://factorycardstcg.com/products/primer-companero-pokemon-series-2-espanol": {
@@ -387,6 +404,7 @@
     "tienda": "Factory Cards TCG",
     "precio": "29,95 €",
     "obj": 29.95,
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/s2.jpg?v=1781512180"
   },
   "https://factorycardstcg.com/products/pokemon-bundle-heroes-ascendentes-espanol": {
@@ -415,6 +433,7 @@
     "nombre": "POKEMON - Heroes Ascendentes ETB - Español",
     "tienda": "Factory Cards TCG",
     "precio": "100,00 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/CapturadePantalla2025-11-25alas11.59.08.png?v=1764068850"
   },
   "https://factorycardstcg.com/products/reserva-january-special-collection-30-aniversario-espanol": {
@@ -472,6 +491,7 @@
     "tienda": "Alfriki",
     "precio": "29,99 €",
     "obj": 29.99,
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0555/8452/2579/files/accul15911.jpg?v=1749381020"
   },
   "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-6-anos": {
@@ -479,6 +499,7 @@
     "nombre": "Pokémon TCG Colección Ilustración Primer Compañero Serie 3 +6 años",
     "tienda": "Toy Planet",
     "precio": "34,99 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0900/8241/0819/files/TPBAN010410_1.png?v=1782436498"
   },
   "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-2-6-anos": {
@@ -486,6 +507,7 @@
     "nombre": "Pokémon TCG Colección Ilustración Primer Compañero Serie 2 +6 años",
     "tienda": "Toy Planet",
     "precio": "39,99 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0900/8241/0819/files/TPBAN010395_1.png?v=1781831493"
   },
   "https://www.toyplanet.com/products/pokemon-mini-lata-heroes-ascendentes-es-surtidas": {
@@ -500,6 +522,7 @@
     "nombre": "Pokémon Elite Trainer Box Ascended Heroes (Español)",
     "tienda": "Toy Planet",
     "precio": "79,99 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0900/8241/0819/files/Heroes_Ascendentes_Copy.webp?v=1771580901"
   },
   "https://www.toyplanet.com/products/pokemon-tcg-heroes-ascendentes-blister-surtido": {
@@ -626,6 +649,7 @@
     "nombre": "Collection box - First Partner III [ESP]",
     "tienda": "AllinTCG",
     "precio": "32,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/partner_3.webp?v=1786438669"
   },
   "https://labovedafriki.es/products/caja-coleccion-ilustracion-primer-companero-serie-2": {
@@ -633,6 +657,7 @@
     "nombre": "Caja Colección Ilustración - Primer Compañero - Serie 2",
     "tienda": "La Boveda Friki",
     "precio": "29,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_Coleccion_Ilustracion_Primer_Companero-Serie2_la_boveda_friki.png?v=1783103306"
   },
   "https://labovedafriki.es/products/blister-2-sobres-heroes-ascendentes-komala": {
@@ -661,6 +686,7 @@
     "nombre": "Caja Colección Ilustración - Primer Compañero - Serie 1",
     "tienda": "La Boveda Friki",
     "precio": "36,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/coleccion-ilustracion-primer-companero.png?v=1774705349"
   },
   "https://labovedafriki.es/products/mini-lata-heroes-ascendentes": {
@@ -675,6 +701,7 @@
     "nombre": "ETB Héroes Ascendentes",
     "tienda": "La Boveda Friki",
     "precio": "64,90 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/etb-heroes-ascendentes.png?v=1772382075"
   },
   "https://labovedafriki.es/products/caja-coleccion-premium-mega-venusaur-ex-copia": {
@@ -717,6 +744,7 @@
     "nombre": "ETB Héroes Ascendentes | Élite Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "99,99 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/ETB_Heroes_Ascendentes_Elite_Ascended_Heroes_Sin_Fondo_Pokemillon.png?v=1775417331"
   },
   "https://www.pokemillon.com/products/blister-enhanced-ascended-heroes": {
@@ -752,6 +780,7 @@
     "nombre": "First partner Series 3 Illustration Collection | POKÉMON | Español (Primer Compañero)",
     "tienda": "TodoHits",
     "precio": "41,00 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/First_partner_Series_3_Illustration_Collection_POKEMON_Espa_ol_Primer_Compa_ero.jpg?v=1782485381"
   },
   "https://todohits.com/products/first-partner-series-2-illustration-collection-pokemon-chino": {
@@ -765,6 +794,7 @@
     "nombre": "First partner Series 2 Illustration Collection | POKÉMON | Español (Primer Compañero)",
     "tienda": "TodoHits",
     "precio": "42,00 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/First_partner_Front_Illustration_Collection_Series_2_POKEMON.png?v=1781697132"
   },
   "https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-espanol": {
@@ -800,6 +830,7 @@
     "nombre": "First partner Series 1 Illustration Collection | POKÉMON | Español (Primer Compañero)",
     "tienda": "TodoHits",
     "precio": "45,00 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/First_partner_Illustration_Collection_Series_1_POK_MON_Espa_ol.jpg?v=1781874460"
   },
   "https://todohits.com/products/first-partner-illustration-collection-series-1-chino-pokemon-espanol-primer-companero": {
@@ -855,6 +886,7 @@
     "nombre": "ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español",
     "tienda": "TodoHits",
     "precio": "83,00 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Heroes_Ascendentes_Elite_Trainer_Box_POK_MON.jpg?v=1771434421"
   },
   "https://todohits.com/products/etb-ascended-heroes-elite-trainer-box-pokemon-ingles": {
@@ -925,6 +957,7 @@
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
     "precio": "710,00 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-tech-sticker-collection-ascended-heroes-espanol-ingles": {
@@ -960,6 +993,7 @@
     "nombre": "First Partner Illustration Collection Serie 3 - Español",
     "tienda": "Metamorph Center",
     "precio": "32,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/first-partner-series-3-espanol.png?v=1785854525"
   },
   "https://metamorphcenter.com/products/first-partner-illustration-collection-serie-2-espanol": {
@@ -967,6 +1001,7 @@
     "nombre": "[ RESERVA ] First Partner Illustration Collection Serie 2 - Español",
     "tienda": "Metamorph Center",
     "precio": "32,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/first_partner_illustration_collection_s2_espanol.webp?v=1781772931"
   },
   "https://metamorphcenter.com/products/booster-bundle-pokemon-ascended-heroes-ingles": {
@@ -1009,6 +1044,7 @@
     "nombre": "Colección Ilustración Primer Compañero Pokémon - Español",
     "tienda": "Metamorph Center",
     "precio": "31,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/ColeccionIlustracionPrimerCompaneroPokemon.png?v=1773683730"
   },
   "https://metamorphcenter.com/products/mini-lata-heroes-ascendentes-es": {
@@ -1023,6 +1059,7 @@
     "nombre": "ETB Héroes Ascendentes - Español",
     "tienda": "Metamorph Center",
     "precio": "64,95 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/ETBHeroesAscendentesEspanol.png?v=1771605919"
   },
   "https://metamorphcenter.com/products/blister-2-sobres-erika-heroes-ascendentes": {
@@ -1107,6 +1144,7 @@
     "nombre": "Caja de Entrenador Élite (ETB) Héroes Ascendentes - Pokémon TCG (Español)",
     "tienda": "Pokedex Card",
     "precio": "69,95 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/ETBHEROESASCENDENTES-MEGAEVOLUCIONES_ESPANOL_IPokedexCardsIPokemonTCG_584dcccc-e8c5-45db-a711-f7953d4479dd.jpg?v=1772308156"
   },
   "https://www.ryucardstcg.com/products/coleccion-ilustracion-primer-companero-serie-2": {
@@ -1114,6 +1152,7 @@
     "nombre": "Colección Ilustración Primer Compañero Serie 2",
     "tienda": "RyuCards",
     "precio": "29,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS-2026-06-18T122121.814.png?v=1781778094"
   },
   "https://sarumangames.es/products/pokemon-tcg-ascended-heroes-mega-emboar-ex-box-espanol": {
@@ -1121,6 +1160,7 @@
     "nombre": "POKEMON TCG: ASCENDED HEROES - MEGA EMBOAR EX BOX - ESPAÑOL",
     "tienda": "Saruman Games",
     "precio": "35,00 €",
+    "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/91tnj2G0NxL.jpg?v=1777139817"
   },
   "https://sarumangames.es/products/pokemon-tcg-ascended-heroes-mega-feraligart-ex-box-espanol": {
@@ -1128,6 +1168,7 @@
     "nombre": "POKEMON TCG: ASCENDED HEROES - MEGA FERALIGART EX BOX - ESPAÑOL",
     "tienda": "Saruman Games",
     "precio": "35,00 €",
+    "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/AscendedHeroes-MegaFeraligatrexCollectionBox-Pokemonkort-p.webp?v=1777139329"
   },
   "https://sarumangames.es/products/pokemon-tcg-ascended-heroes-mega-meganium-ex-box-espanol": {
@@ -1135,6 +1176,7 @@
     "nombre": "POKEMON TCG: ASCENDED HEROES - MEGA MEGANIUM EX BOX - ESPAÑOL",
     "tienda": "Saruman Games",
     "precio": "35,00 €",
+    "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/AscendedHeroes-MegaMeganiumexCollectionBox-Pokemonkort-p.webp?v=1777139657"
   },
   "https://sarumangames.es/products/pokemon-tcg-ascended-heroes-booster-bundle-pack-espanol": {
@@ -1163,6 +1205,7 @@
     "nombre": "POKEMON TCG: Colección Ilustración Primer Compañero nº1  - MAX 1 por CLIENTE",
     "tienda": "Saruman Games",
     "precio": "24,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/prepedido-pokemon-tcg-coleccion-de-sobres-first-partner-1.jpg?v=1773335808"
   },
   "https://sarumangames.es/products/pokemon-tcg-coleccion-especial-30-aniversario-pikachu": {
@@ -1219,6 +1262,7 @@
     "nombre": "Pokemon TCG: ETB Ascended Heroes Caja Entrenador Elite",
     "tienda": "Saruman Games",
     "precio": "105,00 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/elite_ae88992f-fcc2-4eac-8b9c-dc7d49b7769e.jpg?v=1767730171"
   },
   "https://sarumangames.es/products/pokemon-tcg-etb-caja-entrenador-elite-espanol": {
@@ -1226,6 +1270,7 @@
     "nombre": "Pokemon TCG: ETB Ascended Heroes Caja Entrenador Elite - Español",
     "tienda": "Saruman Games",
     "precio": "70,00 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/elite.jpg?v=1767730168"
   },
   "https://sarumangames.es/products/pokemon-tcg-ascended-heroes-premium-blister-espanol-erika": {
@@ -1275,6 +1320,7 @@
     "nombre": "COLECCIÓN ILUSTRACIÓN - PRIMER COMPAÑERO (SERIE 3) [ES]",
     "tienda": "UNSOBREMAS",
     "precio": "32,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/firstpartner3.webp?v=1785920897"
   },
   "https://unsobremas.com/products/coleccion-ilustracion-primer-companero-serie-1-es": {
@@ -1282,6 +1328,7 @@
     "nombre": "COLECCIÓN ILUSTRACIÓN - PRIMER COMPAÑERO (SERIE 1) [ES]",
     "tienda": "UNSOBREMAS",
     "precio": "32,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/firstpartner.webp?v=1780518154"
   },
   "https://unsobremas.com/products/booster-pack-primer-companero-es": {
@@ -1289,6 +1336,7 @@
     "nombre": "BOOSTER PACK - PRIMER COMPAÑERO (SERIE 2) [ES]",
     "tienda": "UNSOBREMAS",
     "precio": "22,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/serie2.webp?v=1781795971"
   },
   "https://unsobremas.com/products/coleccion-ilustracion-primer-companero-serie-2-es": {
@@ -1296,6 +1344,7 @@
     "nombre": "COLECCIÓN ILUSTRACIÓN - PRIMER COMPAÑERO (SERIE 2) [ES]",
     "tienda": "UNSOBREMAS",
     "precio": "32,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/firstpartner2.webp?v=1781534157"
   },
   "https://unsobremas.com/products/booster-bundle-heroes-ascendentes-en": {
@@ -1317,6 +1366,7 @@
     "nombre": "ELITE TRAINER BOX - ASCENDED HEROES [EN]",
     "tienda": "UNSOBREMAS",
     "precio": "79,95 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/4_a2375976-f867-49a1-b0dc-2ffe99a38570copia.webp?v=1772453600"
   },
   "https://unsobremas.com/products/tins-mini-tins-prismatic-evolutions-en-copia": {
@@ -1366,6 +1416,7 @@
     "nombre": "Album Cartas Jumbo First Partner Collector's Binder",
     "tienda": "CardZone",
     "precio": "14,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/siguemeeninstagram_1920x1920px_-2024-07-19T205230.129.png?v=1721415176"
   },
   "https://www.pokemillon.com/products/pokemon-caja-zacian-premium-pin-colection-2021": {
@@ -1410,6 +1461,7 @@
     "tienda": "Darizard9",
     "precio": "29,99 €",
     "obj": 29.99,
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg-cardzone.webp?v=1786605286"
   },
   "https://www.darizard9.com/products/case-x6-primer-companero-serie-3-espanol": {
@@ -1417,6 +1469,7 @@
     "nombre": "Case x6 Primer Compañero Serie 3 Español",
     "tienda": "Darizard9",
     "precio": "179,99 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/938074_001_031126_1_1.jpg?v=1786605215"
   },
   "https://ozjuegos.com/producto/pokemon-tcg-coleccion-con-poster-premium-de-mega-gardevoir-megaevolucion-heroes-ascendentes/": {
@@ -1438,6 +1491,7 @@
     "nombre": "Pokemon TCG – Colección Ilustración Primer Compañero (serie 3) (Español)",
     "tienda": "OZ Juegos",
     "precio": "24,95 €",
+    "deseo": 30.0,
     "img": "https://ozjuegos.com/wp-content/uploads/2026/08/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg-cardzone-scaled.webp"
   },
   "https://flashstore.es/producto/first-partner-illustration-collection-series-2/": {
@@ -1446,6 +1500,7 @@
     "tienda": "Flash Store",
     "precio": "29,90 €",
     "obj": 29.9,
+    "deseo": 30.0,
     "img": "https://flashstore.es/wp-content/uploads/2026/04/s2.jpg"
   },
   "https://flashstore.es/producto/heroes-ascendentes-display-mini-lata/": {
@@ -1460,6 +1515,7 @@
     "nombre": "First Partner Illustration Collection Series 1",
     "tienda": "Flash Store",
     "precio": "39,90 €",
+    "deseo": 30.0,
     "img": "https://flashstore.es/wp-content/uploads/2026/01/firstpaner.jpg"
   },
   "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-gardevoir/": {
@@ -1488,6 +1544,7 @@
     "nombre": "[ DAÑADA ] First Partner Illustration Collection Serie 3 - Español",
     "tienda": "Metamorph Center",
     "precio": "24,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/first-partner-series-3-espanol.png?v=1785854525"
   },
   "https://cardzone.es/products/etb-caja-de-entrenador-elite-ascended-heroes-ingles-copia": {
@@ -1544,6 +1601,7 @@
     "nombre": "First Partner Series 1 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "36,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Illustration_Collections_30th_Aniversario_Sin_Fondo_Pokemillon.png?v=1787862653"
   },
   "https://www.pokemillon.com/products/etb-30th": {
@@ -1593,6 +1651,7 @@
     "nombre": "First Partner Series 2 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "32,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Series_2_30th_Anniversary_Pokemillon.png?v=1787862882"
   },
   "https://www.pokemillon.com/products/30th-anniversary-first-partner-blister-vol-1": {
@@ -1607,6 +1666,7 @@
     "nombre": "First Partner Series 3 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "32,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Series_3_30th_Anniversary_Pokemillon.png?v=1787862333"
   },
   "https://www.pokemillon.com/products/sobre-pokemon-30th-anniversary": {
@@ -1635,6 +1695,7 @@
     "nombre": "First Partner Illustration Collections Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "59,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142655.png?v=1787737314"
   },
   "https://www.pokemillon.com/products/sobre-ascended-heroes": {
@@ -1663,6 +1724,7 @@
     "nombre": "Case 6 First Partner Series 1 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "198,99 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_1b732188-aebb-446a-b225-2a0c0810aa91.png?v=1782201361"
   },
   "https://www.pokemillon.com/products/ultra-premium-umbreon-celebraciones-30-aniversario-celebrations-30th": {
@@ -1775,6 +1837,7 @@
     "nombre": "Case 6 First Partner Series 2 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "226,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/primercompaneroseries2-pokemillo.png?v=1783017706"
   },
   "https://www.pokemillon.com/products/case-6-first-partner-series-3-primer-companero-30-aniversario-espanol": {
@@ -1782,6 +1845,7 @@
     "nombre": "Case 6 First Partner Series 3 | Primer Compañero 30 Aniversario Español",
     "tienda": "Pokemillon",
     "precio": "199,80 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/case-6-first-partner-series-3-primer-companero-30-aniversario-espanol.png?v=1788134081"
   },
   "https://todohits.com/products/album-ascended-heroes-9-bolsillos-252-cartas-binder": {
@@ -1797,6 +1861,7 @@
     "tienda": "Reino de Cartas",
     "precio": "29,99 €",
     "obj": 29.99,
+    "deseo": 30.0,
     "img": "https://reinodecartas.com/wp-content/uploads/2026/06/Primer-Companero-Serie-3.webp"
   },
   "https://iberiancollect.com/products/combo-etb-ascended-heroes-ingles-booster-box-equilibrio-perfecto": {
@@ -1832,6 +1897,7 @@
     "nombre": "ETB Heroes Ascendentes , Español",
     "tienda": "Iberian Collect",
     "precio": "84,99 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-006_58001326113035.jpg?v=1786778133"
   },
   "https://iberiancollect.com/products/coleccion-premium-con-poster-heroes-ascendentes-espanol": {
@@ -1861,6 +1927,7 @@
     "tienda": "Iberian Collect",
     "precio": "29,97 €",
     "obj": 29.97,
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0890.jpg?v=1785854630"
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon": {
@@ -1882,6 +1949,7 @@
     "nombre": "Pokémon TCG: Mega Evolution - Ascended Heroes Elite Trainer Box",
     "tienda": "Pokezilla",
     "precio": "89,95 €",
+    "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Mega-Evolution-Ascended-Heroes-ETB-Elite-Trainer-Box-1-webp.webp?v=1764009928"
   },
   "https://pokezilla.com/products/mega-evolution-ascended-heroes-booster-bundle-preventa": {
@@ -1918,6 +1986,7 @@
     "tienda": "Pokezilla",
     "precio": "39,95 €",
     "obj": 39.95,
+    "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/imgi_300_Screenshot_20251219_181140_X_1.jpg?v=1778321823"
   },
   "https://pokezilla.com/products/mega-evolution-ascended-heroes-blister-x-2-preventa": {
@@ -1974,6 +2043,7 @@
     "nombre": "Pokémon TCG: 30 Aniversario First Partner Illustration Collection Series 2",
     "tienda": "Pokezilla",
     "precio": "34,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-first-partner-primer-companero-illustration-collection-serie-2-cartas-pokemon.webp?v=1784897058"
   },
   "https://pokezilla.com/products/pokemon-tcg-first-partner-illustration-collection-series-3": {
@@ -1981,6 +2051,7 @@
     "nombre": "Pokémon TCG: 30 Aniversario First Partner Illustration Collection Series 3",
     "tienda": "Pokezilla",
     "precio": "34,95 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg.webp?v=1786784349"
   },
   "https://www.ryucardstcg.com/products/coleccion-ilustracion-primer-companero-serie-3": {
@@ -1988,6 +2059,7 @@
     "nombre": "Colección Ilustración Primer Compañero Serie 3",
     "tienda": "RyuCards",
     "precio": "29,90 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS_2_1111f06f-4846-4440-b16c-f4b31da91b80.png?v=1787647470"
   },
   "https://flashstore.es/producto/heroes-ascendentes-tech-sticker-collection/": {
