@@ -699,6 +699,8 @@ def main() -> None:
                              "tienda": tienda["nombre"], "precio": precio}
                     if obj_now is not None:
                         entry["obj"] = obj_now
+                    if target is not None:
+                        entry["deseo"] = target      # producto en tu lista de deseos
                     if img:
                         entry["img"] = img
                     estado[purl] = entry
