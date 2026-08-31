@@ -338,7 +338,7 @@ def _termometro_html(termo):
             f'<div class="tref">precio habitual ~{ref} \u20ac</div>')
 
 
-def _tarjeta(display, group, es_min=False, serie=None, termo=None):
+def _tarjeta(display, group, es_min=False, serie=None, termo=None, ahorro=0.0):
     disp = any(e["disponible"] for e in group)
     cls = "card" + ("" if disp else " off") + (" min" if es_min else "")
     precios = [e["precio_num"] for e in group if e["disponible"] and e["precio_num"] is not None]
@@ -349,9 +349,21 @@ def _tarjeta(display, group, es_min=False, serie=None, termo=None):
     thumb = (f'<div class="thumb"><img loading="lazy" src="{img}" alt="">{ribbon}</div>'
              if img else f'<div class="thumb ph">{ribbon}</div>')
     grafica = sparkline(serie) if serie else ""
+    # Lista de deseos: objetivo (el estado marca 'deseo' en los que casan)
+    objs = [e["deseo"] for e in group if e.get("deseo") is not None]
+    es_deseo = bool(objs)
+    deseo_html = ""
+    if es_deseo:
+        obj = min(objs)
+        mejor = min(precios) if precios else None
+        cumple = mejor is not None and mejor <= obj + 0.001
+        clase = "met" if cumple else "wait"
+        objtxt = f"{obj:.2f}".replace(".", ",")
+        deseo_html = f'<div class="deseo {clase}">&#127919; objetivo \u2264 {objtxt} \u20ac</div>'
     return (f'<div class="{cls}" data-name="{dname}" data-avail="{1 if disp else 0}" '
-            f'data-price="{dprice}" data-min="{1 if es_min else 0}">'
-            f'{thumb}<div class="body"><h3>{display}</h3>'
+            f'data-price="{dprice}" data-min="{1 if es_min else 0}" '
+            f'data-ahorro="{ahorro*100:.0f}" data-deseo="{1 if es_deseo else 0}">'
+            f'{thumb}<div class="body"><h3>{display}</h3>{deseo_html}'
             f'<div class="langs">{_media(group, "ES")}{_media(group, "EN")}</div>'
             f'{_termometro_html(termo)}{_todas_tiendas(group)}{grafica}</div></div>')
 
@@ -384,11 +396,12 @@ def _seccion_chollos(chollos):
             f'<div class="wrap">{tarjetas}</div></section>')
 
 
-def _seccion(titulo, grupos, min_keys, series, accent, col_id, termometro):
+def _seccion(titulo, grupos, min_keys, series, accent, col_id, termometro, ahorro_key):
     def hay_disp(g): return any(e["disponible"] for e in g)
     orden = sorted(grupos.items(), key=lambda kv: (not hay_disp(kv[1]), kv[0]))
     tarjetas = "".join(
-        _tarjeta(g[0]["display"], g, k in min_keys, series.get(k), termometro.get(k))
+        _tarjeta(g[0]["display"], g, k in min_keys, series.get(k),
+                 termometro.get(k), ahorro_key.get(k, 0.0))
         for k, g in orden)
     return (f'<section data-col="{col_id}" style="--acc:{accent}">'
             f'<h2>{titulo} <small>({len(orden)})</small></h2>'
@@ -466,7 +479,7 @@ details.all li .lgm{font-size:10px;color:var(--muted);width:26px;text-align:righ
 .tbar{position:relative;flex:1;height:6px;border-radius:999px;background:linear-gradient(90deg,#22a03a,#e0b000,#e05a4f)}
 .tdot{position:absolute;top:50%;width:11px;height:11px;border-radius:50%;background:#fff;border:2px solid var(--panel);transform:translate(-50%,-50%);box-shadow:0 0 0 1px rgba(0,0,0,.3)}
 .tlbl{font-size:10px;font-weight:700;white-space:nowrap}
-.termo.bien .tlbl{color:var(--ok)}.termo.medio .tlbl{color:var(--warn)}.termo.mal .tlbl{color:#e05a4f}\n.tref{font-size:10px;color:var(--muted);margin-top:3px;text-align:right}
+.termo.bien .tlbl{color:var(--ok)}.termo.medio .tlbl{color:var(--warn)}.termo.mal .tlbl{color:#e05a4f}\n.tref{font-size:10px;color:var(--muted);margin-top:3px;text-align:right}\n.deseo{font-size:11px;font-weight:700;border-radius:8px;padding:3px 8px;align-self:flex-start}\n.deseo.met{color:var(--ok);background:var(--okbg);border:1px solid var(--okbd)}\n.deseo.wait{color:var(--muted);background:var(--panel2);border:1px solid var(--border)}
 a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}.card:hover{transform:none}}
 @media (max-width:520px){.wrap{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px}header h1{font-size:19px}}
@@ -477,14 +490,15 @@ CONTROLS_HTML = """
   <input type="text" id="q" placeholder="Buscar producto...">
   <label><input type="checkbox" id="soloDisp"> Solo disponibles</label>
   <label><input type="checkbox" id="soloMin"> Solo minimos</label>
-  <select id="orden"><option value="rel">Orden: relevancia</option><option value="precio">Precio menor primero</option><option value="nombre">Nombre A-Z</option></select>
+  <label><input type="checkbox" id="soloDeseos"> Solo mi lista de deseos</label>
+  <select id="orden"><option value="rel">Orden: relevancia</option><option value="ahorro">Mayor ahorro</option><option value="precio">Precio menor primero</option><option value="nombre">Nombre A-Z</option></select>
 </div>
 """
 
 SCRIPT_JS = """
 <script>
 (function(){
- var q=document.getElementById('q'),sd=document.getElementById('soloDisp'),sm=document.getElementById('soloMin'),od=document.getElementById('orden');
+ var q=document.getElementById('q'),sd=document.getElementById('soloDisp'),sm=document.getElementById('soloMin'),sw=document.getElementById('soloDeseos'),od=document.getElementById('orden');
  var col="";
  function apply(){
   var t=(q.value||'').toLowerCase();
@@ -496,10 +510,12 @@ SCRIPT_JS = """
     var okT=(c.dataset.name||'').indexOf(t)>=0;
     var okD=!sd.checked||c.dataset.avail==='1';
     var okM=!sm.checked||c.dataset.min==='1';
-    var show=okT&&okD&&okM; c.style.display=show?'':'none'; if(show)vis++;
+    var okW=!sw.checked||c.dataset.deseo==='1';
+    var show=okT&&okD&&okM&&okW; c.style.display=show?'':'none'; if(show)vis++;
    });
    if(od.value!=='rel'){
     cards.sort(function(a,b){
+     if(od.value==='ahorro'){return parseFloat(b.dataset.ahorro||'0')-parseFloat(a.dataset.ahorro||'0');}
      if(od.value==='precio'){return parseFloat(a.dataset.price||'999999')-parseFloat(b.dataset.price||'999999');}
      return (a.dataset.name||'').localeCompare(b.dataset.name||'');
     });
@@ -508,7 +524,7 @@ SCRIPT_JS = """
    sec.style.display=vis?'':'none';
   });
  }
- q.addEventListener('input',apply);sd.addEventListener('change',apply);sm.addEventListener('change',apply);od.addEventListener('change',apply);
+ q.addEventListener('input',apply);sd.addEventListener('change',apply);sm.addEventListener('change',apply);sw.addEventListener('change',apply);od.addEventListener('change',apply);
  document.querySelectorAll('.chip').forEach(function(ch){
   ch.addEventListener('click',function(){
    document.querySelectorAll('.chip').forEach(function(c){c.classList.remove('active');});
@@ -539,6 +555,7 @@ def genera_panel(entradas):
     series = {}
     chollos = []
     termometro = {}
+    ahorro_key = {}
     total = 0
     for grupos in list(secciones.values()) + [otros]:
         total += len(grupos)
@@ -562,6 +579,7 @@ def genera_panel(entradas):
                         termometro[key] = ("Precio normal", "medio", pos, med)
                 ahorro = hmax - cur
                 pct = ahorro / hmax if hmax > 0 else 0.0
+                ahorro_key[key] = max(0.0, pct)
                 if ahorro > 0.01 and (key in min_keys or pct >= 0.12):
                     mejor = min((e for e in g if e["disponible"] and e["precio_num"] is not None),
                                 key=lambda e: e["precio_num"])
@@ -575,11 +593,13 @@ def genera_panel(entradas):
     chollos = chollos[:8]
 
     html_secciones = _seccion_chollos(chollos) + "".join(
-        _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"), c, termometro)
+        _seccion(c, secciones[c], min_keys, series, COLORES.get(c, "#8a8f9a"), c,
+                 termometro, ahorro_key)
         for c in COLECCIONES if secciones[c])
     if otros:
         html_secciones += _seccion("Otros (sin identificar)", otros, min_keys, series,
-                                   COLORES.get("Otros (sin identificar)", "#8a8f9a"), "Otros", termometro)
+                                   COLORES.get("Otros (sin identificar)", "#8a8f9a"), "Otros",
+                                   termometro, ahorro_key)
 
     # Chips de filtro por coleccion (solo las que existen)
     chips = ['<button class="chip active" data-col="">Todas</button>']
@@ -634,6 +654,7 @@ def main():
             "url": url, "nombre": nombre, "tienda": info.get("tienda", ""),
             "disponible": bool(info.get("disponible")), "precio": precio,
             "precio_num": parse_precio(precio), "img": info.get("img", ""),
+            "deseo": info.get("deseo"),
             "set": tset, "idioma": idioma, "display": display, "key": key,
         })
     genera_panel(entradas)
