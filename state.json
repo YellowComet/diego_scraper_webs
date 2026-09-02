@@ -2161,5 +2161,12 @@
     "precio": "26,90 €",
     "obj": 26.9,
     "img": "https://flashstore.es/wp-content/uploads/2025/08/starteerinitrial.jpg"
+  },
+  "https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box": {
+    "disponible": true,
+    "nombre": "30th CELEBRATION Japanese Booster Box",
+    "tienda": "Pokezilla",
+    "precio": "279,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/m6a-30th-celebration-japanese-boosterbox.png?v=1788347780"
   }
 }
