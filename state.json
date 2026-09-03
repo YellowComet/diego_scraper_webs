@@ -1931,14 +1931,14 @@
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon": {
     "disponible": false,
-    "nombre": "ETB 30 Aniversario, Celebraciones Pokémon ( Próximamente )",
+    "nombre": "ETB 30 Aniversario, Celebraciones Pokémon",
     "tienda": "Iberian Collect",
     "precio": "59,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0208.jpg?v=1788449288"
   },
   "https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-proximamente": {
     "disponible": false,
-    "nombre": "UPC 30 Aniversario, Celebraciones Pokémon ( Próximamente )",
+    "nombre": "UPC 30 Aniversario, Celebraciones Pokémon",
     "tienda": "Iberian Collect",
     "precio": "199,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0209.jpg?v=1788449290"
@@ -2241,6 +2241,83 @@
   "https://iberiancollect.com/products/blister-2-sobres-eevee-30-aniversario-proximamente": {
     "disponible": false,
     "nombre": "Blister 2 Sobres Eevee 30 Aniversario ( Próximamente )",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/46cce4c7b2ff393d121ac89702451e34.jpg?v=1788448648"
+  },
+  "https://iberiancollect.com/products/tech-sticker-collection-30-aniversario": {
+    "disponible": false,
+    "nombre": "Tech Sticker Collection 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/15af66e8b235c9a4bd2093fc960c8635.jpg?v=1788448601"
+  },
+  "https://iberiancollect.com/products/booster-bundle-30-aniversario": {
+    "disponible": false,
+    "nombre": "Booster Bundle 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/8d1ca2e193c51fc0509ded447bb25467.jpg?v=1788448606"
+  },
+  "https://iberiancollect.com/products/album-para-colecciones-30-aniversario": {
+    "disponible": false,
+    "nombre": "Álbum para Colecciones 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/dfbdcd039c771cefdb121a9c8cd8d677.jpg?v=1788448610"
+  },
+  "https://iberiancollect.com/products/figure-collection-mew-30-aniversario": {
+    "disponible": false,
+    "nombre": "Figure Collection Mew 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/26137ddccf2f5378e74027bf82825199.jpg?v=1788448615"
+  },
+  "https://iberiancollect.com/products/figure-collection-mewtwo-30-aniversario": {
+    "disponible": false,
+    "nombre": "Figure Collection Mewtwo 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/35ab4d418fec173146df26bb1571973c.jpg?v=1788448619"
+  },
+  "https://iberiancollect.com/products/sylveon-ex-box-30-aniversario": {
+    "disponible": false,
+    "nombre": "Sylveon ex Box 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/dd8557d4d78e71e906351cbcba724f11.jpg?v=1788448624"
+  },
+  "https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario": {
+    "disponible": false,
+    "nombre": "Colección Greninja ex 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/1e0f066f96d6ba246d095c426b5cc1ff.jpg?v=1788448629"
+  },
+  "https://iberiancollect.com/products/mini-tin-30-aniversario": {
+    "disponible": false,
+    "nombre": "Mini Tin 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/25171b871f59c5b6589e0ae098e7e4ba.jpg?v=1788448634"
+  },
+  "https://iberiancollect.com/products/poster-collection-30-aniversario": {
+    "disponible": false,
+    "nombre": "Poster Collection 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/cd72281a0bdd6a13d4ee8a5b0952792b.jpg?v=1788448639"
+  },
+  "https://iberiancollect.com/products/ditto-premium-collection-30-aniversario": {
+    "disponible": false,
+    "nombre": "Ditto Premium Collection 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "1,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/c0dd9c9409ce22f0f3891b7f375a29bc.jpg?v=1788448644"
+  },
+  "https://iberiancollect.com/products/blister-2-sobres-eevee-30-aniversario": {
+    "disponible": false,
+    "nombre": "Blister 2 Sobres Eevee 30 Aniversario",
     "tienda": "Iberian Collect",
     "precio": "1,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/46cce4c7b2ff393d121ac89702451e34.jpg?v=1788448648"
