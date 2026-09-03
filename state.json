@@ -842,7 +842,7 @@
     "disponible": false,
     "nombre": "Premium Poster Collection Heroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "90,00 €",
+    "precio": "89,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Premium_Poster_Collection_Heroes_Ascendentes_POK_MON_Espa_ol.jpg?v=1773315914"
   },
   "https://todohits.com/products/pin-collection-deluxe-heroes-ascendentes-pokemon-espanol": {
@@ -955,7 +955,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "713,00 €",
+    "precio": "712,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -2159,6 +2159,7 @@
     "tienda": "Flash Store",
     "precio": "26,90 €",
     "obj": 26.9,
+    "deseo": 30.0,
     "img": "https://flashstore.es/wp-content/uploads/2025/08/starteerinitrial.jpg"
   },
   "https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box": {
