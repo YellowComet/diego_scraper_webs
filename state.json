@@ -2321,5 +2321,13 @@
     "tienda": "Iberian Collect",
     "precio": "1,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/46cce4c7b2ff393d121ac89702451e34.jpg?v=1788448648"
+  },
+  "https://iberiancollect.com/products/pokemon-first-partner-espanol": {
+    "disponible": true,
+    "nombre": "First Partner Illustration Collection Series 1 ( Castellano)",
+    "tienda": "Iberian Collect",
+    "precio": "39,50 €",
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-022_58772968734987.jpg?v=1786778204"
   }
 }
