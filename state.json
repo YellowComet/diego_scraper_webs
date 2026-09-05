@@ -1502,7 +1502,7 @@
     "img": "https://flashstore.es/wp-content/uploads/2026/04/s2.jpg"
   },
   "https://flashstore.es/producto/heroes-ascendentes-display-mini-lata/": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Heroes Ascendentes Display Mini Lata",
     "tienda": "Flash Store",
     "precio": "229,90 €",
