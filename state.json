@@ -398,11 +398,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/9668DD95-FA8F-41E0-AEE6-24A4C0F70974.jpg?v=1783694379"
   },
   "https://factorycardstcg.com/products/primer-companero-pokemon-series-2-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "POKEMON - Primer Compañero Series 2 - Español",
     "tienda": "Factory Cards TCG",
     "precio": "29,95 €",
-    "obj": 29.95,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/s2.jpg?v=1781512180"
   },
