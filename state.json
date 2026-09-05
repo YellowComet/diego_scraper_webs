@@ -2420,5 +2420,12 @@
     "tienda": "JJCOLLECTION",
     "precio": "68,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_ce840d41-5414-4491-ae64-98c40b82a59a.png?v=1788424174"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-figura-pikachu/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Figura Pikachu",
+    "tienda": "Flash Store",
+    "precio": "29,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/pikafig.jpg"
   }
 }
