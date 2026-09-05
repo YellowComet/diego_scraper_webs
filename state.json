@@ -902,31 +902,31 @@
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/30_aniversario_Pok_mon_Day_2026_POK_MON_Espa_ol.jpg?v=1769612130"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex-ingles-espanol-copia": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
     "precio": "297,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-UMBREON-1-Photoroom.png?v=1786038031"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
     "precio": "297,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-1-Photoroom.png?v=1786037560"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-booster-bundle-30th-celebration-ingles-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG - Booster Bundle 30th Celebration (Inglés & Español)",
     "tienda": "JJCOLLECTION",
     "precio": "48,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/bundles-1-Photoroom.png?v=1786037176"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-elite-trainer-box-30th-celebration-ingles": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG - Elite Trainer Box 30th Celebration (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "0,00 €",
+    "precio": "77,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/ETB-1-Photoroom_2.png?v=1786036373"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-3-30th-anniversary-ingles-espanol-copia": {
@@ -2329,5 +2329,96 @@
     "precio": "39,50 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-022_58772968734987.jpg?v=1786778204"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-mini-tin-dia-y-noche-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Mini Tin | Día y Noche (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "19,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_9.png?v=1788447324"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-greninja-ex-tin-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Greninja ex Tin | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "38,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_8_4ca01430-538c-4a18-990b-d116403adaff.png?v=1788447215"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-sylveon-ex-tin-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Sylveon ex Tin | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "38,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/3-Photoroom_8.png?v=1788447087"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-poster-collection-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Poster Collection | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "35,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_7_532fc081-96af-460c-9926-eb89d10cf34c.png?v=1788446862"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-battle-deck-umbreon-ex-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration battle deck Umbreon Ex | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "40,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/5-Photoroom_2.png?v=1788446612"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-battle-deck-espeon-ex-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration battle deck Espeon Ex | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "40,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_6.png?v=1788446394"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-sylveon-ex-box-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Sylveon Ex Box | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "40,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_5_3349d2ee-d3e3-4adc-afa3-c07a9607ee19.png?v=1788432991"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-greninja-ex-box-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Greninja Ex Box | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "40,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_4_86d6fa21-25d1-4ceb-ad5a-830d40299e8b.png?v=1788432000"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Figure Collection Mewtwo | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "56,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_3_7e998ff7-7b5e-45bb-96c3-bec0e6232338.png?v=1788431800"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-figure-collection-mew-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Figure Collection Mew | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "56,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_2_c299aef7-9d91-43dc-bcc6-3441e171d127.png?v=1788428153"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-tech-sticker-collection-lucario-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Tech Sticker Collection | Lucario  (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "29,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/3-Photoroom_1_4e08052d-07e2-4520-9225-1dd05cba798c.png?v=1788426344"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-tech-sticker-collection-alolan-exeggutor-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Tech Sticker Collection | Alolan Exeggutor (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "29,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_1_1076d577-2924-41a7-9ad0-3a3ccd8996c6.png?v=1788425906"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-binder-collection-espanol": {
+    "disponible": true,
+    "nombre": "Pokémon TCG — 30th Celebration Binder collection | (Español)",
+    "tienda": "JJCOLLECTION",
+    "precio": "68,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_ce840d41-5414-4491-ae64-98c40b82a59a.png?v=1788424174"
   }
 }
