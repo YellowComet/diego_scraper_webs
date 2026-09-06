@@ -1454,11 +1454,10 @@
     "precio": "27,90 €"
   },
   "https://www.darizard9.com/products/primer-companero-serie-3-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Primer Compañero Serie 3 Español",
     "tienda": "Darizard9",
     "precio": "29,99 €",
-    "obj": 29.99,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg-cardzone.webp?v=1786605286"
   },
