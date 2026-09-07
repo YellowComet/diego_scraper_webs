@@ -884,7 +884,7 @@
     "disponible": false,
     "nombre": "ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "84,00 €",
+    "precio": "83,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Heroes_Ascendentes_Elite_Trainer_Box_POK_MON.jpg?v=1771434421"
   },
@@ -2432,6 +2432,13 @@
   "https://flashstore.es/producto/celebraciones-30th-figura-pikachu-copia/": {
     "disponible": true,
     "nombre": "Celebraciones 30th Figura Pikachu (copia)",
+    "tienda": "Flash Store",
+    "precio": "139,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/eevee3.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-collector-display-box/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Collector Display Box",
     "tienda": "Flash Store",
     "precio": "139,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/eevee3.jpg"
