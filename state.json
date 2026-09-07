@@ -2428,5 +2428,12 @@
     "tienda": "Flash Store",
     "precio": "29,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/pikafig.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-figura-pikachu-copia/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Figura Pikachu (copia)",
+    "tienda": "Flash Store",
+    "precio": "139,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/eevee3.jpg"
   }
 }
