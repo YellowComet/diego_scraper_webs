@@ -2442,5 +2442,12 @@
     "tienda": "Flash Store",
     "precio": "144,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/eevee3.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-coin-set/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Coin Set",
+    "tienda": "Flash Store",
+    "precio": "22,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/coin1.jpg"
   }
 }
