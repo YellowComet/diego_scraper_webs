@@ -652,10 +652,11 @@
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/partner_3.webp?v=1786438669"
   },
   "https://labovedafriki.es/products/caja-coleccion-ilustracion-primer-companero-serie-2": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Caja Colección Ilustración - Primer Compañero - Serie 2",
     "tienda": "La Boveda Friki",
     "precio": "29,90 €",
+    "obj": 29.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_Coleccion_Ilustracion_Primer_Companero-Serie2_la_boveda_friki.png?v=1783103306"
   },
