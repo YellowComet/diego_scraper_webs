@@ -1147,10 +1147,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/ETBHEROESASCENDENTES-MEGAEVOLUCIONES_ESPANOL_IPokedexCardsIPokemonTCG_584dcccc-e8c5-45db-a711-f7953d4479dd.jpg?v=1772308156"
   },
   "https://www.ryucardstcg.com/products/coleccion-ilustracion-primer-companero-serie-2": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección Ilustración Primer Compañero Serie 2",
     "tienda": "RyuCards",
-    "precio": "29,90 €",
+    "precio": "32,90 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS-2026-06-18T122121.814.png?v=1781778094"
   },
@@ -2054,10 +2054,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg.webp?v=1786784349"
   },
   "https://www.ryucardstcg.com/products/coleccion-ilustracion-primer-companero-serie-3": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección Ilustración Primer Compañero Serie 3",
     "tienda": "RyuCards",
-    "precio": "29,90 €",
+    "precio": "32,90 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS_2_1111f06f-4846-4440-b16c-f4b31da91b80.png?v=1787647470"
   },
