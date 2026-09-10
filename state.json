@@ -843,7 +843,7 @@
     "disponible": false,
     "nombre": "Premium Poster Collection Heroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "90,00 €",
+    "precio": "89,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Premium_Poster_Collection_Heroes_Ascendentes_POK_MON_Espa_ol.jpg?v=1773315914"
   },
   "https://todohits.com/products/pin-collection-deluxe-heroes-ascendentes-pokemon-espanol": {
@@ -1798,17 +1798,17 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Knock_Out_Collection-copy.jpg?v=1782840639"
   },
   "https://www.pokemillon.com/products/blister-tech-sticker-celebraciones-30-aniversario-celebrations-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blíster Exeguttor Tech Sticker Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "34,90 €",
+    "precio": "33,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Tech_Sticker_Collection_Alolan_Exeggutor_EN-copy.jpg?v=1782840645"
   },
   "https://www.pokemillon.com/products/blister-lucario-tech-sticker-celebraciones-30-aniversario-celebrations-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blíster Lucario Tech Sticker Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "34,90 €",
+    "precio": "33,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Tech_Sticker_Collection_Lucario_EN-copy.jpg?v=1782840649"
   },
   "https://www.pokemillon.com/products/blister-2-sobres-30th": {
