@@ -1749,10 +1749,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Poster_Collection_EN-copy-scaled.jpg?v=1782840615"
   },
   "https://www.pokemillon.com/products/30th-celebration-album-collection-box-celebraciones-30-aniversario": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30th Celebration Álbum Collection Box Celebraciones 30 Aniversario",
     "tienda": "Pokemillon",
-    "precio": "49,90 €",
+    "precio": "63,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Binder_Collection_EN-copy-scaled.jpg?v=1782840618"
   },
   "https://www.pokemillon.com/products/30th-celebration-espeon-battle-deck-celebraciones-30-aniversario": {
