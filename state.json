@@ -1633,7 +1633,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Caja_20_Sobres_Pokemon_30th_Anniversary_m6a_Pokemillon.png?v=1787861931"
   },
   "https://www.pokemillon.com/products/sylveon-box-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Sylveon Special Box Celebraciones 30 Aniversario | Élite Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "45,90 €",
