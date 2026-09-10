@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "713,00 €",
+    "precio": "712,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1597,7 +1597,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20251219_181140_X.jpg?v=1773573462"
   },
   "https://www.pokemillon.com/products/first-partner": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "First Partner Series 1 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "41,90 €",
@@ -2485,5 +2485,75 @@
     "tienda": "La Boveda Friki",
     "precio": "0,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/ETB_30_ANIVERSARIO_LA_BOVEDA_FRIKI_POKEMON_2.png?v=1785597528"
+  },
+  "https://labovedafriki.es/products/ultra-premium-collection-30-aniversario-umbreon": {
+    "disponible": false,
+    "nombre": "Ultra Premium Collection 30 Aniversario - Umbreon",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_ultra_premium_edicion_noche_umbreon_30_aniversario_pokemon_la_boveda_friki.png?v=1787677258"
+  },
+  "https://labovedafriki.es/products/ultra-premium-collection-30-aniversario-espeon": {
+    "disponible": false,
+    "nombre": "Ultra Premium Collection 30 Aniversario - Espeon",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_ultra_premium_edicion_dia_espeon_30_aniversario_pokemon_la_boveda_friki.png?v=1787677066"
+  },
+  "https://labovedafriki.es/products/lata-30-aniversario": {
+    "disponible": false,
+    "nombre": "Lata 30 Aniversario Pokemon",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Lata_30_Aniversario_Pokemon_Sylveon_Greninja_Pokemon_La_boveda_friki.png?v=1787394299"
+  },
+  "https://labovedafriki.es/products/battle-deck-30-aniversario": {
+    "disponible": false,
+    "nombre": "Battle deck 30 Aniversario",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Battle_Decks_Umbreon_Espeon_Pokemon_30_aniversario_la_boveda_friki.png?v=1787393403"
+  },
+  "https://labovedafriki.es/products/poster-collection-30-aniversario": {
+    "disponible": false,
+    "nombre": "Poster Collection 30 Aniversario",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/PosterCollection_30_aniversario_Pokemon_La_boveda_friki.png?v=1787391650"
+  },
+  "https://labovedafriki.es/products/caja-de-coleccion-30-aniversario-sylveon-ex-o-greninja-ex": {
+    "disponible": false,
+    "nombre": "Caja de colección 30 Aniversario Sylveon EX o Greninja EX",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_coleccion_30_aniversario_Sylveon_Greninja_Pokemon_la_boveda_friki.png?v=1787390826"
+  },
+  "https://labovedafriki.es/products/blister-2-sobres-30-aniversario": {
+    "disponible": false,
+    "nombre": "Blíster 2 sobres 30 Aniversario",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Blister_2_sobres_30_anoversario_pokemon_la_boveda_friki.png?v=1785751451"
+  },
+  "https://labovedafriki.es/products/mini-lata-30-aniversario": {
+    "disponible": false,
+    "nombre": "Mini Lata 30 Aniversario",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Mini_Lata_30_amiversario_la_boveda_friki_b1dcba28-86f8-4f47-85b1-be8fa59c55c2.png?v=1785697018"
+  },
+  "https://labovedafriki.es/products/bundle-6-sobres-30-aniversario": {
+    "disponible": false,
+    "nombre": "Bundle 6 sobres 30 aniversario",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Bundle_6_sobres_pokemon_30_aniversario_la_boveda_friki.jpg?v=1785696425"
+  },
+  "https://labovedafriki.es/products/blister-30-aniversario-tech-sticker": {
+    "disponible": false,
+    "nombre": "Blíster 30 Aniversario Tech Sticker",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Blister_30_Aniversario_Tech_Sticker_la_boveda_friki_3.png?v=1785599795"
   }
 }
