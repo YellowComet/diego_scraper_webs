@@ -878,14 +878,14 @@
     "disponible": false,
     "nombre": "Blister 3 Sobres Héroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "33,00 €",
+    "precio": "32,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Sobres_Heroes_Ascendentes_POK_MON_Espa_ol.webp?v=1770725312"
   },
   "https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol": {
     "disponible": false,
     "nombre": "ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "84,00 €",
+    "precio": "83,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Heroes_Ascendentes_Elite_Trainer_Box_POK_MON.jpg?v=1771434421"
   },
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "712,00 €",
+    "precio": "711,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1742,10 +1742,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Greninja_ex_Box_EN-copy-scaled.jpg?v=1782840613"
   },
   "https://www.pokemillon.com/products/30th-poster-collection-box-celebraciones-30-aniversario": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30th Poster Collection Box Celebraciones 30 Aniversario",
     "tienda": "Pokemillon",
-    "precio": "29,90 €",
+    "precio": "38,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Poster_Collection_EN-copy-scaled.jpg?v=1782840615"
   },
   "https://www.pokemillon.com/products/30th-celebration-album-collection-box-celebraciones-30-aniversario": {
