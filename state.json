@@ -2478,5 +2478,12 @@
     "tienda": "JJCOLLECTION",
     "precio": "48,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1_1_-Photoroom.png?v=1788798037"
+  },
+  "https://labovedafriki.es/products/etb-30-aniversario-pokemon": {
+    "disponible": false,
+    "nombre": "ETB 30 Aniversario",
+    "tienda": "La Boveda Friki",
+    "precio": "0,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/ETB_30_ANIVERSARIO_LA_BOVEDA_FRIKI_POKEMON_2.png?v=1785597528"
   }
 }
