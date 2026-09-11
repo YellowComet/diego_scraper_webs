@@ -985,7 +985,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Elite Trainer Box Ascended Heroes (Ingles & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "79,00 €",
+    "precio": "78,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/etb-1-Photoroom.png?v=1767929130"
   },
   "https://metamorphcenter.com/products/first-partner-illustration-collection-series-3-espanol": {
@@ -2364,28 +2364,28 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration battle deck Umbreon Ex | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "40,00 €",
+    "precio": "39,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/5-Photoroom_2.png?v=1788446612"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-battle-deck-espeon-ex-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration battle deck Espeon Ex | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "40,00 €",
+    "precio": "39,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_6.png?v=1788446394"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-sylveon-ex-box-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Sylveon Ex Box | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "40,00 €",
+    "precio": "39,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_5_3349d2ee-d3e3-4adc-afa3-c07a9607ee19.png?v=1788432991"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-greninja-ex-box-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Greninja Ex Box | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "40,00 €",
+    "precio": "39,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_4_86d6fa21-25d1-4ceb-ad5a-830d40299e8b.png?v=1788432000"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-espanol": {
@@ -2562,5 +2562,12 @@
     "tienda": "Flash Store",
     "precio": "99,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/30celeb.jpg"
+  },
+  "https://labovedafriki.es/products/booster-box-30-aniversario-jp": {
+    "disponible": true,
+    "nombre": "Booster Box 30 Aniversario JP",
+    "tienda": "La Boveda Friki",
+    "precio": "209,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Booster_box_30_aniversario_pokemon_tcg_la_boveda_friki.png?v=1789110780"
   }
 }
