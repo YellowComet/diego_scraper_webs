@@ -2569,5 +2569,12 @@
     "tienda": "La Boveda Friki",
     "precio": "209,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Booster_box_30_aniversario_pokemon_tcg_la_boveda_friki.png?v=1789110780"
+  },
+  "https://www.pokemillon.com/products/pokemon-artistic-touch-30th-anniversary-celebration-pikachu-figure-set": {
+    "disponible": true,
+    "nombre": "Pokemon Artistic Touch 30th Anniversary Celebration Pikachu Figure Set",
+    "tienda": "Pokemillon",
+    "precio": "49,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/S4df33647ff2042678489de62d3096fb1c_jpg_960x960q75_jpg.png?v=1789063792"
   }
 }
