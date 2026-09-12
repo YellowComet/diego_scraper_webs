@@ -2576,5 +2576,12 @@
     "tienda": "Pokemillon",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/S4df33647ff2042678489de62d3096fb1c_jpg_960x960q75_jpg.png?v=1789063792"
+  },
+  "https://www.pokemillon.com/products/caja-20-sobres-pokemon-30th-anniversary-m6a": {
+    "disponible": true,
+    "nombre": "Caja 20 Sobres Pokémon 30th Anniversary",
+    "tienda": "Pokemillon",
+    "precio": "119,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-12025120.png?v=1789174322"
   }
 }
