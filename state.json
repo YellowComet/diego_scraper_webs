@@ -2583,5 +2583,12 @@
     "tienda": "Pokemillon",
     "precio": "119,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-12025120.png?v=1789174322"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-booster-box/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Booster Box",
+    "tienda": "Flash Store",
+    "precio": "159,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/30celeb.jpg"
   }
 }
