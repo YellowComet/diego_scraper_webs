@@ -2625,5 +2625,14 @@
     "obj": 28.99,
     "deseo": 30.0,
     "img": "https://reinodecartas.com/wp-content/uploads/2026/06/Primer-Companero-Serie-3.webp"
+  },
+  "https://reinodecartas.com/tienda-tcg/ofertas-tcg/first-partner-series-3-pokemon-tcg-espanol/": {
+    "disponible": true,
+    "nombre": "Pokémon TCG: First Partner Illustration Collection Series 3 (Español)",
+    "tienda": "Reino de Cartas",
+    "precio": "28,99 €",
+    "obj": 28.99,
+    "deseo": 30.0,
+    "img": "https://reinodecartas.com/wp-content/uploads/2026/06/Primer-Companero-Serie-3.webp"
   }
 }
