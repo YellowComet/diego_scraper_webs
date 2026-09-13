@@ -2463,7 +2463,7 @@
     "disponible": true,
     "nombre": "Pokémon TCG - 30th Celebration Collection Display Gift Box - Espeon ex & Umbreon ex",
     "tienda": "JJCOLLECTION",
-    "precio": "207,00 €",
+    "precio": "208,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/10-Photoroom.png?v=1788798628"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-copia": {
@@ -2616,5 +2616,14 @@
     "obj": 15.99,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/blister-first-partner-vol-3-del-30-aniversario-chino.png?v=1789063742"
+  },
+  "https://reinodecartas.com/tienda-tcg/ofertas/first-partner-series-3-pokemon-tcg-espanol/": {
+    "disponible": true,
+    "nombre": "Pokémon TCG: First Partner Illustration Collection Series 3 (Español)",
+    "tienda": "Reino de Cartas",
+    "precio": "28,99 €",
+    "obj": 28.99,
+    "deseo": 30.0,
+    "img": "https://reinodecartas.com/wp-content/uploads/2026/06/Primer-Companero-Serie-3.webp"
   }
 }
