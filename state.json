@@ -1626,7 +1626,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_UPC_Day_EN-copy-scaled.png?v=1787737258"
   },
   "https://www.pokemillon.com/products/pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Caja 20 Sobres Pokémon 30th Anniversary m6a",
     "tienda": "Pokemillon",
     "precio": "149,90 €",
@@ -1656,9 +1656,10 @@
   },
   "https://www.pokemillon.com/products/30th-anniversary-first-partner-blister-vol-1": {
     "disponible": false,
-    "nombre": "30th Anniversary First Partner Blister (Vol. 1)",
+    "nombre": "Blister First Partner Vol 1 del 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "17,99 €",
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-05-18212530.png?v=1787737300"
   },
   "https://www.pokemillon.com/products/first-partner-serie-3-oscuridad-absoluta-pitch-black": {
@@ -1684,7 +1685,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142739.png?v=1787737304"
   },
   "https://www.pokemillon.com/products/premium-deck-pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Espeon ex and Umbreon ex Deck Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "129,90 €",
@@ -2597,5 +2598,23 @@
     "tienda": "Pokemillon",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/S4df33647ff2042678489de62d3096fb1c_jpg_960x960q75_jpg.png?v=1789063792"
+  },
+  "https://www.pokemillon.com/products/30th-anniversary-first-partner-blister-vol-2": {
+    "disponible": true,
+    "nombre": "Blister First Partner Vol 2 del 30 Aniversario",
+    "tienda": "Pokemillon",
+    "precio": "14,99 €",
+    "obj": 14.99,
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Series_2_Chino_30th_Anniversary_Pokemillon.png?v=1787863134"
+  },
+  "https://www.pokemillon.com/products/blister-first-partner-vol-3-chino-del-30-aniversario": {
+    "disponible": true,
+    "nombre": "Blister First Partner Vol 3 del 30 Aniversario",
+    "tienda": "Pokemillon",
+    "precio": "15,99 €",
+    "obj": 15.99,
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/blister-first-partner-vol-3-del-30-aniversario-chino.png?v=1789063742"
   }
 }

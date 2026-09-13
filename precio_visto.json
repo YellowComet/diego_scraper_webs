@@ -225,7 +225,7 @@
   "https://www.pokemillon.com/products/etb-30th": "99,90 €|False",
   "https://www.pokemillon.com/products/bundle-30th-anniversary": "29,90 €|False",
   "https://www.pokemillon.com/products/ultra-premium-30th-espeon": "199,90 €|False",
-  "https://www.pokemillon.com/products/pokemon-30th-anniversary": "149,90 €|False",
+  "https://www.pokemillon.com/products/pokemon-30th-anniversary": "149,90 €|True",
   "https://www.pokemillon.com/products/sylveon-box-30th-anniversary": "45,90 €|True",
   "https://www.pokemillon.com/products/ditto-premium-box-30th": "59,90 €|False",
   "https://www.pokemillon.com/products/first-parther-serie-2-caos-creciente-chaos-rising": "32,90 €|True",
@@ -233,7 +233,7 @@
   "https://www.pokemillon.com/products/first-partner-serie-3-oscuridad-absoluta-pitch-black": "32,90 €|True",
   "https://www.pokemillon.com/products/sobre-pokemon-30th-anniversary": "1,90 €|False",
   "https://www.pokemillon.com/products/premium-box-pokemon-30th-anniversary": "219,90 €|False",
-  "https://www.pokemillon.com/products/premium-deck-pokemon-30th-anniversary": "129,90 €|False",
+  "https://www.pokemillon.com/products/premium-deck-pokemon-30th-anniversary": "129,90 €|True",
   "https://www.pokemillon.com/products/first-partner-illustration-collections-pokemon-30th-anniversary": "59,90 €|False",
   "https://www.pokemillon.com/products/sobre-ascended-heroes": "7,41 €|False",
   "https://www.pokemillon.com/products/mega-emboar-box-collection-heroes-ascendentes-ascended-heroes-copia": "39,90 €|False",
@@ -360,5 +360,7 @@
   "https://www.pokemillon.com/products/pokemon-artistic-touch-30th-anniversary-celebration-pikachu-figure-set": "49,90 €|True",
   "https://www.pokemillon.com/products/caja-20-sobres-pokemon-30th-anniversary-m6a": "119,90 €|True",
   "https://flashstore.es/producto/celebraciones-30th-booster-box/": "159,90 €|True",
-  "https://www.pokemillon.com/products/30th-pikachu-figure-set": "49,90 €|True"
+  "https://www.pokemillon.com/products/30th-pikachu-figure-set": "49,90 €|True",
+  "https://www.pokemillon.com/products/30th-anniversary-first-partner-blister-vol-2": "14,99 €|True",
+  "https://www.pokemillon.com/products/blister-first-partner-vol-3-chino-del-30-aniversario": "15,99 €|True"
 }
