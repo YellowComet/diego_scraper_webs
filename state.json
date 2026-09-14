@@ -801,7 +801,7 @@
     "disponible": false,
     "nombre": "Booster Bundle Heroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "53,00 €",
+    "precio": "54,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Bundle_Heroes_Ascendentes_POKeMON_Espa_ol.jpg?v=1777323598"
   },
   "https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-ingles": {
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "707,00 €",
+    "precio": "708,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -2568,7 +2568,7 @@
     "disponible": true,
     "nombre": "Booster Box 30 Aniversario JP",
     "tienda": "La Boveda Friki",
-    "precio": "209,90 €",
+    "precio": "169,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Booster_box_30_aniversario_pokemon_tcg_la_boveda_friki.png?v=1789110780"
   },
   "https://www.pokemillon.com/products/pokemon-artistic-touch-30th-anniversary-celebration-pikachu-figure-set": {
@@ -2634,5 +2634,12 @@
     "obj": 28.99,
     "deseo": 30.0,
     "img": "https://reinodecartas.com/wp-content/uploads/2026/06/Primer-Companero-Serie-3.webp"
+  },
+  "https://labovedafriki.es/products/premium-deck-set-espeon-umbreon-30-aniversario-jp": {
+    "disponible": true,
+    "nombre": "Premium Deck Set - Espeon & Umbreon - 30 Aniversario JP",
+    "tienda": "La Boveda Friki",
+    "precio": "169,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Premium_Deck_Set_Espeon___Umbreon_30_Aniversario_la_boveda_friki_2.png?v=1789111629"
   }
 }
