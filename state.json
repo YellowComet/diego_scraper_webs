@@ -2647,5 +2647,12 @@
     "tienda": "Flash Store",
     "precio": "77,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2025/12/garde.jpg"
+  },
+  "https://www.pokemillon.com/products/caja-premium-umbreon-espeon-pokemon-30th-anniversary": {
+    "disponible": true,
+    "nombre": "Caja Premium Umbreon & Espeon Pokémon 30th Anniversary",
+    "tienda": "Pokemillon",
+    "precio": "149,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260915_170633_Chrome.jpg?v=1789485135"
   }
 }
