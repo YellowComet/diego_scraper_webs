@@ -1608,7 +1608,7 @@
     "disponible": false,
     "nombre": "ETB Celebraciones 30 Aniversario | Élite Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "109,90 €",
+    "precio": "116,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Elite_Trainer_Box_EN-copy-scaled.jpg?v=1787737242"
   },
   "https://www.pokemillon.com/products/bundle-30th-anniversary": {
@@ -2733,14 +2733,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Sobres_30_Aniversario_POK_MON_Espa_ol.png?v=1789551560"
   },
   "https://allintcg.com/products/booster-box-30th-anniversary-jp-1": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Booster Box - 30th Anniversary [JP]",
     "tienda": "AllinTCG",
     "precio": "159,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30_booster_box.webp?v=1789578490"
   },
   "https://allintcg.com/products/premium-deck-set-30th-anniversary-jp": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Premium Deck Set - 30th Anniversary [JP]",
     "tienda": "AllinTCG",
     "precio": "159,95 €",
