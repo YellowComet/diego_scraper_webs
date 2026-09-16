@@ -2578,7 +2578,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/S4df33647ff2042678489de62d3096fb1c_jpg_960x960q75_jpg.png?v=1789063792"
   },
   "https://www.pokemillon.com/products/caja-20-sobres-pokemon-30th-anniversary-m6a": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Caja 20 Sobres Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "119,90 €",
@@ -2659,7 +2659,7 @@
     "disponible": true,
     "nombre": "POKEMON - 30th anniversay Japones - Futuristic Box",
     "tienda": "Factory Cards TCG",
-    "precio": "500,00 €",
+    "precio": "525,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/30c-furbox-jp-v2.webp?v=1789550428"
   },
   "https://factorycardstcg.com/products/pokemon-30t-anniversay-japones-futuristic-box": {
