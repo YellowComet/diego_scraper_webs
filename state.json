@@ -2710,5 +2710,12 @@
     "tienda": "Sunny Store",
     "precio": "159,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/booster_box_30th_celebration_pokemon_m6a.png?v=1789211270"
+  },
+  "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones": {
+    "disponible": true,
+    "nombre": "Pokémon TCG - 30th Celebration booster box (Japonés)",
+    "tienda": "JJCOLLECTION",
+    "precio": "189,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/13333333333333333333-Photoroom_271051ae-c05f-4340-9da6-8d93970e0977.png?v=1789566151"
   }
 }
