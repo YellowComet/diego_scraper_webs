@@ -525,7 +525,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0900/8241/0819/files/Heroes_Ascendentes_Copy.webp?v=1771580901"
   },
   "https://www.toyplanet.com/products/pokemon-tcg-heroes-ascendentes-blister-surtido": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG Héroes Ascendentes Blíster Surtido",
     "tienda": "Toy Planet",
     "precio": "29,99 €",
@@ -928,7 +928,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Elite Trainer Box 30th Celebration (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "76,00 €",
+    "precio": "77,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/ETB-1-Photoroom_2.png?v=1786036373"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-3-30th-anniversary-ingles-espanol-copia": {
@@ -942,14 +942,14 @@
     "disponible": true,
     "nombre": "Pokémon TCG - First Partners Illustration Collection - Series 2 - 30th Anniversary (Ingles & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "38,00 €",
+    "precio": "39,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/Producto-template-Recuperado-Photoroom_1.png?v=1776029590"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-1-30th-anniversary-ingles-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG - First Partners Illustration Collection - Series 1 - 30th Anniversary (Ingles & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "38,00 €",
+    "precio": "39,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/first-partner-1-Photoroom_0bcb92b8-15e4-424b-9167-86b3c97f63e5.png?v=1772901816"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol": {
@@ -2438,7 +2438,7 @@
     "img": "https://flashstore.es/wp-content/uploads/2026/09/eevee3.jpg"
   },
   "https://flashstore.es/producto/celebraciones-30th-collector-display-box/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Celebraciones 30th Collector Display Box",
     "tienda": "Flash Store",
     "precio": "144,90 €",
