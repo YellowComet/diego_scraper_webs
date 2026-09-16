@@ -2717,5 +2717,19 @@
     "tienda": "JJCOLLECTION",
     "precio": "189,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/13333333333333333333-Photoroom_271051ae-c05f-4340-9da6-8d93970e0977.png?v=1789566151"
+  },
+  "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Blister 2 Sobres 30 Aniversario | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "23,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_2_Sobres_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784707768"
+  },
+  "https://todohits.com/products/blister-3-sobres-30-aniversario-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Blister 3 Sobres 30 Aniversario | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "33,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Sobres_30_Aniversario_POK_MON_Espa_ol.png?v=1789551560"
   }
 }
