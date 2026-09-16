@@ -893,7 +893,7 @@
     "disponible": false,
     "nombre": "ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "101,00 €",
+    "precio": "100,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Ascended_Heroes_Elite_Trainer_Box_POK_MON_Ingl_s.jpg?v=1768482811"
   },
   "https://todohits.com/products/30-aniversario-pokemon-day-2026-pokemon-espanol": {
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "707,00 €",
+    "precio": "706,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -964,7 +964,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Tech Sticker Collection Ascended Heroes (Español & ingles)",
     "tienda": "JJCOLLECTION",
-    "precio": "28,00 €",
+    "precio": "27,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/tech-coll2-Photoroom.png?v=1770818688"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-blister-2-sobres-enhanced-heroes-ascendentes": {
@@ -1897,7 +1897,7 @@
     "disponible": false,
     "nombre": "ETB Heroes Ascendentes , Español",
     "tienda": "Iberian Collect",
-    "precio": "101,00 €",
+    "precio": "100,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-006_58001326113035.jpg?v=1786778133"
   },
@@ -1905,7 +1905,7 @@
     "disponible": false,
     "nombre": "Coleccion Premium con poster , Héroes Ascendentes , Español,",
     "tienda": "Iberian Collect",
-    "precio": "101,00 €",
+    "precio": "100,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_12f12a46-072e-445f-badf-f4cd115f5230.jpg?v=1774463570"
   },
   "https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes": {
@@ -2731,5 +2731,19 @@
     "tienda": "TodoHits",
     "precio": "33,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Sobres_30_Aniversario_POK_MON_Espa_ol.png?v=1789551560"
+  },
+  "https://allintcg.com/products/booster-box-30th-anniversary-jp-1": {
+    "disponible": false,
+    "nombre": "Booster Box - 30th Anniversary [JP]",
+    "tienda": "AllinTCG",
+    "precio": "159,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30_booster_box.webp?v=1789578490"
+  },
+  "https://allintcg.com/products/premium-deck-set-30th-anniversary-jp": {
+    "disponible": false,
+    "nombre": "Premium Deck Set - 30th Anniversary [JP]",
+    "tienda": "AllinTCG",
+    "precio": "159,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30_deck.webp?v=1789577669"
   }
 }
