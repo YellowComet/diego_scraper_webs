@@ -381,11 +381,11 @@
   "https://todohits.com/products/blister-3-sobres-30-aniversario-pokemon-espanol": "33,00 €|False",
   "https://allintcg.com/products/booster-box-30th-anniversary-jp-1": "159,95 €|True",
   "https://allintcg.com/products/premium-deck-set-30th-anniversary-jp": "159,95 €|True",
-  "https://cardzone.es/products/caja-ex-pokemon-30-aniversario-espanol": "35,95 €|True",
-  "https://cardzone.es/products/lata-ex-pokemon-30-aniversario-espanol": "35,95 €|True",
+  "https://cardzone.es/products/caja-ex-pokemon-30-aniversario-espanol": "35,95 €|False",
+  "https://cardzone.es/products/lata-ex-pokemon-30-aniversario-espanol": "35,95 €|False",
   "https://cardzone.es/products/caja-poster-celebracion-30-aniversario-espanol": "32,95 €|True",
   "https://cardzone.es/products/blister-pegatinas-pokemon-30-aniversario-espanol": "25,95 €|True",
-  "https://cardzone.es/products/blister-2-sobres-moneda-pokemon-30-aniversario-espanol": "15,95 €|True",
+  "https://cardzone.es/products/blister-2-sobres-moneda-pokemon-30-aniversario-espanol": "15,95 €|False",
   "https://sunnystore.es/products/binder-collection-pokemon-30th-celebrations-ingles": "79,90 €|False",
   "https://sunnystore.es/products/poster-collection-30th-celebrations-pokemon-ingles": "40,90 €|False",
   "https://sunnystore.es/products/pokemon-ex-box-30th-celebrations-ingles": "59,90 €|False",
@@ -396,5 +396,6 @@
   "https://sunnystore.es/products/lata-30th-celebraciones-tin-pokemon-tcg-espanol": "37,90 €|False",
   "https://sunnystore.es/products/ex-box-30th-celebraciones-espanol": "38,90 €|True",
   "https://sunnystore.es/products/blister-3-sobres-tech-sticker-30th-celebraciones-espanol": "25,90 €|True",
-  "https://sunnystore.es/products/etb-pokemon-3oth-celebraciones-elite-trainer-box-espanol": "79,90 €|False"
+  "https://sunnystore.es/products/etb-pokemon-3oth-celebraciones-elite-trainer-box-espanol": "79,90 €|False",
+  "https://cardzone.es/products/etb-caja-entrenador-elite-pokemon-30-aniversario-espanol": "69,95 €|False"
 }
