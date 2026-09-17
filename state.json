@@ -2761,14 +2761,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/lata-celebracion-30-aniversario-30th-anniversary-collection-tin-sylveon-greninja-ex-cartas-pokemon-tcg-cardzone.png?v=1789483845"
   },
   "https://cardzone.es/products/caja-poster-celebracion-30-aniversario-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Caja Poster Celebración 30 Aniversario - Español",
     "tienda": "CardZone",
     "precio": "32,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-poster-collection-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg-cardzone.png?v=1789484494"
   },
   "https://cardzone.es/products/blister-pegatinas-pokemon-30-aniversario-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Blister Tech Sticker Celebración 30 Aniversario - Español",
     "tienda": "CardZone",
     "precio": "25,95 €",
