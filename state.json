@@ -885,7 +885,7 @@
     "disponible": false,
     "nombre": "ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "83,00 €",
+    "precio": "82,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Heroes_Ascendentes_Elite_Trainer_Box_POK_MON.jpg?v=1771434421"
   },
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "704,00 €",
+    "precio": "703,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1912,14 +1912,14 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "821,00 €",
+    "precio": "820,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
     "disponible": false,
     "nombre": "ETB Ascended Heroes , Ingles",
     "tienda": "Iberian Collect",
-    "precio": "206,00 €",
+    "precio": "205,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-026_58463679447307.jpg?v=1786778225"
   },
   "https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente": {
@@ -1934,7 +1934,7 @@
     "disponible": false,
     "nombre": "ETB 30 Aniversario, Celebraciones Pokémon",
     "tienda": "Iberian Collect",
-    "precio": "118,00 €",
+    "precio": "117,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0208.jpg?v=1788503732"
   },
   "https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-proximamente": {
@@ -2286,7 +2286,7 @@
     "disponible": true,
     "nombre": "Sylveon ex Box 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "77,00 €",
+    "precio": "76,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/dd8557d4d78e71e906351cbcba724f11.jpg?v=1788503708"
   },
   "https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario": {
@@ -2761,14 +2761,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/lata-celebracion-30-aniversario-30th-anniversary-collection-tin-sylveon-greninja-ex-cartas-pokemon-tcg-cardzone.png?v=1789483845"
   },
   "https://cardzone.es/products/caja-poster-celebracion-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Caja Poster Celebración 30 Aniversario - Español",
     "tienda": "CardZone",
     "precio": "32,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-poster-collection-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg-cardzone.png?v=1789484494"
   },
   "https://cardzone.es/products/blister-pegatinas-pokemon-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blister Tech Sticker Celebración 30 Aniversario - Español",
     "tienda": "CardZone",
     "precio": "25,95 €",
