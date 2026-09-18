@@ -2976,5 +2976,26 @@
     "tienda": "Darizard9",
     "precio": "24,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/783647_00_1.webp?v=1788960990"
+  },
+  "https://todohits.com/products/poster-collection-30-aniversario-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Poster Collection 30 Aniversario | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "39,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Poster_Collection_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784707156"
+  },
+  "https://todohits.com/products/lata-sylveon-greninja-ex-30-aniversario-4-sobres-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Lata Sylveon/Greninja Ex 30 Aniversario | 4 Sobres | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "47,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Lata_Sylveon_Greninja_Ex_30_Aniversario_4_Sobres_POKEMON_Espa_ol.jpg?v=1784705674"
+  },
+  "https://todohits.com/products/etb-30-aniversario-pokemon-elite-trainer-box-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "ETB 30 Aniversario Pokemon | Elite Trainer Box | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "94,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_30_Aniversario_Pokemon_Elite_Trainer_Box_POKEMON_Espa_ol.png?v=1787744192"
   }
 }
