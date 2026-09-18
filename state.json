@@ -1671,7 +1671,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Series_3_30th_Anniversary_Pokemillon.png?v=1787862333"
   },
   "https://www.pokemillon.com/products/sobre-pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Sobre Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "1,90 €",
