@@ -2997,5 +2997,19 @@
     "tienda": "TodoHits",
     "precio": "94,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_30_Aniversario_Pokemon_Elite_Trainer_Box_POKEMON_Espa_ol.png?v=1787744192"
+  },
+  "https://www.pokemillon.com/products/pokemon-center-pokemon-30th-celebration-double-deck-box": {
+    "disponible": true,
+    "nombre": "Pokémon Center Pokémon 30th Celebration Double Deck Box",
+    "tienda": "Pokemillon",
+    "precio": "32,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20004406.png?v=1789857956"
+  },
+  "https://www.pokemillon.com/products/pokemon-center-pokemon-30th-celebration-opening-scene-playmat": {
+    "disponible": true,
+    "nombre": "Pokémon Center Pokémon 30th Celebration Opening Scene Playmat",
+    "tienda": "Pokemillon",
+    "precio": "49,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20004828.png?v=1789858134"
   }
 }
