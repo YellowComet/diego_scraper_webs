@@ -885,7 +885,7 @@
     "disponible": false,
     "nombre": "ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "82,00 €",
+    "precio": "83,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Heroes_Ascendentes_Elite_Trainer_Box_POK_MON.jpg?v=1771434421"
   },
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "703,00 €",
+    "precio": "704,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1912,14 +1912,14 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "820,00 €",
+    "precio": "821,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
     "disponible": false,
     "nombre": "ETB Ascended Heroes , Ingles",
     "tienda": "Iberian Collect",
-    "precio": "205,00 €",
+    "precio": "206,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-026_58463679447307.jpg?v=1786778225"
   },
   "https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente": {
@@ -3013,23 +3013,31 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20004828.png?v=1789858134"
   },
   "https://www.pokemillon.com/products/pokemon-center-pokemon-30th-celebration-playmat": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon Center Pokémon 30th Celebration Playmat",
     "tienda": "Pokemillon",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20005125.png?v=1789858375"
   },
   "https://www.pokemillon.com/products/pokemon-center-opening-scene-camiseta": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon Center Opening Scene 30th Celebration Camiseta",
     "tienda": "Pokemillon",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20005514.png?v=1789858583"
   },
   "https://www.pokemillon.com/products/pokemon-center-30th-celebration-camiseta": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon Center 30th Celebration Camiseta",
     "tienda": "Pokemillon",
-    "precio": "49,90 €"
+    "precio": "49,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20005754.png?v=1789858731"
+  },
+  "https://www.pokemillon.com/products/pokemon-center-30th-celebration-camiseta-copia": {
+    "disponible": true,
+    "nombre": "Pokémon Center 30th Celebration Camiseta",
+    "tienda": "Pokemillon",
+    "precio": "49,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20010016.png?v=1789858826"
   }
 }
