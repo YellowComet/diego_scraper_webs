@@ -2915,31 +2915,31 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-pokemon-ex-box-f1.webp?v=1788959462"
   },
   "https://www.darizard9.com/products/coleccion-sylveon-ex-30-aniversario-copia": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección Greninja EX 30 Aniversario",
     "tienda": "Darizard9",
-    "precio": "46,99 €",
+    "precio": "45,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-JCC-Coleccion-Greninja-Ex-30th-Aniversario.jpg?v=1788959354"
   },
   "https://www.darizard9.com/products/coleccion-sylveon-ex-30-aniversario": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección Sylveon EX 30 Aniversario",
     "tienda": "Darizard9",
-    "precio": "46,99 €",
+    "precio": "45,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Caja_EX_de_cartas_Pokemon_30_Aniversario__Sylveon_-_Greninja___Castellano___surtido__MERCHANDISING_266947_4_xxl.png?v=1788959271"
   },
   "https://www.darizard9.com/products/30-aniversario-coleccion-sticker-lucario-copia": {
     "disponible": true,
     "nombre": "30 Aniversario Colección Sticker Exeggutor de Alola",
     "tienda": "Darizard9",
-    "precio": "34,99 €",
+    "precio": "32,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1520-1.jpg?v=1788958708"
   },
   "https://www.darizard9.com/products/30-aniversario-coleccion-sticker": {
     "disponible": true,
     "nombre": "30 Aniversario Colección Sticker Lucario",
     "tienda": "Darizard9",
-    "precio": "34,99 €",
+    "precio": "32,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1541-2.jpg?v=1788958732"
   },
   "https://www.darizard9.com/products/lata-30-aniversario": {
@@ -2950,17 +2950,17 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/266949.png?v=1788960211"
   },
   "https://www.darizard9.com/products/30-aniversario-coleccion-con-poster": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30 Aniversario Colección Con Poster",
     "tienda": "Darizard9",
     "precio": "39,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/266950.png?v=1788960592"
   },
   "https://www.darizard9.com/products/30th-celebration-poster-collection": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30th Celebration Poster Collection",
     "tienda": "Darizard9",
-    "precio": "44,99 €",
+    "precio": "46,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon_TCG_30th_Celebration_Poster_Collection_EN-copy-scaled.webp?v=1788960544"
   },
   "https://www.darizard9.com/products/30th-celebration-2-pack-blister": {
@@ -2974,7 +2974,7 @@
     "disponible": true,
     "nombre": "30 Aniversario 2-Pack Blister",
     "tienda": "Darizard9",
-    "precio": "24,99 €",
+    "precio": "22,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/783647_00_1.webp?v=1788960990"
   },
   "https://todohits.com/products/poster-collection-30-aniversario-pokemon-espanol": {
@@ -3039,5 +3039,12 @@
     "tienda": "Pokemillon",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-09-20010016.png?v=1789858826"
+  },
+  "https://www.darizard9.com/products/elite-trainer-box-30-anniversary-celebrations": {
+    "disponible": false,
+    "nombre": "Elite Trainer Box 30th Anniversary Celebrations",
+    "tienda": "Darizard9",
+    "precio": "149,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-elite-trainer-box-f1.webp?v=1788958090"
   }
 }
