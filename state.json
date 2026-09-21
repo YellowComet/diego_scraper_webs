@@ -1605,10 +1605,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Illustration_Collections_30th_Aniversario_Sin_Fondo_Pokemillon.png?v=1787862653"
   },
   "https://www.pokemillon.com/products/etb-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "ETB Celebraciones 30 Aniversario | Élite Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "116,90 €",
+    "precio": "139,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Elite_Trainer_Box_EN-copy-scaled.jpg?v=1787737242"
   },
   "https://www.pokemillon.com/products/bundle-30th-anniversary": {
