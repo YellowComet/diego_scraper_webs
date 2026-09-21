@@ -1689,7 +1689,7 @@
     "nombre": "Espeon ex and Umbreon ex Deck Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "129,90 €",
-    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142807.png?v=1787737309"
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142807.png?v=1789991939"
   },
   "https://www.pokemillon.com/products/first-partner-illustration-collections-pokemon-30th-anniversary": {
     "disponible": false,
@@ -2098,7 +2098,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryposter.webp?v=1787675774"
   },
   "https://allintcg.com/products/blister-pack-2-sobres-30th-anniversary-eng": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blister Pack 2 Sobres - 30th Anniversary [ENG]",
     "tienda": "AllinTCG",
     "precio": "32,95 €",
