@@ -3046,5 +3046,12 @@
     "tienda": "Darizard9",
     "precio": "149,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-elite-trainer-box-f1.webp?v=1788958090"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-lugia-m6a-142-103/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Lugia (M6a 142/103)",
+    "tienda": "Flash Store",
+    "precio": "199,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/lugia1.jpg"
   }
 }
