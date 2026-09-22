@@ -2915,14 +2915,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-pokemon-ex-box-f1.webp?v=1788959462"
   },
   "https://www.darizard9.com/products/coleccion-sylveon-ex-30-aniversario-copia": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Colección Greninja EX 30 Aniversario",
     "tienda": "Darizard9",
     "precio": "45,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-JCC-Coleccion-Greninja-Ex-30th-Aniversario.jpg?v=1788959354"
   },
   "https://www.darizard9.com/products/coleccion-sylveon-ex-30-aniversario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Colección Sylveon EX 30 Aniversario",
     "tienda": "Darizard9",
     "precio": "45,99 €",
