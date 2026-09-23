@@ -3103,5 +3103,12 @@
     "tienda": "Pokezilla",
     "precio": "39,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/blister-coleccion-con-pegatinas-tech-sticker-collection-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg.webp?v=1790167481"
+  },
+  "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-poster-collection": {
+    "disponible": false,
+    "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Poster Collection",
+    "tienda": "Pokezilla",
+    "precio": "49,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-coleccion-poster-collection-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg.webp?v=1790167917"
   }
 }
