@@ -3075,5 +3075,19 @@
     "tienda": "Metamorph Center",
     "precio": "37,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/coleccion-greninja-ex-celebracion-30-aniversario-espanol.webp?v=1790147615"
+  },
+  "https://metamorphcenter.com/products/danada-etb-celebracion-30-aniversario-espanol": {
+    "disponible": false,
+    "nombre": "[ DAÑADA ] ETB Celebración 30.º Aniversario 30C - Español",
+    "tienda": "Metamorph Center",
+    "precio": "63,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/etb-celebracion-30-aniversario-espanol-01.webp?v=1790146934"
+  },
+  "https://metamorphcenter.com/products/etb-celebracion-30-aniversario-espanol": {
+    "disponible": false,
+    "nombre": "ETB Celebración 30.º Aniversario 30C - Español",
+    "tienda": "Metamorph Center",
+    "precio": "66,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/etb-celebracion-30-aniversario-espanol-01.webp?v=1790146934"
   }
 }
