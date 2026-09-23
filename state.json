@@ -1821,14 +1821,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Blister_Eevee_30_Aniversario_Pokemillon_JPG.jpg?v=1784662712"
   },
   "https://www.pokemillon.com/products/30th-celebration-pokemon-ex-tin": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Greninja ex Tin  Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "46,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-07-01235214.png?v=1787737348"
   },
   "https://www.pokemillon.com/products/sylveon-ex-tin-celebraciones-30-aniversario-celebrations-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Sylveon ex Tin  Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "46,90 €",
