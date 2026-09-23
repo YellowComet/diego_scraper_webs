@@ -3152,5 +3152,12 @@
     "tienda": "UNSOBREMAS",
     "precio": "29,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/blis130.webp?v=1789569814"
+  },
+  "https://metamorphcenter.com/products/coleccion-sylveon-ex-30-aniversario-espanol": {
+    "disponible": false,
+    "nombre": "Colección Sylveon ex Celebración 30.º Aniversario 30C - Español",
+    "tienda": "Metamorph Center",
+    "precio": "37,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/coleccion-sylveon-ex-celebracion-30-aniversario-espanol.webp?v=1790174804"
   }
 }
