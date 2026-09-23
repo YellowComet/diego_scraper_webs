@@ -3063,14 +3063,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/266941.png?v=1788957919"
   },
   "https://metamorphcenter.com/products/coleccion-poster-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección con Póster Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "32,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/coleccion-poster-celebracion-30-aniversario-espanol-01.webp?v=1790147683"
   },
   "https://metamorphcenter.com/products/coleccion-greninja-ex-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección Greninja ex Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "37,95 €",
@@ -3154,7 +3154,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/blis130.webp?v=1789569814"
   },
   "https://metamorphcenter.com/products/coleccion-sylveon-ex-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección Sylveon ex Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "37,95 €",
