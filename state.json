@@ -2762,7 +2762,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/lata-celebracion-30-aniversario-30th-anniversary-collection-tin-sylveon-greninja-ex-cartas-pokemon-tcg-cardzone.png?v=1789483845"
   },
   "https://cardzone.es/products/caja-poster-celebracion-30-aniversario-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Caja Poster Celebración 30 Aniversario - Español",
     "tienda": "CardZone",
     "precio": "32,95 €",
@@ -3054,5 +3054,12 @@
     "tienda": "Flash Store",
     "precio": "199,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/lugia1.jpg"
+  },
+  "https://www.darizard9.com/products/caja-de-entrenador-elit-celebracion-30-aniversario": {
+    "disponible": false,
+    "nombre": "Caja de Entrenador Elite 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "99,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/266941.png?v=1788957919"
   }
 }
