@@ -908,14 +908,14 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "290,00 €",
+    "precio": "291,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-UMBREON-1-Photoroom.png?v=1786038031"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "290,00 €",
+    "precio": "291,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-1-Photoroom.png?v=1786037560"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-booster-bundle-30th-celebration-ingles-espanol": {
@@ -957,7 +957,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "696,00 €",
+    "precio": "697,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1913,14 +1913,14 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "812,00 €",
+    "precio": "813,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
     "disponible": false,
     "nombre": "ETB Ascended Heroes , Ingles",
     "tienda": "Iberian Collect",
-    "precio": "203,00 €",
+    "precio": "204,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-026_58463679447307.jpg?v=1786778225"
   },
   "https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente": {
@@ -1942,7 +1942,7 @@
     "disponible": false,
     "nombre": "UPC 30 Aniversario, Celebraciones Pokémon",
     "tienda": "Iberian Collect",
-    "precio": "232,00 €",
+    "precio": "233,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0209.jpg?v=1788503736"
   },
   "https://pokezilla.com/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box": {
@@ -2005,7 +2005,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Productlive_97_48fa8405-99a6-42b5-a87c-72b23196485b.webp?v=1764670881"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-preventa": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Elite Trainer Box",
     "tienda": "Pokezilla",
     "precio": "129,95 €",
@@ -2019,7 +2019,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon_TCG_30th_Celebration_UPC_Night_EN-copy-scaled-removebg-preview.png?v=1784897484"
   },
   "https://pokezilla.com/products/pokemon-tcg-espeon-30-aniversario-especial-ultra-premium-collection": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: Espeon 30 Aniversario Especial Ultra-Premium Collection- PREVENTA",
     "tienda": "Pokezilla",
     "precio": "399,95 €",
@@ -3098,21 +3098,21 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/lata-celebracion-30-aniversario-greninja-ex-espanol.webp?v=1790147304"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-tech-sticker": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Tech Sticker",
     "tienda": "Pokezilla",
     "precio": "39,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/blister-coleccion-con-pegatinas-tech-sticker-collection-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg.webp?v=1790167481"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-poster-collection": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Poster Collection",
     "tienda": "Pokezilla",
     "precio": "49,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-coleccion-poster-collection-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg.webp?v=1790167917"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-ex-box-greninja-sylveon": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Ex Box (Greninja & Sylveon)",
     "tienda": "Pokezilla",
     "precio": "59,95 €",
