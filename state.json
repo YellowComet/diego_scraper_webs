@@ -908,14 +908,14 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "291,00 €",
+    "precio": "290,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-UMBREON-1-Photoroom.png?v=1786038031"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "291,00 €",
+    "precio": "290,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-1-Photoroom.png?v=1786037560"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-booster-bundle-30th-celebration-ingles-espanol": {
@@ -957,7 +957,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "697,00 €",
+    "precio": "696,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1913,14 +1913,14 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "813,00 €",
+    "precio": "812,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
     "disponible": false,
     "nombre": "ETB Ascended Heroes , Ingles",
     "tienda": "Iberian Collect",
-    "precio": "204,00 €",
+    "precio": "203,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-026_58463679447307.jpg?v=1786778225"
   },
   "https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente": {
@@ -1942,7 +1942,7 @@
     "disponible": false,
     "nombre": "UPC 30 Aniversario, Celebraciones Pokémon",
     "tienda": "Iberian Collect",
-    "precio": "233,00 €",
+    "precio": "232,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0209.jpg?v=1788503736"
   },
   "https://pokezilla.com/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box": {
@@ -3159,5 +3159,26 @@
     "tienda": "Metamorph Center",
     "precio": "37,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/coleccion-sylveon-ex-celebracion-30-aniversario-espanol.webp?v=1790174804"
+  },
+  "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Blister 2 Sobres 30 Aniversario | POKÉMON | Inglés",
+    "tienda": "TodoHits",
+    "precio": "40,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_2_Sobres_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784707768"
+  },
+  "https://todohits.com/products/poster-collection-30-aniversario-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Poster Collection 30 Aniversario | POKÉMON | Inglés",
+    "tienda": "TodoHits",
+    "precio": "53,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Poster_Collection_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784707156"
+  },
+  "https://todohits.com/products/binder-collection-30-aniversario-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Binder Collection 30 Aniversario | POKÉMON | Inglés",
+    "tienda": "TodoHits",
+    "precio": "87,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Binder_Collection_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784699659"
   }
 }
