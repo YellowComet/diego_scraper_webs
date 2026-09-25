@@ -3180,5 +3180,12 @@
     "tienda": "TodoHits",
     "precio": "88,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Binder_Collection_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784699659"
+  },
+  "https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario": {
+    "disponible": true,
+    "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
+    "tienda": "Iberian Collect",
+    "precio": "274,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
   }
 }
