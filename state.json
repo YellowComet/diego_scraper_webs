@@ -1527,7 +1527,7 @@
     "img": "https://flashstore.es/wp-content/uploads/2025/12/garde.jpg"
   },
   "https://flashstore.es/producto/heroes-ascendentes-booster-bundle/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Heroes Ascendentes Booster Bundle",
     "tienda": "Flash Store",
     "precio": "66,90 €",
@@ -2692,10 +2692,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/caja-30th-celebration-m6a-japones-display-abierto.webp?v=1789548660"
   },
   "https://tcglevel.com/products/booster-box-pokemon-30-aniversario-celebraciones-japones": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Booster Box Pokémon 30 Aniversario Celebraciones | Japonés",
     "tienda": "TCG Level",
-    "precio": "159,90 €",
+    "precio": "199,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/booster-box-30-aniversario-celebraciones-japones.png?v=1789556004"
   },
   "https://flashstore.es/producto/celebraciones-30th-premium-set-espeon-umbreon/": {
@@ -3182,10 +3182,17 @@
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Binder_Collection_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784699659"
   },
   "https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
     "tienda": "Iberian Collect",
     "precio": "274,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
+  },
+  "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": {
+    "disponible": false,
+    "nombre": "ETB 30 Aniversario, Celebraciones Pokémon, Español (con pequeñas roturas en el plástico) ideal para abrir",
+    "tienda": "Iberian Collect",
+    "precio": "93,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0208_227bbfe6-7669-4a74-a623-203fda130d43.jpg?v=1790421045"
   }
 }

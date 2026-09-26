@@ -211,7 +211,7 @@
   "https://flashstore.es/producto/heroes-ascendentes-display-mini-lata/": "229,90 €|True",
   "https://flashstore.es/producto/first-partner-illustration-collection-series-1/": "39,90 €|True",
   "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-gardevoir/": "74,90 €|True",
-  "https://flashstore.es/producto/heroes-ascendentes-booster-bundle/": "66,90 €|True",
+  "https://flashstore.es/producto/heroes-ascendentes-booster-bundle/": "66,90 €|False",
   "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-lucario/": "86,90 €|True",
   "https://metamorphcenter.com/products/danada-first-partner-illustration-collection-serie-3-espanol": "24,95 €|False",
   "https://cardzone.es/products/etb-caja-de-entrenador-elite-ascended-heroes-ingles-copia": "85,95 €|False",
@@ -373,7 +373,7 @@
   "https://factorycardstcg.com/products/pokemon-30t-anniversay-japones-deck-espeon-umbreon": "193,95 €|False",
   "https://flashstore.es/producto/celebraciones-30th-booster-box-sin-plastico/": "164,90 €|True",
   "https://metamorphcenter.com/products/caja-30th-celebration-pokemon-japones": "162,95 €|False",
-  "https://tcglevel.com/products/booster-box-pokemon-30-aniversario-celebraciones-japones": "159,90 €|False",
+  "https://tcglevel.com/products/booster-box-pokemon-30-aniversario-celebraciones-japones": "199,90 €|True",
   "https://flashstore.es/producto/celebraciones-30th-premium-set-espeon-umbreon/": "169,90 €|True",
   "https://sunnystore.es/products/caja-pokemon-3oth-celebration-m6a-japones": "159,90 €|True",
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones": "186,00 €|False",
@@ -443,5 +443,6 @@
   "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-ingles": "40,00 €|False",
   "https://todohits.com/products/poster-collection-30-aniversario-pokemon-ingles": "53,00 €|False",
   "https://todohits.com/products/binder-collection-30-aniversario-pokemon-ingles": "88,00 €|False",
-  "https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario": "274,00 €|True"
+  "https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario": "274,00 €|False",
+  "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": "93,00 €|False"
 }
