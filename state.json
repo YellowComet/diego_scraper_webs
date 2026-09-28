@@ -1876,7 +1876,7 @@
     "disponible": true,
     "nombre": "Caja premium Héroes ascendentes Mega ex",
     "tienda": "Iberian Collect",
-    "precio": "45,00 €",
+    "precio": "44,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_d3228f43-83ac-4719-848a-fa3fac49ed2c.jpg?v=1780846028"
   },
   "https://iberiancollect.com/products/booster-bundle-ascended-heroes-ingles": {
@@ -2501,7 +2501,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_ultra_premium_edicion_dia_espeon_30_aniversario_pokemon_la_boveda_friki.png?v=1787677066"
   },
   "https://labovedafriki.es/products/lata-30-aniversario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Lata 30 Aniversario Pokemon",
     "tienda": "La Boveda Friki",
     "precio": "0,00 €",
@@ -2515,21 +2515,21 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Battle_Decks_Umbreon_Espeon_Pokemon_30_aniversario_la_boveda_friki.png?v=1787393403"
   },
   "https://labovedafriki.es/products/poster-collection-30-aniversario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Poster Collection 30 Aniversario",
     "tienda": "La Boveda Friki",
     "precio": "0,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/PosterCollection_30_aniversario_Pokemon_La_boveda_friki.png?v=1787391650"
   },
   "https://labovedafriki.es/products/caja-de-coleccion-30-aniversario-sylveon-ex-o-greninja-ex": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Caja de colección 30 Aniversario Sylveon EX o Greninja EX",
     "tienda": "La Boveda Friki",
     "precio": "0,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_coleccion_30_aniversario_Sylveon_Greninja_Pokemon_la_boveda_friki.png?v=1787390826"
   },
   "https://labovedafriki.es/products/blister-2-sobres-30-aniversario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Blíster 2 sobres 30 Aniversario",
     "tienda": "La Boveda Friki",
     "precio": "0,00 €",
@@ -2550,7 +2550,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Bundle_6_sobres_pokemon_30_aniversario_la_boveda_friki.jpg?v=1785696425"
   },
   "https://labovedafriki.es/products/blister-30-aniversario-tech-sticker": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Blíster 30 Aniversario Tech Sticker",
     "tienda": "La Boveda Friki",
     "precio": "0,00 €",
@@ -3228,5 +3228,12 @@
     "tienda": "RyuCards",
     "precio": "64,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS_63.png?v=1790593911"
+  },
+  "https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles": {
+    "disponible": true,
+    "nombre": "UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( PREVENTA )",
+    "tienda": "Iberian Collect",
+    "precio": "609,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/efbd0b9c6fa202a944bd51ab7a792ee3.jpg?v=1790626529"
   }
 }
