@@ -3201,5 +3201,19 @@
     "tienda": "Darizard9",
     "precio": "79,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-binder-collection-1.webp?v=1788958875"
+  },
+  "https://todohits.com/products/sobre-30-aniversario-pokemon-japones": {
+    "disponible": false,
+    "nombre": "[Reserva] Sobre 30 Aniversario | POKÉMON | Japonés",
+    "tienda": "TodoHits",
+    "precio": "13,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Sobre_30_Aniversario_POK_MON_Japon_s.webp?v=1790585819"
+  },
+  "https://todohits.com/products/booster-box-30-aniversario-pokemon-japones": {
+    "disponible": false,
+    "nombre": "[Reserva] Booster Box 30 Aniversario | POKÉMON | Japonés",
+    "tienda": "TodoHits",
+    "precio": "244,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POK_MON_Japon_s.webp?v=1790584784"
   }
 }
