@@ -1612,10 +1612,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Elite_Trainer_Box_EN-copy-scaled.jpg?v=1787737242"
   },
   "https://www.pokemillon.com/products/bundle-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Bundle Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "29,90 €",
+    "precio": "39,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Booster_Bundle_EN-copy.jpg?v=1787737249"
   },
   "https://www.pokemillon.com/products/ultra-premium-30th-espeon": {
@@ -1753,7 +1753,7 @@
     "disponible": true,
     "nombre": "30th Celebration Álbum Collection Box Celebraciones 30 Aniversario",
     "tienda": "Pokemillon",
-    "precio": "79,90 €",
+    "precio": "89,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Binder_Collection_EN-copy-scaled.jpg?v=1782840618"
   },
   "https://www.pokemillon.com/products/30th-celebration-espeon-battle-deck-celebraciones-30-aniversario": {
@@ -1788,7 +1788,7 @@
     "disponible": false,
     "nombre": "Mini Lata Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "14,90 €",
+    "precio": "19,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Mini_Latas_30_Aniversario_Pokemillon_JPG.jpg?v=1784662716"
   },
   "https://www.pokemillon.com/products/caja-knock-out-collection-celebraciones-30-aniversario-celebrations-30th": {
@@ -1876,7 +1876,7 @@
     "disponible": true,
     "nombre": "Caja premium Héroes ascendentes Mega ex",
     "tienda": "Iberian Collect",
-    "precio": "44,00 €",
+    "precio": "45,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_d3228f43-83ac-4719-848a-fa3fac49ed2c.jpg?v=1780846028"
   },
   "https://iberiancollect.com/products/booster-bundle-ascended-heroes-ingles": {
@@ -2286,7 +2286,7 @@
     "disponible": true,
     "nombre": "Sylveon ex Box 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "69,00 €",
+    "precio": "70,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/dd8557d4d78e71e906351cbcba724f11.jpg?v=1788503708"
   },
   "https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario": {
