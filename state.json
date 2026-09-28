@@ -2930,14 +2930,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Caja_EX_de_cartas_Pokemon_30_Aniversario__Sylveon_-_Greninja___Castellano___surtido__MERCHANDISING_266947_4_xxl.png?v=1788959271"
   },
   "https://www.darizard9.com/products/30-aniversario-coleccion-sticker-lucario-copia": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30 Aniversario Colección Sticker Exeggutor de Alola",
     "tienda": "Darizard9",
     "precio": "32,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1520-1.jpg?v=1788958708"
   },
   "https://www.darizard9.com/products/30-aniversario-coleccion-sticker": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30 Aniversario Colección Sticker Lucario",
     "tienda": "Darizard9",
     "precio": "32,99 €",
@@ -3194,5 +3194,12 @@
     "tienda": "Iberian Collect",
     "precio": "93,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0208_227bbfe6-7669-4a74-a623-203fda130d43.jpg?v=1790421045"
+  },
+  "https://www.darizard9.com/products/30th-celebration-bindr-collection": {
+    "disponible": true,
+    "nombre": "30th Celebration Binder Collection",
+    "tienda": "Darizard9",
+    "precio": "79,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-binder-collection-1.webp?v=1788958875"
   }
 }
