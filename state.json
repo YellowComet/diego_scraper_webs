@@ -3215,5 +3215,19 @@
     "tienda": "TodoHits",
     "precio": "244,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POK_MON_Japon_s.webp?v=1790584784"
+  },
+  "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": {
+    "disponible": true,
+    "nombre": "BOOSTER POKEMON 30TH CELEBRATION M6A - SOBRE JAPONÉS",
+    "tienda": "Sunny Store",
+    "precio": "10,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Pokemon-tcg-30th-celebration-booster-pack-japanese_1.jpg?v=1790609417"
+  },
+  "https://www.ryucardstcg.com/products/ascended-heroes-mega-box": {
+    "disponible": true,
+    "nombre": "Ascended Heroes Mega Box",
+    "tienda": "RyuCards",
+    "precio": "64,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0979/7464/9171/files/POSIBLESHITS_63.png?v=1790593911"
   }
 }
