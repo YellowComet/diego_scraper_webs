@@ -885,7 +885,7 @@
     "disponible": false,
     "nombre": "ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "81,00 €",
+    "precio": "82,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Heroes_Ascendentes_Elite_Trainer_Box_POK_MON.jpg?v=1771434421"
   },
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "694,00 €",
+    "precio": "695,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1912,7 +1912,7 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "810,00 €",
+    "precio": "811,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
@@ -2255,17 +2255,17 @@
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/15af66e8b235c9a4bd2093fc960c8635.jpg?v=1788503690"
   },
   "https://iberiancollect.com/products/booster-bundle-30-aniversario": {
-    "disponible": false,
-    "nombre": "Booster Bundle 30 Aniversario",
+    "disponible": true,
+    "nombre": "Booster Bundle 30 Aniversario ( PREVENTA )",
     "tienda": "Iberian Collect",
-    "precio": "2,00 €",
+    "precio": "64,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/8d1ca2e193c51fc0509ded447bb25467.jpg?v=1788503694"
   },
   "https://iberiancollect.com/products/album-para-colecciones-30-aniversario": {
-    "disponible": false,
-    "nombre": "Álbum para Colecciones 30 Aniversario",
+    "disponible": true,
+    "nombre": "Álbum para Colecciones 30 Aniversario ( PREVENTA )",
     "tienda": "Iberian Collect",
-    "precio": "2,00 €",
+    "precio": "93,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/dfbdcd039c771cefdb121a9c8cd8d677.jpg?v=1788503697"
   },
   "https://iberiancollect.com/products/figure-collection-mew-30-aniversario": {
@@ -2307,7 +2307,7 @@
     "disponible": true,
     "nombre": "Poster Collection 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "45,00 €",
+    "precio": "46,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/cd72281a0bdd6a13d4ee8a5b0952792b.jpg?v=1788503720"
   },
   "https://iberiancollect.com/products/ditto-premium-collection-30-aniversario": {
@@ -2343,14 +2343,14 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Greninja ex Tin | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "37,00 €",
+    "precio": "38,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_8_4ca01430-538c-4a18-990b-d116403adaff.png?v=1788447215"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-sylveon-ex-tin-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Sylveon ex Tin | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "37,00 €",
+    "precio": "38,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/3-Photoroom_8.png?v=1788447087"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-poster-collection-espanol": {
@@ -2715,7 +2715,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration booster box (Japonés)",
     "tienda": "JJCOLLECTION",
-    "precio": "185,00 €",
+    "precio": "186,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/13333333333333333333-Photoroom_271051ae-c05f-4340-9da6-8d93970e0977.png?v=1789566151"
   },
   "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-espanol": {
@@ -3212,7 +3212,7 @@
     "disponible": false,
     "nombre": "[Reserva] Booster Box 30 Aniversario | POKÉMON | Japonés",
     "tienda": "TodoHits",
-    "precio": "243,00 €",
+    "precio": "244,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_Japones.png?v=1790666886"
   },
   "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": {
@@ -3233,7 +3233,7 @@
     "disponible": true,
     "nombre": "UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( PREVENTA )",
     "tienda": "Iberian Collect",
-    "precio": "607,00 €",
+    "precio": "608,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/efbd0b9c6fa202a944bd51ab7a792ee3.jpg?v=1790626529"
   },
   "https://todohits.com/products/binder-collection-30-aniversario-pokemon-espanol": {
