@@ -3249,5 +3249,26 @@
     "tienda": "Darizard9",
     "precio": "46,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon_TCG_30th_Celebration_Poster_Collection_EN-copy-scaled.webp?v=1788960544"
+  },
+  "https://cardzone.es/products/caja-umbreon-espeon-ex-premium-deck-celebracion-30-aniversario-japones": {
+    "disponible": true,
+    "nombre": "Caja Umbreon & Espeon EX Premium Deck Celebración 30 Aniversario - Japones",
+    "tienda": "CardZone",
+    "precio": "159,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-mazo-deck-premium-set-umbreon-espeon-ex-30-aniversario-celebracion-cartas-pokemon-tcg-cardzone.png?v=1790694539"
+  },
+  "https://cardzone.es/products/caja-futuristic-box-celebracion-30-aniversario-japones": {
+    "disponible": true,
+    "nombre": "Caja Futuristic Box Celebración 30 Aniversario - Japones",
+    "tienda": "CardZone",
+    "precio": "499,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-futuristic-box-pikachu-celebracion-30-aniversario-cartas-pokemon-tcg-cardzone.png?v=1790695919"
+  },
+  "https://cardzone.es/products/caja-celebracion-30-aniversario-m6a-japones": {
+    "disponible": true,
+    "nombre": "Caja Celebración 30 Aniversario M6a - Japones",
+    "tienda": "CardZone",
+    "precio": "199,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-de-sobres-celebracion-30-aniversario-30th-anniversay-collection-cartas-pokemon-tcg-cardzone.png?v=1790698540"
   }
 }
