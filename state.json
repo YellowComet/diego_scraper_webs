@@ -58,7 +58,7 @@
     "img": "https://reinodecartas.com/wp-content/uploads/2026/05/P11445-3D_First_Partner_Illustration_Collection_Series_2_Front_DOM_INTL_EN-3468x3399-09276f8-1.webp"
   },
   "https://flashstore.es/producto/first-partner-illustration-collection-series-3/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "First Partner Illustration Collection Series 3",
     "tienda": "Flash Store",
     "precio": "33,90 €",
@@ -843,7 +843,7 @@
     "disponible": false,
     "nombre": "Premium Poster Collection Heroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "86,00 €",
+    "precio": "87,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Premium_Poster_Collection_Heroes_Ascendentes_POK_MON_Espa_ol.jpg?v=1773315914"
   },
   "https://todohits.com/products/pin-collection-deluxe-heroes-ascendentes-pokemon-espanol": {
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "688,00 €",
+    "precio": "689,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -3177,7 +3177,7 @@
     "disponible": false,
     "nombre": "Binder Collection 30 Aniversario | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "86,00 €",
+    "precio": "87,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Binder_Collection_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784699659"
   },
   "https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario": {
@@ -3233,7 +3233,7 @@
     "disponible": false,
     "nombre": "UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )",
     "tienda": "Iberian Collect",
-    "precio": "602,00 €",
+    "precio": "603,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/efbd0b9c6fa202a944bd51ab7a792ee3.jpg?v=1790626529"
   },
   "https://todohits.com/products/binder-collection-30-aniversario-pokemon-espanol": {
