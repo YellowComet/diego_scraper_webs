@@ -3270,5 +3270,12 @@
     "tienda": "CardZone",
     "precio": "199,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-de-sobres-celebracion-30-aniversario-30th-anniversay-collection-cartas-pokemon-tcg-cardzone.png?v=1790698540"
+  },
+  "https://cardzone.es/products/caja-binder-celebracion-30-aniversario-espanol": {
+    "disponible": true,
+    "nombre": "Caja Binder Celebración 30 Aniversario - Español",
+    "tienda": "CardZone",
+    "precio": "64,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/carpeta-coleccion-album-binder-collection-celebracion-30-aniversario-cartas-pokemon-tcg-cardzone.png?v=1790854936"
   }
 }
