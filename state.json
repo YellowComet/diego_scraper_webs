@@ -3277,5 +3277,12 @@
     "tienda": "CardZone",
     "precio": "64,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/carpeta-coleccion-album-binder-collection-celebracion-30-aniversario-cartas-pokemon-tcg-cardzone.png?v=1790854936"
+  },
+  "https://sarumangames.es/products/pokemon-mini-lata-30-aniversario": {
+    "disponible": false,
+    "nombre": "POKEMON: MINI LATA 30 ANIVERSARIO",
+    "tienda": "Saruman Games",
+    "precio": "17,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/Pokemon-JCC-Minilatas-Celebracion-30th-Aniversario.jpg?v=1790936441"
   }
 }
