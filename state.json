@@ -1981,11 +1981,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/SELLADO1_5.webp?v=1764670944"
   },
   "https://pokezilla.com/products/pokemon-tcg-mega-evolution-ascended-heroes-ex-box": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon TCG: Mega Evolution—Ascended Heroes ex Box",
     "tienda": "Pokezilla",
     "precio": "39,95 €",
-    "obj": 39.95,
     "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/imgi_300_Screenshot_20251219_181140_X_1.jpg?v=1778321823"
   },
@@ -3097,7 +3096,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/lata-celebracion-30-aniversario-greninja-ex-espanol.webp?v=1790147304"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-tech-sticker": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Tech Sticker",
     "tienda": "Pokezilla",
     "precio": "39,95 €",
