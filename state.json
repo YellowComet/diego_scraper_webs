@@ -755,7 +755,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-11-20114646.png?v=1773573401"
   },
   "https://www.pokemillon.com/products/pin-collection-heroes-ascendentes-ascended-heroes": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Deluxe Pin Collection Ascended Heroes | Heroes Ascendentes",
     "tienda": "Pokemillon",
     "precio": "38,90 €",
@@ -1597,7 +1597,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20251219_181140_X.jpg?v=1773573462"
   },
   "https://www.pokemillon.com/products/first-partner": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "First Partner Series 1 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
     "precio": "41,90 €",
@@ -1650,7 +1650,8 @@
     "disponible": true,
     "nombre": "First Partner Series 2 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
-    "precio": "32,90 €",
+    "precio": "26,90 €",
+    "obj": 26.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Series_2_30th_Anniversary_Pokemillon.png?v=1787862882"
   },
@@ -1666,7 +1667,8 @@
     "disponible": true,
     "nombre": "First Partner Series 3 | Primer Compañero 30 Aniversario",
     "tienda": "Pokemillon",
-    "precio": "32,90 €",
+    "precio": "28,90 €",
+    "obj": 28.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Series_3_30th_Anniversary_Pokemillon.png?v=1787862333"
   },
