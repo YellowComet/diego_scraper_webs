@@ -1633,7 +1633,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Caja_20_Sobres_Pokemon_30th_Anniversary_m6a_Pokemillon.png?v=1787861931"
   },
   "https://www.pokemillon.com/products/sylveon-box-30th-anniversary": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Sylveon Special Box Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "45,90 €",
@@ -3098,7 +3098,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/lata-celebracion-30-aniversario-greninja-ex-espanol.webp?v=1790147304"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-tech-sticker": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Tech Sticker",
     "tienda": "Pokezilla",
     "precio": "39,95 €",
@@ -3213,7 +3213,7 @@
     "disponible": false,
     "nombre": "[Reserva] Booster Box 30 Aniversario | POKÉMON | Japonés",
     "tienda": "TodoHits",
-    "precio": "242,00 €",
+    "precio": "241,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_Japones.png?v=1790666886"
   },
   "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": {
