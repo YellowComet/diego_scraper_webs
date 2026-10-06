@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "689,00 €",
+    "precio": "690,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1870,7 +1870,7 @@
     "disponible": false,
     "nombre": "Combo ETB Ascended Héroes Inglés + Booster Box Equilibrio Perfecto+ Acrílico para la ETB",
     "tienda": "Iberian Collect",
-    "precio": "333,00 €",
+    "precio": "334,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_ca73f913-cb2c-4424-8d19-e38b7af0f493.jpg?v=1780846052"
   },
   "https://iberiancollect.com/products/caja-premium-heroes-ascendentes-mega-ex": {
@@ -1913,14 +1913,14 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "804,00 €",
+    "precio": "805,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
     "disponible": false,
     "nombre": "ETB Ascended Heroes , Ingles",
     "tienda": "Iberian Collect",
-    "precio": "201,00 €",
+    "precio": "202,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-026_58463679447307.jpg?v=1786778225"
   },
   "https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente": {
@@ -3233,7 +3233,7 @@
     "disponible": false,
     "nombre": "UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )",
     "tienda": "Iberian Collect",
-    "precio": "603,00 €",
+    "precio": "604,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/efbd0b9c6fa202a944bd51ab7a792ee3.jpg?v=1790626529"
   },
   "https://todohits.com/products/binder-collection-30-aniversario-pokemon-espanol": {
@@ -3340,5 +3340,19 @@
     "tienda": "AllinTCG",
     "precio": "44,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryexbox.webp?v=1787676088"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-figura-charizard/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Figura Charizard",
+    "tienda": "Flash Store",
+    "precio": "294,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/10/char30th.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-caja-kr/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Caja KR",
+    "tienda": "Flash Store",
+    "precio": "147,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/10/30thkr.jpg"
   }
 }
