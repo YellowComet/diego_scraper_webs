@@ -2691,7 +2691,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/caja-30th-celebration-m6a-japones-display-abierto.webp?v=1789548660"
   },
   "https://tcglevel.com/products/booster-box-pokemon-30-aniversario-celebraciones-japones": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Booster Box Pokémon 30 Aniversario Celebraciones | Japonés",
     "tienda": "TCG Level",
     "precio": "199,90 €",
@@ -3312,5 +3312,12 @@
     "tienda": "Darizard9",
     "precio": "29,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-mini-tin-1_90b4c404-9f78-4a7f-8416-b73fc7c92dd7.webp?v=1790676076"
+  },
+  "https://allintcg.com/products/blister-pack-2-sobres-30th-anniversary-esp": {
+    "disponible": false,
+    "nombre": "Blister Pack 2 Sobres - 30th Anniversary [ESP]",
+    "tienda": "AllinTCG",
+    "precio": "19,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversary2pack.webp?v=1787675358"
   }
 }
