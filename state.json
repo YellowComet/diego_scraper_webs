@@ -3291,5 +3291,26 @@
     "tienda": "TCG Level",
     "precio": "43,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/Batalla-level-up.png?v=1776519911"
+  },
+  "https://www.darizard9.com/products/30th-celebration-tech-sticker-lucario": {
+    "disponible": false,
+    "nombre": "30th Celebration Tech Sticker Lucario",
+    "tienda": "Darizard9",
+    "precio": "44,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-tech-sticker-collection-1_8e19dbf4-8a2a-446c-bac8-73a379c794a0.webp?v=1791277022"
+  },
+  "https://www.darizard9.com/products/30th-celebration-tech-sticker-exeggutor": {
+    "disponible": false,
+    "nombre": "30th Celebration Tech Sticker Exeggutor",
+    "tienda": "Darizard9",
+    "precio": "44,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/pokemon-tcg-30th-celebration-tech-sticker-collection-1_1024x1024_1fa8f260-8077-4a09-890c-3cac57ad6bc6.webp?v=1791277105"
+  },
+  "https://www.darizard9.com/products/30th-anniversary-mini-tin": {
+    "disponible": true,
+    "nombre": "30th Anniversary Mini Tin",
+    "tienda": "Darizard9",
+    "precio": "29,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-mini-tin-1_90b4c404-9f78-4a7f-8416-b73fc7c92dd7.webp?v=1790676076"
   }
 }
