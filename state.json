@@ -3319,5 +3319,19 @@
     "tienda": "AllinTCG",
     "precio": "19,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversary2pack.webp?v=1787675358"
+  },
+  "https://allintcg.com/products/tech-sticker-collection-30th-anniversary-esp": {
+    "disponible": true,
+    "nombre": "Tech Sticker Collection - 30th Anniversary [ESP]",
+    "tienda": "AllinTCG",
+    "precio": "33,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/tech_stickers_30aniv.webp?v=1790877965"
+  },
+  "https://allintcg.com/products/30th-anniversary-poster-collection-esp": {
+    "disponible": true,
+    "nombre": "30th Anniversary Poster Collection [ESP]",
+    "tienda": "AllinTCG",
+    "precio": "34,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryposter.webp?v=1787675774"
   }
 }
