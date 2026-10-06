@@ -907,14 +907,14 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "288,00 €",
+    "precio": "287,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-UMBREON-1-Photoroom.png?v=1786038031"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "288,00 €",
+    "precio": "287,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-1-Photoroom.png?v=1786037560"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-booster-bundle-30th-celebration-ingles-espanol": {
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "690,00 €",
+    "precio": "689,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1870,7 +1870,7 @@
     "disponible": false,
     "nombre": "Combo ETB Ascended Héroes Inglés + Booster Box Equilibrio Perfecto+ Acrílico para la ETB",
     "tienda": "Iberian Collect",
-    "precio": "334,00 €",
+    "precio": "333,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_ca73f913-cb2c-4424-8d19-e38b7af0f493.jpg?v=1780846052"
   },
   "https://iberiancollect.com/products/caja-premium-heroes-ascendentes-mega-ex": {
@@ -3212,7 +3212,7 @@
     "disponible": false,
     "nombre": "[Reserva] Booster Box 30 Aniversario | POKÉMON | Japonés",
     "tienda": "TodoHits",
-    "precio": "242,00 €",
+    "precio": "241,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_Japones.png?v=1790666886"
   },
   "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": {
@@ -3333,5 +3333,12 @@
     "tienda": "AllinTCG",
     "precio": "34,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryposter.webp?v=1787675774"
+  },
+  "https://allintcg.com/products/ex-box-30th-anniversary-esp": {
+    "disponible": true,
+    "nombre": "EX Box - 30th Anniversary [ESP]",
+    "tienda": "AllinTCG",
+    "precio": "44,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryexbox.webp?v=1787676088"
   }
 }
