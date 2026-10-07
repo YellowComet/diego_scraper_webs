@@ -2518,21 +2518,21 @@
     "disponible": false,
     "nombre": "Poster Collection 30 Aniversario",
     "tienda": "La Boveda Friki",
-    "precio": "0,00 €",
+    "precio": "36,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/PosterCollection_30_aniversario_Pokemon_La_boveda_friki.png?v=1787391650"
   },
   "https://labovedafriki.es/products/caja-de-coleccion-30-aniversario-sylveon-ex-o-greninja-ex": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Caja de colección 30 Aniversario Sylveon EX o Greninja EX",
     "tienda": "La Boveda Friki",
-    "precio": "0,00 €",
+    "precio": "39,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Caja_coleccion_30_aniversario_Sylveon_Greninja_Pokemon_la_boveda_friki.png?v=1787390826"
   },
   "https://labovedafriki.es/products/blister-2-sobres-30-aniversario": {
     "disponible": false,
     "nombre": "Blíster 2 sobres 30 Aniversario",
     "tienda": "La Boveda Friki",
-    "precio": "0,00 €",
+    "precio": "18,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Blister_2_sobres_30_anoversario_pokemon_la_boveda_friki.png?v=1785751451"
   },
   "https://labovedafriki.es/products/mini-lata-30-aniversario": {
@@ -2550,10 +2550,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Bundle_6_sobres_pokemon_30_aniversario_la_boveda_friki.jpg?v=1785696425"
   },
   "https://labovedafriki.es/products/blister-30-aniversario-tech-sticker": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blíster 30 Aniversario Tech Sticker",
     "tienda": "La Boveda Friki",
-    "precio": "0,00 €",
+    "precio": "25,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Blister_30_Aniversario_Tech_Sticker_la_boveda_friki_3.png?v=1785599795"
   },
   "https://flashstore.es/producto/celebraciones-30th-booster-box-chn/": {
@@ -2635,10 +2635,10 @@
     "img": "https://reinodecartas.com/wp-content/uploads/2026/06/Primer-Companero-Serie-3.webp"
   },
   "https://labovedafriki.es/products/premium-deck-set-espeon-umbreon-30-aniversario-jp": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Premium Deck Set - Espeon & Umbreon - 30 Aniversario JP",
     "tienda": "La Boveda Friki",
-    "precio": "169,90 €",
+    "precio": "172,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Premium_Deck_Set_Espeon___Umbreon_30_Aniversario_la_boveda_friki_2.png?v=1789111629"
   },
   "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-gardevoir-lat/": {
