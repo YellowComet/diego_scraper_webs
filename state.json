@@ -3216,7 +3216,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_Japones.png?v=1790666886"
   },
   "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "BOOSTER POKEMON 30TH CELEBRATION M6A - SOBRE JAPONÉS",
     "tienda": "Sunny Store",
     "precio": "11,50 €",
@@ -3354,5 +3354,19 @@
     "tienda": "Flash Store",
     "precio": "147,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/10/30thkr.jpg"
+  },
+  "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-coreano": {
+    "disponible": true,
+    "nombre": "BOOSTER POKEMON 30TH CELEBRATION M6A - SOBRE COREANO",
+    "tienda": "Sunny Store",
+    "precio": "7,50 €",
+    "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Screenshot2026-10-07at10-43-26.jpg?v=1791362980"
+  },
+  "https://sunnystore.es/products/caja-pokemon-30th-celebration-m6a-coreano": {
+    "disponible": true,
+    "nombre": "CAJA POKEMON 30TH CELEBRATION M6A - COREANO",
+    "tienda": "Sunny Store",
+    "precio": "129,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Product-2026-09-29T232936.627.jpg?v=1791362216"
   }
 }

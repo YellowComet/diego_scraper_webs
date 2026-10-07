@@ -448,7 +448,7 @@
   "https://www.darizard9.com/products/30th-celebration-bindr-collection": "79,99 €|False",
   "https://todohits.com/products/sobre-30-aniversario-pokemon-japones": "13,00 €|False",
   "https://todohits.com/products/booster-box-30-aniversario-pokemon-japones": "240,00 €|False",
-  "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": "11,50 €|False",
+  "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": "11,50 €|True",
   "https://www.ryucardstcg.com/products/ascended-heroes-mega-box": "62,90 €|False",
   "https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles": "600,00 €|False",
   "https://todohits.com/products/binder-collection-30-aniversario-pokemon-espanol": "77,00 €|False",
@@ -467,5 +467,7 @@
   "https://allintcg.com/products/30th-anniversary-poster-collection-esp": "34,95 €|True",
   "https://allintcg.com/products/ex-box-30th-anniversary-esp": "44,95 €|True",
   "https://flashstore.es/producto/celebraciones-30th-figura-charizard/": "294,90 €|True",
-  "https://flashstore.es/producto/celebraciones-30th-caja-kr/": "147,90 €|True"
+  "https://flashstore.es/producto/celebraciones-30th-caja-kr/": "147,90 €|True",
+  "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-coreano": "7,50 €|True",
+  "https://sunnystore.es/products/caja-pokemon-30th-celebration-m6a-coreano": "129,90 €|True"
 }
