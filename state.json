@@ -3368,5 +3368,19 @@
     "tienda": "Sunny Store",
     "precio": "129,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Product-2026-09-29T232936.627.jpg?v=1791362216"
+  },
+  "https://cardzone.es/products/mini-lata-celebracion-30-aniversario-espanol": {
+    "disponible": true,
+    "nombre": "Mini Lata Celebración 30 Aniversario - Español",
+    "tienda": "CardZone",
+    "precio": "22,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/mini-lata-tin-celebracion-30-aniversario-30th-celebration-anniversary-cartas-pokemon-tcg-cardzone.png?v=1791271767"
+  },
+  "https://cardzone.es/products/booster-bundle-celebracion-30-aniversario-espanol": {
+    "disponible": true,
+    "nombre": "Booster Bundle Celebración 30 Aniversario - Español",
+    "tienda": "CardZone",
+    "precio": "49,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/booster-bundle-celebracion-30-aniversario-30th-anniversary-celebration-cartas-pokemon-tcg-cardzone.png?v=1791272148"
   }
 }
