@@ -3223,7 +3223,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Pokemon-tcg-30th-celebration-booster-pack-japanese_1.jpg?v=1790609417"
   },
   "https://www.ryucardstcg.com/products/ascended-heroes-mega-box": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Ascended Heroes Mega Box",
     "tienda": "RyuCards",
     "precio": "62,90 €",
