@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "686,00 €",
+    "precio": "687,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1582,7 +1582,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_115138.png?v=1769159887"
   },
   "https://www.pokemillon.com/products/booster-bundle-ascended-heroes": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Booster Bundle Ascended Heroes | Héroes Ascendentes",
     "tienda": "Pokemillon",
     "precio": "42,90 €",
@@ -1672,7 +1672,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/First_Partner_Series_3_30th_Anniversary_Pokemillon.png?v=1787862333"
   },
   "https://www.pokemillon.com/products/sobre-pokemon-30th-anniversary": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Sobre Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "7,99 €",
@@ -1913,14 +1913,14 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "800,00 €",
+    "precio": "801,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
     "disponible": false,
     "nombre": "ETB Ascended Heroes , Ingles",
     "tienda": "Iberian Collect",
-    "precio": "200,00 €",
+    "precio": "201,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-026_58463679447307.jpg?v=1786778225"
   },
   "https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente": {
@@ -2593,7 +2593,7 @@
   },
   "https://www.pokemillon.com/products/30th-pikachu-figure-set": {
     "disponible": false,
-    "nombre": "Pokemon Artistic Touch 30th Anniversary Celebration Pikachu Figure Set",
+    "nombre": "Pokémon Artistic Touch 30th Anniversary Celebration Pikachu Figure Set",
     "tienda": "Pokemillon",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/S4df33647ff2042678489de62d3096fb1c_jpg_960x960q75_jpg.png?v=1789063792"
