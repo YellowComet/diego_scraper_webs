@@ -2073,21 +2073,21 @@
     "disponible": true,
     "nombre": "30th Anniversary Binder Collection [ENG]",
     "tienda": "AllinTCG",
-    "precio": "89,95 €",
+    "precio": "84,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversarybinder.webp?v=1787676758"
   },
   "https://allintcg.com/products/booster-bundle-30th-anniversary-eng": {
     "disponible": true,
     "nombre": "Booster Bundle - 30th Anniversary [ENG]",
     "tienda": "AllinTCG",
-    "precio": "99,95 €",
+    "precio": "94,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversarybundle.webp?v=1787676483"
   },
   "https://allintcg.com/products/ex-box-30th-anniversary-eng": {
     "disponible": false,
     "nombre": "EX Box - 30th Anniversary [ENG]",
     "tienda": "AllinTCG",
-    "precio": "67,95 €",
+    "precio": "64,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryexbox.webp?v=1787676088"
   },
   "https://allintcg.com/products/30th-anniversary-poster-collection-eng": {
@@ -3389,5 +3389,26 @@
     "tienda": "Sunny Store",
     "precio": "16,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Soporteacrilicodesmontadocontarjetadoradabicolor.png?v=1791389554"
+  },
+  "https://todohits.com/products/mini-lata-30-aniversario-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Mini Lata 30 Aniversario | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "23,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Mini_Lata_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784708676"
+  },
+  "https://todohits.com/products/booster-bundle-30-aniversario-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Booster Bundle 30 Aniversario | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "69,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Bundle_30_Aniversario_POKEMON_Espa_ol.png?v=1791045225"
+  },
+  "https://allintcg.com/products/tin-30th-anniversary-esp": {
+    "disponible": false,
+    "nombre": "EX Tin - 30th Anniversary [ESP]",
+    "tienda": "AllinTCG",
+    "precio": "44,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/ex_tins_30aniv.webp?v=1790878300"
   }
 }
