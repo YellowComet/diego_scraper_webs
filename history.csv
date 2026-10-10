@@ -68,14 +68,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-25 08:54,Coleccion Ilustracion S3,RyuCards,Colección Ilustración Primer Compañero Serie 3,"29,90 €",True,https://www.ryucardstcg.com/products/coleccion-ilustracion-primer-companero-serie-3
 2026-08-25 11:14,Special Collection,Pokemillon,Pokémon Day 2026 Collection (30 Aniversario),"32,90 €",True,https://www.pokemillon.com/products/pokemon-day-2026-collection
 2026-08-25 12:42,Coleccion Pegatinas,Flash Store,Heroes Ascendentes Tech Sticker Collection,"24,90 €",True,https://flashstore.es/producto/heroes-ascendentes-tech-sticker-collection/
-2026-08-25 18:41,Mini Lata,TodoHits,Mini Lata Héroes Ascendentes | POKÉMON | Español,"16,99 €",False,https://todohits.com/products/mini-tin-heroes-ascendentes-pokemon-espanol
-2026-08-25 18:41,Coleccion Pegatinas,TodoHits,Blister 2 Sobres Héroes Ascendentes | POKÉMON | Español,"16,99 €",False,https://todohits.com/products/blister-2-sobres-heroes-ascendentes-pokemon-espanol
-2026-08-25 18:41,Coleccion Pegatinas,TodoHits,Tech Sticker 3 Sobres Ascended heroes | POKÉMON | Inglés,"27,99 €",False,https://todohits.com/products/tech-sticker-3-sobres-ascended-heroes-pokemon-ingles
-2026-08-25 18:41,Coleccion Pegatinas,TodoHits,Blister 3 Sobres Héroes Ascendentes | POKÉMON | Español,"24,99 €",False,https://todohits.com/products/blister-3-sobres-heroes-ascendentes-pokemon-espanol
-2026-08-25 18:41,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"69,99 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
-2026-08-25 18:41,ETB,TodoHits,ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés,"84,99 €",False,https://todohits.com/products/etb-ascended-heroes-elite-trainer-box-pokemon-ingles
-2026-08-25 18:41,Special Collection,TodoHits,30 aniversario Pokémon Day 2026 | POKÉMON | Español,"25,99 €",False,https://todohits.com/products/30-aniversario-pokemon-day-2026-pokemon-espanol
-2026-08-25 18:41,Coleccion Ilustracion S2,JJCOLLECTION,Pokémon TCG - First Partners Illustration Collection - Series 2 - 30th Anniversary (Ingles & Español),"32,50 €",False,https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-2-30th-anniversary-ingles-espanol
 2026-08-25 18:41,Coleccion Ilustracion S1,JJCOLLECTION,Pokémon TCG - First Partners Illustration Collection - Series 1 - 30th Anniversary (Ingles & Español),"32,50 €",False,https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-1-30th-anniversary-ingles-espanol
 2026-08-25 18:41,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"600,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
 2026-08-25 18:41,Coleccion Pegatinas,JJCOLLECTION,Pokémon TCG - Tech Sticker Collection Ascended Heroes (Español & ingles),"22,95 €",False,https://www.jjcollection.es/products/pokemon-tcg-tech-sticker-collection-ascended-heroes-espanol-ingles
@@ -8068,3 +8060,11 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-09 19:04,ETB,TodoHits,ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés,"98,00 €",False,https://todohits.com/products/etb-ascended-heroes-elite-trainer-box-pokemon-ingles
 2026-10-09 19:35,Mini Lata,Pokemillon,Mini Lata Celebraciones 30 Aniversario | Celebrations 30th,"33,90 €",True,https://www.pokemillon.com/products/mini-lata-dia-celebraciones-30-aniversario-celebrations-30th
 2026-10-09 19:35,Album,TodoHits,Album Ascended Heroes | 9 Bolsillos 252 Cartas | Binder,"16,00 €",False,https://todohits.com/products/album-ascended-heroes-9-bolsillos-252-cartas-binder
+2026-10-10 02:11,ETB,Iberian Collect,Combo ETB Ascended Héroes Inglés + Booster Box Equilibrio Perfecto+ Acrílico para la ETB,"289,99 €",False,https://iberiancollect.com/products/combo-etb-ascended-heroes-ingles-booster-box-equilibrio-perfecto
+2026-10-10 02:11,Caja premium Héroes ascendentes Mega ex,Iberian Collect,Caja premium Héroes ascendentes Mega ex,"37,95 €",False,https://iberiancollect.com/products/caja-premium-heroes-ascendentes-mega-ex
+2026-10-10 02:11,Booster Bundle,Iberian Collect,"Booster Bundle Ascended Heroes , Inglés","94,99 €",False,https://iberiancollect.com/products/booster-bundle-ascended-heroes-ingles
+2026-10-10 02:11,Booster Bundle,Iberian Collect,"Booster Bundle Héroes Ascendentes , Español","49,99 €",False,https://iberiancollect.com/products/booster-bundle-heroes-ascendentes-espanol
+2026-10-10 02:11,ETB,Iberian Collect,"ETB Heroes Ascendentes , Español","84,99 €",False,https://iberiancollect.com/products/etb-heroes-ascendidos-espanol
+2026-10-10 02:11,Poster,Iberian Collect,"Coleccion Premium con poster , Héroes Ascendentes , Español,","84,99 €",False,https://iberiancollect.com/products/coleccion-premium-con-poster-heroes-ascendentes-espanol
+2026-10-10 02:11,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"699,99 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
+2026-10-10 02:11,ETB,Iberian Collect,"ETB Ascended Heroes , Ingles","174,99 €",False,https://iberiancollect.com/products/etb-ascended-heroes-ingles
