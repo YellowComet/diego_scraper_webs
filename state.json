@@ -3410,5 +3410,12 @@
     "tienda": "AllinTCG",
     "precio": "44,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/ex_tins_30aniv.webp?v=1790878300"
+  },
+  "https://www.darizard9.com/products/30-aniversario-album": {
+    "disponible": true,
+    "nombre": "30 Aniversario Album",
+    "tienda": "Darizard9",
+    "precio": "64,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1138695-800-720.webp?v=1790675506"
   }
 }
