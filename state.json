@@ -2297,11 +2297,11 @@
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/1e0f066f96d6ba246d095c426b5cc1ff.jpg?v=1788503712"
   },
   "https://iberiancollect.com/products/mini-tin-30-aniversario": {
-    "disponible": false,
-    "nombre": "Mini Tin 30 Aniversario",
+    "disponible": true,
+    "nombre": "Mini Tin 30 Aniversario, Modelo Aleatorio",
     "tienda": "Iberian Collect",
-    "precio": "2,00 €",
-    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/25171b871f59c5b6589e0ae098e7e4ba.jpg?v=1788503716"
+    "precio": "29,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/476b08648a73eca15023bf8520b3020b.jpg?v=1791921524"
   },
   "https://iberiancollect.com/products/poster-collection-30-aniversario": {
     "disponible": true,
