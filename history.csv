@@ -71,8 +71,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-27 10:00,Mini Lata,AllinTCG,Mini Lata - 30th Anniversary [ENG],"32,95 €",True,https://allintcg.com/products/mini-lata-30th-anniversary-eng
 2026-08-27 10:00,ETB,AllinTCG,Elite Trainer Box - 30th Anniversary [ENG],"189,95 €",True,https://allintcg.com/products/elite-trainer-box-30th-anniversary-eng
 2026-08-29 16:25,Poster (lucario),Flash Store,Heroes Ascendentes Premium Poster Collection Lucario LAT,"72,90 €",True,https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-lucario-lat/
-2026-08-29 18:23,ETB,JJCOLLECTION,Pokémon TCG - Elite Trainer Box Ascended Heroes (Ingles & Español),"65,95 €",False,https://www.jjcollection.es/products/pokemon-tcg-elite-trainer-box-ascended-heroes-ingles
-2026-08-29 18:23,Album,TodoHits,Album Ascended Heroes | 9 Bolsillos 252 Cartas | Binder,"13,99 €",False,https://todohits.com/products/album-ascended-heroes-9-bolsillos-252-cartas-binder
 2026-08-29 18:33,Coleccion Ilustracion S3,TodoHits,First partner Series 3 Illustration Collection | POKÉMON | Español (Primer Compañero),"41,00 €",False,https://todohits.com/products/first-partner-series-3-illustration-collection-pokemon-espanol-primer-companero
 2026-08-29 18:33,Coleccion Ilustracion S2,TodoHits,First partner Series 2 Illustration Collection | POKÉMON | Español (Primer Compañero),"42,00 €",False,https://todohits.com/products/first-partner-illustration-collection-series-2-pokemon-espanol-primer-companero
 2026-08-29 18:33,Booster Bundle,TodoHits,Booster Bundle Heroes Ascendentes | POKÉMON | Español,"54,00 €",False,https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-espanol
@@ -8071,3 +8069,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-13 15:29,ETB,Iberian Collect,Combo Booster Box Perfect Order + ETB 30 Aniversario,"269,00 €",False,https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario
 2026-10-13 15:29,ETB,Iberian Collect,"ETB 30 Aniversario, Celebraciones Pokémon, Español (con pequeñas roturas en el plástico) ideal para abrir","92,00 €",False,https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir
 2026-10-13 15:29,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )","600,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles
+2026-10-13 17:25,ETB,Iberian Collect,Combo ETB Ascended Héroes Inglés + Booster Box Equilibrio Perfecto+ Acrílico para la ETB,"331,00 €",False,https://iberiancollect.com/products/combo-etb-ascended-heroes-ingles-booster-box-equilibrio-perfecto
+2026-10-13 17:25,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"799,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
