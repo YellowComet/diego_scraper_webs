@@ -70,8 +70,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-25 12:42,Coleccion Pegatinas,Flash Store,Heroes Ascendentes Tech Sticker Collection,"24,90 €",True,https://flashstore.es/producto/heroes-ascendentes-tech-sticker-collection/
 2026-08-27 10:00,Mini Lata,AllinTCG,Mini Lata - 30th Anniversary [ENG],"32,95 €",True,https://allintcg.com/products/mini-lata-30th-anniversary-eng
 2026-08-27 10:00,ETB,AllinTCG,Elite Trainer Box - 30th Anniversary [ENG],"189,95 €",True,https://allintcg.com/products/elite-trainer-box-30th-anniversary-eng
-2026-08-29 05:20,Mini Lata,TodoHits,Mini Lata Héroes Ascendentes | POKÉMON | Español,"21,00 €",False,https://todohits.com/products/mini-tin-heroes-ascendentes-pokemon-espanol
-2026-08-29 05:20,Coleccion Pegatinas,TodoHits,Blister 2 Sobres Héroes Ascendentes | POKÉMON | Español,"21,00 €",False,https://todohits.com/products/blister-2-sobres-heroes-ascendentes-pokemon-espanol
 2026-08-29 05:20,Coleccion Pegatinas,TodoHits,Tech Sticker 3 Sobres Ascended heroes | POKÉMON | Inglés,"34,00 €",False,https://todohits.com/products/tech-sticker-3-sobres-ascended-heroes-pokemon-ingles
 2026-08-29 05:20,Coleccion Pegatinas,TodoHits,Blister 3 Sobres Héroes Ascendentes | POKÉMON | Español,"30,00 €",False,https://todohits.com/products/blister-3-sobres-heroes-ascendentes-pokemon-espanol
 2026-08-29 05:20,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"83,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
@@ -8070,3 +8068,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-13 05:13,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"684,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
 2026-10-13 06:46,ETB,Iberian Collect,"ETB 30 Aniversario, Celebraciones Pokémon","115,00 €",False,https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon
 2026-10-13 06:46,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon","229,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-proximamente
+2026-10-13 09:01,ETB,Iberian Collect,Combo Booster Box Perfect Order + ETB 30 Aniversario,"269,00 €",False,https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario
+2026-10-13 09:01,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )","600,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles
