@@ -3424,5 +3424,12 @@
     "tienda": "Pokemillon",
     "precio": "54,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/895563.png?v=1791924700"
+  },
+  "https://pokezilla.com/products/pokemon-tcg-30-aniversario-binder-collection": {
+    "disponible": true,
+    "nombre": "Pokémon TCG: 30 Aniversario Binder Collection",
+    "tienda": "Pokezilla",
+    "precio": "69,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/30-aniversario-binder-collection.png?v=1791970205"
   }
 }
