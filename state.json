@@ -3455,7 +3455,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/transparent-Photoroom-2026-10-15T110639.433.png?v=1792055341"
   },
   "https://unsobremas.com/products/tins-mini-tins-30th-celebration-en": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "TINS - MINI TINS 30TH CELEBRATION [EN]",
     "tienda": "UNSOBREMAS",
     "precio": "25,95 €",
@@ -3474,5 +3474,12 @@
     "tienda": "Pokedex Card",
     "precio": "45,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/30THBlisterdesobresdemejoradeCelebracion30_AniversariodeJCCPokemon.POKEMON.BANDAI_ESPANOL_IPokedexCardsIElementCollectorIPokemonTCG.jpg?v=1792061055"
+  },
+  "https://www.pokedexcards.com/products/pokemon-tcg-30th-anniversary-binder-collection-oficial-element-collector-pokedex-cards": {
+    "disponible": false,
+    "nombre": "Pokémon TCG: 30th Anniversary Binder Collection – 100% Oficial - ESPAÑOL",
+    "tienda": "Pokedex Card",
+    "precio": "69,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/0thAnniversaryBinderCollection_ESPANOL_IPokedexCardsIElementCollectorIPokemonTCG.jpg?v=1792064290"
   }
 }
