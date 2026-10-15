@@ -3430,5 +3430,19 @@
     "tienda": "Pokezilla",
     "precio": "69,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/30-aniversario-binder-collection.png?v=1791970205"
+  },
+  "https://www.darizard9.com/products/30th-celebration-greninja-x-box-1": {
+    "disponible": true,
+    "nombre": "30th Celebration Greninja Ex Box",
+    "tienda": "Darizard9",
+    "precio": "59,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-pokemon-ex-box-f4.webp?v=1788959543"
+  },
+  "https://www.darizard9.com/products/30th-celebration-greninja-x-box": {
+    "disponible": true,
+    "nombre": "30th Celebration Sylveon Ex Box",
+    "tienda": "Darizard9",
+    "precio": "59,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-pokemon-ex-box-f1.webp?v=1788959462"
   }
 }
