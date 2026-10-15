@@ -77,9 +77,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
 2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
-2026-09-02 14:58,ETB,TodoHits,ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés,"84,99 €",False,https://todohits.com/products/etb-ascended-heroes-elite-trainer-box-pokemon-ingles
-2026-09-02 14:58,Special Collection,TodoHits,30 aniversario Pokémon Day 2026 | POKÉMON | Español,"25,99 €",False,https://todohits.com/products/30-aniversario-pokemon-day-2026-pokemon-espanol
-2026-09-02 14:58,Coleccion Ilustracion S2,JJCOLLECTION,Pokémon TCG - First Partners Illustration Collection - Series 2 - 30th Anniversary (Ingles & Español),"32,50 €",False,https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-2-30th-anniversary-ingles-espanol
 2026-09-02 14:58,Coleccion Ilustracion S1,JJCOLLECTION,Pokémon TCG - First Partners Illustration Collection - Series 1 - 30th Anniversary (Ingles & Español),"32,50 €",False,https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-1-30th-anniversary-ingles-espanol
 2026-09-02 14:58,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"600,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
 2026-09-02 14:58,Coleccion Pegatinas,JJCOLLECTION,Pokémon TCG - Tech Sticker Collection Ascended Heroes (Español & ingles),"22,95 €",False,https://www.jjcollection.es/products/pokemon-tcg-tech-sticker-collection-ascended-heroes-espanol-ingles
@@ -8077,3 +8074,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-15 13:29,CAJA POKEMON 30TH CELEBRATION M6A (JAPONÉS),Sunny Store,CAJA POKEMON 30TH CELEBRATION M6A (JAPONÉS),"209,90 €",False,https://sunnystore.es/products/caja-pokemon-3oth-celebration-m6a-japones
 2026-10-15 14:25,Mini Lata,UNSOBREMAS,TINS - MINI TINS 30TH CELEBRATION [EN],"25,95 €",False,https://unsobremas.com/products/tins-mini-tins-30th-celebration-en
 2026-10-15 14:25,Album,Pokedex Card,Pokémon TCG: 30th Anniversary Binder Collection – 100% Oficial - ESPAÑOL,"69,95 €",False,https://www.pokedexcards.com/products/pokemon-tcg-30th-anniversary-binder-collection-oficial-element-collector-pokedex-cards
+2026-10-15 15:02,UPC (umbreon),JJCOLLECTION,Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español),"287,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex-ingles-espanol-copia
+2026-10-15 15:02,UPC (espeon),JJCOLLECTION,Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español),"287,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol
+2026-10-15 15:02,Caja 36,JJCOLLECTION,Pokémon TCG - 30th Celebration booster box (Japonés),"184,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones
