@@ -3453,5 +3453,19 @@
     "precio": "219,90 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/transparent-Photoroom-2026-10-15T110639.433.png?v=1792055341"
+  },
+  "https://unsobremas.com/products/tins-mini-tins-30th-celebration-en": {
+    "disponible": true,
+    "nombre": "TINS - MINI TINS 30TH CELEBRATION [EN]",
+    "tienda": "UNSOBREMAS",
+    "precio": "25,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/minitin30.webp?v=1791008510"
+  },
+  "https://unsobremas.com/products/booster-bundle-30th-celebration-en": {
+    "disponible": false,
+    "nombre": "BOOSTER BUNDLE - 30TH CELEBRATION [EN]",
+    "tienda": "UNSOBREMAS",
+    "precio": "74,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/boosterbundle30.webp?v=1791008529"
   }
 }

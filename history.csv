@@ -77,8 +77,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
 2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
-2026-09-02 14:58,Booster Bundle,TodoHits,Booster Bundle Ascended Heroes | POKÉMON | Inglés,"79,99 €",False,https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-ingles
-2026-09-02 14:58,Poster,TodoHits,Premium Poster Collection Ascended Heroes | POKÉMON | Inglés,"119,99 €",False,https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles
 2026-09-02 14:58,Pin Collection,TodoHits,Deluxe Pin Collection Ascended Heroes | POKÉMON | Inglés,"49,99 €",False,https://todohits.com/products/deluxe-pin-collection-ascended-heroes-pokemon-ingles
 2026-09-02 14:58,Coleccion Ilustracion S1,TodoHits,First partner Series 1 Illustration Collection | POKÉMON | Español (Primer Compañero),"37,99 €",False,https://todohits.com/products/reserva-first-partner-illustration-collection-series-1-pokemon-espanol
 2026-09-02 14:58,Poster,TodoHits,Premium Poster Collection Heroes Ascendentes | POKÉMON | Español,"74,99 €",False,https://todohits.com/products/reserva-premium-poster-collection-heroes-ascendentes-pokemon-espanol
@@ -8077,3 +8075,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-15 10:00,Album,TodoHits,Album Ascended Heroes | 9 Bolsillos 252 Cartas | Binder,"16,00 €",False,https://todohits.com/products/album-ascended-heroes-9-bolsillos-252-cartas-binder
 2026-10-15 10:00,Sobre,TodoHits,[Reserva] Sobre 30 Aniversario | POKÉMON | Japonés,"14,00 €",False,https://todohits.com/products/sobre-30-aniversario-pokemon-japones
 2026-10-15 10:00,Caja 36,TodoHits,[Reserva] Booster Box 30 Aniversario | POKÉMON | Japonés,"258,00 €",False,https://todohits.com/products/booster-box-30-aniversario-pokemon-japones
+2026-10-15 10:25,Mini Lata,UNSOBREMAS,TINS - MINI TINS 30TH CELEBRATION [EN],"25,95 €",True,https://unsobremas.com/products/tins-mini-tins-30th-celebration-en
+2026-10-15 10:25,Booster Bundle,UNSOBREMAS,BOOSTER BUNDLE - 30TH CELEBRATION [EN],"74,95 €",False,https://unsobremas.com/products/booster-bundle-30th-celebration-en
