@@ -77,8 +77,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
 2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
-2026-09-02 14:23,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"711,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
-2026-09-02 14:23,ETB,JJCOLLECTION,Pokémon TCG - Elite Trainer Box Ascended Heroes (Ingles & Español),"79,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-elite-trainer-box-ascended-heroes-ingles
 2026-09-02 14:58,Coleccion Ilustracion S3,TodoHits,First partner Series 3 Illustration Collection | POKÉMON | Español (Primer Compañero),"33,99 €",False,https://todohits.com/products/first-partner-series-3-illustration-collection-pokemon-espanol-primer-companero
 2026-09-02 14:58,Coleccion Ilustracion S2,TodoHits,First partner Series 2 Illustration Collection | POKÉMON | Español (Primer Compañero),"34,99 €",False,https://todohits.com/products/first-partner-illustration-collection-series-2-pokemon-espanol-primer-companero
 2026-09-02 14:58,Booster Bundle,TodoHits,Booster Bundle Heroes Ascendentes | POKÉMON | Español,"44,99 €",False,https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-espanol
@@ -8077,3 +8075,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-15 09:28,UPC (espeon),JJCOLLECTION,Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español),"287,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol
 2026-10-15 09:28,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"687,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
 2026-10-15 09:28,Caja 36,JJCOLLECTION,Pokémon TCG - 30th Celebration booster box (Japonés),"184,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones
+2026-10-15 09:55,Coleccion Ilustracion S3,Darizard9,Primer Compañero Serie 3 Español,"29,99 €",True,https://www.darizard9.com/products/primer-companero-serie-3-espanol
+2026-10-15 09:55,Coleccion Ilustracion,Sunny Store,SET COMPLETO FIRST PARTNER POKEMON 30TH CELEBRATION - 9 CAJAS (JAPONÉS),"219,90 €",True,https://sunnystore.es/products/set-completo-first-partner-pokemon-30th-celebration-9-cajas-japones
