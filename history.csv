@@ -77,8 +77,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
 2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
-2026-09-02 15:02,Coleccion Pegatinas,TodoHits,Blister 3 Sobres Héroes Ascendentes | POKÉMON | Español,"30,00 €",False,https://todohits.com/products/blister-3-sobres-heroes-ascendentes-pokemon-espanol
-2026-09-02 15:02,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"83,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
 2026-09-02 15:02,ETB,TodoHits,ETB Ascended Heroes | Elite Trainer Box | POKÉMON | Inglés,"101,00 €",False,https://todohits.com/products/etb-ascended-heroes-elite-trainer-box-pokemon-ingles
 2026-09-02 15:02,Special Collection,TodoHits,30 aniversario Pokémon Day 2026 | POKÉMON | Español,"31,00 €",False,https://todohits.com/products/30-aniversario-pokemon-day-2026-pokemon-espanol
 2026-09-02 15:02,Coleccion Ilustracion S2,JJCOLLECTION,Pokémon TCG - First Partners Illustration Collection - Series 2 - 30th Anniversary (Ingles & Español),"39,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-first-partners-illustration-collection-series-2-30th-anniversary-ingles-espanol
@@ -8077,3 +8075,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-15 17:22,Colección Greninja ex 30 Aniversario,Iberian Collect,Colección Greninja ex 30 Aniversario,"53,00 €",False,https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario
 2026-10-15 17:22,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )","601,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles
 2026-10-15 17:35,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"81,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
+2026-10-15 17:56,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"801,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
+2026-10-15 17:56,ETB,Iberian Collect,"ETB Ascended Heroes , Ingles","201,00 €",False,https://iberiancollect.com/products/etb-ascended-heroes-ingles
