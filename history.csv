@@ -77,8 +77,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
 2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
-2026-09-03 11:19,Poster,TodoHits,Premium Poster Collection Ascended Heroes | POKÉMON | Inglés,"143,00 €",False,https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles
-2026-09-03 11:19,Pin Collection,TodoHits,Deluxe Pin Collection Ascended Heroes | POKÉMON | Inglés,"60,00 €",False,https://todohits.com/products/deluxe-pin-collection-ascended-heroes-pokemon-ingles
 2026-09-03 11:19,Coleccion Ilustracion S1,TodoHits,First partner Series 1 Illustration Collection | POKÉMON | Español (Primer Compañero),"45,00 €",False,https://todohits.com/products/reserva-first-partner-illustration-collection-series-1-pokemon-espanol
 2026-09-03 11:19,Poster,TodoHits,Premium Poster Collection Heroes Ascendentes | POKÉMON | Español,"89,00 €",False,https://todohits.com/products/reserva-premium-poster-collection-heroes-ascendentes-pokemon-espanol
 2026-09-03 11:19,Pin Collection,TodoHits,Deluxe Pin Collection Heroes Ascendentes | POKÉMON | Español,"45,00 €",False,https://todohits.com/products/pin-collection-deluxe-heroes-ascendentes-pokemon-espanol
@@ -8077,3 +8075,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-16 11:55,UPC (umbreon),JJCOLLECTION,Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español),"288,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex-ingles-espanol-copia
 2026-10-16 11:55,UPC (espeon),JJCOLLECTION,Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español),"288,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol
 2026-10-16 12:04,CAJA POKEMON 30TH CELEBRATION M6A (JAPONÉS),Sunny Store,CAJA POKEMON 30TH CELEBRATION M6A (JAPONÉS),"209,90 €",False,https://sunnystore.es/products/caja-pokemon-3oth-celebration-m6a-japones
+2026-10-16 12:54,Booster Bundle,Pokemillon,Booster Bundle Ascended Heroes | Héroes Ascendentes,"42,90 €",False,https://www.pokemillon.com/products/booster-bundle-ascended-heroes
+2026-10-16 12:54,Caja Premium Umbreon & Espeon Pokémon 30th Anniversary,Pokemillon,Caja Premium Umbreon & Espeon Pokémon 30th Anniversary,"129,90 €",False,https://www.pokemillon.com/products/caja-premium-umbreon-espeon-pokemon-30th-anniversary

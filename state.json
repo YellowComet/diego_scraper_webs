@@ -1582,7 +1582,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2025-11-20_115138.png?v=1769159887"
   },
   "https://www.pokemillon.com/products/booster-bundle-ascended-heroes": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Booster Bundle Ascended Heroes | Héroes Ascendentes",
     "tienda": "Pokemillon",
     "precio": "42,90 €",
@@ -2652,7 +2652,7 @@
     "disponible": false,
     "nombre": "Caja Premium Umbreon & Espeon Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
-    "precio": "169,90 €",
+    "precio": "129,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20260915_170633_Chrome.jpg?v=1789777932"
   },
   "https://factorycardstcg.com/products/pokemon-30th-anniversay-japones-futuristic-box": {
