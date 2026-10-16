@@ -77,8 +77,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
 2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
-2026-09-03 11:19,Coleccion Ilustracion S2,TodoHits,First partner Series 2 Illustration Collection | POKÉMON | Español (Primer Compañero),"42,00 €",False,https://todohits.com/products/first-partner-illustration-collection-series-2-pokemon-espanol-primer-companero
-2026-09-03 11:19,Booster Bundle,TodoHits,Booster Bundle Heroes Ascendentes | POKÉMON | Español,"54,00 €",False,https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-espanol
 2026-09-03 11:19,Booster Bundle,TodoHits,Booster Bundle Ascended Heroes | POKÉMON | Inglés,"95,00 €",False,https://todohits.com/products/booster-bundle-heroes-ascendentes-pokemon-ingles
 2026-09-03 11:19,Poster,TodoHits,Premium Poster Collection Ascended Heroes | POKÉMON | Inglés,"143,00 €",False,https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles
 2026-09-03 11:19,Pin Collection,TodoHits,Deluxe Pin Collection Ascended Heroes | POKÉMON | Inglés,"60,00 €",False,https://todohits.com/products/deluxe-pin-collection-ascended-heroes-pokemon-ingles
@@ -8077,3 +8075,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-16 11:25,Booster Bundle,Iberian Collect,"Booster Bundle Ascended Heroes , Inglés","110,00 €",False,https://iberiancollect.com/products/booster-bundle-ascended-heroes-ingles
 2026-10-16 11:25,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"804,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
 2026-10-16 11:25,Coleccion Pegatinas,TodoHits,Blister 2 Sobres 30 Aniversario | POKÉMON | Inglés,"40,00 €",False,https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-ingles
+2026-10-16 11:55,UPC (umbreon),JJCOLLECTION,Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español),"288,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex-ingles-espanol-copia
+2026-10-16 11:55,UPC (espeon),JJCOLLECTION,Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español),"288,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol
