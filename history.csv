@@ -77,25 +77,7 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
 2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
-2026-09-03 17:32,Ditto Premium Collection 30 Aniversario,Iberian Collect,Ditto Premium Collection 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/ditto-premium-collection-30-aniversario
-2026-09-03 17:32,Coleccion Pegatinas,Iberian Collect,Blister 2 Sobres Eevee 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/blister-2-sobres-eevee-30-aniversario
 2026-09-03 17:43,Coleccion Ilustracion S1,Iberian Collect,First Partner Illustration Collection Series 1 ( Castellano),"39,50 €",True,https://iberiancollect.com/products/pokemon-first-partner-espanol
-2026-09-03 18:27,Poster,TodoHits,Premium Poster Collection Heroes Ascendentes | POKÉMON | Español,"89,00 €",False,https://todohits.com/products/reserva-premium-poster-collection-heroes-ascendentes-pokemon-espanol
-2026-09-03 18:27,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"712,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
-2026-09-03 19:21,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"713,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
-2026-09-03 20:21,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"712,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
-2026-09-03 21:20,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"83,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
-2026-09-04 00:54,Coleccion Pegatinas (tangela),Alfriki,Blister cartas Pokémon Megaevolución Heroes Ascendentes - Castellano (Promo Tangela),"15,99 €",False,https://alfriki.com/products/blister-cartas-special-collection-fuegos-fantasmales-pokemon-espanol-dia-de-pokemon-2026-copia
-2026-09-04 00:54,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"84,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
-2026-09-04 04:26,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"83,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
-2026-09-04 06:36,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"84,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
-2026-09-04 08:29,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"83,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
-2026-09-04 10:22,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"711,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
-2026-09-04 11:20,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"712,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
-2026-09-04 12:59,Booster Bundle,Flash Store,Heroes Ascendentes Booster Bundle,"59,90 €",True,https://flashstore.es/producto/heroes-ascendentes-booster-bundle/
-2026-09-04 13:22,Poster,TodoHits,Premium Poster Collection Ascended Heroes | POKÉMON | Inglés,"142,00 €",False,https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles
-2026-09-04 13:22,Coleccion Ilustracion S1,TodoHits,First partner Series 1 Illustration Collection | POKÉMON | Español (Primer Compañero),"45,00 €",False,https://todohits.com/products/reserva-first-partner-illustration-collection-series-1-pokemon-espanol
-2026-09-04 13:22,Pin Collection,TodoHits,Deluxe Pin Collection Heroes Ascendentes | POKÉMON | Español,"45,00 €",False,https://todohits.com/products/pin-collection-deluxe-heroes-ascendentes-pokemon-espanol
 2026-09-04 13:22,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"710,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
 2026-09-04 14:22,Poster,TodoHits,Premium Poster Collection Ascended Heroes | POKÉMON | Inglés,"143,00 €",False,https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles
 2026-09-04 14:22,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"711,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
@@ -8077,3 +8059,22 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-17 22:43,Poster,Iberian Collect,"Coleccion Premium con poster , Héroes Ascendentes , Español,","98,00 €",False,https://iberiancollect.com/products/coleccion-premium-con-poster-heroes-ascendentes-espanol
 2026-10-17 22:43,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"803,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
 2026-10-17 22:43,ETB,Iberian Collect,"ETB Ascended Heroes , Ingles","201,00 €",False,https://iberiancollect.com/products/etb-ascended-heroes-ingles
+2026-10-17 23:19,Coleccion Ilustracion S3,Iberian Collect,First Partner Illustration Collection Series 3 ( Castellano),"35,00 €",True,https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente
+2026-10-17 23:19,ETB,Iberian Collect,"ETB 30 Aniversario, Celebraciones Pokémon","115,00 €",False,https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon
+2026-10-17 23:19,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon","230,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-proximamente
+2026-10-17 23:19,Coleccion Pegatinas,Iberian Collect,Tech Sticker Collection 30 Aniversario,"39,00 €",False,https://iberiancollect.com/products/tech-sticker-collection-30-aniversario
+2026-10-17 23:19,Booster Bundle,Iberian Collect,Booster Bundle 30 Aniversario,"64,00 €",False,https://iberiancollect.com/products/booster-bundle-30-aniversario
+2026-10-17 23:19,Album,Iberian Collect,Álbum para Colecciones 30 Aniversario,"92,00 €",True,https://iberiancollect.com/products/album-para-colecciones-30-aniversario
+2026-10-17 23:19,Figure Collection Mew 30 Aniversario,Iberian Collect,Figure Collection Mew 30 Aniversario,"2,00 €",False,https://iberiancollect.com/products/figure-collection-mew-30-aniversario
+2026-10-17 23:19,Figure Collection Mewtwo 30 Aniversario,Iberian Collect,Figure Collection Mewtwo 30 Aniversario,"2,00 €",False,https://iberiancollect.com/products/figure-collection-mewtwo-30-aniversario
+2026-10-17 23:19,EX Box,Iberian Collect,Sylveon ex Box 30 Aniversario,"69,00 €",True,https://iberiancollect.com/products/sylveon-ex-box-30-aniversario
+2026-10-17 23:19,Colección Greninja ex 30 Aniversario,Iberian Collect,Colección Greninja ex 30 Aniversario,"53,00 €",False,https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario
+2026-10-17 23:19,Mini Lata,Iberian Collect,"Mini Tin 30 Aniversario, Modelo Aleatorio","29,00 €",True,https://iberiancollect.com/products/mini-tin-30-aniversario
+2026-10-17 23:19,Poster,Iberian Collect,Poster Collection 30 Aniversario,"45,00 €",True,https://iberiancollect.com/products/poster-collection-30-aniversario
+2026-10-17 23:19,Ditto Premium Collection 30 Aniversario,Iberian Collect,Ditto Premium Collection 30 Aniversario,"2,00 €",False,https://iberiancollect.com/products/ditto-premium-collection-30-aniversario
+2026-10-17 23:19,Coleccion Pegatinas,Iberian Collect,Blister 2 Sobres Eevee 30 Aniversario,"27,00 €",False,https://iberiancollect.com/products/blister-2-sobres-eevee-30-aniversario
+2026-10-17 23:19,Coleccion Ilustracion S1,Iberian Collect,First Partner Illustration Collection Series 1 ( Castellano),"46,00 €",True,https://iberiancollect.com/products/pokemon-first-partner-espanol
+2026-10-17 23:19,ETB,Iberian Collect,Combo Booster Box Perfect Order + ETB 30 Aniversario,"270,00 €",False,https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario
+2026-10-17 23:19,ETB,Iberian Collect,"ETB 30 Aniversario, Celebraciones Pokémon, Español (con pequeñas roturas en el plástico) ideal para abrir","92,00 €",False,https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir
+2026-10-17 23:19,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )","602,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles
+2026-10-17 23:19,Lata,Iberian Collect,"Lata Pokémon 30 Aniversario EX Tin, Español","52,00 €",True,https://iberiancollect.com/products/lata-pokemon-30-aniversario-ex-tin-espanol
