@@ -2733,10 +2733,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Sobres_30_Aniversario_POK_MON_Espa_ol.png?v=1789551560"
   },
   "https://allintcg.com/products/booster-box-30th-anniversary-jp-1": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Booster Box - 30th Anniversary [JP]",
     "tienda": "AllinTCG",
-    "precio": "220,95 €",
+    "precio": "219,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30_booster_box.webp?v=1789578490"
   },
   "https://allintcg.com/products/premium-deck-set-30th-anniversary-jp": {
@@ -3495,5 +3495,19 @@
     "tienda": "Iberian Collect",
     "precio": "52,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/f4de57a30e5f3874fa0c23c6b8eb84e1.jpg?v=1792180788"
+  },
+  "https://allintcg.com/products/caja-coleccion-con-figura-mega-lucario-ex-esp-copia": {
+    "disponible": true,
+    "nombre": "Caja Colección con Figura - 30th Anniversary [ENG]",
+    "tienda": "AllinTCG",
+    "precio": "109,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv.webp?v=1791923720"
+  },
+  "https://allintcg.com/products/coleccion-ultra-premium-30th-anniversary-eng": {
+    "disponible": true,
+    "nombre": "Colección Ultra Premium - 30th Anniversary [ENG]",
+    "tienda": "AllinTCG",
+    "precio": "459,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/upc_30aniv.webp?v=1791922124"
   }
 }
