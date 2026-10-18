@@ -3509,5 +3509,13 @@
     "tienda": "AllinTCG",
     "precio": "459,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/upc_30aniv.webp?v=1791922124"
+  },
+  "https://labovedafriki.es/products/first-partner-collection-pokemon-30th-celebration": {
+    "disponible": true,
+    "nombre": "First Partner Collection Pokemon 30TH Celebration",
+    "tienda": "La Boveda Friki",
+    "precio": "30,50 €",
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/first-partner-30-aniversario-japones-set-completo_957ffd63-280c-41a4-857e-eacbb1aacdae.png?v=1792337471"
   }
 }
