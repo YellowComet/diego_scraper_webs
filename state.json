@@ -997,10 +997,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/first-partner-series-3-espanol.png?v=1785854525"
   },
   "https://metamorphcenter.com/products/first-partner-illustration-collection-serie-2-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "First Partner Illustration Collection Serie 2 - Español",
     "tienda": "Metamorph Center",
-    "precio": "32,95 €",
+    "precio": "34,95 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/first_partner_illustration_collection_s2_espanol.webp?v=1781772931"
   },
