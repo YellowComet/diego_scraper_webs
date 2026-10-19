@@ -907,14 +907,14 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "286,00 €",
+    "precio": "287,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-UMBREON-1-Photoroom.png?v=1786038031"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "286,00 €",
+    "precio": "287,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-1-Photoroom.png?v=1786037560"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-booster-bundle-30th-celebration-ingles-espanol": {
@@ -1715,7 +1715,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20251219_181137_X.jpg?v=1773573461"
   },
   "https://www.pokemillon.com/products/mega-meganium-box-collection-heroes-ascendentes-ascended-heroes": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Mega Meganium Box Collection Héroes Ascendentes | Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "49,90 €",
@@ -2715,7 +2715,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration booster box (Japonés)",
     "tienda": "JJCOLLECTION",
-    "precio": "183,00 €",
+    "precio": "184,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/13333333333333333333-Photoroom_271051ae-c05f-4340-9da6-8d93970e0977.png?v=1789566151"
   },
   "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-espanol": {
@@ -3517,5 +3517,12 @@
     "precio": "30,50 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/first-partner-30-aniversario-japones-set-completo_957ffd63-280c-41a4-857e-eacbb1aacdae.png?v=1792337471"
+  },
+  "https://metamorphcenter.com/products/caja-30th-celebration-pokemon-coreano": {
+    "disponible": false,
+    "nombre": "Caja 30th Anniversary Celebration M6a - Coreano",
+    "tienda": "Metamorph Center",
+    "precio": "124,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/caja-30th-celebration-coreano-01.webp?v=1792354449"
   }
 }
