@@ -1589,7 +1589,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Booster_Bundle_Heroes_Ascendentes_Ascended_Heroes_Sin_Fondo_Pokemillon.png?v=1775418168"
   },
   "https://www.pokemillon.com/products/mega-box-ascendentes-heroes": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Mega Feraligatr Box Collection Héroes Ascendentes | Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "54,90 €",
@@ -1679,7 +1679,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-06-04_233737.png?v=1789814428"
   },
   "https://www.pokemillon.com/products/premium-box-pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Futuristic Box Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "219,90 €",
