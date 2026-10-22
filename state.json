@@ -3524,5 +3524,12 @@
     "tienda": "Metamorph Center",
     "precio": "124,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/caja-30th-celebration-coreano-01.webp?v=1792354449"
+  },
+  "https://sarumangames.es/products/pokemon-mini-lata-30-aniversario-ingles": {
+    "disponible": false,
+    "nombre": "POKEMON: MINI LATA 30 ANIVERSARIO - INGLES",
+    "tienda": "Saruman Games",
+    "precio": "18,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/196214146273-1.jpg?v=1792666274"
   }
 }
