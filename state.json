@@ -1693,10 +1693,11 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142807.png?v=1789991939"
   },
   "https://www.pokemillon.com/products/first-partner-illustration-collections-pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "First Partner Illustration Collections Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "19,90 €",
+    "obj": 19.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142655.png?v=1787737314"
   },
@@ -3533,7 +3534,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/196214146273-1.jpg?v=1792666274"
   },
   "https://www.pokemillon.com/products/9-cajas-first-partner-illustration-collections-pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "9 Cajas First Partner Illustration Collections Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "169,90 €",
