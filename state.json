@@ -815,7 +815,7 @@
     "disponible": false,
     "nombre": "Premium Poster Collection Ascended Heroes | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "138,00 €",
+    "precio": "137,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Premium_Poster_Collection_Ascended_Heroes_En_POKeMON_Ingles.png?v=1776497933"
   },
   "https://todohits.com/products/deluxe-pin-collection-ascended-heroes-pokemon-ingles": {
@@ -956,7 +956,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "686,00 €",
+    "precio": "685,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -1525,10 +1525,10 @@
     "img": "https://flashstore.es/wp-content/uploads/2025/12/garde.jpg"
   },
   "https://flashstore.es/producto/heroes-ascendentes-booster-bundle/": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Heroes Ascendentes Booster Bundle",
     "tienda": "Flash Store",
-    "precio": "66,90 €",
+    "precio": "69,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2025/12/bundlesascended.jpg"
   },
   "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-lucario/": {
@@ -1871,7 +1871,7 @@
     "disponible": false,
     "nombre": "Combo ETB Ascended Héroes Inglés + Booster Box Equilibrio Perfecto+ Acrílico para la ETB",
     "tienda": "Iberian Collect",
-    "precio": "332,00 €",
+    "precio": "331,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_ca73f913-cb2c-4424-8d19-e38b7af0f493.jpg?v=1780846052"
   },
   "https://iberiancollect.com/products/caja-premium-heroes-ascendentes-mega-ex": {
@@ -1914,7 +1914,7 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "800,00 €",
+    "precio": "799,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
@@ -3204,14 +3204,14 @@
   },
   "https://todohits.com/products/sobre-30-aniversario-pokemon-japones": {
     "disponible": false,
-    "nombre": "Sobre 30 Aniversario | POKÉMON | Japonés",
+    "nombre": "Sobre 30 Aniversario | POKÉMON | 30th Celebration Japonés",
     "tienda": "TodoHits",
     "precio": "14,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Sobre_30_Aniversario_POK_MON_Japon_s.webp?v=1790585819"
   },
   "https://todohits.com/products/booster-box-30-aniversario-pokemon-japones": {
     "disponible": false,
-    "nombre": "Booster Box 30 Aniversario | POKÉMON | Japonés",
+    "nombre": "Booster Box 30 Aniversario | POKÉMON | 30th Celebration Japonés",
     "tienda": "TodoHits",
     "precio": "257,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_Japones.png?v=1790666886"
