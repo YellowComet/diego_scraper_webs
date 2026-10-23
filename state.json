@@ -1632,7 +1632,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Caja_20_Sobres_Pokemon_30th_Anniversary_m6a_Pokemillon.png?v=1787861931"
   },
   "https://www.pokemillon.com/products/sylveon-box-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Sylveon Special Box Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "45,90 €",
@@ -1738,7 +1738,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_UPC_Night_EN-copy-scaled.png?v=1782840596"
   },
   "https://www.pokemillon.com/products/greninja-special-box-celebraciones-30-aniversario-elite-celebrations-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Greninja Special Box Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "33,95 €",
@@ -1822,14 +1822,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Blister_Eevee_30_Aniversario_Pokemillon_JPG.jpg?v=1784662712"
   },
   "https://www.pokemillon.com/products/30th-celebration-pokemon-ex-tin": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Greninja ex Tin  Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "46,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-07-01235214.png?v=1787737348"
   },
   "https://www.pokemillon.com/products/sylveon-ex-tin-celebraciones-30-aniversario-celebrations-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Sylveon ex Tin  Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "46,90 €",
