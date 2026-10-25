@@ -3549,5 +3549,12 @@
     "precio": "189,90 €",
     "deseo": 30.0,
     "img": "https://flashstore.es/wp-content/uploads/2026/10/deck30th.jpg"
+  },
+  "https://tcglevel.com/products/tcg-level-raid-halloween-05-30-aniversario-japones-solo-directo": {
+    "disponible": true,
+    "nombre": "TCG Level Raid Halloween #05 - 30 Aniversario Japonés [Solo Directo]",
+    "tienda": "TCG Level",
+    "precio": "52,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/tcglevel-halloween-raid.png?v=1792926121"
   }
 }
