@@ -821,7 +821,7 @@
     "disponible": false,
     "nombre": "Deluxe Pin Collection Ascended Heroes | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "58,00 €",
+    "precio": "57,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Deluxe_Pin_Collection_Ascended_Heroes_POKeMON_Ingles.webp?v=1776349696"
   },
   "https://todohits.com/products/reserva-first-partner-illustration-collection-series-1-pokemon-espanol": {
@@ -1890,7 +1890,7 @@
     "disponible": false,
     "nombre": "Booster Bundle Héroes Ascendentes , Español",
     "tienda": "Iberian Collect",
-    "precio": "58,00 €",
+    "precio": "57,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_319a8802-008e-4981-bd2f-6b4661573416.jpg?v=1780846037"
   },
   "https://iberiancollect.com/products/etb-heroes-ascendidos-espanol": {
@@ -1934,7 +1934,7 @@
     "disponible": false,
     "nombre": "ETB 30 Aniversario, Celebraciones Pokémon",
     "tienda": "Iberian Collect",
-    "precio": "115,00 €",
+    "precio": "114,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0208.jpg?v=1788503732"
   },
   "https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-proximamente": {
@@ -3183,7 +3183,7 @@
     "disponible": false,
     "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "269,00 €",
+    "precio": "268,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": {
@@ -3553,5 +3553,12 @@
     "tienda": "TCG Level",
     "precio": "52,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/tcglevel-halloween-raid.png?v=1792926121"
+  },
+  "https://todohits.com/products/30th-celebration-premium-deck-set-espeon-umbreon-pokemon-japones": {
+    "disponible": false,
+    "nombre": "30 Aniversario Premium Deck Set Espeon & Umbreon | POKÉMON | 30th Celebration Japonés",
+    "tienda": "TodoHits",
+    "precio": "217,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/30th_CELEBRATION_Premium_Deck_Set_Espeon_Umbreon_POKEMON_Japon_s.webp?v=1792069192"
   }
 }
