@@ -1920,7 +1920,7 @@
     "disponible": false,
     "nombre": "ETB Ascended Heroes , Ingles",
     "tienda": "Iberian Collect",
-    "precio": "201,00 €",
+    "precio": "200,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/ic-026_58463679447307.jpg?v=1786778225"
   },
   "https://iberiancollect.com/products/first-partner-illustration-collection-series-3-castellano-proximamente": {
@@ -2286,14 +2286,14 @@
     "disponible": true,
     "nombre": "Sylveon ex Box 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "69,00 €",
+    "precio": "68,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/dd8557d4d78e71e906351cbcba724f11.jpg?v=1788503708"
   },
   "https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario": {
     "disponible": false,
     "nombre": "Colección Greninja ex 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "53,00 €",
+    "precio": "52,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/1e0f066f96d6ba246d095c426b5cc1ff.jpg?v=1788503712"
   },
   "https://iberiancollect.com/products/mini-tin-30-aniversario": {
@@ -3504,7 +3504,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv.webp?v=1791923720"
   },
   "https://allintcg.com/products/coleccion-ultra-premium-30th-anniversary-eng": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección Ultra Premium - 30th Anniversary [ENG]",
     "tienda": "AllinTCG",
     "precio": "459,95 €",
