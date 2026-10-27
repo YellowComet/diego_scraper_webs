@@ -3636,5 +3636,23 @@
     "obj": 25.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/first-partnet-4th-generation-japones_a7ee12d7-f6d5-4d60-ae52-57c348c7e61d.png?v=1793132081"
+  },
+  "https://tcglevel.com/products/first-partner-pokemon-5th-generation-30th-celebration-japones": {
+    "disponible": true,
+    "nombre": "First Partner Pokémon 5th Generation 30th Celebration | Japonés",
+    "tienda": "TCG Level",
+    "precio": "25,90 €",
+    "obj": 25.9,
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/first-partnet-5th-generation-japones.png?v=1793134612"
+  },
+  "https://tcglevel.com/products/first-partner-pokemon-6th-generation-30th-celebration-japones": {
+    "disponible": true,
+    "nombre": "First Partner Pokémon 6th Generation 30th Celebration | Japonés",
+    "tienda": "TCG Level",
+    "precio": "25,90 €",
+    "obj": 25.9,
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/first-partnet-6th-generation-japones.png?v=1793134757"
   }
 }
