@@ -955,7 +955,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "682,00 €",
+    "precio": "683,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -3558,7 +3558,7 @@
     "disponible": false,
     "nombre": "30 Aniversario Premium Deck Set Espeon & Umbreon | POKÉMON | 30th Celebration Japonés",
     "tienda": "TodoHits",
-    "precio": "216,00 €",
+    "precio": "217,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/30th_CELEBRATION_Premium_Deck_Set_Espeon_Umbreon_POKEMON_Japon_s.webp?v=1792069192"
   },
   "https://sunnystore.es/products/bundle-30th-celebraciones-booster-bundle-pokemon-tcg-ingles": {
@@ -3583,5 +3583,12 @@
     "precio": "30,90 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/firts-partnet-2nd-generation-japones.png?v=1793051763"
+  },
+  "https://todohits.com/products/baraja-combate-30-aniversario-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Baraja Combate 30 Aniversario | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "52,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Baraja_Combate_30_Aniversario_POKEMON_Espa_ol.png?v=1789727643"
   }
 }
