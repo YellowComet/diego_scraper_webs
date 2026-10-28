@@ -1926,7 +1926,7 @@
     "disponible": true,
     "nombre": "First Partner Illustration Collection Series 3 ( Castellano)",
     "tienda": "Iberian Collect",
-    "precio": "34,00 €",
+    "precio": "35,00 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG-0890.jpg?v=1785854630"
   },
@@ -3620,11 +3620,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/30-aniversario-binder-collection-1-espanol-copy.webp?v=1793033798"
   },
   "https://tcglevel.com/products/first-partner-pokemon-3rd-generation-30th-celebration-japones": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "First Partner Pokémon 3rd Generation 30th Celebration | Japonés",
     "tienda": "TCG Level",
     "precio": "25,90 €",
-    "obj": 25.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/first-partnet-3rd-generation-japones_9d5a6b5e-813a-4337-abf8-c9ae9cfb2db4.png?v=1793131898"
   },
