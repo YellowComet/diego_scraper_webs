@@ -1744,17 +1744,17 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Greninja_ex_Box_EN-copy-scaled.jpg?v=1782840613"
   },
   "https://www.pokemillon.com/products/30th-poster-collection-box-celebraciones-30-aniversario": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30th Poster Collection Box Celebraciones 30 Aniversario",
     "tienda": "Pokemillon",
-    "precio": "29,95 €",
+    "precio": "42,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Poster_Collection_EN-copy-scaled.jpg?v=1782840615"
   },
   "https://www.pokemillon.com/products/30th-celebration-album-collection-box-celebraciones-30-aniversario": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30th Celebration Álbum Collection Box Celebraciones 30 Aniversario",
     "tienda": "Pokemillon",
-    "precio": "89,90 €",
+    "precio": "79,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Binder_Collection_EN-copy-scaled.jpg?v=1782840618"
   },
   "https://www.pokemillon.com/products/30th-celebration-espeon-battle-deck-celebraciones-30-aniversario": {
@@ -1800,38 +1800,38 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Knock_Out_Collection-copy.jpg?v=1782840639"
   },
   "https://www.pokemillon.com/products/blister-tech-sticker-celebraciones-30-aniversario-celebrations-30th": {
-    "disponible": false,
-    "nombre": "Blíster Exeguttor Tech Sticker Celebraciones 30 Aniversario | Celebrations 30th",
+    "disponible": true,
+    "nombre": "Blíster Exeggutor Tech Sticker Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "33,90 €",
+    "precio": "38,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Tech_Sticker_Collection_Alolan_Exeggutor_EN-copy.jpg?v=1782840645"
   },
   "https://www.pokemillon.com/products/blister-lucario-tech-sticker-celebraciones-30-aniversario-celebrations-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blíster Lucario Tech Sticker Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "36,90 €",
+    "precio": "39,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Tech_Sticker_Collection_Lucario_EN-copy.jpg?v=1782840649"
   },
   "https://www.pokemillon.com/products/blister-2-sobres-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blíster 2 Sobres Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "16,99 €",
+    "precio": "27,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Blister_Eevee_30_Aniversario_Pokemillon_JPG.jpg?v=1784662712"
   },
   "https://www.pokemillon.com/products/30th-celebration-pokemon-ex-tin": {
     "disponible": true,
     "nombre": "Greninja ex Tin  Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "46,90 €",
+    "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-07-01235214.png?v=1787737348"
   },
   "https://www.pokemillon.com/products/sylveon-ex-tin-celebraciones-30-aniversario-celebrations-30th": {
     "disponible": true,
     "nombre": "Sylveon ex Tin  Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
-    "precio": "46,90 €",
+    "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-07-01235224.png?v=1787737349"
   },
   "https://www.pokemillon.com/products/case-6-first-partner-serie-2-primer-companero-30th": {
