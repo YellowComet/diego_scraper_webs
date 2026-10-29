@@ -955,7 +955,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "683,00 €",
+    "precio": "682,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -3184,7 +3184,7 @@
     "disponible": false,
     "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "268,00 €",
+    "precio": "267,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": {
@@ -3690,5 +3690,19 @@
     "precio": "62,95 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/composite-27-promos-first-partner-japones.webp?v=1793190981"
+  },
+  "https://www.pokedexcards.com/products/pokemon-tcg-blister-30th-anniversary-celebration-100-oficial-bandai": {
+    "disponible": false,
+    "nombre": "Pokémon TCG: Blister 30th Anniversary Celebration – 100% Oficial (Bandai)",
+    "tienda": "Pokedex Card",
+    "precio": "45,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/30THBlisterdesobresdemejoradeCelebracion30_AniversariodeJCCPokemon.POKEMON.BANDAI_ESPANOL_IPokedexCardsIElementCollectorIPokemonTCG.jpg?v=1792061055"
+  },
+  "https://www.pokedexcards.com/products/pokemon-tcg-30th-anniversary-binder-collection-oficial-element": {
+    "disponible": false,
+    "nombre": "Pokémon TCG: 30th Anniversary Binder Collection – 100% Oficial - ESPAÑOL",
+    "tienda": "Pokedex Card",
+    "precio": "69,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/0thAnniversaryBinderCollection_ESPANOL_IPokedexCardsIElementCollectorIPokemonTCG.jpg?v=1792064290"
   }
 }
