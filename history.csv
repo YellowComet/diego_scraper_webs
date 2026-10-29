@@ -149,8 +149,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-09-18 11:43,Lata,Darizard9,Lata 30 Aniversario,"45,99 €",True,https://www.darizard9.com/products/lata-30-aniversario
 2026-09-18 11:43,Poster,Darizard9,30 Aniversario Colección Con Poster,"39,99 €",True,https://www.darizard9.com/products/30-aniversario-coleccion-con-poster
 2026-09-18 20:50,Sobre,Pokemillon,Sobre Pokémon 30th Anniversary,"1,90 €",True,https://www.pokemillon.com/products/sobre-pokemon-30th-anniversary
-2026-09-19 03:59,Mini Lata,Iberian Collect,Mini Tin 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/mini-tin-30-aniversario
-2026-09-19 03:59,Poster,Iberian Collect,Poster Collection 30 Aniversario,"38,90 €",True,https://iberiancollect.com/products/poster-collection-30-aniversario
 2026-09-19 03:59,Ditto Premium Collection 30 Aniversario,Iberian Collect,Ditto Premium Collection 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/ditto-premium-collection-30-aniversario
 2026-09-19 03:59,Coleccion Pegatinas,Iberian Collect,Blister 2 Sobres Eevee 30 Aniversario,"29,90 €",True,https://iberiancollect.com/products/blister-2-sobres-eevee-30-aniversario
 2026-09-19 03:59,Coleccion Ilustracion S1,Iberian Collect,First Partner Illustration Collection Series 1 ( Castellano),"39,50 €",True,https://iberiancollect.com/products/pokemon-first-partner-espanol
@@ -8149,3 +8147,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-29 19:16,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"797,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
 2026-10-29 19:16,Poster,JJCOLLECTION,Pokémon TCG — 30th Celebration Poster Collection | (Español),"33,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-poster-collection-espanol
 2026-10-29 19:16,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )","598,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles
+2026-10-29 20:17,ETB,JJCOLLECTION,Pokémon TCG - Elite Trainer Box 30th Celebration (Inglés & Español),"75,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-elite-trainer-box-30th-celebration-ingles
+2026-10-29 20:17,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"798,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
