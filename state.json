@@ -3703,5 +3703,12 @@
     "tienda": "Pokedex Card",
     "precio": "69,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/0thAnniversaryBinderCollection_ESPANOL_IPokedexCardsIElementCollectorIPokemonTCG.jpg?v=1792064290"
+  },
+  "https://www.pokedexcards.com/products/pokemon-tcg-30th-anniversary-binder-collection-oficial": {
+    "disponible": false,
+    "nombre": "Pokémon TCG: 30th Anniversary Binder Collection – 100% Oficial - ESPAÑOL",
+    "tienda": "Pokedex Card",
+    "precio": "69,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/0thAnniversaryBinderCollection_ESPANOL_IPokedexCardsIElementCollectorIPokemonTCG.jpg?v=1792064290"
   }
 }
