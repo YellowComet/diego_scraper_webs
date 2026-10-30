@@ -3708,5 +3708,12 @@
     "tienda": "Pokedex Card",
     "precio": "69,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0903/4468/5895/files/0thAnniversaryBinderCollection_ESPANOL_IPokedexCardsIElementCollectorIPokemonTCG.jpg?v=1792064290"
+  },
+  "https://allintcg.com/products/booster-bundle-30th-anniversary-esp": {
+    "disponible": false,
+    "nombre": "Booster Bundle - 30th Anniversary [ESP]",
+    "tienda": "AllinTCG",
+    "precio": "84,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversarybundle.webp?v=1787676483"
   }
 }
