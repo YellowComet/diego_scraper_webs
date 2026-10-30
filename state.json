@@ -487,8 +487,7 @@
     "disponible": true,
     "nombre": "Pokémon Bundle First Partner",
     "tienda": "Alfriki",
-    "precio": "29,99 €",
-    "obj": 29.99,
+    "precio": "34,99 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0555/8452/2579/files/accul15911.jpg?v=1749381020"
   },
@@ -2707,8 +2706,8 @@
     "disponible": true,
     "nombre": "CAJA POKEMON 30TH CELEBRATION M6A (JAPONÉS)",
     "tienda": "Sunny Store",
-    "precio": "209,90 €",
-    "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/booster_box_30th_celebration_pokemon_m6a.png?v=1789211270"
+    "precio": "194,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/booster_box_30th_celebration_pokemon_m6a.jpg?v=1793350118"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones": {
     "disponible": false,
@@ -3215,10 +3214,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_Japones.png?v=1790666886"
   },
   "https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-japones": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "BOOSTER POKEMON 30TH CELEBRATION M6A - SOBRE JAPONÉS",
     "tienda": "Sunny Store",
-    "precio": "11,50 €",
+    "precio": "11,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Pokemon-tcg-30th-celebration-booster-pack-japanese_1.jpg?v=1790609417"
   },
   "https://www.ryucardstcg.com/products/ascended-heroes-mega-box": {
