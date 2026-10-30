@@ -3715,5 +3715,12 @@
     "tienda": "AllinTCG",
     "precio": "84,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversarybundle.webp?v=1787676483"
+  },
+  "https://cardzone.es/products/baraja-combate-celebracion-30-aniversario-espanol": {
+    "disponible": true,
+    "nombre": "Baraja Combate Celebración 30 Aniversario - Español",
+    "tienda": "CardZone",
+    "precio": "44,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-10-30T115811.645.png?v=1793357949"
   }
 }
