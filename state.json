@@ -1624,7 +1624,7 @@
   },
   "https://www.pokemillon.com/products/pokemon-30th-anniversary": {
     "disponible": true,
-    "nombre": "Caja 20 Sobres Pokémon 30th Anniversary m6a",
+    "nombre": "Booster Box Pokémon 30th Celebration m6a | Caja 20 Sobres",
     "tienda": "Pokemillon",
     "precio": "146,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Caja_20_Sobres_Pokemon_30th_Anniversary_m6a_Pokemillon.png?v=1787861931"
@@ -3576,7 +3576,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/first-partnet-1st-generation-japones.png?v=1793131699"
   },
   "https://tcglevel.com/products/first-partner-pokemon-2nd-generation-30th-celebration-japones": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "First Partner Pokémon 2nd Generation 30th Celebration | Japonés",
     "tienda": "TCG Level",
     "precio": "30,90 €",
