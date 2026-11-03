@@ -176,10 +176,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-09-26 11:50,Poster,AllinTCG,30th Anniversary Poster Collection [ENG],"54,95 €",True,https://allintcg.com/products/30th-anniversary-poster-collection-eng
 2026-09-26 12:00,Coleccion Pegatinas,AllinTCG,Blister Pack 2 Sobres - 30th Anniversary [ENG],"31,95 €",True,https://allintcg.com/products/blister-pack-2-sobres-30th-anniversary-eng
 2026-09-26 14:43,ETB,Iberian Collect,"ETB 30 Aniversario, Celebraciones Pokémon, Español (con pequeñas roturas en el plástico) ideal para abrir","93,00 €",True,https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir
-2026-09-26 22:19,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon","199,99 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-proximamente
-2026-09-26 22:19,Coleccion Pegatinas,Iberian Collect,Tech Sticker Collection 30 Aniversario,"33,90 €",True,https://iberiancollect.com/products/tech-sticker-collection-30-aniversario
-2026-09-26 22:19,Booster Bundle,Iberian Collect,Booster Bundle 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/booster-bundle-30-aniversario
-2026-09-26 22:19,Album,Iberian Collect,Álbum para Colecciones 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/album-para-colecciones-30-aniversario
 2026-09-26 22:19,Figure Collection Mew 30 Aniversario,Iberian Collect,Figure Collection Mew 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/figure-collection-mew-30-aniversario
 2026-09-26 22:19,Figure Collection Mewtwo 30 Aniversario,Iberian Collect,Figure Collection Mewtwo 30 Aniversario,"1,00 €",False,https://iberiancollect.com/products/figure-collection-mewtwo-30-aniversario
 2026-09-26 22:19,EX Box,Iberian Collect,Sylveon ex Box 30 Aniversario,"59,50 €",True,https://iberiancollect.com/products/sylveon-ex-box-30-aniversario
@@ -8176,3 +8172,7 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-03 17:30,TCG Level Raid Halloween #05 - 30 Aniversario Japonés [Solo Directo],TCG Level,TCG Level Raid Halloween #05 - 30 Aniversario Japonés [Solo Directo],"52,90 €",False,https://tcglevel.com/products/tcg-level-raid-halloween-05-30-aniversario-japones-solo-directo
 2026-11-03 18:18,Poster,TodoHits,Premium Poster Collection Ascended Heroes | POKÉMON | Inglés,"138,00 €",False,https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles
 2026-11-03 18:18,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"686,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
+2026-11-03 20:15,Poster,TodoHits,Premium Poster Collection Ascended Heroes | POKÉMON | Inglés,"137,00 €",False,https://todohits.com/products/premium-poster-collection-ascended-heroes-pokemon-ingles
+2026-11-03 20:15,Case x10,JJCOLLECTION,Pokémon TCG - Case X10 ETB Ascended Heroes (Español),"685,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-case-x10-etb-ascended-heroes-espanol
+2026-11-03 20:15,ETB,Iberian Collect,Combo ETB Ascended Héroes Inglés + Booster Box Equilibrio Perfecto+ Acrílico para la ETB,"331,00 €",False,https://iberiancollect.com/products/combo-etb-ascended-heroes-ingles-booster-box-equilibrio-perfecto
+2026-11-03 20:15,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"799,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
