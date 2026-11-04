@@ -3512,7 +3512,8 @@
     "disponible": true,
     "nombre": "First Partner Collection Pokemon 30TH Celebration",
     "tienda": "La Boveda Friki",
-    "precio": "30,50 €",
+    "precio": "28,95 €",
+    "obj": 28.95,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/first-partner-30-aniversario-japones-set-completo_957ffd63-280c-41a4-857e-eacbb1aacdae.png?v=1792337471"
   },
@@ -3749,7 +3750,14 @@
     "disponible": true,
     "nombre": "Booster Box 30 Aniversario CHN",
     "tienda": "La Boveda Friki",
-    "precio": "104,90 €",
+    "precio": "101,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Booster_box_30_aniversario_pokemon_tcg_la_boveda_friki.png?v=1789110780"
+  },
+  "https://cardzone.es/products/caja-coleccion-premium-ditto-celebracion-30-aniversario-espanol": {
+    "disponible": true,
+    "nombre": "Caja Colección Premium Ditto Celebración 30 Aniversario - Español",
+    "tienda": "CardZone",
+    "precio": "79,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-premium-ditto-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg-cardzone.png?v=1793817973"
   }
 }
