@@ -1616,7 +1616,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Booster_Bundle_EN-copy.jpg?v=1787737249"
   },
   "https://www.pokemillon.com/products/ultra-premium-30th-espeon": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Ultra Premium Espeon Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "199,90 €",
@@ -1728,7 +1728,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_1b732188-aebb-446a-b225-2a0c0810aa91.png?v=1782201361"
   },
   "https://www.pokemillon.com/products/ultra-premium-umbreon-celebraciones-30-aniversario-celebrations-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Ultra Premium Umbreon Celebraciones 30 Aniversario | Celebrations 30th",
     "tienda": "Pokemillon",
     "precio": "199,90 €",
