@@ -3761,5 +3761,12 @@
     "tienda": "CardZone",
     "precio": "79,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-premium-ditto-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg-cardzone.png?v=1793817973"
+  },
+  "https://reinodecartas.com/tienda-tcg/pokemon-tcg/30-aniversario/caja-pokemon-30th-celebration-m6a-jp-20-sobres/": {
+    "disponible": true,
+    "nombre": "Caja Pokémon 30th Celebration M6a JP – 20 sobres",
+    "tienda": "Reino de Cartas",
+    "precio": "249,99 €",
+    "img": "https://reinodecartas.com/wp-content/uploads/2026/11/30th-celebration-booster-box-m6a-japanisch-LTi3XG-P.webp"
   }
 }
