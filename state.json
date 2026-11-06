@@ -3532,7 +3532,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/15453578199419-01-black.png?v=1792969816"
   },
   "https://www.pokemillon.com/products/9-cajas-first-partner-illustration-collections-pokemon-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "9 Cajas First Partner Illustration Collections Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "169,90 €",
@@ -3726,10 +3726,11 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-10-30T115811.645.png?v=1793357949"
   },
   "https://www.pokemillon.com/products/first-partner-30th": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "First Partner Illustration Collections Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
-    "precio": "19,90 €",
+    "precio": "22,90 €",
+    "obj": 22.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142655.png?v=1787737314"
   },
@@ -3768,5 +3769,19 @@
     "tienda": "Reino de Cartas",
     "precio": "249,99 €",
     "img": "https://reinodecartas.com/wp-content/uploads/2026/11/30th-celebration-booster-box-m6a-japanisch-LTi3XG-P.webp"
+  },
+  "https://todohits.com/products/mew-y-mewtwo-figure-collection-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Mew y Mewtwo Figure Collection 30 Aniversario | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "75,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Mew_y_Mewtwo_Figure_Collection_30_Aniversario_POKEMON_Espa_ol.png?v=1784785420"
+  },
+  "https://todohits.com/products/ditto-30-aniversario-premium-collection-pokemon-espanol": {
+    "disponible": false,
+    "nombre": "Ditto 30 Aniversario Premium Collection | POKÉMON | Español",
+    "tienda": "TodoHits",
+    "precio": "92,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Ditto_30_Aniversario_Premium_Collection_POKEMON_Espa_ol.jpg?v=1784786540"
   }
 }
