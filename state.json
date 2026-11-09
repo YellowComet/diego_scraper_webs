@@ -2010,7 +2010,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/pokemon-30-anivesario-etb-6.webp?v=1783428666"
   },
   "https://pokezilla.com/products/umbreon-30-aniversario-especial-ultra-premium-collection": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: Umbreon 30 Aniversario Especial Ultra-Premium Collection- PREVENTA",
     "tienda": "Pokezilla",
     "precio": "419,95 €",
@@ -2163,7 +2163,7 @@
     "img": "https://flashstore.es/wp-content/uploads/2025/08/starteerinitrial.jpg"
   },
   "https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "30th CELEBRATION Japanese Booster Box",
     "tienda": "Pokezilla",
     "precio": "279,95 €",
@@ -3817,5 +3817,12 @@
     "tienda": "CardZone",
     "precio": "65,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-especial-con-figura-mew-mewtwo-30-aniversario-celebracion-cartas-pokemon-cardzone.png?v=1794215129"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-futuristic-box/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Futuristic Box",
+    "tienda": "Flash Store",
+    "precio": "315,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/11/celebultra1.jpg"
   }
 }
