@@ -3810,5 +3810,12 @@
     "tienda": "TodoHits",
     "precio": "149,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_30th_Celebration_Elite_Trainer_Box_POK_MON_Ingl_s.webp?v=1794220680"
+  },
+  "https://cardzone.es/products/caja-coleccion-con-figura-celebracion-30-aniversario-espanol": {
+    "disponible": true,
+    "nombre": "Caja Colección con Figura Celebración 30 Aniversario - Español",
+    "tienda": "CardZone",
+    "precio": "65,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-coleccion-especial-con-figura-mew-mewtwo-30-aniversario-celebracion-cartas-pokemon-cardzone.png?v=1794215129"
   }
 }
