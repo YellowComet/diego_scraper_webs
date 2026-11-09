@@ -3803,5 +3803,12 @@
     "tienda": "Flash Store",
     "precio": "34,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/poster30.jpg"
+  },
+  "https://todohits.com/products/etb-30-aniversario-pokemon-elite-trainer-box-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "[Plástico Roto] ETB 30th Celebration | Elite Trainer Box | POKÉMON | Inglés",
+    "tienda": "TodoHits",
+    "precio": "149,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_30th_Celebration_Elite_Trainer_Box_POK_MON_Ingl_s.webp?v=1794220680"
   }
 }
