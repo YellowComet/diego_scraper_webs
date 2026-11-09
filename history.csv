@@ -190,9 +190,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-09-30 11:00,Caja Celebración 30 Aniversario M6a - Japones,CardZone,Caja Celebración 30 Aniversario M6a - Japones,"199,95 €",True,https://cardzone.es/products/caja-celebracion-30-aniversario-m6a-japones
 2026-09-30 20:25,Coleccion Ilustracion S3,TCG Level,First Partner Illustration Collections Series 3 | Español,"30,90 €",True,https://tcglevel.com/products/first-partner-illustration-collections-series-3-espanol
 2026-10-01 14:01,Album,CardZone,Caja Binder Celebración 30 Aniversario - Español,"64,95 €",True,https://cardzone.es/products/caja-binder-celebracion-30-aniversario-espanol
-2026-10-02 04:50,Booster Bundle,Iberian Collect,"Booster Bundle Ascended Heroes , Inglés","110,00 €",False,https://iberiancollect.com/products/booster-bundle-ascended-heroes-ingles
-2026-10-02 04:50,Booster Bundle,Iberian Collect,"Booster Bundle Héroes Ascendentes , Español","58,00 €",False,https://iberiancollect.com/products/booster-bundle-heroes-ascendentes-espanol
-2026-10-02 04:50,ETB,Iberian Collect,"ETB Heroes Ascendentes , Español","98,00 €",False,https://iberiancollect.com/products/etb-heroes-ascendidos-espanol
 2026-10-02 04:50,Poster,Iberian Collect,"Coleccion Premium con poster , Héroes Ascendentes , Español,","98,00 €",False,https://iberiancollect.com/products/coleccion-premium-con-poster-heroes-ascendentes-espanol
 2026-10-02 04:50,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"804,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
 2026-10-02 04:50,ETB,Iberian Collect,"ETB Ascended Heroes , Ingles","201,00 €",False,https://iberiancollect.com/products/etb-ascended-heroes-ingles
@@ -8190,3 +8187,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-09 12:22,ETB,Iberian Collect,"ETB Heroes Ascendentes , Español","97,00 €",False,https://iberiancollect.com/products/etb-heroes-ascendidos-espanol
 2026-11-09 12:22,Poster,Iberian Collect,"Coleccion Premium con poster , Héroes Ascendentes , Español,","97,00 €",False,https://iberiancollect.com/products/coleccion-premium-con-poster-heroes-ascendentes-espanol
 2026-11-09 12:22,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"799,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
+2026-11-09 12:33,Coleccion Ilustracion S3,Sunny Store,FIRST PARTNER ILLUSTRATION COLLECTION SERIE 3 (ESPAÑOL) - PRIMER COMPAÑERO,"34,90 €",True,https://sunnystore.es/products/first-partner-illustration-collection-serie-3-espanol-primer-companero
+2026-11-09 12:33,Booster Bundle,Sunny Store,BOOSTER BUNDLE POKEMON MEGA HEROES ASCENDENTES (ESPAÑOL),"69,90 €",True,https://sunnystore.es/products/booster-bundle-pokemon-mega-heroes-ascendentes-espanol
+2026-11-09 12:33,Coleccion Ilustracion S1,Sunny Store,FIRST PARTNER ILLUSTRATION COLLECTION SERIE 1 (ESPAÑOL),"39,90 €",True,https://sunnystore.es/products/first-partner-illustration-collection-serie-1-espanol
