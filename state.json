@@ -2535,7 +2535,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Blister_2_sobres_30_anoversario_pokemon_la_boveda_friki.png?v=1785751451"
   },
   "https://labovedafriki.es/products/mini-lata-30-aniversario": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Mini Lata 30 Aniversario",
     "tienda": "La Boveda Friki",
     "precio": "24,99 €",
