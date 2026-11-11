@@ -2323,7 +2323,7 @@
     "disponible": false,
     "nombre": "Blister 2 Sobres Eevee 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "27,00 €",
+    "precio": "26,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/46cce4c7b2ff393d121ac89702451e34.jpg?v=1788503728"
   },
   "https://iberiancollect.com/products/pokemon-first-partner-espanol": {
@@ -3337,10 +3337,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryposter.webp?v=1787675774"
   },
   "https://allintcg.com/products/ex-box-30th-anniversary-esp": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "EX Box - 30th Anniversary [ESP]",
     "tienda": "AllinTCG",
-    "precio": "44,95 €",
+    "precio": "49,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryexbox.webp?v=1787676088"
   },
   "https://flashstore.es/producto/celebraciones-30th-figura-charizard/": {
