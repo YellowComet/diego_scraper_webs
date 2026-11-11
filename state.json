@@ -558,10 +558,12 @@
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/ascended_heroes_elite_trainer_box_3-Photoroom.jpg?v=1768584927"
   },
   "https://allintcg.com/products/collection-box-first-partner-ii-esp": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Collection box - First Partner II [ESP]",
     "tienda": "AllinTCG",
-    "precio": "29,95 €",
+    "precio": "24,95 €",
+    "obj": 24.95,
+    "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/first_partner_2_1.webp?v=1781798670"
   },
   "https://allintcg.com/products/ex-box-heroes-ascendentes-esp": {
