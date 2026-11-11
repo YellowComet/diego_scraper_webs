@@ -2083,10 +2083,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversarybundle.webp?v=1787676483"
   },
   "https://allintcg.com/products/ex-box-30th-anniversary-eng": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "EX Box - 30th Anniversary [ENG]",
     "tienda": "AllinTCG",
-    "precio": "64,95 €",
+    "precio": "59,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversaryexbox.webp?v=1787676088"
   },
   "https://allintcg.com/products/30th-anniversary-poster-collection-eng": {
