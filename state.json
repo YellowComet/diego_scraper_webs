@@ -598,7 +598,8 @@
     "disponible": false,
     "nombre": "EX Box - Ascended Heroes [ENG]",
     "tienda": "AllinTCG",
-    "precio": "54,95 €",
+    "precio": "59,95 €",
+    "deseo": 45.0,
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/image-Photoroom_19.jpg?v=1768585299"
   },
   "https://allintcg.com/products/pokemon-tcg-coleccion-de-sobres-first-partner": {
@@ -2703,7 +2704,7 @@
     "disponible": true,
     "nombre": "Celebraciones 30th Premium Set Espeon Umbreon",
     "tienda": "Flash Store",
-    "precio": "164,90 €",
+    "precio": "159,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/deckjp.jpg"
   },
   "https://sunnystore.es/products/caja-pokemon-3oth-celebration-m6a-japones": {
@@ -3547,7 +3548,7 @@
     "disponible": true,
     "nombre": "Celebraciones 30th First Partner Set",
     "tienda": "Flash Store",
-    "precio": "189,90 €",
+    "precio": "174,90 €",
     "deseo": 30.0,
     "img": "https://flashstore.es/wp-content/uploads/2026/10/deck30th.jpg"
   },
