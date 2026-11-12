@@ -831,7 +831,7 @@
     "disponible": false,
     "nombre": "First partner Series 1 Illustration Collection | POKÉMON | Español (Primer Compañero)",
     "tienda": "TodoHits",
-    "precio": "43,00 €",
+    "precio": "44,00 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/First_partner_Illustration_Collection_Series_1_POK_MON_Espa_ol.jpg?v=1781874460"
   },
@@ -852,7 +852,7 @@
     "disponible": false,
     "nombre": "Deluxe Pin Collection Heroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "43,00 €",
+    "precio": "44,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Pin_Collection_Deluxe_Heroes_Ascendentes_POK_MON.jpg?v=1773311163"
   },
   "https://todohits.com/products/mini-tin-heroes-ascendentes-pokemon-espanol": {
@@ -909,14 +909,14 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "283,00 €",
+    "precio": "284,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-UMBREON-1-Photoroom.png?v=1786038031"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "283,00 €",
+    "precio": "284,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/UPC-1-Photoroom.png?v=1786037560"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-booster-bundle-30th-celebration-ingles-espanol": {
@@ -958,7 +958,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "679,00 €",
+    "precio": "680,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -3187,7 +3187,7 @@
     "disponible": false,
     "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "266,00 €",
+    "precio": "267,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": {
@@ -3871,5 +3871,19 @@
     "tienda": "AllinTCG",
     "precio": "69,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30thpokemonanniversarybinder.webp?v=1787676758"
+  },
+  "https://www.darizard9.com/products/battle-deck-30th-anniversary-umbreon": {
+    "disponible": false,
+    "nombre": "Battle Deck 30th Anniversary Umbreon",
+    "tienda": "Darizard9",
+    "precio": "34,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-TCG-30th-Anniversary-Celebration-Battle-Deck-_-Umbreon-ex-_-English.jpg?v=1794477836"
+  },
+  "https://www.darizard9.com/products/battle-deck-30th-anniversary-espeon": {
+    "disponible": true,
+    "nombre": "Battle Deck 30th Anniversary Espeon",
+    "tienda": "Darizard9",
+    "precio": "34,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-battle-deck-1.webp?v=1794477721"
   }
 }
