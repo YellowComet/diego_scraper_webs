@@ -3885,5 +3885,19 @@
     "tienda": "Darizard9",
     "precio": "34,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-battle-deck-1.webp?v=1794477721"
+  },
+  "https://todohits.com/products/sobre-30-aniversario-pokemon-30th-celebration-coreano": {
+    "disponible": false,
+    "nombre": "Sobre 30 Aniversario | POKÉMON | 30th Celebration | Coreano",
+    "tienda": "TodoHits",
+    "precio": "7,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Sobre_30_Aniversario_POKEMON_30th_Celebration_Coreano.png?v=1794311815"
+  },
+  "https://todohits.com/products/booster-box-30-aniversario-pokemon-30th-celebration-coreano": {
+    "disponible": false,
+    "nombre": "Booster Box 30 Aniversario | POKÉMON | 30th Celebration | Coreano",
+    "tienda": "TodoHits",
+    "precio": "132,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_30th_Celebration_Coreano.png?v=1794311730"
   }
 }
