@@ -3795,7 +3795,7 @@
     "img": "https://flashstore.es/wp-content/uploads/2026/10/binder30.jpg"
   },
   "https://flashstore.es/producto/celebraciones-30th-ex-box/": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Celebraciones 30th Ex Box",
     "tienda": "Flash Store",
     "precio": "41,90 €",
@@ -3880,7 +3880,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-TCG-30th-Anniversary-Celebration-Battle-Deck-_-Umbreon-ex-_-English.jpg?v=1794477836"
   },
   "https://www.darizard9.com/products/battle-deck-30th-anniversary-espeon": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Battle Deck 30th Anniversary Espeon",
     "tienda": "Darizard9",
     "precio": "34,99 €",
