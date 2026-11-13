@@ -2708,10 +2708,10 @@
     "img": "https://flashstore.es/wp-content/uploads/2026/09/deckjp.jpg"
   },
   "https://sunnystore.es/products/caja-pokemon-3oth-celebration-m6a-japones": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "CAJA POKEMON 30TH CELEBRATION M6A (JAPONÉS)",
     "tienda": "Sunny Store",
-    "precio": "170,00 €",
+    "precio": "169,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/booster_box_30th_celebration_pokemon_m6a.jpg?v=1793350118"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones": {
