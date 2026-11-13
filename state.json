@@ -3796,7 +3796,7 @@
     "disponible": true,
     "nombre": "Celebraciones 30th Ex Box",
     "tienda": "Flash Store",
-    "precio": "41,90 €",
+    "precio": "44,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/30exbox.jpg"
   },
   "https://flashstore.es/producto/celebraciones-30th-poster-collection/": {
@@ -3849,7 +3849,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Capturadepantalla2026-07-27154403.jxl?v=1794295054"
   },
   "https://flashstore.es/producto/celebraciones-30th-premium-figure-collection/": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Celebraciones 30th Premium Figure Collection",
     "tienda": "Flash Store",
     "precio": "79,90 €",
@@ -3904,5 +3904,12 @@
     "tienda": "Flash Store",
     "precio": "164,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/30thjp.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-tech-sticker/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Tech Sticker",
+    "tienda": "Flash Store",
+    "precio": "33,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/30sticker.jpg"
   }
 }
