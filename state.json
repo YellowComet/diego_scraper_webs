@@ -1592,7 +1592,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Booster_Bundle_Heroes_Ascendentes_Ascended_Heroes_Sin_Fondo_Pokemillon.png?v=1775418168"
   },
   "https://www.pokemillon.com/products/mega-box-ascendentes-heroes": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Mega Feraligatr Box Collection Héroes Ascendentes | Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "54,90 €",
@@ -1711,14 +1711,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/71qHsom8FeL.png?v=1782470662"
   },
   "https://www.pokemillon.com/products/mega-emboar-box-collection-heroes-ascendentes-ascended-heroes-copia": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Mega Emboar Box Collection Héroes Ascendentes | Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Screenshot_20251219_181137_X.jpg?v=1773573461"
   },
   "https://www.pokemillon.com/products/mega-meganium-box-collection-heroes-ascendentes-ascended-heroes": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Mega Meganium Box Collection Héroes Ascendentes | Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "49,90 €",
@@ -3897,5 +3897,12 @@
     "tienda": "TodoHits",
     "precio": "131,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_30_Aniversario_POKEMON_30th_Celebration_Coreano.png?v=1794311730"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-booster-box-sin-plastico-2/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Booster Box *Sin Plastico*",
+    "tienda": "Flash Store",
+    "precio": "167,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/30thjp.jpg"
   }
 }

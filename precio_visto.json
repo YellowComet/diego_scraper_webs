@@ -220,7 +220,7 @@
   "https://cardzone.es/products/caja-premium-poster-collection-ascended-heroes-ingles-embalaje-danado": "107,95 €|False",
   "https://www.pokemillon.com/products/mini-lata-heroes-ascendidos-ascended-heroes": "22,90 €|False",
   "https://www.pokemillon.com/products/booster-bundle-ascended-heroes": "42,90 €|False",
-  "https://www.pokemillon.com/products/mega-box-ascendentes-heroes": "54,90 €|False",
+  "https://www.pokemillon.com/products/mega-box-ascendentes-heroes": "54,90 €|True",
   "https://www.pokemillon.com/products/first-partner": "49,90 €|True",
   "https://www.pokemillon.com/products/etb-30th": "109,90 €|True",
   "https://www.pokemillon.com/products/bundle-30th-anniversary": "64,95 €|True",
@@ -236,8 +236,8 @@
   "https://www.pokemillon.com/products/premium-deck-pokemon-30th-anniversary": "129,90 €|False",
   "https://www.pokemillon.com/products/first-partner-illustration-collections-pokemon-30th-anniversary": "19,90 €|False",
   "https://www.pokemillon.com/products/sobre-ascended-heroes": "7,41 €|False",
-  "https://www.pokemillon.com/products/mega-emboar-box-collection-heroes-ascendentes-ascended-heroes-copia": "49,90 €|False",
-  "https://www.pokemillon.com/products/mega-meganium-box-collection-heroes-ascendentes-ascended-heroes": "49,90 €|False",
+  "https://www.pokemillon.com/products/mega-emboar-box-collection-heroes-ascendentes-ascended-heroes-copia": "49,90 €|True",
+  "https://www.pokemillon.com/products/mega-meganium-box-collection-heroes-ascendentes-ascended-heroes": "49,90 €|True",
   "https://www.pokemillon.com/products/case-6-first-partner-1": "198,99 €|False",
   "https://www.pokemillon.com/products/ultra-premium-umbreon-celebraciones-30-aniversario-celebrations-30th": "289,90 €|False",
   "https://www.pokemillon.com/products/greninja-special-box-celebraciones-30-aniversario-elite-celebrations-30th": "49,95 €|True",
@@ -541,5 +541,6 @@
   "https://www.darizard9.com/products/battle-deck-30th-anniversary-umbreon": "34,99 €|False",
   "https://www.darizard9.com/products/battle-deck-30th-anniversary-espeon": "34,99 €|False",
   "https://todohits.com/products/sobre-30-aniversario-pokemon-30th-celebration-coreano": "7,00 €|False",
-  "https://todohits.com/products/booster-box-30-aniversario-pokemon-30th-celebration-coreano": "131,00 €|False"
+  "https://todohits.com/products/booster-box-30-aniversario-pokemon-30th-celebration-coreano": "131,00 €|False",
+  "https://flashstore.es/producto/celebraciones-30th-booster-box-sin-plastico-2/": "167,90 €|True"
 }
