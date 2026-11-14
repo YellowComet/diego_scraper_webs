@@ -2708,7 +2708,7 @@
     "img": "https://flashstore.es/wp-content/uploads/2026/09/deckjp.jpg"
   },
   "https://sunnystore.es/products/caja-pokemon-3oth-celebration-m6a-japones": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "CAJA POKEMON 30TH CELEBRATION M6A (JAPONÉS)",
     "tienda": "Sunny Store",
     "precio": "169,90 €",
@@ -3450,7 +3450,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-pokemon-ex-box-f1.webp?v=1788959462"
   },
   "https://sunnystore.es/products/set-completo-first-partner-pokemon-30th-celebration-9-cajas-japones": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "SET COMPLETO FIRST PARTNER POKEMON 30TH CELEBRATION - 9 CAJAS (JAPONÉS)",
     "tienda": "Sunny Store",
     "precio": "174,90 €",
