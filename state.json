@@ -3960,5 +3960,12 @@
     "tienda": "Darizard9",
     "precio": "33,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/pokemon-tcg-30th-celebration-battle-deck-espeon-esp.webp?v=1794761177"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-ditto-premium-collection/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Ditto Premium Collection",
+    "tienda": "Flash Store",
+    "precio": "85,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/11/ditto1.jpg"
   }
 }
