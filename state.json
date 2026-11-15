@@ -2511,10 +2511,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Lata_30_Aniversario_Pokemon_Sylveon_Greninja_Pokemon_La_boveda_friki.png?v=1787394299"
   },
   "https://labovedafriki.es/products/battle-deck-30-aniversario": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Battle deck 30 Aniversario",
     "tienda": "La Boveda Friki",
-    "precio": "0,00 €",
+    "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Battle_Decks_Umbreon_Espeon_Pokemon_30_aniversario_la_boveda_friki.png?v=1787393403"
   },
   "https://labovedafriki.es/products/poster-collection-30-aniversario": {
