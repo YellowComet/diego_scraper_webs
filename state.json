@@ -3838,15 +3838,15 @@
     "disponible": true,
     "nombre": "Figure Collection Mew 30th Anniversary",
     "tienda": "Darizard9",
-    "precio": "89,99 €",
+    "precio": "79,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-figure-collection-1.webp?v=1794294735"
   },
   "https://www.darizard9.com/products/figure-collection-mewtwo-30th-anniversary": {
     "disponible": true,
     "nombre": "Figure Collection Mewtwo 30th Anniversary",
     "tienda": "Darizard9",
-    "precio": "89,99 €",
-    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Capturadepantalla2026-07-27154403.jxl?v=1794295054"
+    "precio": "79,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-figure-collection-mewtwo.webp?v=1794760265"
   },
   "https://flashstore.es/producto/celebraciones-30th-premium-figure-collection/": {
     "disponible": true,
@@ -3878,10 +3878,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-TCG-30th-Anniversary-Celebration-Battle-Deck-_-Umbreon-ex-_-English.jpg?v=1794477836"
   },
   "https://www.darizard9.com/products/battle-deck-30th-anniversary-espeon": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Battle Deck 30th Anniversary Espeon",
     "tienda": "Darizard9",
-    "precio": "34,99 €",
+    "precio": "35,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-battle-deck-1.webp?v=1794477721"
   },
   "https://todohits.com/products/sobre-30-aniversario-pokemon-30th-celebration-coreano": {
@@ -3925,5 +3925,40 @@
     "tienda": "AllinTCG",
     "precio": "74,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv.webp?v=1791923720"
+  },
+  "https://www.darizard9.com/products/caja-coleccion-figura-30-anversario": {
+    "disponible": false,
+    "nombre": "Caja Colección Figura Mew 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "59,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1999989551g00.jpg?v=1794760596"
+  },
+  "https://www.darizard9.com/products/caja-coleccion-figura-mewtwo-30-anversario": {
+    "disponible": true,
+    "nombre": "Caja Colección Figura Mewtwo 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "59,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/194447_A_JPG.webp?v=1794760628"
+  },
+  "https://www.darizard9.com/products/battle-deck-30th-annversary-umbreon": {
+    "disponible": true,
+    "nombre": "Battle Deck 30th Anniversary Umbreon",
+    "tienda": "Darizard9",
+    "precio": "35,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-TCG-30th-Anniversary-Celebration-Battle-Deck-_-Umbreon-ex-_-English_d4f34489-f415-4057-bc48-629cf89e5071.jpg?v=1794761121"
+  },
+  "https://www.darizard9.com/products/mazo-combate-30-aniversario-umbreon": {
+    "disponible": true,
+    "nombre": "Mazo Combate 30 Aniversario Umbreon",
+    "tienda": "Darizard9",
+    "precio": "33,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-JCC-Baraja-Combate-30th-Aniversario-Umbreon-Ex.jpg?v=1794761216"
+  },
+  "https://www.darizard9.com/products/mazo-combate-30-anivrsario": {
+    "disponible": true,
+    "nombre": "Mazo Combate 30 Aniversario Espeon",
+    "tienda": "Darizard9",
+    "precio": "33,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/pokemon-tcg-30th-celebration-battle-deck-espeon-esp.webp?v=1794761177"
   }
 }
