@@ -3835,14 +3835,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/pokemon-tcg-ultra-premium-collection-night-30th-celebration.webp?v=1794295298"
   },
   "https://www.darizard9.com/products/figure-collection-mew-30th-anniversary": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Figure Collection Mew 30th Anniversary",
     "tienda": "Darizard9",
     "precio": "79,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-figure-collection-1.webp?v=1794294735"
   },
   "https://www.darizard9.com/products/figure-collection-mewtwo-30th-anniversary": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Figure Collection Mewtwo 30th Anniversary",
     "tienda": "Darizard9",
     "precio": "79,99 €",
