@@ -3548,7 +3548,7 @@
     "disponible": true,
     "nombre": "Celebraciones 30th First Partner Set",
     "tienda": "Flash Store",
-    "precio": "174,90 €",
+    "precio": "159,90 €",
     "deseo": 30.0,
     "img": "https://flashstore.es/wp-content/uploads/2026/10/deck30th.jpg"
   },
@@ -3955,7 +3955,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-JCC-Baraja-Combate-30th-Aniversario-Umbreon-Ex.jpg?v=1794761216"
   },
   "https://www.darizard9.com/products/mazo-combate-30-anivrsario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Mazo Combate 30 Aniversario Espeon",
     "tienda": "Darizard9",
     "precio": "33,99 €",
