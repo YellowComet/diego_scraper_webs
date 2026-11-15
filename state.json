@@ -3918,5 +3918,12 @@
     "tienda": "Flash Store",
     "precio": "21,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/10/mini30th.jpg"
+  },
+  "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp": {
+    "disponible": true,
+    "nombre": "Caja Colección con Figura - 30th Anniversary [ESP]",
+    "tienda": "AllinTCG",
+    "precio": "74,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv.webp?v=1791923720"
   }
 }
