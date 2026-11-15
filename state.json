@@ -3911,5 +3911,12 @@
     "tienda": "Flash Store",
     "precio": "33,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/30sticker.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-mini-lata/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Mini Lata",
+    "tienda": "Flash Store",
+    "precio": "21,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/10/mini30th.jpg"
   }
 }
