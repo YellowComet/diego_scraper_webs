@@ -3964,5 +3964,12 @@
     "tienda": "Flash Store",
     "precio": "85,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/11/ditto1.jpg"
+  },
+  "https://cardzone.es/products/mystery-pack-10-cartas-ar-30-aniversario-japones": {
+    "disponible": true,
+    "nombre": "Mystery Pack 10 Cartas AR 30 Aniversario - Japones",
+    "tienda": "CardZone",
+    "precio": "27,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-16T103205.761.png?v=1794821599"
   }
 }
