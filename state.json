@@ -958,7 +958,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "675,00 €",
+    "precio": "674,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -2423,7 +2423,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Binder collection | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "65,00 €",
+    "precio": "64,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_ce840d41-5414-4491-ae64-98c40b82a59a.png?v=1788424174"
   },
   "https://flashstore.es/producto/celebraciones-30th-figura-pikachu/": {
@@ -3772,7 +3772,7 @@
     "disponible": false,
     "nombre": "Mew y Mewtwo Figure Collection 30 Aniversario | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "74,00 €",
+    "precio": "73,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Mew_y_Mewtwo_Figure_Collection_30_Aniversario_POKEMON_Espa_ol.png?v=1784785420"
   },
   "https://todohits.com/products/ditto-30-aniversario-premium-collection-pokemon-espanol": {
@@ -3971,5 +3971,12 @@
     "tienda": "CardZone",
     "precio": "27,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-16T103205.761.png?v=1794821599"
+  },
+  "https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles": {
+    "disponible": true,
+    "nombre": "Case sellado UPC 30 aniversario , Inglés",
+    "tienda": "Iberian Collect",
+    "precio": "2022,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG_2128.jpg?v=1794838570"
   }
 }
