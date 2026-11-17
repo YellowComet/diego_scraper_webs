@@ -958,7 +958,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - Case X10 ETB Ascended Heroes (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "674,00 €",
+    "precio": "673,00 €",
     "deseo": 55.0,
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/heroes-case-Photoroom.png?v=1771435132"
   },
@@ -2367,28 +2367,28 @@
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration battle deck Umbreon Ex | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "38,00 €",
+    "precio": "37,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/5-Photoroom_2.png?v=1788446612"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-battle-deck-espeon-ex-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration battle deck Espeon Ex | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "38,00 €",
+    "precio": "37,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_6.png?v=1788446394"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-sylveon-ex-box-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Sylveon Ex Box | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "38,00 €",
+    "precio": "37,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_5_3349d2ee-d3e3-4adc-afa3-c07a9607ee19.png?v=1788432991"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-greninja-ex-box-espanol": {
     "disponible": false,
     "nombre": "Pokémon TCG — 30th Celebration Greninja Ex Box | (Español)",
     "tienda": "JJCOLLECTION",
-    "precio": "38,00 €",
+    "precio": "37,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_4_86d6fa21-25d1-4ceb-ad5a-830d40299e8b.png?v=1788432000"
   },
   "https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-espanol": {
@@ -2984,7 +2984,7 @@
     "disponible": false,
     "nombre": "Poster Collection 30 Aniversario | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "38,00 €",
+    "precio": "37,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Poster_Collection_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784707156"
   },
   "https://todohits.com/products/lata-sylveon-greninja-ex-30-aniversario-4-sobres-pokemon-espanol": {
@@ -3236,7 +3236,7 @@
     "disponible": true,
     "nombre": "UPC 30 Aniversario, Celebraciones Pokémon, Inglés",
     "tienda": "Iberian Collect",
-    "precio": "450,00 €",
+    "precio": "449,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/efbd0b9c6fa202a944bd51ab7a792ee3.jpg?v=1790626529"
   },
   "https://todohits.com/products/binder-collection-30-aniversario-pokemon-espanol": {
@@ -3450,7 +3450,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-pokemon-ex-box-f1.webp?v=1788959462"
   },
   "https://sunnystore.es/products/set-completo-first-partner-pokemon-30th-celebration-9-cajas-japones": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "SET COMPLETO FIRST PARTNER POKEMON 30TH CELEBRATION - 9 CAJAS (JAPONÉS)",
     "tienda": "Sunny Store",
     "precio": "174,90 €",
@@ -3976,7 +3976,7 @@
     "disponible": true,
     "nombre": "Case sellado UPC 30 aniversario , Inglés",
     "tienda": "Iberian Collect",
-    "precio": "2021,00 €",
+    "precio": "2019,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG_2128.jpg?v=1794838570"
   },
   "https://www.pokemillon.com/products/ultra-premium-umbreon-30th": {
@@ -3992,5 +3992,19 @@
     "tienda": "Flash Store",
     "precio": "24,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/09/302p.jpg"
+  },
+  "https://metamorphcenter.com/products/sobre-30th-celebration-pokemon-coreano": {
+    "disponible": true,
+    "nombre": "Sobre 30th Anniversary Celebration M6a - Coreano",
+    "tienda": "Metamorph Center",
+    "precio": "7,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/sobre-30th-celebration-m6a-coreano.jpg?v=1794866512"
+  },
+  "https://metamorphcenter.com/products/sobre-30th-celebration-pokemon-japones": {
+    "disponible": true,
+    "nombre": "Sobre 30th Anniversary Celebration M6a - Japonés",
+    "tienda": "Metamorph Center",
+    "precio": "9,50 €",
+    "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/sobre-30th-celebration-m6a-japones.webp?v=1794866501"
   }
 }
