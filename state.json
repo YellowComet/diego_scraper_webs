@@ -4026,5 +4026,12 @@
     "tienda": "UNSOBREMAS",
     "precio": "35,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/battledeck30e.webp?v=1793781126"
+  },
+  "https://todohits.com/products/battle-deck-30-anniversary-pokemon-ingles": {
+    "disponible": false,
+    "nombre": "Battle Deck 30th Celebration | POKÉMON | Inglés",
+    "tienda": "TodoHits",
+    "precio": "49,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Battle_Deck_30th_Celebration_POK_MON_Ingl_s.webp?v=1794933076"
   }
 }
