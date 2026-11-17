@@ -4006,5 +4006,19 @@
     "tienda": "Metamorph Center",
     "precio": "9,50 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/sobre-30th-celebration-m6a-japones.webp?v=1794866501"
+  },
+  "https://unsobremas.com/products/ultra-premium-collection-30th-celebration-en": {
+    "disponible": false,
+    "nombre": "ULTRA-PREMIUM COLLECTION - 30TH CELEBRATION [EN]",
+    "tienda": "UNSOBREMAS",
+    "precio": "399,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/UMBREON30UPC.webp?v=1794839536"
+  },
+  "https://unsobremas.com/products/battle-deck-celebration-30º-en": {
+    "disponible": true,
+    "nombre": "BATTLE DECK - 30TH CELEBRATION [EN]",
+    "tienda": "UNSOBREMAS",
+    "precio": "35,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/battledeck30e.webp?v=1793781126"
   }
 }
