@@ -4040,5 +4040,13 @@
     "tienda": "TodoHits",
     "precio": "83,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Mew_y_Mewtwo_Figure_Collection_30th_Celebration_POK_MON_Ingl_s.jpg?v=1794993093"
+  },
+  "https://cardzone.es/products/pack-completo-27-iniciales-first-partner-sellados-japones": {
+    "disponible": true,
+    "nombre": "Pack Completo 27 Iniciales First Partner Sellados - Japonés",
+    "tienda": "CardZone",
+    "precio": "64,95 €",
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-18T114303.570.png?v=1794998636"
   }
 }
