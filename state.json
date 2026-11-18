@@ -4125,5 +4125,12 @@
     "tienda": "Flash Store",
     "precio": "199,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/10/mini30th.jpg"
+  },
+  "https://www.darizard9.com/products/30th-celebraton-2-pack-blister": {
+    "disponible": false,
+    "nombre": "30th Celebration 2-Pack Blister",
+    "tienda": "Darizard9",
+    "precio": "29,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/preventa-espanol-pokemon-tcg-2-pack-blister-30th-celebration.jpg?v=1788960875"
   }
 }
