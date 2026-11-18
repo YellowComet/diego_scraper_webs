@@ -3982,7 +3982,7 @@
     "disponible": false,
     "nombre": "Case sellado UPC 30 aniversario , Inglés",
     "tienda": "Iberian Collect",
-    "precio": "2015,00 €",
+    "precio": "2016,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG_2128.jpg?v=1794838570"
   },
   "https://www.pokemillon.com/products/ultra-premium-umbreon-30th": {
@@ -4132,5 +4132,12 @@
     "tienda": "Darizard9",
     "precio": "29,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/preventa-espanol-pokemon-tcg-2-pack-blister-30th-celebration.jpg?v=1788960875"
+  },
+  "https://www.pokemillon.com/products/mega-dragonite-ex-asc-271-ascended-heroes": {
+    "disponible": true,
+    "nombre": "Mega Dragonite ex (ASC 271) Ascended Heroes",
+    "tienda": "Pokemillon",
+    "precio": "199,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-19000538.png?v=1795043231"
   }
 }
