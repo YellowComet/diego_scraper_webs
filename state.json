@@ -4050,14 +4050,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-18T114303.570.png?v=1794998636"
   },
   "https://metamorphcenter.com/products/coleccion-figura-mew-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección con Figura Mew Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "49,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/coleccion-figura-mew-30-aniversario-espanol-01.webp?v=1794867993"
   },
   "https://metamorphcenter.com/products/coleccion-figura-mewtwo-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Colección con Figura Mewtwo Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "49,95 €",
@@ -4071,21 +4071,21 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/coleccion-premium-ditto-30-aniversario-espanol-01.webp?v=1794867969"
   },
   "https://metamorphcenter.com/products/danada-poster-collection-30th-celebration-ingles": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "[ DAÑADA ] Poster Collection 30th Celebration 30C - Inglés",
     "tienda": "Metamorph Center",
     "precio": "36,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/poster-collection-30th-celebration-ingles-01-danada.webp?v=1794820721"
   },
   "https://metamorphcenter.com/products/poster-collection-30th-celebration-ingles": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Poster Collection 30th Celebration 30C - Inglés",
     "tienda": "Metamorph Center",
     "precio": "40,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/poster-collection-30th-celebration-ingles-01.webp?v=1794820706"
   },
   "https://metamorphcenter.com/products/danada-album-colecciones-30-aniversario-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "[ DAÑADA ] Álbum para colecciones Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "55,00 €",
@@ -4099,14 +4099,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/album-colecciones-celebracion-30-aniversario-espanol-01.webp?v=1794820678"
   },
   "https://metamorphcenter.com/products/danada-binder-collection-30th-celebration-ingles": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "[ DAÑADA ] Binder Collection 30th Celebration 30C - Inglés",
     "tienda": "Metamorph Center",
     "precio": "70,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/binder-collection-30th-celebration-ingles-01-danada.webp?v=1794820666"
   },
   "https://metamorphcenter.com/products/binder-collection-30th-celebration-ingles": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Binder Collection 30th Celebration 30C - Inglés",
     "tienda": "Metamorph Center",
     "precio": "75,00 €",
