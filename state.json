@@ -2275,14 +2275,14 @@
     "disponible": true,
     "nombre": "Figure Collection Mew 30 Aniversario, Español",
     "tienda": "Iberian Collect",
-    "precio": "84,00 €",
+    "precio": "79,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/26137ddccf2f5378e74027bf82825199.jpg?v=1788503701"
   },
   "https://iberiancollect.com/products/figure-collection-mewtwo-30-aniversario": {
     "disponible": true,
     "nombre": "Figure Collection Mewtwo 30 Aniversario, Español",
     "tienda": "Iberian Collect",
-    "precio": "84,00 €",
+    "precio": "79,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/35ab4d418fec173146df26bb1571973c.jpg?v=1788503705"
   },
   "https://iberiancollect.com/products/sylveon-ex-box-30-aniversario": {
@@ -3187,7 +3187,7 @@
     "disponible": false,
     "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "264,00 €",
+    "precio": "263,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": {
@@ -3450,7 +3450,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30aniv-pokemon-ex-box-f1.webp?v=1788959462"
   },
   "https://sunnystore.es/products/set-completo-first-partner-pokemon-30th-celebration-9-cajas-japones": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "SET COMPLETO FIRST PARTNER POKEMON 30TH CELEBRATION - 9 CAJAS (JAPONÉS)",
     "tienda": "Sunny Store",
     "precio": "174,90 €",
