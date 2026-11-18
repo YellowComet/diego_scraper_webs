@@ -4111,5 +4111,12 @@
     "tienda": "Metamorph Center",
     "precio": "75,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/binder-collection-30th-celebration-ingles-01.webp?v=1794820653"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-booster-bundle/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Booster Bundle",
+    "tienda": "Flash Store",
+    "precio": "59,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/10/celebbundle.jpg"
   }
 }
