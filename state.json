@@ -4118,5 +4118,12 @@
     "tienda": "Flash Store",
     "precio": "59,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/10/celebbundle.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-display-mini-lata/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Display Mini Lata",
+    "tienda": "Flash Store",
+    "precio": "199,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/10/mini30th.jpg"
   }
 }
