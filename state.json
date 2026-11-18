@@ -4050,14 +4050,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-18T114303.570.png?v=1794998636"
   },
   "https://metamorphcenter.com/products/coleccion-figura-mew-30-aniversario-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Colección con Figura Mew Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "49,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/coleccion-figura-mew-30-aniversario-espanol-01.webp?v=1794867993"
   },
   "https://metamorphcenter.com/products/coleccion-figura-mewtwo-30-aniversario-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Colección con Figura Mewtwo Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "49,95 €",
@@ -4085,7 +4085,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/poster-collection-30th-celebration-ingles-01.webp?v=1794820706"
   },
   "https://metamorphcenter.com/products/danada-album-colecciones-30-aniversario-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "[ DAÑADA ] Álbum para colecciones Celebración 30.º Aniversario 30C - Español",
     "tienda": "Metamorph Center",
     "precio": "55,00 €",
