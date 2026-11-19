@@ -4140,5 +4140,12 @@
     "tienda": "Pokemillon",
     "precio": "199,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-11-19000538.png?v=1795043231"
+  },
+  "https://www.darizard9.com/products/30th-celebrton-2-pack-blister": {
+    "disponible": true,
+    "nombre": "30th Celebration 2-Pack Blister",
+    "tienda": "Darizard9",
+    "precio": "29,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/preventa-espanol-pokemon-tcg-2-pack-blister-30th-celebration.jpg?v=1788960875"
   }
 }
