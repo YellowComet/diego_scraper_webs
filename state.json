@@ -859,7 +859,7 @@
     "disponible": false,
     "nombre": "Mini Lata Héroes Ascendentes | POKÉMON | Español",
     "tienda": "TodoHits",
-    "precio": "19,00 €",
+    "precio": "20,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Mini_Tin_Heroes_Ascendentes_POK_MON_Espa_ol.webp?v=1772135415"
   },
   "https://todohits.com/products/blister-2-sobres-heroes-ascendentes-pokemon-espanol": {
@@ -1916,7 +1916,7 @@
     "disponible": false,
     "nombre": "Carta Mega Gengar ex de la colección Ascended Héroes",
     "tienda": "Iberian Collect",
-    "precio": "783,00 €",
+    "precio": "784,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/rn-image_picker_lib_temp_c7697ad8-50c4-4b84-9cd1-2a5034377fd0.jpg?v=1770392312"
   },
   "https://iberiancollect.com/products/etb-ascended-heroes-ingles": {
@@ -4160,5 +4160,12 @@
     "tienda": "Flash Store",
     "precio": "99,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/08/etb30.jpg"
+  },
+  "https://reinodecartas.com/tienda-tcg/pokemon-tcg/30-aniversario/sobre-pokemon-30th-celebration-japones-6-cartas/": {
+    "disponible": true,
+    "nombre": "Sobre Pokémon 30th Celebration japonés | 6 cartas",
+    "tienda": "Reino de Cartas",
+    "precio": "12,50 €",
+    "img": "https://reinodecartas.com/wp-content/uploads/2026/11/sobre-30th-celebration-jp.jpg"
   }
 }
