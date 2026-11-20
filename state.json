@@ -492,7 +492,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0555/8452/2579/files/accul15911.jpg?v=1749381020"
   },
   "https://www.toyplanet.com/products/pokemon-tcg-coleccion-ilustracion-primer-companero-serie-3-6-anos": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Pokémon TCG Colección Ilustración Primer Compañero Serie 3 +6 años",
     "tienda": "Toy Planet",
     "precio": "34,99 €",
@@ -2718,7 +2718,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration booster box (Japonés)",
     "tienda": "JJCOLLECTION",
-    "precio": "180,00 €",
+    "precio": "179,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/13333333333333333333-Photoroom_271051ae-c05f-4340-9da6-8d93970e0977.png?v=1789566151"
   },
   "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-espanol": {
@@ -3187,7 +3187,7 @@
     "disponible": false,
     "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "264,00 €",
+    "precio": "263,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": {
@@ -3634,11 +3634,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/first-partnet-3rd-generation-japones_9d5a6b5e-813a-4337-abf8-c9ae9cfb2db4.png?v=1793131898"
   },
   "https://tcglevel.com/products/first-partner-pokemon-4th-generation-30th-celebration-japones": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "First Partner Pokémon 4th Generation 30th Celebration | Japonés",
     "tienda": "TCG Level",
     "precio": "25,90 €",
-    "obj": 25.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0927/2308/5579/files/first-partnet-4th-generation-japones_a7ee12d7-f6d5-4d60-ae52-57c348c7e61d.png?v=1793132081"
   },
@@ -3983,7 +3982,7 @@
     "disponible": false,
     "nombre": "Case sellado UPC 30 aniversario , Inglés",
     "tienda": "Iberian Collect",
-    "precio": "2015,00 €",
+    "precio": "2014,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG_2128.jpg?v=1794838570"
   },
   "https://www.pokemillon.com/products/ultra-premium-umbreon-30th": {
