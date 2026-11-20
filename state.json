@@ -2015,14 +2015,14 @@
   },
   "https://pokezilla.com/products/umbreon-30-aniversario-especial-ultra-premium-collection": {
     "disponible": false,
-    "nombre": "Pokémon TCG: Umbreon 30 Aniversario Especial Ultra-Premium Collection- PREVENTA",
+    "nombre": "Pokémon TCG: Umbreon 30 Aniversario Especial Ultra-Premium Collection",
     "tienda": "Pokezilla",
     "precio": "419,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon_TCG_30th_Celebration_UPC_Night_EN-copy-scaled-removebg-preview.png?v=1784897484"
   },
   "https://pokezilla.com/products/pokemon-tcg-espeon-30-aniversario-especial-ultra-premium-collection": {
-    "disponible": false,
-    "nombre": "Pokémon TCG: Espeon 30 Aniversario Especial Ultra-Premium Collection- PREVENTA",
+    "disponible": true,
+    "nombre": "Pokémon TCG: Espeon 30 Aniversario Especial Ultra-Premium Collection",
     "tienda": "Pokezilla",
     "precio": "399,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-30th-celebration-ultra-premium-collections-day-out.avif?v=1784897168"
@@ -2581,7 +2581,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/S4df33647ff2042678489de62d3096fb1c_jpg_960x960q75_jpg.png?v=1789063792"
   },
   "https://www.pokemillon.com/products/caja-20-sobres-pokemon-30th-anniversary-m6a": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Booster Box 20 Sobres Pokémon 30th Celebration Ch",
     "tienda": "Pokemillon",
     "precio": "99,90 €",
