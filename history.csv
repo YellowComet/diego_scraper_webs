@@ -203,8 +203,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-15 06:39,EX Box,Darizard9,30th Celebration Greninja Ex Box,"59,99 €",True,https://www.darizard9.com/products/30th-celebration-greninja-x-box-1
 2026-10-15 06:39,EX Box,Darizard9,30th Celebration Sylveon Ex Box,"59,99 €",True,https://www.darizard9.com/products/30th-celebration-greninja-x-box
 2026-10-15 10:25,Mini Lata,UNSOBREMAS,TINS - MINI TINS 30TH CELEBRATION [EN],"25,95 €",True,https://unsobremas.com/products/tins-mini-tins-30th-celebration-en
-2026-10-15 17:22,Colección Greninja ex 30 Aniversario,Iberian Collect,Colección Greninja ex 30 Aniversario,"53,00 €",False,https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario
-2026-10-15 17:22,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )","601,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles
 2026-10-15 17:35,ETB,TodoHits,ETB Heroes Ascendentes | Elite Trainer Box | POKÉMON | Español,"81,00 €",False,https://todohits.com/products/etb-heroes-ascendentes-elite-trainer-box-pokemon-espanol
 2026-10-15 17:56,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"801,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
 2026-10-15 17:56,ETB,Iberian Collect,"ETB Ascended Heroes , Ingles","201,00 €",False,https://iberiancollect.com/products/etb-ascended-heroes-ingles
@@ -8203,3 +8201,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-20 22:13,Mini Lata,TodoHits,Mini Lata Héroes Ascendentes | POKÉMON | Español,"20,00 €",False,https://todohits.com/products/mini-tin-heroes-ascendentes-pokemon-espanol
 2026-11-20 22:13,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"784,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
 2026-11-20 22:13,Sobre,Reino de Cartas,Sobre Pokémon 30th Celebration japonés | 6 cartas,"12,50 €",True,https://reinodecartas.com/tienda-tcg/pokemon-tcg/30-aniversario/sobre-pokemon-30th-celebration-japones-6-cartas/
+2026-11-20 23:14,Caja 36,JJCOLLECTION,Pokémon TCG - 30th Celebration booster box (Japonés),"180,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones
+2026-11-20 23:14,UPC,Iberian Collect,"Case sellado UPC 30 aniversario , Inglés","2015,00 €",False,https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles
