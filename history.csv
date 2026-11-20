@@ -203,8 +203,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-15 06:39,EX Box,Darizard9,30th Celebration Greninja Ex Box,"59,99 €",True,https://www.darizard9.com/products/30th-celebration-greninja-x-box-1
 2026-10-15 06:39,EX Box,Darizard9,30th Celebration Sylveon Ex Box,"59,99 €",True,https://www.darizard9.com/products/30th-celebration-greninja-x-box
 2026-10-15 10:25,Mini Lata,UNSOBREMAS,TINS - MINI TINS 30TH CELEBRATION [EN],"25,95 €",True,https://unsobremas.com/products/tins-mini-tins-30th-celebration-en
-2026-10-15 10:25,Booster Bundle,UNSOBREMAS,BOOSTER BUNDLE - 30TH CELEBRATION [EN],"74,95 €",False,https://unsobremas.com/products/booster-bundle-30th-celebration-en
-2026-10-15 11:03,Coleccion Pegatinas,Pokedex Card,Pokémon TCG: Blister 30th Anniversary Celebration – 100% Oficial (Bandai),"45,95 €",False,https://www.pokedexcards.com/products/pokemon-tcg-blister-30th-anniversary-celebration-100-oficial-bandai-element-collector
 2026-10-15 11:36,UPC (umbreon),JJCOLLECTION,Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español),"286,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex-ingles-espanol-copia
 2026-10-15 11:36,UPC (espeon),JJCOLLECTION,Pokémon TCG - 30th Celebration Ultra Premium Collection Day | Espeon ex (Inglés & Español),"286,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex-ingles-espanol
 2026-10-15 11:36,Caja 36,JJCOLLECTION,Pokémon TCG - 30th Celebration booster box (Japonés),"183,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones
@@ -8203,3 +8201,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-20 15:16,Album,TodoHits,Binder Collection 30 Aniversario | POKÉMON | Inglés,"84,00 €",False,https://todohits.com/products/binder-collection-30-aniversario-pokemon-ingles
 2026-11-20 15:16,UPC,Iberian Collect,"Case sellado UPC 30 aniversario , Inglés","2017,00 €",False,https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles
 2026-11-20 15:16,ETB,Flash Store,Celebraciones 30th ETB,"99,90 €",True,https://flashstore.es/producto/celebraciones-30th-etb/
+2026-11-20 15:24,Mini Lata,Sunny Store,MINI LATA POKEMON 30 ANIVERSARIO CELEBRACIONES (INGLÉS),"24,90 €",True,https://sunnystore.es/products/mini-lata-pokemon-30-aniversario-celebraciones-ingles
+2026-11-20 15:24,Mini Lata,Sunny Store,MINI LATA POKEMON 30 ANIVERSARIO CELEBRACIONES (ESPAÑOL),"19,90 €",True,https://sunnystore.es/products/mini-lata-pokemon-30-aniversario-celebraciones-espanol
