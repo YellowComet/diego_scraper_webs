@@ -2010,11 +2010,11 @@
     "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Elite Trainer Box",
     "tienda": "Pokezilla",
-    "precio": "129,95 €",
+    "precio": "99,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/pokemon-30-anivesario-etb-6.webp?v=1783428666"
   },
   "https://pokezilla.com/products/umbreon-30-aniversario-especial-ultra-premium-collection": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: Umbreon 30 Aniversario Especial Ultra-Premium Collection",
     "tienda": "Pokezilla",
     "precio": "419,95 €",
@@ -2031,7 +2031,7 @@
     "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Booster Bundle (6 packs)",
     "tienda": "Pokezilla",
-    "precio": "69,95 €",
+    "precio": "54,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/P11460_10-10451-115_01-removebg-preview.png?v=1784897225"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-booster-bundle-display-10-unidades-preventa": {
@@ -3110,14 +3110,14 @@
     "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Poster Collection",
     "tienda": "Pokezilla",
-    "precio": "49,95 €",
+    "precio": "37,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-coleccion-poster-collection-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg.webp?v=1790167917"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-ex-box-greninja-sylveon": {
     "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Ex Box (Greninja & Sylveon)",
     "tienda": "Pokezilla",
-    "precio": "59,95 €",
+    "precio": "44,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-coleccion-celebracion-30-aniversario-30th-anniversary-collection-ex-sylveon-greninja-cartas-pokemon-tcg_57fd5f15-8d81-4133-8a95-18c49198ce55.webp?v=1790168463"
   },
   "https://unsobremas.com/products/elite-trainer-box-30th-celebration-en": {
