@@ -721,10 +721,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/blister-3-sobres-heroes-ascendentes.png?v=1771347469"
   },
   "https://www.pokemillon.com/products/pokemon-day-2026-collection": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon Day 2026 Collection (30 Aniversario)",
     "tienda": "Pokemillon",
-    "precio": "32,90 €",
+    "precio": "34,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_Day_2026_Collection_Sin_fondo_Pokemillon.png?v=1775553893"
   },
   "https://www.pokemillon.com/products/blister-3-gastly": {
