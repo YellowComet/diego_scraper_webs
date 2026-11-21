@@ -3881,7 +3881,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Pokemon-TCG-30th-Anniversary-Celebration-Battle-Deck-_-Umbreon-ex-_-English.jpg?v=1794477836"
   },
   "https://www.darizard9.com/products/battle-deck-30th-anniversary-espeon": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Battle Deck 30th Anniversary Espeon",
     "tienda": "Darizard9",
     "precio": "35,99 €",
@@ -3944,7 +3944,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/194447_A_JPG.webp?v=1794760628"
   },
   "https://www.darizard9.com/products/battle-deck-30th-annversary-umbreon": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Battle Deck 30th Anniversary Umbreon",
     "tienda": "Darizard9",
     "precio": "35,99 €",
