@@ -206,7 +206,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-17 10:34,UPC,AllinTCG,Colección Ultra Premium - 30th Anniversary [ENG],"459,95 €",True,https://allintcg.com/products/coleccion-ultra-premium-30th-anniversary-eng
 2026-10-17 22:32,Lata,Iberian Collect,"Lata Pokémon 30 Aniversario EX Tin, Español","44,99 €",True,https://iberiancollect.com/products/lata-pokemon-30-aniversario-ex-tin-espanol
 2026-10-18 20:22,Coleccion Ilustracion S2,Metamorph Center,First Partner Illustration Collection Serie 2 - Español,"34,95 €",True,https://metamorphcenter.com/products/first-partner-illustration-collection-serie-2-espanol
-2026-10-19 02:57,EX Box,Iberian Collect,Sylveon ex Box 30 Aniversario,"69,00 €",True,https://iberiancollect.com/products/sylveon-ex-box-30-aniversario
 2026-10-19 02:57,Colección Greninja ex 30 Aniversario,Iberian Collect,Colección Greninja ex 30 Aniversario,"53,00 €",False,https://iberiancollect.com/products/coleccion-greninja-ex-30-aniversario
 2026-10-19 02:57,ETB,Iberian Collect,Combo Booster Box Perfect Order + ETB 30 Aniversario,"270,00 €",False,https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario
 2026-10-19 02:57,UPC,Iberian Collect,"UPC 30 Aniversario, Celebraciones Pokémon, Inglés ( Próximamente )","602,00 €",False,https://iberiancollect.com/products/upc-30-aniversario-celebraciones-pokemon-ingles
@@ -8206,3 +8205,4 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-21 13:13,BATTLE DECK POKEMON 30TH CELEBRACIONES (ESPAÑOL),Sunny Store,BATTLE DECK POKEMON 30TH CELEBRACIONES (ESPAÑOL),"32,90 €",True,https://sunnystore.es/products/battle-deck-pokemon-30th-celebraciones-espanol
 2026-11-21 13:13,BATTLE DECK POKEMON 30TH CELEBRATION (INGLÉS),Sunny Store,BATTLE DECK POKEMON 30TH CELEBRATION (INGLÉS),"34,90 €",True,https://sunnystore.es/products/battle-deck-pokemon-30th-celebration-ingles
 2026-11-21 13:13,UPC,Sunny Store,UPC POKEMON ULTRA PREMIUM COLLECTION 30TH CELEBRATIONS (INGLÉS),"399,90 €",False,https://sunnystore.es/products/upc-pokemon-ultra-premium-collection-30th-celebrations-ingles
+2026-11-21 13:21,ETB,Sunny Store,ETB POKEMON 30TH CELEBRACIONES ELITE TRAINER BOX (ESPAÑOL),"84,90 €",False,https://sunnystore.es/products/etb-pokemon-3oth-celebraciones-elite-trainer-box-espanol
