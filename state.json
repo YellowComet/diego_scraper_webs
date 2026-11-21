@@ -3845,7 +3845,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-figure-collection-1.webp?v=1794294735"
   },
   "https://www.darizard9.com/products/figure-collection-mewtwo-30th-anniversary": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Figure Collection Mewtwo 30th Anniversary",
     "tienda": "Darizard9",
     "precio": "79,99 €",
