@@ -4223,5 +4223,12 @@
     "tienda": "Sunny Store",
     "precio": "399,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/upc_30aniversario_estudio_blanco.jpg?v=1795191283"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-sobre-japones/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Sobre Japonés",
+    "tienda": "Flash Store",
+    "precio": "7,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/11/jpsobre.jpg"
   }
 }
