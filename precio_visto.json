@@ -13,7 +13,7 @@
   "https://thecardstation.es/product/coleccion-ilustracion-%c2%b7-primer-companero-%c2%b7-serie-2-pokemon-tcg/": "29,95 €|True",
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-3-espanol": "34,95 €|True",
   "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-2-espanol": "29,95 €|True",
-  "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol": "44,95 €|False",
+  "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol": "44,95 €|True",
   "https://cardzone.es/products/blister-heroes-ascendentes-espanol": "19,95 €|False",
   "https://cardzone.es/products/etb-caja-de-entrenador-elite-equilibrio-perfecto-protector-acrilico-para-etb": "None|False",
   "https://cardzone.es/products/booster-bundle-heroes-ascendentes-espanol": "49,95 €|False",
@@ -553,7 +553,7 @@
   "https://www.darizard9.com/products/mazo-combate-30-anivrsario": "33,99 €|False",
   "https://flashstore.es/producto/celebraciones-30th-ditto-premium-collection/": "84,90 €|True",
   "https://cardzone.es/products/mystery-pack-10-cartas-ar-30-aniversario-japones": "27,95 €|True",
-  "https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles": "2014,00 €|False",
+  "https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles": "2015,00 €|False",
   "https://www.pokemillon.com/products/ultra-premium-umbreon-30th": "289,90 €|True",
   "https://flashstore.es/producto/celebraciones-30th-blister-2-pack/": "24,90 €|True",
   "https://metamorphcenter.com/products/sobre-30th-celebration-pokemon-coreano": "7,00 €|True",
@@ -588,5 +588,7 @@
   "https://sunnystore.es/products/battle-deck-pokemon-30th-celebraciones-espanol": "32,90 €|True",
   "https://sunnystore.es/products/battle-deck-pokemon-30th-celebration-ingles": "34,90 €|True",
   "https://sunnystore.es/products/upc-pokemon-ultra-premium-collection-30th-celebrations-ingles": "399,90 €|False",
-  "https://flashstore.es/producto/celebraciones-30th-sobre-japones/": "7,90 €|True"
+  "https://flashstore.es/producto/celebraciones-30th-sobre-japones/": "7,90 €|True",
+  "https://flashstore.es/producto/celebraciones-30th-ultra-premium-collection-espeon/": "369,90 €|True",
+  "https://flashstore.es/producto/celebraciones-30th-ultra-premium-collection-umbreon/": "389,90 €|True"
 }
