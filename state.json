@@ -4245,5 +4245,12 @@
     "tienda": "Flash Store",
     "precio": "389,90 €",
     "img": "https://flashstore.es/wp-content/uploads/2026/11/noche.jpg"
+  },
+  "https://flashstore.es/producto/celebraciones-30th-tin/": {
+    "disponible": true,
+    "nombre": "Celebraciones 30th Tin",
+    "tienda": "Flash Store",
+    "precio": "49,90 €",
+    "img": "https://flashstore.es/wp-content/uploads/2026/09/30thtin.jpg"
   }
 }
