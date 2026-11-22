@@ -728,14 +728,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_Day_2026_Collection_Sin_fondo_Pokemillon.png?v=1775553893"
   },
   "https://www.pokemillon.com/products/blister-3-gastly": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blíster 3 Sobres Gastly Héroes Ascendentes | Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "21,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2025-11-20114605.png?v=1769159887"
   },
   "https://www.pokemillon.com/products/blister-3-sobres-ascended-heroes": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Blíster 3 Sobres Charmander Héroes Ascendentes | Ascended Heroes",
     "tienda": "Pokemillon",
     "precio": "22,90 €",
@@ -1689,7 +1689,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-06-07142739.png?v=1787737304"
   },
   "https://www.pokemillon.com/products/premium-deck-pokemon-30th-anniversary": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Espeon ex and Umbreon ex Deck Pokémon 30th Anniversary",
     "tienda": "Pokemillon",
     "precio": "129,90 €",
