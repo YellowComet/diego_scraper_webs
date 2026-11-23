@@ -207,9 +207,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-17 22:32,Lata,Iberian Collect,"Lata Pokémon 30 Aniversario EX Tin, Español","44,99 €",True,https://iberiancollect.com/products/lata-pokemon-30-aniversario-ex-tin-espanol
 2026-10-18 20:22,Coleccion Ilustracion S2,Metamorph Center,First Partner Illustration Collection Serie 2 - Español,"34,95 €",True,https://metamorphcenter.com/products/first-partner-illustration-collection-serie-2-espanol
 2026-10-20 12:33,Sobre,Sunny Store,BOOSTER POKEMON 30TH CELEBRATION M6A - SOBRE COREANO,"6,00 €",True,https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-coreano
-2026-10-20 18:27,Coleccion Ilustracion S1,TodoHits,First partner Series 1 Illustration Collection | POKÉMON | Español (Primer Compañero),"62,00 €",False,https://todohits.com/products/reserva-first-partner-illustration-collection-series-1-pokemon-espanol
-2026-10-20 18:27,Poster,TodoHits,Premium Poster Collection Heroes Ascendentes | POKÉMON | Español,"121,00 €",False,https://todohits.com/products/reserva-premium-poster-collection-heroes-ascendentes-pokemon-espanol
-2026-10-20 18:27,Pin Collection,TodoHits,Deluxe Pin Collection Heroes Ascendentes | POKÉMON | Español,"62,00 €",False,https://todohits.com/products/pin-collection-deluxe-heroes-ascendentes-pokemon-espanol
 2026-10-20 18:27,Mini Lata,TodoHits,Mini Lata Héroes Ascendentes | POKÉMON | Español,"28,00 €",False,https://todohits.com/products/mini-tin-heroes-ascendentes-pokemon-espanol
 2026-10-20 18:27,Coleccion Pegatinas,TodoHits,Blister 2 Sobres Héroes Ascendentes | POKÉMON | Español,"29,00 €",False,https://todohits.com/products/blister-2-sobres-heroes-ascendentes-pokemon-espanol
 2026-10-20 18:27,Coleccion Pegatinas,TodoHits,Tech Sticker 3 Sobres Ascended heroes | POKÉMON | Inglés,"46,00 €",False,https://todohits.com/products/tech-sticker-3-sobres-ascended-heroes-pokemon-ingles
@@ -8207,3 +8204,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-22 22:30,Lata,Flash Store,Celebraciones 30th Tin,"49,90 €",True,https://flashstore.es/producto/celebraciones-30th-tin/
 2026-11-22 23:14,Caja 36,JJCOLLECTION,Pokémon TCG - 30th Celebration booster box (Japonés),"180,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-booster-box-japones
 2026-11-22 23:14,UPC,Iberian Collect,"Case sellado UPC 30 aniversario , Inglés","2015,00 €",False,https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles
+2026-11-23 01:17,ETB,Iberian Collect,Combo Booster Box Perfect Order + ETB 30 Aniversario,"264,00 €",False,https://iberiancollect.com/products/combo-booster-box-perfect-order-etb-30-aniversario
+2026-11-23 01:17,Album,TodoHits,Binder Collection 30 Aniversario | POKÉMON | Español,"76,00 €",False,https://todohits.com/products/binder-collection-30-aniversario-pokemon-espanol
+2026-11-23 01:17,UPC,Iberian Collect,"Case sellado UPC 30 aniversario , Inglés","2016,00 €",False,https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles
