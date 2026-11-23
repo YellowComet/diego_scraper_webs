@@ -206,7 +206,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-17 22:32,Lata,Iberian Collect,"Lata Pokémon 30 Aniversario EX Tin, Español","44,99 €",True,https://iberiancollect.com/products/lata-pokemon-30-aniversario-ex-tin-espanol
 2026-10-18 20:22,Coleccion Ilustracion S2,Metamorph Center,First Partner Illustration Collection Serie 2 - Español,"34,95 €",True,https://metamorphcenter.com/products/first-partner-illustration-collection-serie-2-espanol
 2026-10-20 12:33,Sobre,Sunny Store,BOOSTER POKEMON 30TH CELEBRATION M6A - SOBRE COREANO,"6,00 €",True,https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-coreano
-2026-10-20 18:50,ETB,Iberian Collect,"ETB Heroes Ascendentes , Español","98,00 €",False,https://iberiancollect.com/products/etb-heroes-ascendidos-espanol
 2026-10-20 18:50,Poster,Iberian Collect,"Coleccion Premium con poster , Héroes Ascendentes , Español,","98,00 €",False,https://iberiancollect.com/products/coleccion-premium-con-poster-heroes-ascendentes-espanol
 2026-10-20 18:50,Carta Mega Gengar ex de la colección Ascended Héroes,Iberian Collect,Carta Mega Gengar ex de la colección Ascended Héroes,"803,00 €",False,https://iberiancollect.com/products/carta-mega-gengar-ex-de-la-coleccion-ascended-heroes
 2026-10-20 18:50,ETB,Iberian Collect,"ETB Ascended Heroes , Ingles","201,00 €",False,https://iberiancollect.com/products/etb-ascended-heroes-ingles
@@ -8206,3 +8205,4 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-23 14:17,ETB,TodoHits,[Plástico Roto] ETB 30th Celebration | Elite Trainer Box | POKÉMON | Inglés,"145,00 €",False,https://todohits.com/products/etb-30-aniversario-pokemon-elite-trainer-box-pokemon-ingles
 2026-11-23 14:17,UPC,Iberian Collect,"Case sellado UPC 30 aniversario , Inglés","2007,00 €",False,https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles
 2026-11-23 14:17,UPC,TodoHits,Ultra Premium 30 Aniversario Espeon y Umbreon | POKÉMON | Español,"424,00 €",False,https://todohits.com/products/ultra-premium-30-aniversario-espeon-y-umbreon-pokemon-espanol
+2026-11-23 15:15,Coleccion Ilustracion S2,TodoHits,First partner Series 2 Illustration Collection | POKÉMON | Español (Primer Compañero),"39,00 €",False,https://todohits.com/products/first-partner-illustration-collection-series-2-pokemon-espanol-primer-companero
