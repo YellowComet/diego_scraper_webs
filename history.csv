@@ -72,7 +72,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-08-30 22:19,Pin Collection,Flash Store,Heroes Ascendentes First Partners Deluxe Pin Collection,"36,90 €",True,https://flashstore.es/producto/heroes-ascendentes-first-partners-deluxe-pin-collection/
 2026-08-30 22:19,Mini Lata,Flash Store,Heroes Ascendentes Mini Lata,"19,90 €",True,https://flashstore.es/producto/heroes-ascendentes-mini-lata/
 2026-08-31 11:20,Caja 36,Flash Store,151 First Partner Display,"26,90 €",True,https://flashstore.es/producto/151-first-partner-display/
-2026-09-02 11:31,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"279,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
 2026-09-03 17:43,Coleccion Ilustracion S1,Iberian Collect,First Partner Illustration Collection Series 1 ( Castellano),"39,50 €",True,https://iberiancollect.com/products/pokemon-first-partner-espanol
 2026-09-05 12:46,UPC (umbreon),JJCOLLECTION,Pokémon TCG — 30th Celebration Ultra Premium Collection Night | Umbreon ex (Inglés & Español),"297,00 €",True,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex-ingles-espanol-copia
 2026-09-05 13:01,Poster,JJCOLLECTION,Pokémon TCG — 30th Celebration Poster Collection | (Español),"35,00 €",True,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-poster-collection-espanol
@@ -206,8 +205,6 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-10-17 22:32,Lata,Iberian Collect,"Lata Pokémon 30 Aniversario EX Tin, Español","44,99 €",True,https://iberiancollect.com/products/lata-pokemon-30-aniversario-ex-tin-espanol
 2026-10-18 20:22,Coleccion Ilustracion S2,Metamorph Center,First Partner Illustration Collection Serie 2 - Español,"34,95 €",True,https://metamorphcenter.com/products/first-partner-illustration-collection-serie-2-espanol
 2026-10-20 12:33,Sobre,Sunny Store,BOOSTER POKEMON 30TH CELEBRATION M6A - SOBRE COREANO,"6,00 €",True,https://sunnystore.es/products/booster-pokemon-30th-celebration-m6a-sobre-coreano
-2026-10-20 18:50,Pokémon TCG — 30th Celebration battle deck Espeon Ex | (Español),JJCOLLECTION,Pokémon TCG — 30th Celebration battle deck Espeon Ex | (Español),"38,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-battle-deck-espeon-ex-espanol
-2026-10-20 18:50,EX Box,JJCOLLECTION,Pokémon TCG — 30th Celebration Sylveon Ex Box | (Español),"38,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-sylveon-ex-box-espanol
 2026-10-20 18:50,EX Box,JJCOLLECTION,Pokémon TCG — 30th Celebration Greninja Ex Box | (Español),"38,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-greninja-ex-box-espanol
 2026-10-20 18:50,Pokémon TCG — 30th Celebration Figure Collection Mewtwo | (Español),JJCOLLECTION,Pokémon TCG — 30th Celebration Figure Collection Mewtwo | (Español),"54,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-espanol
 2026-10-20 18:50,Pokémon TCG — 30th Celebration Figure Collection Mew | (Español),JJCOLLECTION,Pokémon TCG — 30th Celebration Figure Collection Mew | (Español),"54,00 €",False,https://www.jjcollection.es/products/pokemon-tcg-30th-celebration-figure-collection-mew-espanol
@@ -8206,3 +8203,5 @@ fecha,clave,tienda,nombre,precio,disponible,url
 2026-11-23 16:16,Ditto 30 Aniversario Premium Collection | POKÉMON | Español,TodoHits,Ditto 30 Aniversario Premium Collection | POKÉMON | Español,"89,00 €",False,https://todohits.com/products/ditto-30-aniversario-premium-collection-pokemon-espanol
 2026-11-23 16:16,UPC,Iberian Collect,"Case sellado UPC 30 aniversario , Inglés","2002,00 €",False,https://iberiancollect.com/products/case-sellado-upc-30-aniversario-ingles
 2026-11-23 16:16,UPC,TodoHits,Ultra Premium 30 Aniversario Espeon y Umbreon | POKÉMON | Español,"423,00 €",False,https://todohits.com/products/ultra-premium-30-aniversario-espeon-y-umbreon-pokemon-espanol
+2026-11-23 16:41,Caja 36,Pokezilla,30th CELEBRATION Japanese Booster Box,"199,95 €",True,https://pokezilla.com/products/m6a-30th-celebration-japanese-booster-box
+2026-11-23 16:41,Sobre,Metamorph Center,Sobre 30th Anniversary Celebration M6a - Japonés,"9,50 €",True,https://metamorphcenter.com/products/sobre-30th-celebration-pokemon-japones
