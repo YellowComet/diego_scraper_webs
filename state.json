@@ -2718,7 +2718,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration booster box (Japonés)",
     "tienda": "JJCOLLECTION",
-    "precio": "180,00 €",
+    "precio": "179,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/13333333333333333333-Photoroom_271051ae-c05f-4340-9da6-8d93970e0977.png?v=1789566151"
   },
   "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-espanol": {
@@ -3187,7 +3187,7 @@
     "disponible": false,
     "nombre": "Combo Booster Box Perfect Order + ETB 30 Aniversario",
     "tienda": "Iberian Collect",
-    "precio": "264,00 €",
+    "precio": "263,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/e67b5d97de28cb18fc63c082817ac1b3.jpg?v=1790331597"
   },
   "https://iberiancollect.com/products/etb-30-aniversario-celebraciones-pokemon-espanol-con-pequenas-roturas-en-el-plastico-ideal-para-abrir": {
@@ -3920,7 +3920,7 @@
     "nombre": "Celebraciones 30th Mini Lata",
     "tienda": "Flash Store",
     "precio": "19,90 €",
-    "img": "https://flashstore.es/wp-content/uploads/2026/10/mini30th.jpg"
+    "img": "https://flashstore.es/wp-content/uploads/2026/10/30mini.jpg"
   },
   "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp": {
     "disponible": false,
@@ -4258,5 +4258,19 @@
     "tienda": "TodoHits",
     "precio": "426,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Ultra_Premium_30_Aniversario_Espeon_y_Umbreon_POKEMON_Espa_ol.png?v=1784787770"
+  },
+  "https://cardzone.es/products/baraja-combate-30th-celebration-battle-deck-ingles": {
+    "disponible": true,
+    "nombre": "Baraja Combate 30th Celebration Battle Deck - Ingles",
+    "tienda": "CardZone",
+    "precio": "35,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-24T143444.439.png?v=1795527313"
+  },
+  "https://cardzone.es/products/caja-first-partner-coleccion-ilustracion-primer-companero-serie-2-ingles": {
+    "disponible": true,
+    "nombre": "Caja First Partner Colección Ilustración Primer Compañero Serie 2 - Ingles",
+    "tienda": "CardZone",
+    "precio": "39,95 €",
+    "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/caja-first-partner-primer-companero-illustration-collection-serie-2-cartas-pokemon-tcg-cardzone_2.png?v=1795527710"
   }
 }
