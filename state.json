@@ -4279,5 +4279,13 @@
     "tienda": "Pokezilla",
     "precio": "64,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-coleccion-premium-ditto-celebracion-30-aniversario-30th-anniversary-cartas-pokemon-tcg.webp?v=1795597632"
+  },
+  "https://todohits.com/products/japanese-30th-celebration-first-partner-card-set-pokemon-japones": {
+    "disponible": false,
+    "nombre": "Set Completo x9 First Partner Card Set Japanese 30th Celebration | POKÉMON | Japonés",
+    "tienda": "TodoHits",
+    "precio": "218,00 €",
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Japanese_30th_Celebration_First_Partner_Card_Set_POK_MON_Japones.webp?v=1795537506"
   }
 }
