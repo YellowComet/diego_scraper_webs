@@ -390,10 +390,11 @@
     "precio": "26,90 €"
   },
   "https://factorycardstcg.com/products/primer-companero-pokemon-series-3-espanol-copia": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "POKEMON - Primer Compañero Series 3 - Español",
     "tienda": "Factory Cards TCG",
     "precio": "25,00 €",
+    "obj": 25.0,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/9668DD95-FA8F-41E0-AEE6-24A4C0F70974.jpg?v=1783694379"
   },
@@ -406,10 +407,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/s2.jpg?v=1781512180"
   },
   "https://factorycardstcg.com/products/pokemon-bundle-heroes-ascendentes-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "POKEMON - Bundle Héroes Ascendentes - Español",
     "tienda": "Factory Cards TCG",
-    "precio": "44,95 €",
+    "precio": "60,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/bundlesascended_7a803b12-f610-4fc2-a0df-f897ce2b9b34.jpg?v=1777062378"
   },
   "https://factorycardstcg.com/products/pokemon-caja-pin-deluxe-heroes-ascendentes": {
@@ -427,7 +428,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/CapturadePantalla2025-11-25alas11.59.27.png?v=1764068991"
   },
   "https://factorycardstcg.com/products/reserva-heroes-ascendentes-elite-trainer-box-etb-espanol": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "POKEMON - Heroes Ascendentes ETB - Español",
     "tienda": "Factory Cards TCG",
     "precio": "100,00 €",
@@ -2667,10 +2668,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/30c-furbox-jp-v2.webp?v=1789550428"
   },
   "https://factorycardstcg.com/products/pokemon-30t-anniversay-japones-futuristic-box": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "POKEMON - 30th anniversay Japones - Booster Box (M6A)",
     "tienda": "Factory Cards TCG",
-    "precio": "182,95 €",
+    "precio": "185,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/30th-celebration-booster-box-m6a-japones.webp?v=1789550189"
   },
   "https://factorycardstcg.com/products/pokemon-30t-anniversay-japones-deck-espeon-umbreon": {
@@ -2719,7 +2720,7 @@
     "disponible": false,
     "nombre": "Pokémon TCG - 30th Celebration booster box (Japonés)",
     "tienda": "JJCOLLECTION",
-    "precio": "179,00 €",
+    "precio": "180,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/13333333333333333333-Photoroom_271051ae-c05f-4340-9da6-8d93970e0977.png?v=1789566151"
   },
   "https://todohits.com/products/blister-2-sobres-30-aniversario-pokemon-espanol": {
@@ -3981,7 +3982,7 @@
     "disponible": false,
     "nombre": "Case sellado UPC 30 aniversario , Inglés",
     "tienda": "Iberian Collect",
-    "precio": "2014,00 €",
+    "precio": "2015,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/IMG_2128.jpg?v=1794838570"
   },
   "https://www.pokemillon.com/products/ultra-premium-umbreon-30th": {
@@ -4300,5 +4301,33 @@
     "tienda": "Pokemillon",
     "precio": "39,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Tech_Sticker_Collection_Lucario_EN-copy.jpg?v=1782840649"
+  },
+  "https://factorycardstcg.com/products/pokemon-bundle-ascended-heroes-ingles": {
+    "disponible": true,
+    "nombre": "POKEMON - Bundle Ascended Heroes INGLES",
+    "tienda": "Factory Cards TCG",
+    "precio": "80,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/bundlesascended_7a803b12-f610-4fc2-a0df-f897ce2b9b34.jpg?v=1777062378"
+  },
+  "https://factorycardstcg.com/products/pokemon-30th-aniversario-ingles": {
+    "disponible": true,
+    "nombre": "POKEMON - 30th Aniversario - Inglés",
+    "tienda": "Factory Cards TCG",
+    "precio": "25,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/PK603933_POKEMON_30TH_TRU_ES_Newsletter_Principal_600x600_c22937a1-c5ca-4b3a-a91e-4fda6c544173.png?v=1789456463"
+  },
+  "https://factorycardstcg.com/products/pokemon-30th-aniversario-espanol": {
+    "disponible": true,
+    "nombre": "POKEMON - 30th Aniversario - Español",
+    "tienda": "Factory Cards TCG",
+    "precio": "20,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/PK603933_POKEMON_30TH_TRU_ES_Newsletter_Principal_600x600_c22937a1-c5ca-4b3a-a91e-4fda6c544173.png?v=1789456463"
+  },
+  "https://factorycardstcg.com/products/tech-sticker-blister-3-sobres-heroes-ascendentes-espanol": {
+    "disponible": true,
+    "nombre": "POKEMON - Tech Sticker Blister 3 Sobres Héroes Ascendentes - Español",
+    "tienda": "Factory Cards TCG",
+    "precio": "23,00 €",
+    "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/stickercollec.jpg?v=1770200564"
   }
 }
