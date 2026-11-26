@@ -2512,14 +2512,14 @@
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Lata_30_Aniversario_Pokemon_Sylveon_Greninja_Pokemon_La_boveda_friki.png?v=1787394299"
   },
   "https://labovedafriki.es/products/battle-deck-30-aniversario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Battle deck 30 Aniversario",
     "tienda": "La Boveda Friki",
     "precio": "49,90 €",
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Battle_Decks_Umbreon_Espeon_Pokemon_30_aniversario_la_boveda_friki.png?v=1787393403"
   },
   "https://labovedafriki.es/products/poster-collection-30-aniversario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Poster Collection 30 Aniversario",
     "tienda": "La Boveda Friki",
     "precio": "42,90 €",
@@ -2568,7 +2568,7 @@
     "img": "https://flashstore.es/wp-content/uploads/2026/09/30celeb.jpg"
   },
   "https://labovedafriki.es/products/booster-box-30-aniversario-jp": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Booster Box 30 Aniversario JP",
     "tienda": "La Boveda Friki",
     "precio": "174,90 €",
@@ -3515,11 +3515,10 @@
     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/upc_30aniv.webp?v=1791922124"
   },
   "https://labovedafriki.es/products/first-partner-collection-pokemon-30th-celebration": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "First Partner Collection Pokemon 30TH Celebration",
     "tienda": "La Boveda Friki",
     "precio": "19,90 €",
-    "obj": 19.9,
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/first-partner-30-aniversario-japones-set-completo_957ffd63-280c-41a4-857e-eacbb1aacdae.png?v=1792337471"
   },
@@ -3754,7 +3753,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/First_partner_Series_3_Illustration_Collection_POKEMON_Espa_ol_Primer_Compa_ero.jpg?v=1782485381"
   },
   "https://labovedafriki.es/products/booster-box-30-aniversario-chn": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Booster Box 30 Aniversario CHN",
     "tienda": "La Boveda Friki",
     "precio": "99,99 €",
