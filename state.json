@@ -1469,7 +1469,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/caja-first-partner-primer-companero-illustration-collection-serie-3-cartas-pokemon-tcg-cardzone.webp?v=1786605286"
   },
   "https://www.darizard9.com/products/case-x6-primer-companero-serie-3-espanol": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Case x6 Primer Compañero Serie 3 Español",
     "tienda": "Darizard9",
     "precio": "179,99 €",
@@ -4155,7 +4155,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/caja-coleccion-especial-con-figura-mew-mewtwo-30-aniversario-celebracion-cartas-pokemon.webp?v=1795185203"
   },
   "https://flashstore.es/producto/celebraciones-30th-etb/": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "[BF] Celebraciones 30th ETB",
     "tienda": "Flash Store",
     "precio": "89,90 €",
