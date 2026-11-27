@@ -782,7 +782,7 @@
     "disponible": false,
     "nombre": "First partner Series 3 Illustration Collection | POKÉMON | Español (Primer Compañero)",
     "tienda": "TodoHits",
-    "precio": "38,00 €",
+    "precio": "39,00 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/First_partner_Series_3_Illustration_Collection_POKEMON_Espa_ol_Primer_Compa_ero.jpg?v=1782485381"
   },
@@ -3168,7 +3168,7 @@
     "disponible": false,
     "nombre": "Blister 2 Sobres 30 Aniversario | POKÉMON | Inglés",
     "tienda": "TodoHits",
-    "precio": "38,00 €",
+    "precio": "39,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_2_Sobres_30_Aniversario_POKEMON_Espa_ol.jpg?v=1784707768"
   },
   "https://todohits.com/products/poster-collection-30-aniversario-pokemon-ingles": {
@@ -4329,5 +4329,61 @@
     "tienda": "Factory Cards TCG",
     "precio": "23,00 €",
     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/stickercollec.jpg?v=1770200564"
+  },
+  "https://www.darizard9.com/products/ultra-premium-noche-30-anersario": {
+    "disponible": false,
+    "nombre": "Ultra Prémium Noche 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "269,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/71olldTc-bL._AC_UF894_1000_QL80.jpg?v=1795767879"
+  },
+  "https://www.darizard9.com/products/ultra-premium-dia-30-anirsario": {
+    "disponible": false,
+    "nombre": "Ultra Prémium Día 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "249,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/71X4D8bwlvL._AC_UF894_1000_QL80_b34fff9d-4550-413e-aa2b-37c1da87fa05.jpg?v=1795767962"
+  },
+  "https://www.darizard9.com/products/caja-de-entrnador-elte-celebracion-30-anivrario": {
+    "disponible": false,
+    "nombre": "Caja de Entrenador Elite 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "99,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/266941.png?v=1788957919"
+  },
+  "https://www.darizard9.com/products/bundle-30-aniversri": {
+    "disponible": true,
+    "nombre": "Bundle 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "54,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/266944.png?v=1790675628"
+  },
+  "https://www.darizard9.com/products/case-x10-mini-lata-30-aniersario": {
+    "disponible": true,
+    "nombre": "Case x10 Mini Lata 30 Aniversario",
+    "tienda": "Darizard9",
+    "precio": "199,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/Proyectonuevo_4.jpg?v=1795768380"
+  },
+  "https://www.darizard9.com/products/30-aniversaio-mini-lata": {
+    "disponible": true,
+    "nombre": "30 Aniversario Mini Lata",
+    "tienda": "Darizard9",
+    "precio": "19,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/30-aniversario-mini-tin-1_90b4c404-9f78-4a7f-8416-b73fc7c92dd7.webp?v=1790676076"
+  },
+  "https://www.darizard9.com/products/30-aniversar-coleccion-sticker": {
+    "disponible": true,
+    "nombre": "30 Aniversario Colección Sticker Lucario",
+    "tienda": "Darizard9",
+    "precio": "29,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1541-2.jpg?v=1788958732"
+  },
+  "https://www.darizard9.com/products/30-aiversario-coleccion-sticker-lucario-copia": {
+    "disponible": true,
+    "nombre": "30 Aniversario Colección Sticker Exeggutor de Alola",
+    "tienda": "Darizard9",
+    "precio": "29,99 €",
+    "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1520-1.jpg?v=1788958708"
   }
 }
