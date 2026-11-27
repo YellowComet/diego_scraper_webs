@@ -4148,7 +4148,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/preventa-espanol-pokemon-tcg-2-pack-blister-30th-celebration.jpg?v=1788960875"
   },
   "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-figure-collection-mew-mewtwo": {
-    "disponible": false,
+    "disponible": true,
     "nombre": "Pokémon TCG: 30 Aniversario Especial Pokémon Figure Collection (Mew & Mewtwo)",
     "tienda": "Pokezilla",
     "precio": "59,95 €",
