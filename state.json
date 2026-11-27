@@ -3455,7 +3455,7 @@
     "disponible": true,
     "nombre": "SET COMPLETO FIRST PARTNER POKEMON 30TH CELEBRATION - 9 CAJAS (JAPONÉS)",
     "tienda": "Sunny Store",
-    "precio": "174,90 €",
+    "precio": "154,90 €",
     "deseo": 30.0,
     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/transparent-Photoroom-2026-10-15T110639.433.png?v=1792055341"
   },
@@ -4345,7 +4345,7 @@
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/71X4D8bwlvL._AC_UF894_1000_QL80_b34fff9d-4550-413e-aa2b-37c1da87fa05.jpg?v=1795767962"
   },
   "https://www.darizard9.com/products/caja-de-entrnador-elte-celebracion-30-anivrario": {
-    "disponible": true,
+    "disponible": false,
     "nombre": "Caja de Entrenador Elite 30 Aniversario",
     "tienda": "Darizard9",
     "precio": "99,99 €",
@@ -4385,5 +4385,13 @@
     "tienda": "Darizard9",
     "precio": "29,99 €",
     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/1520-1.jpg?v=1788958708"
+  },
+  "https://sunnystore.es/products/set-completo-first-partner-pokemon-30th-celebration-27-cartas-japones": {
+    "disponible": true,
+    "nombre": "SET COMPLETO FIRST PARTNER POKEMON 30TH CELEBRATION - 27 CARTAS (JAPONÉS)",
+    "tienda": "Sunny Store",
+    "precio": "44,90 €",
+    "deseo": 30.0,
+    "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/completed-set-27-promos-first-partner-japones.webp?v=1795778833"
   }
 }
