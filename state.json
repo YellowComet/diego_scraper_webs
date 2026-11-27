@@ -4400,5 +4400,12 @@
     "tienda": "CardZone",
     "precio": "349,95 €",
     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/IMAGENESPRODUCTOS_1920x1920px_-2026-11-26T100717.635.png?v=1795684375"
+  },
+  "https://www.pokemillon.com/products/mini-lata-30th": {
+    "disponible": true,
+    "nombre": "Mini Lata Celebraciones 30 Aniversario | Celebrations 30th",
+    "tienda": "Pokemillon",
+    "precio": "24,90 €",
+    "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Mini_Tin_Day_Pikachu-copy.jpg?v=1782840636"
   }
 }
